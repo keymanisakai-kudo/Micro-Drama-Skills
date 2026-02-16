@@ -4,12 +4,12 @@ __pycache__/
 
 .config/api_keys.json
 
-*.png
-*.jpg
-*.jpeg
-*.webp
+# 媒体文件默认忽略
 *.mp4
 *.mov
 *.avi
+
+# 允许项目中的分镜图和角色参考图
+# （PNG/JPG 不再全局忽略，仅忽略视频文件）
 
 .DS_Store
