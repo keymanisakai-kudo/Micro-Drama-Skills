@@ -1,0 +1,458 @@
+{
+  "video_id_prefix": "DM-002-EP04",
+  "episode": 4,
+  "episode_title": "碳价暴走",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "市场波动被放大，林策用算法杠杆撬动碳价，底层与财团同时被卷入。",
+  "emotion_tone": "贪婪",
+  "connection": {
+    "from_previous": "承接第3集后果，代价继续传导",
+    "to_next": "为第5集埋下更重选择"
+  },
+  "part_a": {
+    "video_id": "DM-002-EP04-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "碳价暴走·上半：贪婪持续抬升",
+      "color_palette": [
+        "#0B1221",
+        "#334155",
+        "#EF4444"
+      ],
+      "lighting": "高对比冷光+告警硬光",
+      "weather": "封闭城市内景"
+    },
+    "video_prompt": "Anime 15s scene for episode 4 碳价暴走 (上 half). 市场波动被放大，林策用算法杠杆撬动碳价，底层与财团同时被卷入。 Tone 贪婪. Dynamic camera. No subtitles.",
+    "bgm": {
+      "description": "合成器脉冲+工业鼓点+低频弦乐",
+      "mood": "rising"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "第4集上半第1格：碳价暴走起手：主冲突被公开（贪婪）",
+        "camera": {
+          "type": "远景",
+          "movement": "推",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林策",
+            "action": "在交易终端与氧气面板间切换",
+            "expression": "压抑",
+            "position": "中"
+          },
+          {
+            "name": "沈璃",
+            "action": "监测底层断氧数据并催促决策",
+            "expression": "担忧",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林策",
+          "text": "碳价暴走这局开盘，我先押上自己的呼吸额度。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "报价蜂鸣",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 碳价暴走起手：主冲突被公开, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "第4集上半第2格：市场波动被放大（贪婪）",
+        "camera": {
+          "type": "中景",
+          "movement": "移",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "林策",
+            "action": "在交易终端与氧气面板间切换",
+            "expression": "紧绷",
+            "position": "中"
+          },
+          {
+            "name": "沈璃",
+            "action": "监测底层断氧数据并催促决策",
+            "expression": "急迫",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "沈璃",
+          "text": "你听见了吗？市场波动被放大。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "氧阀泄压",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 市场波动被放大, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "第4集上半第3格：林策与沈璃价值冲突升温（贪婪）",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林策",
+            "action": "在交易终端与氧气面板间切换",
+            "expression": "决断",
+            "position": "中"
+          },
+          {
+            "name": "沈璃",
+            "action": "监测底层断氧数据并催促决策",
+            "expression": "克制",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林策",
+          "text": "第4集只做一件事：把代价摆到台面上。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "键盘连击",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 林策与沈璃价值冲突升温, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "第4集上半第4格：祁远抛出体制立场并施压（贪婪）",
+        "camera": {
+          "type": "特写",
+          "movement": "拉",
+          "angle": "仰视"
+        },
+        "characters": [
+          {
+            "name": "祁远",
+            "action": "投影CCI规则文本",
+            "expression": "冷峻",
+            "position": "右"
+          },
+          {
+            "name": "林策",
+            "action": "正面对峙",
+            "expression": "强硬",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "祁远",
+          "text": "CCI从不讨论善恶，只讨论贪婪之后谁还付得起。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "系统警报",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 祁远抛出体制立场并施压, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "第4集上半第5格：林策给出反制动作（贪婪）",
+        "camera": {
+          "type": "中景",
+          "movement": "跟",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林策",
+            "action": "在交易终端与氧气面板间切换",
+            "expression": "爆发",
+            "position": "中"
+          },
+          {
+            "name": "沈璃",
+            "action": "监测底层断氧数据并催促决策",
+            "expression": "悲悯",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林策",
+          "text": "那我就把账本翻过来，让你们先回答人命。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "脚步与人声",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 林策给出反制动作, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "第4集上半第6格：镜头收束并抛给下一集（贪婪）",
+        "camera": {
+          "type": "远景",
+          "movement": "摇",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林策",
+            "action": "在交易终端与氧气面板间切换",
+            "expression": "沉静",
+            "position": "中"
+          },
+          {
+            "name": "沈璃",
+            "action": "监测底层断氧数据并催促决策",
+            "expression": "坚定",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "旁白",
+          "text": "碳价暴走之后，城市的下一口气不再无辜。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "低频脉冲",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 镜头收束并抛给下一集, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-002-EP04-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "碳价暴走·下半：贪婪持续抬升",
+      "color_palette": [
+        "#111827",
+        "#475569",
+        "#F97316"
+      ],
+      "lighting": "高对比冷光+告警硬光",
+      "weather": "封闭城市内景"
+    },
+    "video_prompt": "Anime 15s scene for episode 4 碳价暴走 (下 half). 市场波动被放大，林策用算法杠杆撬动碳价，底层与财团同时被卷入。 Tone 贪婪. Dynamic camera. No subtitles.",
+    "bgm": {
+      "description": "合成器脉冲+工业鼓点+低频弦乐",
+      "mood": "climax"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "第4集下半第1格：碳价暴走起手：主冲突被公开（贪婪）",
+        "camera": {
+          "type": "远景",
+          "movement": "推",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林策",
+            "action": "在交易终端与氧气面板间切换",
+            "expression": "压抑",
+            "position": "中"
+          },
+          {
+            "name": "沈璃",
+            "action": "监测底层断氧数据并催促决策",
+            "expression": "担忧",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林策",
+          "text": "碳价暴走这局开盘，我先押上自己的呼吸额度。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "报价蜂鸣",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 碳价暴走起手：主冲突被公开, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "第4集下半第2格：市场波动被放大（贪婪）",
+        "camera": {
+          "type": "中景",
+          "movement": "移",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "林策",
+            "action": "在交易终端与氧气面板间切换",
+            "expression": "紧绷",
+            "position": "中"
+          },
+          {
+            "name": "沈璃",
+            "action": "监测底层断氧数据并催促决策",
+            "expression": "急迫",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "沈璃",
+          "text": "你听见了吗？市场波动被放大。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "氧阀泄压",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 市场波动被放大, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "第4集下半第3格：林策与沈璃价值冲突升温（贪婪）",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林策",
+            "action": "在交易终端与氧气面板间切换",
+            "expression": "决断",
+            "position": "中"
+          },
+          {
+            "name": "沈璃",
+            "action": "监测底层断氧数据并催促决策",
+            "expression": "克制",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林策",
+          "text": "第4集只做一件事：把代价摆到台面上。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "键盘连击",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 林策与沈璃价值冲突升温, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "第4集下半第4格：祁远抛出体制立场并施压（贪婪）",
+        "camera": {
+          "type": "特写",
+          "movement": "拉",
+          "angle": "仰视"
+        },
+        "characters": [
+          {
+            "name": "祁远",
+            "action": "投影CCI规则文本",
+            "expression": "冷峻",
+            "position": "右"
+          },
+          {
+            "name": "林策",
+            "action": "正面对峙",
+            "expression": "强硬",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "祁远",
+          "text": "CCI从不讨论善恶，只讨论贪婪之后谁还付得起。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "系统警报",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 祁远抛出体制立场并施压, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "第4集下半第5格：林策给出反制动作（贪婪）",
+        "camera": {
+          "type": "中景",
+          "movement": "跟",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林策",
+            "action": "在交易终端与氧气面板间切换",
+            "expression": "爆发",
+            "position": "中"
+          },
+          {
+            "name": "沈璃",
+            "action": "监测底层断氧数据并催促决策",
+            "expression": "悲悯",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林策",
+          "text": "那我就把账本翻过来，让你们先回答人命。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "脚步与人声",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 林策给出反制动作, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "第4集下半第6格：镜头收束并抛给下一集（贪婪）",
+        "camera": {
+          "type": "远景",
+          "movement": "摇",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林策",
+            "action": "在交易终端与氧气面板间切换",
+            "expression": "沉静",
+            "position": "中"
+          },
+          {
+            "name": "沈璃",
+            "action": "监测底层断氧数据并催促决策",
+            "expression": "坚定",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "旁白",
+          "text": "碳价暴走之后，城市的下一口气不再无辜。",
+          "emotion": "贪婪"
+        },
+        "atmosphere": "高压电子冷光与告警红光交替，主情绪贪婪。",
+        "sfx": "低频脉冲",
+        "ai_image_prompt": "anime cinematic frame, episode 4 碳价暴走, 镜头收束并抛给下一集, CCI carbon-credit dystopia, 贪婪, no subtitles"
+      }
+    ]
+  }
+}

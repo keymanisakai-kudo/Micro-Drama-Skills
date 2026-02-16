@@ -1,0 +1,230 @@
+{
+  "video_id_prefix": "DM-001-EP25",
+  "episode": 25,
+  "episode_title": "你就是灯火",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "苏念登上灯塔顶层，在那里找到了妈妈留下的最后一颗灯火碎片——一段留言。妈妈告诉她：你就是灯火。苏念明白了一切——灯火从来不是某个外在的宝物，而是每一个不愿放弃的人心中的光芒。她将自己的心灯融入灯塔，灯塔发出前所未有的光芒，照亮了整个世界。所有人站在灯塔下，迎接新的开始。",
+  "emotion_tone": "温馨/感动",
+  "connection": {
+    "from_previous": "回到灯塔城，苏念去灯塔顶层",
+    "to_next": "全剧终"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP25-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "灯塔顶层的感动与领悟，母女跨时空的对话",
+      "color_palette": ["#F1C40F", "#E67E22", "#FFFFFF"],
+      "lighting": "灯塔内部温暖的琥珀色光芒，妈妈留言碎片的柔和白光",
+      "weather": "灯塔外星空与晨曦交替"
+    },
+    "video_prompt": "Anime style, the brown-haired girl climbs the spiral staircase inside the great lighthouse alone. At the top she finds a final memory fragment left by her mother. Her mother's holographic image appears and delivers the story's final message: you are the lantern light yourself. Deeply emotional mother-daughter moment across time, no subtitles, Ghibli-inspired climactic revelation.",
+    "bgm": {
+      "description": "钢琴独奏渐入弦乐合奏，从寂静到感动的层层递进",
+      "mood": "solo piano gradually joined by strings, building from silence to deeply moving crescendo"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏念独自走入灯塔内部。螺旋楼梯向上延伸，墙壁上镶嵌着历代灯守的名字。她的心灯在这里跳动得更有力——像在指引她向上走。她一个人慢慢爬着楼梯。",
+        "camera": { "type": "中景", "movement": "缓慢上升", "angle": "仰视" },
+        "characters": [
+          { "name": "苏念", "action": "独自攀爬螺旋楼梯", "expression": "专注/期待", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯塔内部的庄严与使命感",
+        "sfx": "脚步在石阶上的回声，心灯的脉动",
+        "ai_image_prompt": "anime medium shot looking upward, brown-haired girl climbing a spiral stone staircase inside the great lighthouse alone, names of past keepers engraved on the walls, her heart lantern pulsing brighter with each step upward, solemn sacred atmosphere, ascending toward destiny, warm amber light in the tower interior"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念到达灯塔顶层。这里是一个圆形的玻璃房间，四面是通透的窗户可以俯瞰整个灯塔城和远方。在房间正中央的灯台上，放着一颗特别的灯火碎片——它不像苏念之前找到的任何碎片。它比其他碎片都小，但光芒异常温暖。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "走入灯塔顶层看到碎片", "expression": "震惊/颤抖", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯塔顶层——妈妈留下的最后礼物",
+        "sfx": "玻璃房间的风声，特别碎片的温暖光芒声",
+        "ai_image_prompt": "anime medium shot, brown-haired girl stepping into the circular glass room at the lighthouse summit, panoramic windows showing the city below and horizon beyond, in the center on a lantern pedestal sits one small but extraordinarily warm-glowing memory fragment, her mother's final gift waiting for years, sacred discovery moment"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念走到灯台前，伸手触碰那颗碎片。碎片在她触碰的瞬间展开——一个全息影像出现。是妈妈。不是苏念记忆中模糊的妈妈，而是清晰的、微笑的、温柔的妈妈。她的声音轻柔地响起。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "触碰碎片触发留言", "expression": "泪目/震颤", "position": "左" },
+          { "name": "妈妈（回忆）", "action": "全息影像出现微笑", "expression": "温柔/慈爱", "position": "右" }
+        ],
+        "dialogue": { "speaker": "妈妈（回忆）", "text": "小念，如果有一天你找到了这里……", "emotion": "温柔/慈爱" },
+        "atmosphere": "跨越时空的母女重逢——感动到心碎",
+        "sfx": "碎片展开的水晶声，妈妈温柔的声音的回响",
+        "ai_image_prompt": "anime close-up emotional shot, brown-haired girl touching the fragment on the pedestal, it unfolds into a holographic image of her mother - clear, smiling, gentle, not the blurry memory but vivid and real, mother and daughter face to face across time, deeply emotional reunion through a recorded message, tears forming in the girl's eyes"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "妈妈的全息影像缓缓说出了全剧的点题之语——「你就是灯火」。她说如果苏念能走到这里，说明她已经明白了灯火的真相。灯火不是外在的宝物，不是碎片，是每一个不愿放弃、不愿让黑暗吞噬的人心中的光。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "妈妈（回忆）", "action": "说出点题之语", "expression": "坚定温柔", "position": "中" }
+        ],
+        "dialogue": { "speaker": "妈妈（回忆）", "text": "……那说明你已经知道了。你就是灯火。", "emotion": "温柔/坚定" },
+        "atmosphere": "点题——全剧最重要的一句话",
+        "sfx": "话语落下时的庄严共鸣，灯塔的光同步变亮",
+        "ai_image_prompt": "anime close-up of the mother's holographic face delivering the story's title line with earnest gentle conviction, 'You are the lantern light', the most important words of the entire story, profound revelation moment, the hologram glowing brighter as the truth is spoken, title drop scene, deeply moving anime climax"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "妈妈的影像渐渐散去——碎片的光用完了。苏念伸手试图抓住妈妈的影像，但指尖穿过了光芒。她没有哭泣——她微笑了。泪水流下来，但嘴角是上扬的。她终于理解了一切。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "伸手但影像消散后含泪微笑", "expression": "含泪微笑/领悟", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "告别与领悟——泪水与微笑并存",
+        "sfx": "全息影像消散的柔和声，泪滴落的声音",
+        "ai_image_prompt": "anime emotional close-up, brown-haired girl reaching out as her mother's hologram fades away, her fingers passing through the dissolving light, tears running down her cheeks but lips curved into a genuine smile, she finally understands everything, bittersweet farewell to a mother's last message, tears and smile coexisting, anime emotional peak moment"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念将双手放在胸口的心灯上。她的心灯发出前所未有的光芒——不是橙色，而是纯白色的光。她明白了：她不需要收集碎片来点亮灯火。她自己就是灯火。心灯的光芒充满了整个灯塔顶层。",
+        "camera": { "type": "中景", "movement": "缓慢拉远", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "双手放在心灯上发出白光", "expression": "平静而坚定地微笑", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "心灯的终极绽放——纯白色的光",
+        "sfx": "心灯爆发纯白光芒的宏伟声响，充满灯塔的光之和弦",
+        "ai_image_prompt": "anime medium shot pulling back, brown-haired girl placing both hands on her heart lantern, it erupts with unprecedented pure white light instead of orange, the ultimate bloom, she IS the lantern light, brilliant white radiance filling the entire glass room at the lighthouse summit, transcendent moment of realization and power, breathtaking luminous climax"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP25-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "最终的光芒照亮世界，温馨的大团圆",
+      "color_palette": ["#FFFFFF", "#F1C40F", "#E67E22"],
+      "lighting": "灯塔顶层的纯白光芒向外扩散，照亮整个世界",
+      "weather": "光芒穿透天际的壮美场景"
+    },
+    "video_prompt": "Anime style, the girl's pure white light merges with the lighthouse beam, illuminating the entire world. All her friends watch from below. She stands at the summit as the light spreads to the horizon. Final narration: the lantern light is not far away, it's in the heart of everyone who refuses to give up. Grand finale, Ghibli-inspired world-illuminating climax, no subtitles.",
+    "bgm": {
+      "description": "全管弦乐团的壮丽终曲，在最高潮后缓缓回归平静的温馨尾声",
+      "mood": "full orchestra grand finale, reaching magnificent climax then gradually returning to quiet warm epilogue"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏念的纯白光芒与灯塔的核心灯火融合。灯塔像被注入了新的生命——它的光柱从单一的暖色变成了纯白色的光柱，直射天际。这道光比灯塔有史以来发出的任何光都要明亮。",
+        "camera": { "type": "远景", "movement": "快速上升", "angle": "仰视" },
+        "characters": [
+          { "name": "苏念", "action": "与灯塔光融合", "expression": "超越/平静", "position": "灯塔顶" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯塔得到新生——纯白光柱直射天际",
+        "sfx": "灯塔光柱变化的宏伟声响，穿透天际的光声",
+        "ai_image_prompt": "anime dramatic upward shot, the great lighthouse beacon transforming as pure white light from the girl merges with it, the light beam shooting straight up into the sky turning from warm amber to brilliant white, the brightest beam the lighthouse has ever produced, magnificent pillar of light piercing the heavens, grand anime climax"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "灯塔下方，白夜、铃音、墨、烬、云老、老渡和灯塔城的居民们都仰头看着这道光。每个人的脸上都映着纯白色的光芒。铃音感动得哭了，白夜露出了极罕见的灿烂笑容。烬双手合十，像在祈祷。",
+        "camera": { "type": "中景", "movement": "缓慢平移", "angle": "仰视" },
+        "characters": [
+          { "name": "白夜", "action": "仰望灿烂微笑", "expression": "罕见灿烂笑容", "position": "左" },
+          { "name": "铃音", "action": "感动落泪仰望", "expression": "感动流泪", "position": "中左" },
+          { "name": "墨", "action": "仰望", "expression": "神圣安详", "position": "脚边" },
+          { "name": "烬（回归）", "action": "双手合十仰望", "expression": "感恩/祈祷", "position": "中右" },
+          { "name": "灯守·云老", "action": "欣慰仰望", "expression": "含泪微笑", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "所有人仰望灯塔的光——被照亮的面庞",
+        "sfx": "众人仰望的静默，远处的光的回响",
+        "ai_image_prompt": "anime medium shot panning, the group below the lighthouse all looking up at the brilliant white beam, silver-haired boy with a rare radiant smile, purple-haired girl crying with emotion, the freed keeper with hands clasped in prayer/gratitude, elderly keeper with proud tears, everyone's face bathed in pure white light from above, moved spectators witnessing a miracle"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念站在灯塔顶层，白光从她身上散发到整个世界。她含着泪微笑着回应了妈妈留下的话——「嗯，我知道了，妈妈。」短短一句话，承载了25集旅途的全部重量。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "站在光中含泪微笑", "expression": "含泪微笑/坚定", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "嗯。我知道了，妈妈。", "emotion": "含泪微笑" },
+        "atmosphere": "对妈妈的最后回应——我知道了",
+        "sfx": "苏念含泪但坚定的声音，白光的温暖嗡鸣",
+        "ai_image_prompt": "anime emotional close-up, brown-haired girl standing in the lighthouse summit surrounded by pure white light emanating from her, tears on her cheeks but smiling with complete understanding, responding to her mother's message across time, 'I understand now, Mom', the culmination of 25 episodes of journey, profoundly moving anime character portrait"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "从太空俯瞰的视角——纯白色的光从灯塔城的灯塔向四面八方扩散，像涟漪一样覆盖了整个大地。每到一处，黑暗就被驱散，灯火就被点亮。这是灯火归途的终点，也是新的起点。",
+        "camera": { "type": "超远景", "movement": "缓慢拉远到太空视角", "angle": "俯视" },
+        "characters": [],
+        "dialogue": null,
+        "atmosphere": "从太空看灯火照亮世界——壮丽到极致",
+        "sfx": "光芒扩散的宏大管弦乐高潮",
+        "ai_image_prompt": "anime ultra-wide shot from space perspective, pure white light rippling outward from the lighthouse in the city, spreading across the entire landscape like concentric waves, darkness dispelled everywhere the light touches, lanterns reigniting across the world, the most magnificent shot of the entire series, cosmic scale of light conquering darkness, breathtaking world-illumination finale"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "光芒回落到正常亮度。苏念从灯塔顶层走下来，大家在灯塔门口等着她。她看到每一张面孔——白夜的淡然微笑、铃音的红眼圈、墨蹭她的脚踝、烬的感恩鞠躬、云老的欣慰点头、老渡的大笑。她笑了。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "走下灯塔被大家迎接", "expression": "幸福/满足", "position": "中" },
+          { "name": "白夜", "action": "等在门口微笑", "expression": "淡然微笑", "position": "左" },
+          { "name": "铃音", "action": "冲上去抱苏念", "expression": "兴奋感动", "position": "右" },
+          { "name": "墨", "action": "蹭苏念脚踝", "expression": "满足", "position": "脚边" },
+          { "name": "烬（回归）", "action": "感恩微鞠躬", "expression": "平静感恩", "position": "远" },
+          { "name": "灯守·云老", "action": "欣慰点头", "expression": "骄傲", "position": "旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "走下灯塔的幸福——所有人的笑容就是最好的灯火",
+        "sfx": "脚步声，铃音兴奋的呼唤，墨的满足喵声",
+        "ai_image_prompt": "anime medium group shot, brown-haired girl descending from the lighthouse to be greeted by everyone at the entrance, silver-haired boy smiling gently, purple-haired girl rushing to hug her, grey cat nuzzling her ankle, freed keeper bowing in gratitude, elderly keeper nodding proudly, everyone's smiling faces, warm reunion and celebration, the best lantern light is in people's faces"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "最终定格画面：黄昏的灯塔城全景。灯塔在中央发出稳定的白色光芒。城中万家灯火，街道上有欢庆的人群。苏念的旁白响起，说出全剧的最后一句话。画面缓缓拉远，灯塔城变成了一个温暖的光点，在广袤的世界中闪耀。「灯火归途」四个大字缓缓浮现。全剧终。",
+        "camera": { "type": "超远景", "movement": "缓慢拉远到极远", "angle": "平视" },
+        "characters": [],
+        "dialogue": { "speaker": "苏念（旁白）", "text": "灯火不在远方，就在每一个不愿放弃的人心里。", "emotion": "平静/温暖" },
+        "atmosphere": "全剧终——灯塔城的光永不熄灭",
+        "sfx": "远方传来的城市庆祝声渐远，音乐缓缓收束到最后一个温暖的和弦",
+        "ai_image_prompt": "anime grand finale ultra-wide panoramic shot, the lighthouse city at golden hour with the great lighthouse shining steady white light at center, ten thousand lights glowing throughout the city, celebration below, camera slowly pulling back until the city becomes a single warm glowing point in the vast beautiful world, the title '灯火归途' fading in, THE END, magnificent anime series finale composition, Ghibli-inspired epilogue"
+      }
+    ]
+  }
+}

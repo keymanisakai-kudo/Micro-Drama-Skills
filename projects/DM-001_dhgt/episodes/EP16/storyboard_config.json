@@ -1,0 +1,236 @@
+{
+  "video_id_prefix": "DM-001-EP16",
+  "episode": 16,
+  "episode_title": "铃音之歌",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "白夜离开后的夜晚，苏念失眠了。她抱着膝盖独自发呆，心灯暗淡。铃音默默坐到她身边，开始轻轻哼唱——这是铃音在失去声音后，第二次发出声音，但这次只是极低的、几乎听不清的哼唱。那旋律却异常动人，像是某种古老的灯守安魂曲。苏念在歌声中渐渐平静，靠在铃音肩上。",
+  "emotion_tone": "治愈",
+  "connection": {
+    "from_previous": "白夜离去留下伤痛，铃音用歌声治愈苏念",
+    "to_next": "带着被治愈的心继续前行，白夜正在独自面对烬"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP16-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "深夜的寂静中浮现微弱的歌声，温柔如水",
+      "color_palette": ["#2C3E50", "#8E44AD", "#F39C12"],
+      "lighting": "月光和心灯交织的柔和光线",
+      "weather": "夜晚晴朗，微风轻拂"
+    },
+    "video_prompt": "Anime style, quiet night scene. Brown-haired girl sits alone hugging her knees, her heart lantern dim. The mute purple-haired girl silently sits beside her and begins to hum a gentle ancient lullaby, her lips barely moving. Firefly-like particles of light emerge from her humming. Healing tender night, no subtitles, Ghibli-inspired lullaby scene.",
+    "bgm": {
+      "description": "铃音的哼唱即是本段BGM——简单优美的摇篮曲旋律，只有哼唱",
+      "mood": "Rin's humming IS the BGM, simple beautiful lullaby melody hummed"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "深夜。苏念一个人抱着膝盖坐在营地，心灯暗淡如残烛。她睡不着——闭上眼就会看到白夜甩开她手的画面。墨窝在旁边已经睡着了。远处是空旷的黑暗原野。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "抱膝独坐", "expression": "失眠/忧郁", "position": "中" },
+          { "name": "墨", "action": "窝着睡觉", "expression": "熟睡", "position": "旁边" }
+        ],
+        "dialogue": null,
+        "atmosphere": "失眠的夜晚，心灯映照孤独的身影",
+        "sfx": "夜风声，虫鸣声，苏念偶尔的叹息",
+        "ai_image_prompt": "anime medium shot, brown-haired girl sitting alone at night hugging her knees, her orange heart lantern burning dimly like a dying candle, grey cat sleeping curled up nearby, vast dark plain stretching into the distance, insomnia and loneliness, quiet nighttime mood, moonlight casting long shadows"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "铃音从苏念身后悄悄走来——她也没睡。铃音看到苏念的暗淡心灯，心疼地站在她身后犹豫了一下，然后轻轻在她旁边坐下。苏念感觉到她的存在，但没有抬头。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "悄悄坐到苏念身边", "expression": "心疼/温柔", "position": "左" },
+          { "name": "苏念", "action": "感觉到但没抬头", "expression": "低落", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "无声的陪伴是最好的安慰",
+        "sfx": "铃音轻轻坐下的声音",
+        "ai_image_prompt": "anime medium shot, purple-haired girl quietly sitting down beside the brown-haired girl in the moonlight, gentle hesitant approach, caring presence, the brown-haired girl aware but not looking up, silent companionship beginning, two girls side by side in the quiet night"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "铃音想安慰苏念，但她说不出话。沉默了一会儿之后，铃音轻轻闭上眼睛——她的嘴唇微微张开，发出一个极轻极轻的音符。那不是说话，而是哼唱。苏念惊讶地抬起头。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "闭眼开始极轻地哼唱", "expression": "专注/温柔", "position": "左" },
+          { "name": "苏念", "action": "惊讶抬头", "expression": "惊讶/感动", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "铃音……你在唱歌吗？", "emotion": "惊讶/温暖" },
+        "atmosphere": "失声的少女忽然发出歌声——奇迹般的治愈",
+        "sfx": "铃音极轻的哼唱声初次响起，如同风铃般纯净",
+        "ai_image_prompt": "anime close-up, purple-haired girl with eyes closed, lips slightly parted beginning to hum very softly, beside her the brown-haired girl lifting her head in surprise, the faintest musical notes visualized as tiny light particles near the purple-haired girl's lips, miraculous healing moment, gentle moonlit close-up of two faces"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "铃音的哼唱声虽然极轻，但旋律异常动人——那是一首古老的灯守安魂曲，在灯塔城快要失传的歌。随着歌声，铃音周围开始浮现微小的淡紫色光点，像萤火虫一样在空气中飘舞。",
+        "camera": { "type": "中景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "持续哼唱", "expression": "平静/投入", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "古老歌声化为有形的治愈之光",
+        "sfx": "铃音的哼唱渐渐清晰，淡紫色光点浮现的晶莹声",
+        "ai_image_prompt": "anime medium shot, purple-haired girl humming with eyes closed in moonlight, tiny lavender light particles floating up from around her like fireflies, an ancient lullaby made visible, magical healing atmosphere, the light particles dancing gently in the air around her, serene and otherworldly beauty"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "淡紫色的光点飘向苏念，温柔地环绕着她。苏念感到一股温暖从心底涌起——那些光点触碰她的心灯时，暗淡的橙色光芒开始慢慢恢复。铃音的歌声有着治愈灯火的力量。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "被紫色光点环绕心灯恢复", "expression": "感动/温暖", "position": "右" },
+          { "name": "铃音", "action": "继续哼唱", "expression": "温柔", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "歌声治愈了暗淡的心灯",
+        "sfx": "光点触碰心灯的温暖嗡鸣，心灯恢复的声响",
+        "ai_image_prompt": "anime medium shot, lavender light particles floating toward the brown-haired girl and gently swirling around her, her dim orange heart lantern gradually brightening as the particles touch it, healing through song visualized, two girls bathed in warm mixed orange and purple light, magical restoration, Ghibli-inspired healing scene"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念的心灯恢复了正常的亮度。她看着持续哼唱的铃音，眼眶红了但是在微笑。墨也被歌声唤醒了，但没有不满，反而慢慢走到铃音腿上窝了下来，享受着歌声。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "看着铃音微笑", "expression": "感动微笑", "position": "右" },
+          { "name": "铃音", "action": "微笑着继续哼唱", "expression": "温柔微笑", "position": "左" },
+          { "name": "墨", "action": "爬到铃音腿上窝着", "expression": "享受", "position": "铃音腿上" }
+        ],
+        "dialogue": null,
+        "atmosphere": "歌声治愈了所有人——连猫都被感动",
+        "sfx": "铃音持续的歌声，墨的轻轻呼噜声",
+        "ai_image_prompt": "anime close-up, purple-haired girl humming with a gentle smile, brown-haired girl watching her with red-rimmed eyes but smiling, grey cat curled up on the purple-haired girl's lap enjoying the song, heart lantern glowing warmly again, healing complete, tender trio moment, warm night glow"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP16-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "被歌声治愈后的平静与感恩",
+      "color_palette": ["#8E44AD", "#F39C12", "#2C3E50"],
+      "lighting": "铃音的紫色光与苏念的橙色光交融的柔和光线",
+      "weather": "夜空晴朗，繁星闪烁"
+    },
+    "video_prompt": "Anime style, after being healed by song, the brown-haired girl leans on the purple-haired girl's shoulder gratefully. The grey cat purrs on the purple-haired girl's lap. Under the starry sky the two girls sit peacefully together, their different colored lights mingling warmly. The humming fades gently as sleep comes. No subtitles, Ghibli-inspired healing night scene, warm and peaceful.",
+    "bgm": {
+      "description": "铃音的哼唱慢慢减弱，过渡为温柔的弦乐安魂曲尾声",
+      "mood": "humming gradually fading, transitioning to gentle string lullaby ending"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "铃音的歌声渐渐变轻。苏念感到一阵困意——铃音的歌有催眠的效果。她不自觉地身体向铃音那边倾斜，最终轻轻靠在铃音的肩上。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "靠在铃音肩上", "expression": "困倦/安心", "position": "右" },
+          { "name": "铃音", "action": "让苏念靠着", "expression": "温柔/守护", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "歌声化为摇篮",
+        "sfx": "歌声渐轻如耳语，苏念轻轻靠过去的声音",
+        "ai_image_prompt": "anime close-up, brown-haired girl drowsily leaning onto the purple-haired girl's shoulder, eyes half-closed with a peaceful expression, the purple-haired girl holding still to support her with a protective tender look, lullaby made real, warm glow surrounding them, sleepy comfort"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念在快要睡着前低声说了一句感谢。铃音听到后微微低头看了看靠在肩上的苏念，露出一个温暖的微笑——这可能是铃音笑得最真诚的一次。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "略俯" },
+        "characters": [
+          { "name": "苏念", "action": "半睡半醒低声感谢", "expression": "感动/困倦", "position": "下" },
+          { "name": "铃音", "action": "低头看苏念微笑", "expression": "真诚/温暖微笑", "position": "上" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "谢谢你，铃音。有你在真好。", "emotion": "感动/释然" },
+        "atmosphere": "简单的感谢换来最真诚的微笑",
+        "sfx": "苏念困倦的低语，铃音微笑时轻轻呼吸",
+        "ai_image_prompt": "anime close-up from slightly above, brown-haired girl half-asleep murmuring gratitude while leaning on the purple-haired girl's shoulder, the purple-haired girl looking down at her with the warmest most genuine smile, tears of happiness at the corners of her eyes, heartwarming close-up of two friends, tender protection"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "墨在铃音腿上打着呼噜，发出满足的「喵~」。它的灰色毛发在两种颜色的光芒中微微泛着紫色和橙色的光泽。三个小生命在这一刻都很平静。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "俯视" },
+        "characters": [
+          { "name": "墨", "action": "在铃音腿上打呼噜", "expression": "满足/陶醉", "position": "中心" }
+        ],
+        "dialogue": { "speaker": "墨", "text": "喵~", "emotion": "满足/陶醉" },
+        "atmosphere": "连猫都感到幸福的夜晚",
+        "sfx": "猫的呼噜声，满足的喵声",
+        "ai_image_prompt": "anime overhead close-up, grey cat curled up contentedly on the purple-haired girl's lap, purring with a blissful expression, its fur reflecting both orange and purple light from the two girls' different glows, peaceful sleeping cat, warm cozy detail shot"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "镜头慢慢拉远。铃音的歌声已经变成了近乎无声的气息。苏念已经完全睡着了，呼吸均匀。铃音用一只手轻轻环住苏念的肩膀，另一只手放在墨身上。",
+        "camera": { "type": "中景", "movement": "缓慢拉远", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "熟睡靠在铃音肩上", "expression": "安详", "position": "右" },
+          { "name": "铃音", "action": "环住苏念的肩一手放在墨身上", "expression": "守护", "position": "左" },
+          { "name": "墨", "action": "铃音腿上睡觉", "expression": "熟睡", "position": "膝上" }
+        ],
+        "dialogue": null,
+        "atmosphere": "守护者的温柔——铃音在这一刻是她们的灯火",
+        "sfx": "安静的呼吸声，歌声如残响消散",
+        "ai_image_prompt": "anime medium shot slowly widening, purple-haired girl with one arm gently around the sleeping brown-haired girl's shoulder and the other hand resting on the sleeping cat, a quiet guardian in the night, both sleepers peaceful, mixed warm orange and cool purple light, protective embrace, serene nighttime tableau"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "铃音抬头看向夜空——满天繁星。她的嘴角维持着微笑。微风拂过她紫色的长发。铃音也在想白夜吗？她看向白夜离开的方向，眼中有担忧但更多的是信任。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "仰视" },
+        "characters": [
+          { "name": "铃音", "action": "仰望星空", "expression": "平静/牵挂", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "星空下默默祈祷同伴平安",
+        "sfx": "夜风拂过发丝的声音，远处的虫鸣",
+        "ai_image_prompt": "anime close-up from below, purple-haired girl looking up at the star-filled night sky with a gentle smile, her purple hair flowing softly in the breeze, a look of quiet concern mixed with trust directed at the horizon, stargazing guardian, beautiful nighttime portrait, serene and contemplative"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "全景远景。两个女孩和一只猫在广阔的夜色中依偎着。苏念的橙色心灯和铃音的紫色光晕交融在一起，形成一小片温暖的光域。在他们之外是无尽的黑暗与繁星——但这一小片光已经足够。",
+        "camera": { "type": "大远景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "靠着铃音睡", "expression": "安详", "position": "中" },
+          { "name": "铃音", "action": "守护着苏念和墨", "expression": "平静", "position": "中" },
+          { "name": "墨", "action": "睡在腿上", "expression": "安详", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "在无边黑暗中只需要一小片光就够了",
+        "sfx": "深夜的寂静，安稳的呼吸声",
+        "ai_image_prompt": "anime wide cinematic shot, two girls and a cat huddled together in the vast dark landscape under a starry sky, a small warm bubble of mixed orange and purple light surrounding them like a tiny oasis, endless darkness and stars beyond but this small light is enough, beautiful isolation, intimate warmth against infinite night, Ghibli-inspired ending frame"
+      }
+    ]
+  }
+}

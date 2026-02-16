@@ -1,0 +1,239 @@
+{
+  "video_id_prefix": "DM-001-EP21",
+  "episode": 21,
+  "episode_title": "抉择",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "苏念发现万灯之渊有残酷的规则：要从渊中取走一盏灯笼（即完整的记忆），必须有另一个人留下自己的灯火作为代价。这意味着如果苏念要带走母亲的完整记忆，就有人要失去记忆。苏念陷入两难。但当她回想母亲的教诲——灯火是用来传递的不是用来交换的——她想到了打破规则的方法：不是从渊中拿走，而是把光送进去。",
+  "emotion_tone": "纠结",
+  "connection": {
+    "from_previous": "找到母亲灯笼融入心灯，面对取走记忆的代价",
+    "to_next": "苏念想到新方法：把光送入烬体内而不是从渊中拿走"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP21-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "残酷规则下的两难困境",
+      "color_palette": ["#E74C3C", "#2C3E50", "#F39C12"],
+      "lighting": "渊的光芒变得冰冷刺目",
+      "weather": "碎片流动加速，空气压抑"
+    },
+    "video_prompt": "Anime style, in the Abyss of Ten Thousand Lanterns, the silver-haired boy discovers cruel rules carved into the walls - to take a lantern you must leave your own. The brown-haired girl is torn by this impossible dilemma. She refuses to accept anyone must sacrifice their memories. Tense moral dilemma, no subtitles, dramatic decision moment.",
+    "bgm": {
+      "description": "紧张的钢琴反复和弦，如同倒计时般的压迫感",
+      "mood": "tense piano repeated chords, countdown-like oppressive rhythm"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "母亲灯笼融入心灯后，渊的深处响起一个声音——古老的、非人的声音。渊壁上出现闪烁的文字，像是渊本身的规则。白夜读出了那些文字。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "阅读渊壁上的文字", "expression": "沉重/冷静", "position": "左" },
+          { "name": "苏念", "action": "听到声音抬头", "expression": "警觉", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "渊的规则浮现——代价从不缺席",
+        "sfx": "古老回响的声音，渊壁文字闪烁的声响",
+        "ai_image_prompt": "anime medium shot, silver-haired boy reading glowing ancient text appearing on the abyss walls, an ancient non-human voice echoing, the rules of the abyss revealed, brown-haired girl looking up in alert, ominous glowing inscriptions, the price of taking memories"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "白夜沉重地说出规则：要从渊中带走一盏灯（完整记忆），必须有人留下一盏灯作为代价。等价交换——没有例外。苏念的脸色变了。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "沉重地转述规则", "expression": "沉重", "position": "中" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "渊的规则……要拿走一盏灯，必须有人留下一盏。", "emotion": "沉重/冷静" },
+        "atmosphere": "残酷的等价交换规则",
+        "sfx": "白夜沉重的声音在渊中回荡",
+        "ai_image_prompt": "anime close-up, silver-haired boy's face speaking heavily, revealing the abyss's cruel rule of equivalent exchange, lighting reflecting the gravity of his words, the price that must be paid, solemn revelation"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念听到规则后整个人僵住了。这意味着：如果她想拯救烬、想让那些被毁的记忆恢复——就必须有人牺牲自己的记忆。白夜已经在默默计算：他可以留下自己的。但苏念不接受这种选择。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "僵住思考", "expression": "痛苦/不甘", "position": "中" },
+          { "name": "白夜", "action": "沉默思考准备牺牲", "expression": "决意/沉默", "position": "左" },
+          { "name": "铃音", "action": "紧握双手", "expression": "焦虑", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "每个人都在考虑牺牲自己——但苏念拒绝这种逻辑",
+        "sfx": "心跳声加速，压抑的沉默",
+        "ai_image_prompt": "anime medium shot, brown-haired girl frozen in anguished thought, silver-haired boy in the background silently resolving to sacrifice his own memories, purple-haired girl clutching her hands in anxiety, each considering self-sacrifice, heavy moral dilemma weighing on everyone"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念看到白夜准备站出来，立刻拉住了他。她的眼中有害怕也有坚定——不允许任何人为她牺牲。她大声拒绝这种选择。铃音也拉住了白夜的另一只手。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "拉住白夜阻止", "expression": "焦急/坚定", "position": "左" },
+          { "name": "白夜", "action": "被拉住", "expression": "惊讶", "position": "中" },
+          { "name": "铃音", "action": "也拉住白夜", "expression": "坚决阻止", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "不……一定有别的办法！", "emotion": "焦急/不甘" },
+        "atmosphere": "拒绝以牺牲换取——一定有更好的答案",
+        "sfx": "苏念急切的声音，衣服拉拽声",
+        "ai_image_prompt": "anime close-up dramatic shot, brown-haired girl grabbing the silver-haired boy's arm to stop him from stepping forward to sacrifice, purple-haired girl also holding his other arm, both girls refusing to let anyone sacrifice their memories, desperate determination to find another way, emotional confrontation with the rules"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "所有人都沉默了。渊的规则似乎不可打破——它存在了不知多少年，从来没有例外。碎片在周围无情地旋转，不关心他们的困境。苏念低下头，拼命思考。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "俯视" },
+        "characters": [
+          { "name": "苏念", "action": "低头拼命思考", "expression": "思索/绝望边缘", "position": "中" },
+          { "name": "白夜", "action": "沉默等待", "expression": "沉默", "position": "左" },
+          { "name": "铃音", "action": "安静等待", "expression": "希望", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "在规则的牢笼中寻找缝隙",
+        "sfx": "碎片无情旋转的声响，深沉的寂静",
+        "ai_image_prompt": "anime overhead medium shot, brown-haired girl hanging her head desperately thinking, her companions waiting in silence, swirling memory fragments indifferent to their struggle, trapped by ancient rules, searching for a loophole, oppressive silence"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念的心灯——融入了母亲灯笼的心灯——在她思考时发出一阵独特的脉动。苏念闭上眼睛，仿佛在心灯中听到了什么。她想起了母亲的话：灯火是用来传递的。她的眼睛猛然睁开——有了！",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "闭眼感应后猛然睁开", "expression": "顿悟/惊喜", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "母亲的教诲在关键时刻给出了答案",
+        "sfx": "心灯脉动的特殊声响，顿悟时的清脆和弦",
+        "ai_image_prompt": "anime extreme close-up, brown-haired girl's face eyes closed in concentration, her heart lantern pulsing with a unique rhythm, then her eyes snapping open with sudden realization, eureka moment, inspired by her mother's words, the answer found, dramatic illumination of understanding"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP21-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "从困境中突破的灵感与决心",
+      "color_palette": ["#F39C12", "#F1C40F", "#2ECC71"],
+      "lighting": "心灯的光因领悟而变得更加温暖明亮",
+      "weather": "碎片流动变缓，像是在倾听"
+    },
+    "video_prompt": "Anime style, the brown-haired girl has an epiphany inspired by her mother's words. Instead of taking from the abyss she'll give light TO the fallen keeper. She declares her plan to the group with newfound determination. The abyss seems to respond, fragments pausing as if listening. Breaking the rules through love not exchange. No subtitles, inspiring breakthrough moment.",
+    "bgm": {
+      "description": "从沉重转为充满希望的旋律，渐渐升腾的弦乐与钢琴",
+      "mood": "transition from heavy to hopeful melody, rising strings and piano"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏念抬起头，眼中有了新的光。她想起了母亲的选择——母亲没有'交换'，而是'传递'。灯火不是货币，不能等价交换，但可以自愿传递。渊的规则建立在交换逻辑上——但如果她不交换呢？",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "抬头眼中有光", "expression": "领悟/坚定", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "妈妈说了——灯火是用来传递的，不是用来交换的。", "emotion": "领悟/坚定" },
+        "atmosphere": "母亲遗言成为打破规则的钥匙",
+        "sfx": "苏念坚定的声音，心灯共鸣增强",
+        "ai_image_prompt": "anime close-up, brown-haired girl lifting her head with new light in her eyes, the realization that her mother's words hold the key to breaking the rules, lantern light is for passing on not exchanging, inspired determination, warm confident glow from her heart lantern"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念向大家说出她的计划——她不要从渊中拿走任何东西。相反，她要把光送进去。把光送入烬的黑暗之中——不是交换，而是赠予。白夜和铃音听到后震惊又振奋。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "充满决心地宣布计划", "expression": "决心/自信", "position": "中" },
+          { "name": "白夜", "action": "听后惊讶又认同", "expression": "震惊→理解", "position": "左" },
+          { "name": "铃音", "action": "眼前一亮", "expression": "振奋", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "我不要拿走。我要——把光送进去。", "emotion": "决心/突破" },
+        "atmosphere": "打破规则的新方法——不是交换是赠予",
+        "sfx": "苏念宣告的声音在渊中震荡",
+        "ai_image_prompt": "anime medium shot, brown-haired girl declaring her revolutionary plan with conviction, her companions reacting with surprise then understanding, breaking the rules of exchange through giving instead of taking, inspired leadership moment, her heart lantern blazing with determination"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "渊似乎听到了苏念的话——碎片的旋转突然变慢，像是在思考一种它从未遇到过的可能性。连渊壁上的古老文字都开始闪烁不定。苏念的话似乎触及了规则本身的盲区。",
+        "camera": { "type": "远景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "站在渊中被碎片环绕", "expression": "坚定", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "渊的规则开始动摇——它没想过有人不想拿走",
+        "sfx": "碎片流速放缓的声音，规则文字闪烁不定的嗡鸣",
+        "ai_image_prompt": "anime wide shot, the entire abyss responding to the girl's words, swirling fragments slowing down as if considering, ancient text on the walls flickering uncertainly, the rules of the abyss encountering something unprecedented, a choice to give rather than take, the system pausing in confusion"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念转向白夜：她想把光送入烬——但她一个人的光不够。她需要大家。白夜看着苏念的眼睛，微笑着伸出了手——他的冰蓝色光在掌心汇聚。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "向白夜请求帮助", "expression": "请求/温暖", "position": "右" },
+          { "name": "白夜", "action": "微笑伸出手蓝光汇聚", "expression": "微笑/自愿", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "请求不是要求——自愿的赠予",
+        "sfx": "冰蓝光在白夜掌心汇聚的声响",
+        "ai_image_prompt": "anime medium shot, brown-haired girl turning to the silver-haired boy asking for help with warm eyes, he smiles and extends his hand with ice-blue light gathering in his palm, voluntary offering of light, willing partnership, warm exchange of trust, blue and orange light intermingling"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "铃音也走到苏念面前，将自己的手放在苏念手上——淡紫色的光从她的手心传来。墨跳到苏念肩上，银灰色的光从它身上流出。四种光汇入苏念的心灯——不是牺牲，是分享。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "俯视手" },
+        "characters": [
+          { "name": "铃音", "action": "将手放在苏念手上传递紫光", "expression": "温暖微笑", "position": "左" },
+          { "name": "墨", "action": "跳到苏念肩上传递银光", "expression": "自愿", "position": "肩上" },
+          { "name": "苏念", "action": "接受大家的光", "expression": "感动/感恩", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "四种光汇聚——不是牺牲是分享",
+        "sfx": "四种光汇聚的和弦，温暖的共振声",
+        "ai_image_prompt": "anime overhead close-up of hands, purple-haired girl and brown-haired girl's hands touching with lavender light flowing, grey cat on shoulder with silver light streaming, four different colors of light merging into the heart lantern, not sacrifice but sharing, collective gift of light, warm multicolored convergence"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念的心灯因为汇集了四种光而达到前所未有的亮度——橙、蓝、紫、银四色交织如彩虹。她看向渊的出口方向，那里通向烬所在的地方。计划已定：出去找到烬，把光送给他。",
+        "camera": { "type": "中景", "movement": "缓慢推远", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "四色心灯看向出口", "expression": "坚定/温暖", "position": "中" },
+          { "name": "白夜", "action": "站在身边", "expression": "准备好", "position": "左" },
+          { "name": "铃音", "action": "站在身边", "expression": "准备好", "position": "右" },
+          { "name": "墨", "action": "肩上", "expression": "准备好", "position": "肩上" }
+        ],
+        "dialogue": null,
+        "atmosphere": "四色之光汇聚——准备去拯救堕落的英雄",
+        "sfx": "四色光芒的壮丽和弦，渐强的决心旋律",
+        "ai_image_prompt": "anime medium shot pulling back, brown-haired girl with a heart lantern now blazing with four intertwined colors of light (orange blue purple silver) like a rainbow, looking toward the exit of the abyss with determination, companions beside her ready, prepared to go save the fallen hero, powerful unified light, ready for the final mission"
+      }
+    ]
+  }
+}

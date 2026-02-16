@@ -1,0 +1,150 @@
+{
+  "video_id_prefix": "DM-001-EP05",
+  "episode": 5,
+  "episode_title": "记忆之森",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "苏念和白夜进入记忆之森，这里的树木由凝固的记忆碎片构成。苏念触碰一棵树时看到了别人的童年记忆画面，体验到记忆之森的奇幻与危险。",
+  "emotion_tone": "奇幻",
+  "connection": {
+    "from_previous": "苏念与白夜结伴同行",
+    "to_next": "将在记忆之森深处遇到铃音"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP05-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "奇幻梦境般的森林，美丽中暗藏诡异",
+      "color_palette": ["#9B59B6", "#1ABC9C", "#F5A623"],
+      "lighting": "森林中没有天光，树木本身发出柔和的各色荧光",
+      "weather": "无风，静谧，空气中漂浮着微小的光粒子"
+    },
+    "video_prompt": "Anime style, two characters enter a surreal luminescent forest where every tree is made of crystallized memories - leaves are frozen moments showing faint images of people's lives. Trees glow in purple, teal, and gold. The girl touches a tree trunk and a vivid memory scene plays out like a hologram: a child laughing in a sunflower field. The boy quickly grabs her hand away. Magical particles float in the air. Mysterious beautiful atmosphere, no subtitles, Ghibli-inspired wonder.",
+    "bgm": { "description": "空灵的合成音与竖琴，如梦如幻", "mood": "ethereal, dreamlike, wondrous, ambient synth and harp" },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1, "time_start": 0.0, "time_end": 2.5,
+        "scene_description": "记忆之森入口。两人站在巨大的发光树木前，树干如水晶般半透明，内部流淌着金色光液。树叶是一片片冻结的记忆画面。",
+        "camera": { "type": "远景", "movement": "缓慢仰视", "angle": "仰视" },
+        "characters": [{ "name": "苏念", "action": "仰望大树", "expression": "惊叹", "position": "左" }, { "name": "白夜", "action": "警惕环顾", "expression": "戒备", "position": "右" }],
+        "dialogue": null, "atmosphere": "壮观的奇幻森林初见", "sfx": "微弱的记忆碎片嗡鸣声，如远处的人声",
+        "ai_image_prompt": "anime wide low angle shot, two small figures at entrance of surreal luminescent forest, massive semi-transparent crystal trees with golden light flowing inside, leaves showing frozen memory images, purple teal and gold glowing, magical particles in air, awe-inspiring"
+      },
+      {
+        "grid_number": 2, "time_start": 2.5, "time_end": 5.0,
+        "scene_description": "苏念好奇地走向一棵树，伸手触碰树干。树干中的金色光液在她手掌下聚集，开始旋转。白夜在身后紧张地观察。",
+        "camera": { "type": "中景", "movement": "跟随", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "伸手触碰树干", "expression": "好奇/兴奋", "position": "中" }],
+        "dialogue": { "speaker": "苏念", "text": "这些树……是用记忆长成的。", "emotion": "惊叹/敬畏" },
+        "atmosphere": "守灯人对记忆的敏感触觉被激活", "sfx": "树干中光液流动的声音",
+        "ai_image_prompt": "anime medium shot, girl touching crystal tree trunk, golden light gathering under her palm and swirling, curious excited expression, boy watching nervously behind her, luminescent forest background"
+      },
+      {
+        "grid_number": 3, "time_start": 5.0, "time_end": 7.5,
+        "scene_description": "苏念的手掌触碰处，一段记忆喷涌而出——全息投影般的画面展开：一个小女孩在向日葵花田中奔跑，笑声回荡。苏念沉浸在这温暖的画面中。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "沉浸在记忆画面中", "expression": "感动", "position": "左" }],
+        "dialogue": null, "atmosphere": "别人记忆中的温暖画面如梦中梦", "sfx": "孩童笑声（回响感），风吹向日葵的沙沙声",
+        "ai_image_prompt": "anime medium shot, holographic memory scene erupting from tree, a little girl running through sunflower field laughing, the memory image is translucent and glowing golden, the main character watching mesmerized, dreamlike double-layer reality"
+      },
+      {
+        "grid_number": 4, "time_start": 7.5, "time_end": 10.0,
+        "scene_description": "白夜快步上前，一把抓住苏念的手腕将她从树干上拉开。记忆画面瞬间碎裂消散。白夜的表情严肃而紧张。",
+        "camera": { "type": "近景", "movement": "快速", "angle": "平视" },
+        "characters": [{ "name": "白夜", "action": "抓住苏念手腕拉离", "expression": "严肃/紧张", "position": "右" }, { "name": "苏念", "action": "被拉离树干", "expression": "惊讶/回神", "position": "左" }],
+        "dialogue": { "speaker": "白夜", "text": "别乱碰，那不是你的记忆。", "emotion": "警告/克制" },
+        "atmosphere": "紧张的阻止，暗示触碰他人记忆的危险", "sfx": "记忆碎裂的清脆声",
+        "ai_image_prompt": "anime close-up action shot, boy grabbing girl's wrist pulling her away from glowing tree, holographic memory image shattering into fragments, his serious tense expression, her surprised face, dynamic motion"
+      },
+      {
+        "grid_number": 5, "time_start": 10.0, "time_end": 12.5,
+        "scene_description": "苏念揉着被抓疼的手腕，歉意地看着白夜。白夜松开手，移开目光。他的右臂灯纹微微发光——他对记忆有着深深的恐惧。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "揉手腕", "expression": "歉疚", "position": "左" }, { "name": "白夜", "action": "移开目光", "expression": "克制", "position": "右" }],
+        "dialogue": null, "atmosphere": "两人之间微妙的张力与理解", "sfx": "安静，灯纹轻微嗡鸣",
+        "ai_image_prompt": "anime close-up two-shot, girl rubbing her wrist apologetically, boy looking away with restrained expression, blue marks on his arm glowing faintly, subtle tension and understanding between them, luminescent forest background"
+      },
+      {
+        "grid_number": 6, "time_start": 12.5, "time_end": 15.0,
+        "scene_description": "两人继续深入森林。树木越来越密集，发光的树叶中的记忆画面越来越密集和纷乱。远处隐约传来一阵奇怪的沙沙声。",
+        "camera": { "type": "远景", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "小心前行", "expression": "谨慎", "position": "左" }, { "name": "白夜", "action": "走在前面开路", "expression": "警惕", "position": "右" }],
+        "dialogue": null, "atmosphere": "森林深处愈发诡异，危险气息增加", "sfx": "树叶记忆碎片的嘈杂低语声",
+        "ai_image_prompt": "anime wide shot, two figures walking deeper into increasingly dense luminescent forest, memory images on leaves becoming more chaotic and overlapping, mysterious deeper darkness ahead, ominous yet beautiful, atmospheric depth"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP05-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "从美幻转向紧张，森林深处的暗流涌动",
+      "color_palette": ["#9B59B6", "#2C3E50", "#E74C3C"],
+      "lighting": "树木荧光减弱，出现暗影区域，远处有红色光点",
+      "weather": "静谧变为压抑"
+    },
+    "video_prompt": "Anime style, deeper in memory forest, trees show more fragmented disturbing memories. Girl stops, mesmerized by a memory fragment showing a child playing. Boy alerts her to dark shadows moving between trees in the distance. They sense danger and quicken their pace. The forest grows darker, glowing less, with ominous red sparks in the deep shadows. Tension building, mysterious, no subtitles.",
+    "bgm": { "description": "空灵音效转为紧张的弦乐暗流", "mood": "tense, ominous undertone, darkening ethereal" },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1, "time_start": 0.0, "time_end": 2.5,
+        "scene_description": "苏念在一棵较小的树前停下。树叶上映着一个小女孩在雨中跳舞的记忆——画面柔和而美丽。苏念没有去触碰，只是静静地看。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "静静观看树叶上的画面", "expression": "感动/温柔", "position": "中" }],
+        "dialogue": { "speaker": "苏念", "text": "她在笑……是谁的记忆呢？", "emotion": "感动/好奇" },
+        "atmosphere": "对他人记忆美好的珍惜", "sfx": "雨声（记忆中），远处笑声",
+        "ai_image_prompt": "anime close-up, girl gazing at a glowing leaf showing a memory of a little girl dancing in rain, not touching just watching, tender moved expression, soft luminescent glow, beautiful frozen memory moment"
+      },
+      {
+        "grid_number": 2, "time_start": 2.5, "time_end": 5.0,
+        "scene_description": "白夜突然抬起手示意苏念停下。他的眼睛紧盯着远处树丛间的暗影——有什么东西在移动。暗影没有心灯的光芒。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "白夜", "action": "举手示意停下", "expression": "高度警惕", "position": "中" }],
+        "dialogue": null, "atmosphere": "突然的警觉打破宁静", "sfx": "树枝断裂声，不明低吼",
+        "ai_image_prompt": "anime medium shot, boy raising hand in stop gesture, staring intently into dark spaces between glowing trees, dark shadows with no heart lanterns moving in distance, tense alert pose, danger approaching"
+      },
+      {
+        "grid_number": 3, "time_start": 5.0, "time_end": 7.5,
+        "scene_description": "远处的暗影区域，隐约可见几个灰色的人形轮廓在树间飘荡——它们是灰影。没有面容，没有灯火，只有空洞的轮廓。",
+        "camera": { "type": "远景", "movement": "固定", "angle": "平视" },
+        "characters": [],
+        "dialogue": null, "atmosphere": "灰影的首次出现，恐怖的空洞存在", "sfx": "不自然的低频嗡鸣",
+        "ai_image_prompt": "anime wide shot through glowing trees, several grey translucent humanoid silhouettes without faces or heart lanterns drifting between trees in the distance, no features just empty outlines, eerie unsettling, horror atmosphere in fantasy setting"
+      },
+      {
+        "grid_number": 4, "time_start": 7.5, "time_end": 10.0,
+        "scene_description": "苏念倒吸一口冷气，本能地退后一步。白夜拉住她的手腕，用目光示意她安静。灰影似乎还没有发现他们。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "退后", "expression": "恐惧", "position": "左" }, { "name": "白夜", "action": "拉住苏念手腕", "expression": "冷静/沉着", "position": "右" }],
+        "dialogue": null, "atmosphere": "屏息的紧张时刻", "sfx": "心跳声（放大），呼吸声",
+        "ai_image_prompt": "anime close-up two-shot, girl stepping back in fear, boy gripping her wrist and signaling silence with his eyes, tense hiding moment, grey silhouettes visible blurred in background, fearful suspense"
+      },
+      {
+        "grid_number": 5, "time_start": 10.0, "time_end": 12.5,
+        "scene_description": "白夜低声说了什么，然后拉着苏念快步沿另一条路走。两人的心灯被他们用手遮住——减少光芒以免被灰影发现。",
+        "camera": { "type": "中景", "movement": "跟随", "angle": "平视" },
+        "characters": [{ "name": "白夜", "action": "快步拉着苏念走", "expression": "紧张", "position": "前" }, { "name": "苏念", "action": "用手遮心灯", "expression": "紧张跟随", "position": "后" }],
+        "dialogue": { "speaker": "白夜", "text": "走吧，深处更危险。", "emotion": "低沉/紧张" },
+        "atmosphere": "紧急逃离，遮住灯火避免被发现", "sfx": "急促的脚步声，树枝碰撞声",
+        "ai_image_prompt": "anime medium tracking shot, two figures hurrying through luminescent forest, covering their heart lanterns with hands to dim the light, nervous rush, fleeing from grey shadows, dynamic motion"
+      },
+      {
+        "grid_number": 6, "time_start": 12.5, "time_end": 15.0,
+        "scene_description": "两人跑进一片更浓密的树丛中躲避。喘息间，苏念透过树叶的缝隙看到——更深处有一个孤独的弱小光点在闪烁。那不是灰影，像是另一个人的心灯。",
+        "camera": { "type": "近景转远景", "movement": "推镜", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "透过树叶窥视", "expression": "好奇/关切", "position": "中" }],
+        "dialogue": null, "atmosphere": "危险中发现另一个孤独的灯火——铃音的伏笔", "sfx": "喘息声，远处微弱的光芒脉动",
+        "ai_image_prompt": "anime shot through foliage, girl peering through glowing leaves, in the deep forest a single faint lonely light flickering - another person's heart lantern barely visible, curiosity amid danger, foreshadowing next encounter, mysterious depth"
+      }
+    ]
+  }
+}

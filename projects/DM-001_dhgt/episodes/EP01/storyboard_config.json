@@ -1,0 +1,341 @@
+{
+  "video_id_prefix": "DM-001-EP01",
+  "episode": 1,
+  "episode_title": "灯火之城",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "灯塔城全景展现，苏念在灯塔工坊中修复一盏快要熄灭的心灯，展现世界观设定——每个人都拥有映射记忆与情感的心灯。",
+  "emotion_tone": "温馨",
+  "connection": {
+    "from_previous": "无（第一集）",
+    "to_next": "苏念将发现自己的心灯出现异常"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP01-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "神秘而温暖的奇幻世界初印象，暖色调灯火与冷色调夜空形成对比",
+      "color_palette": ["#F5A623", "#2C3E50", "#E67E22"],
+      "lighting": "夜晚，灯塔和心灯发出的暖橙色光芒照亮周围，背景是深蓝色星空",
+      "weather": "晴朗夜晚，微风"
+    },
+    "video_prompt": "Anime style, night scene of a fantastical lantern city built around towering lighthouses. Warm orange glowing orbs float near every person's chest. A young girl with long brown hair in a low ponytail walks through cobblestone streets, her amber eyes reflecting the countless lights. She enters a lighthouse workshop filled with glass jars containing flickering lantern flames. She carefully holds a dim, almost extinguished heart lantern in her hands, her expression gentle and focused. Warm golden lighting from lanterns contrasts with deep blue night sky. Studio Ghibli inspired, detailed backgrounds, no subtitles, cinematic camera movements.",
+    "bgm": {
+      "description": "轻柔的钢琴旋律配合悠远的弦乐，营造神秘而温暖的奇幻氛围",
+      "mood": "whimsical, warm, mysterious, gentle piano"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "灯塔城全景俯瞰。夜空下，数十座灯塔矗立在错落有致的城镇中，每座灯塔顶部散发温暖的橙色光芒。街道上行人心灯闪烁，如地上的星河。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢下推",
+          "angle": "俯视渐变为平视"
+        },
+        "characters": [],
+        "dialogue": null,
+        "atmosphere": "壮美而温暖的奇幻城市夜景，灯火如星，宁静祥和",
+        "sfx": "远处灯火轻微的嗡鸣声，夜风声",
+        "ai_image_prompt": "anime wide shot, fantastical city at night with dozens of tall lighthouses glowing warm orange, cobblestone streets below with tiny figures each having a floating glowing orb near their chest, deep blue starry sky, Studio Ghibli style, warm color palette, cinematic composition"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "镜头推近到一座最高的灯塔，灯塔中层的窗户透出温暖光芒。窗内隐约可见一个少女的剪影在工作台前忙碌。",
+        "camera": {
+          "type": "中景",
+          "movement": "推镜",
+          "angle": "微仰视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "在窗内工作台前弯腰操作",
+            "expression": "专注",
+            "position": "中"
+          }
+        ],
+        "dialogue": null,
+        "atmosphere": "聚焦到主角所在的灯塔，从宏大场景过渡到个人空间",
+        "sfx": "灯火轻柔的噼啪声",
+        "ai_image_prompt": "anime medium shot, tall lighthouse at night, warm light glowing from middle floor window, silhouette of a girl working at a desk visible through window, deep blue sky background, warm orange window glow, atmospheric perspective"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "工坊内部。苏念坐在工作台前，周围是装满各色灯火碎片的玻璃瓶。她的心灯在胸口上方散发温暖的橙色光。她手中捧着一盏几乎熄灭的心灯，灯火微弱地闪烁。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "双手小心翼翼地捧着一盏暗淡的心灯",
+            "expression": "温柔专注",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏念",
+          "text": "每盏灯火，都是一段活着的记忆。",
+          "emotion": "温柔/敬畏"
+        },
+        "atmosphere": "工坊内温暖而略带神秘，玻璃瓶中的灯火碎片投射出彩色光斑",
+        "sfx": "心灯微弱的脉动声",
+        "ai_image_prompt": "anime close-up, young girl with brown hair in low ponytail sitting at wooden workbench, warm orange glowing orb floating near her chest, holding a dim flickering small flame in cupped hands, glass jars with colorful flame fragments on shelves behind her, warm workshop interior, amber eyes, gentle focused expression, detailed lighting"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念闭上双眼，手指轻触暗淡的心灯。灯火碎片从她指尖流出，如细小的火星注入心灯中。她的表情微微颤动，似乎感受到了灯中残存的记忆。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推近",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "闭眼，指尖触碰心灯，灯力注入",
+            "expression": "沉浸/微微颤动",
+            "position": "中"
+          }
+        ],
+        "dialogue": null,
+        "atmosphere": "安静而神圣的修复时刻，微小的光粒子在空气中飘浮",
+        "sfx": "细微的灯火共鸣声，如风铃",
+        "ai_image_prompt": "anime extreme close-up, girl's hands touching a dim flickering flame, tiny sparks of light flowing from fingertips into the flame, eyes closed peaceful expression, warm particles floating in air, magical healing moment, detailed hand animation, soft orange and gold lighting"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "心灯中闪过一段模糊的记忆画面——一个孩子在田野上奔跑，笑声回荡。苏念的嘴角微微上扬，她感受到了这盏灯火主人的童年快乐。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "微微睁眼，嘴角上扬",
+            "expression": "温暖的微笑",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏念",
+          "text": "别怕，我来帮你。",
+          "emotion": "轻柔/安慰"
+        },
+        "atmosphere": "记忆画面叠加呈现，温暖的金色调充满画面",
+        "sfx": "远处的孩童笑声（记忆回响），灯火变亮的声音",
+        "ai_image_prompt": "anime close-up, girl's face with slight smile, inside the flame a faint memory image of a child running in a field, warm golden overlay, double exposure effect, emotional tender moment, amber eyes slightly open, warm lighting"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "心灯重新绽放光芒，从暗淡变为柔和的暖黄色。苏念满意地将修复好的心灯放入保护器中，灯火稳定跳动。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢拉远",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "将修复好的心灯轻轻放入玻璃保护器",
+            "expression": "欣慰/满足",
+            "position": "中"
+          }
+        ],
+        "dialogue": null,
+        "atmosphere": "修复完成的满足与宁静，灯光更加温暖明亮",
+        "sfx": "灯火稳定燃烧的轻响，玻璃器皿的清脆声",
+        "ai_image_prompt": "anime medium shot, girl carefully placing a now brightly glowing warm yellow flame into a glass protective case, satisfied gentle smile, workshop shelves with glowing jars in background, warm cozy atmosphere, anime healing moment"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP01-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "从工坊的温馨过渡到灯塔城夜景的壮美，暗示苏念内心深处的牵挂",
+      "color_palette": ["#F39C12", "#1A1A2E", "#E74C3C"],
+      "lighting": "工坊内的暖光与窗外灯塔城夜景交织，苏念心灯映照面部",
+      "weather": "晴朗夜晚"
+    },
+    "video_prompt": "Anime style, interior of a warm lighthouse workshop transitioning to a girl standing at the window looking out at a breathtaking night cityscape of lighthouses and floating lanterns. She touches a copper ring on her finger, her heart lantern flickers very slightly for just a moment. She looks contemplative and wistful. Camera slowly pulls back to show her silhouette framed by the window with the glowing city behind her. Warm interior lighting, deep blue exterior, no subtitles, cinematic, emotional.",
+    "bgm": {
+      "description": "钢琴旋律加入淡淡的忧伤色彩，弦乐渐弱，留下余韵",
+      "mood": "warm, slightly melancholic, reflective, piano and strings"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏念站起身，将修好的心灯递给等在门口的灯塔城居民。居民胸口的心灯重新亮起，感激地鞠躬。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "微笑着将心灯递出",
+            "expression": "温暖的微笑",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏念",
+          "text": "好了，你的灯火又亮起来了。",
+          "emotion": "欣慰/微笑"
+        },
+        "atmosphere": "交接的温馨时刻，两人之间灯火的光芒交融",
+        "sfx": "心灯重新点亮的柔和声音",
+        "ai_image_prompt": "anime medium shot, girl handing a glowing warm flame to a grateful townsperson at doorway, both have glowing orbs near their chests, warm interior lighting, doorway framing, grateful exchange moment"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念走向工坊的大窗户前，沿途经过架子上数十个装着灯火碎片的玻璃瓶，瓶中的光芒在她经过时微微变亮。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟随横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "缓步走向窗户",
+            "expression": "平静",
+            "position": "中"
+          }
+        ],
+        "dialogue": null,
+        "atmosphere": "安静的工坊，灯火碎片随主角移动而共鸣",
+        "sfx": "脚步声，玻璃瓶中灯火轻微的共鸣声",
+        "ai_image_prompt": "anime tracking shot, girl walking past shelves of glass jars containing colorful glowing flame fragments, the flames brighten slightly as she passes, warm workshop interior, magical ambient lighting"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念站在窗前，望向灯塔城的夜景。无数灯塔的光芒与天上星辰相映，行人的心灯在街道上流动如地上的银河。她的侧脸被灯光照亮。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "侧面平视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "站在窗前眺望",
+            "expression": "沉思/微微出神",
+            "position": "左"
+          }
+        ],
+        "dialogue": null,
+        "atmosphere": "壮美的灯塔城夜景与少女沉思的侧影形成对比",
+        "sfx": "远处城市的环境音，微风",
+        "ai_image_prompt": "anime close-up profile shot, girl standing at large window, breathtaking night cityscape of lighthouses and floating lanterns visible through window, her face lit by warm light from outside, contemplative expression, deep blue sky with stars, cinematic framing"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念低头看着左手无名指上的铜戒指，用右手轻轻转动它。她的表情从平静变为一丝忧伤。心灯几乎不可察觉地闪了一下。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推近",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "低头看铜戒指，右手轻转",
+            "expression": "淡淡的忧伤",
+            "position": "中"
+          }
+        ],
+        "dialogue": null,
+        "atmosphere": "微妙的情感暗示——铜戒指与母亲记忆的关联",
+        "sfx": "心灯微弱闪烁的声音",
+        "ai_image_prompt": "anime extreme close-up, girl's left hand with a simple copper ring on ring finger, right hand gently turning it, warm lighting on hands, slight melancholic mood, the glowing orb near her chest flickers very subtly, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念抬起头，深吸一口气，表情恢复温暖。窗外一阵风吹来，她的长发和红色斗篷轻轻飘动。心灯恢复稳定的暖橙色。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "正面平视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "抬头，深呼吸，头发飘动",
+            "expression": "温暖而坚定",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏念",
+          "text": "灯火不会说谎。",
+          "emotion": "温暖/低喃"
+        },
+        "atmosphere": "夜风送来温暖的灯火气息，主角在宁静中蕴含坚定",
+        "sfx": "窗外夜风声，心灯稳定的嗡鸣",
+        "ai_image_prompt": "anime close-up front view, girl with brown hair blowing gently in breeze from window, red cloak fluttering, warm determined expression, orange heart lantern glowing steadily, night sky visible behind her, emotional character moment"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "镜头缓慢拉远，苏念的身影被窗框和灯塔城的光芒包围。她如同一盏小小的灯火，矗立在广阔的灯海之中。画面淡出。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢拉远",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏念",
+            "action": "静立窗前",
+            "expression": "安宁",
+            "position": "中"
+          }
+        ],
+        "dialogue": null,
+        "atmosphere": "宁静的结尾，暗示更大的世界和即将到来的旅程",
+        "sfx": "音乐渐弱，灯火余音",
+        "ai_image_prompt": "anime wide shot pulling back, girl's small silhouette framed by large lighthouse window, vast glowing city of lighthouses spreading behind her, she appears as a small warm light in the vast sea of lanterns, cinematic fade out, beautiful night panorama, emotional ending shot"
+      }
+    ]
+  }
+}

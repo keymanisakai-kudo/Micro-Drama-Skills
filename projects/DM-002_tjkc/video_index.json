@@ -1,0 +1,621 @@
+{
+  "project_id": "DM-002",
+  "project_name": "碳金狂潮",
+  "total_episodes": 25,
+  "created_date": "2026-02-14",
+  "status": "scripted",
+  "videos": [
+    {
+      "episode": 1,
+      "episode_title": "呼吸税时代",
+      "part_a": {
+        "video_id": "DM-002-EP01-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP01/dialogue.md",
+          "storyboard_config": "episodes/EP01/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP01-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP01/dialogue.md",
+          "storyboard_config": "episodes/EP01/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 2,
+      "episode_title": "漏洞的味道",
+      "part_a": {
+        "video_id": "DM-002-EP02-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP02/dialogue.md",
+          "storyboard_config": "episodes/EP02/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP02-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP02/dialogue.md",
+          "storyboard_config": "episodes/EP02/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 3,
+      "episode_title": "第一笔做空",
+      "part_a": {
+        "video_id": "DM-002-EP03-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP03/dialogue.md",
+          "storyboard_config": "episodes/EP03/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP03-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP03/dialogue.md",
+          "storyboard_config": "episodes/EP03/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 4,
+      "episode_title": "碳价暴走",
+      "part_a": {
+        "video_id": "DM-002-EP04-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP04/dialogue.md",
+          "storyboard_config": "episodes/EP04/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP04-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP04/dialogue.md",
+          "storyboard_config": "episodes/EP04/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 5,
+      "episode_title": "一夜上流",
+      "part_a": {
+        "video_id": "DM-002-EP05-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP05/dialogue.md",
+          "storyboard_config": "episodes/EP05/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP05-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP05/dialogue.md",
+          "storyboard_config": "episodes/EP05/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 6,
+      "episode_title": "空头王座",
+      "part_a": {
+        "video_id": "DM-002-EP06-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP06/dialogue.md",
+          "storyboard_config": "episodes/EP06/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP06-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP06/dialogue.md",
+          "storyboard_config": "episodes/EP06/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 7,
+      "episode_title": "清算前夜",
+      "part_a": {
+        "video_id": "DM-002-EP07-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP07/dialogue.md",
+          "storyboard_config": "episodes/EP07/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP07-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP07/dialogue.md",
+          "storyboard_config": "episodes/EP07/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 8,
+      "episode_title": "她的氧气账单",
+      "part_a": {
+        "video_id": "DM-002-EP08-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP08/dialogue.md",
+          "storyboard_config": "episodes/EP08/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP08-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP08/dialogue.md",
+          "storyboard_config": "episodes/EP08/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 9,
+      "episode_title": "被删掉的日志",
+      "part_a": {
+        "video_id": "DM-002-EP09-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP09/dialogue.md",
+          "storyboard_config": "episodes/EP09/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP09-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP09/dialogue.md",
+          "storyboard_config": "episodes/EP09/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 10,
+      "episode_title": "CCI代理人",
+      "part_a": {
+        "video_id": "DM-002-EP10-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP10/dialogue.md",
+          "storyboard_config": "episodes/EP10/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP10-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP10/dialogue.md",
+          "storyboard_config": "episodes/EP10/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 11,
+      "episode_title": "配额猎杀",
+      "part_a": {
+        "video_id": "DM-002-EP11-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP11/dialogue.md",
+          "storyboard_config": "episodes/EP11/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP11-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP11/dialogue.md",
+          "storyboard_config": "episodes/EP11/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 12,
+      "episode_title": "白名单晚宴",
+      "part_a": {
+        "video_id": "DM-002-EP12-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP12/dialogue.md",
+          "storyboard_config": "episodes/EP12/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP12-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP12/dialogue.md",
+          "storyboard_config": "episodes/EP12/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 13,
+      "episode_title": "未来账户",
+      "part_a": {
+        "video_id": "DM-002-EP13-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP13/dialogue.md",
+          "storyboard_config": "episodes/EP13/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP13-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP13/dialogue.md",
+          "storyboard_config": "episodes/EP13/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 14,
+      "episode_title": "自己寄来的指令",
+      "part_a": {
+        "video_id": "DM-002-EP14-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP14/dialogue.md",
+          "storyboard_config": "episodes/EP14/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP14-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP14/dialogue.md",
+          "storyboard_config": "episodes/EP14/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 15,
+      "episode_title": "套利闭环",
+      "part_a": {
+        "video_id": "DM-002-EP15-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP15/dialogue.md",
+          "storyboard_config": "episodes/EP15/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP15-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP15/dialogue.md",
+          "storyboard_config": "episodes/EP15/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 16,
+      "episode_title": "全城缺氧",
+      "part_a": {
+        "video_id": "DM-002-EP16-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP16/dialogue.md",
+          "storyboard_config": "episodes/EP16/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP16-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP16/dialogue.md",
+          "storyboard_config": "episodes/EP16/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 17,
+      "episode_title": "碳挤兑",
+      "part_a": {
+        "video_id": "DM-002-EP17-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP17/dialogue.md",
+          "storyboard_config": "episodes/EP17/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP17-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP17/dialogue.md",
+          "storyboard_config": "episodes/EP17/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 18,
+      "episode_title": "底层暴动",
+      "part_a": {
+        "video_id": "DM-002-EP18-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP18/dialogue.md",
+          "storyboard_config": "episodes/EP18/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP18-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP18/dialogue.md",
+          "storyboard_config": "episodes/EP18/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 19,
+      "episode_title": "她停止呼吸",
+      "part_a": {
+        "video_id": "DM-002-EP19-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP19/dialogue.md",
+          "storyboard_config": "episodes/EP19/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP19-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP19/dialogue.md",
+          "storyboard_config": "episodes/EP19/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 20,
+      "episode_title": "富人的空气墙",
+      "part_a": {
+        "video_id": "DM-002-EP20-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP20/dialogue.md",
+          "storyboard_config": "episodes/EP20/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP20-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP20/dialogue.md",
+          "storyboard_config": "episodes/EP20/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 21,
+      "episode_title": "崩盘按钮",
+      "part_a": {
+        "video_id": "DM-002-EP21-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP21/dialogue.md",
+          "storyboard_config": "episodes/EP21/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP21-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP21/dialogue.md",
+          "storyboard_config": "episodes/EP21/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 22,
+      "episode_title": "真相回环",
+      "part_a": {
+        "video_id": "DM-002-EP22-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP22/dialogue.md",
+          "storyboard_config": "episodes/EP22/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP22-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP22/dialogue.md",
+          "storyboard_config": "episodes/EP22/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 23,
+      "episode_title": "买回第一口空气",
+      "part_a": {
+        "video_id": "DM-002-EP23-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP23/dialogue.md",
+          "storyboard_config": "episodes/EP23/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP23-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP23/dialogue.md",
+          "storyboard_config": "episodes/EP23/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 24,
+      "episode_title": "关停交易所",
+      "part_a": {
+        "video_id": "DM-002-EP24-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP24/dialogue.md",
+          "storyboard_config": "episodes/EP24/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP24-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP24/dialogue.md",
+          "storyboard_config": "episodes/EP24/storyboard_config.json"
+        }
+      }
+    },
+    {
+      "episode": 25,
+      "episode_title": "人类不该为呼吸付费",
+      "part_a": {
+        "video_id": "DM-002-EP25-A",
+        "label": "上",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP25/dialogue.md",
+          "storyboard_config": "episodes/EP25/storyboard_config.json"
+        }
+      },
+      "part_b": {
+        "video_id": "DM-002-EP25-B",
+        "label": "下",
+        "duration": 15,
+        "status": "script_ready",
+        "files": {
+          "dialogue": "episodes/EP25/dialogue.md",
+          "storyboard_config": "episodes/EP25/storyboard_config.json"
+        }
+      }
+    }
+  ],
+  "editing_guide": {
+    "total_episodes": 25,
+    "parts_per_episode": 2,
+    "total_videos": 50,
+    "duration_per_part_seconds": 15,
+    "total_duration_seconds": 750,
+    "grids_per_part": 6,
+    "total_grids": 300,
+    "recommended_export_format": "MP4 H.264",
+    "recommended_resolution": "1920x1080",
+    "recommended_fps": 24
+  }
+}

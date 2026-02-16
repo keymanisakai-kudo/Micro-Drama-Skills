@@ -1,0 +1,233 @@
+{
+  "video_id_prefix": "DM-001-EP17",
+  "episode": 17,
+  "episode_title": "白夜VS烬",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "白夜独自找到了烬。他以冰蓝色灯火之力凝聚成武器形态发起攻击，但烬只需一只手就能轻松化解。在短暂的交锋中，烬指出白夜的光中充满愤怒——那不是守护的灯火，只是燃烧自己的火焰。战斗最后，烬无意中露出胸口——那里依然残留着灯守的灯纹。白夜震惊地发现：烬曾经也是灯守。",
+  "emotion_tone": "震撼",
+  "connection": {
+    "from_previous": "白夜独自离队寻找烬",
+    "to_next": "发现烬是堕落灯守后，白夜开始重新思考"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP17-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "冰与暗的激烈交锋，速度与力量的碰撞",
+      "color_palette": ["#3498DB", "#1C1C2E", "#E74C3C"],
+      "lighting": "白夜冰蓝色光与烬黑暗力量的对冲闪光",
+      "weather": "狂风大作，碎片被气浪吹飞"
+    },
+    "video_prompt": "Anime style, intense battle scene. Silver-haired boy charges at the dark cloaked villain with ice-blue light formed into a weapon. The villain effortlessly deflects every attack with one hand, dark energy clashing with blue light creating shockwaves. Fast-paced action, dramatic combat choreography, no subtitles, shonen action style battle.",
+    "bgm": {
+      "description": "快节奏的战斗配乐，紧张的打击乐与激烈的弦乐交织",
+      "mood": "fast-paced battle music, intense percussion and fierce strings"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "荒凉的废墟之地。白夜终于找到了烬——烬背对着他站在一堆被毁灭的灯火碎片残骸中。白夜的冰蓝色光在全身凝聚，在指间形成了刀刃般的形态。他的表情冷静而决绝。",
+        "camera": { "type": "中远景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "冰蓝光凝聚成武器", "expression": "冷静/决绝", "position": "右" },
+          { "name": "烬", "action": "背对白夜站着", "expression": "背影/从容", "position": "左前" }
+        ],
+        "dialogue": null,
+        "atmosphere": "决斗前的寂静——暴风前夕",
+        "sfx": "冰蓝光凝聚的嗡鸣，风暴将至的低压",
+        "ai_image_prompt": "anime medium-wide shot, desolate wasteland of destroyed fragment debris, silver-haired boy standing with ice-blue light crystallizing into blade-like weapons at his hands, facing the dark cloaked figure who stands with his back turned among the ruins, pre-battle stillness, calm before the storm, dramatic standoff composition"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "白夜暴起冲锋！他的速度极快，冰蓝色的残影在身后拖出长长的轨迹。他挥出第一击——光刃划过空气发出尖啸。烬依然背对着他，似乎毫不在意。",
+        "camera": { "type": "中景", "movement": "快速跟拍", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "高速冲锋挥出第一刀", "expression": "凶狠/全力", "position": "动态" },
+          { "name": "烬", "action": "背对不动", "expression": "从容", "position": "前方" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "我来送你回黑暗里去。", "emotion": "冷静/决意" },
+        "atmosphere": "极速冲锋——少年的全力一击",
+        "sfx": "高速移动的风切声，光刃划过空气的尖啸",
+        "ai_image_prompt": "anime dynamic action shot, silver-haired boy charging at extreme speed with ice-blue afterimages trailing behind him, swinging a crystallized blue light blade at the dark figure who hasn't turned around, speed lines and motion blur, intense first strike, shonen action sequence, dramatic attack"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "烬在最后一瞬只伸出一只手——黑暗能量在掌心凝成盾，轻而易举地挡住了白夜的全力一击。碰撞产生的冲击波向四周扩散，将地面的碎片残骸吹飞。烬终于转过身来，暗红眼睛看着白夜。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "单手挡住攻击转身", "expression": "玩味/不屑", "position": "左" },
+          { "name": "白夜", "action": "全力一击被挡住", "expression": "震惊/不甘", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "压倒性差距——一只手就够了",
+        "sfx": "蓝光与黑暗碰撞的轰鸣，冲击波扩散声",
+        "ai_image_prompt": "anime dramatic impact shot, dark figure casually blocking the ice-blue blade with one hand covered in dark energy shield, shockwave rippling outward from the collision point, debris flying, the silver-haired boy shocked at how easily his full-power attack was stopped, the villain finally turning to face him with crimson eyes, overwhelming power gap visualized"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "白夜不甘心，连续发动多次攻击——左劈、右斩、上挑、刺击。每一击都被烬用最小的动作化解。烬甚至有余裕开口说话，点评白夜的战斗。他说白夜的光里全是愤怒。",
+        "camera": { "type": "中景", "movement": "快速切换", "angle": "多角度" },
+        "characters": [
+          { "name": "白夜", "action": "连续猛攻", "expression": "愤怒/不甘", "position": "动态" },
+          { "name": "烬", "action": "轻松化解每一击", "expression": "从容/洞察", "position": "中心" }
+        ],
+        "dialogue": { "speaker": "烬", "text": "年轻的灯守……你的光里全是愤怒。那不是灯火，是火焰。", "emotion": "玩味/洞察" },
+        "atmosphere": "轻松化解vs拼命——不在一个层次",
+        "sfx": "连续交击的金属碰撞声，蓝光爆裂声",
+        "ai_image_prompt": "anime rapid action sequence, silver-haired boy attacking furiously with multiple ice-blue strikes from different angles, the dark figure deflecting each one with minimal movement while speaking calmly, blue sparks and dark energy clashing, the villain critiquing the boy's fighting while barely trying, frustrating power disparity, intense multi-strike action"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "烬终于反击了——只是轻轻推了白夜一掌。但这一掌蕴含的黑暗能量将白夜直接推飞数十米，狠狠撞碎一堆碎片残骸。白夜口中溢出鲜血，跌落在废墟中。",
+        "camera": { "type": "中景", "movement": "跟拍白夜飞出", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "轻轻推出一掌", "expression": "轻描淡写", "position": "远处" },
+          { "name": "白夜", "action": "被推飞撞碎废墟", "expression": "痛苦吐血", "position": "飞出" }
+        ],
+        "dialogue": null,
+        "atmosphere": "轻描淡写的一掌——却是毁灭性的力量",
+        "sfx": "暗能量掌击的沉闷声，白夜撞碎废墟的巨响，咳血声",
+        "ai_image_prompt": "anime impact shot, silver-haired boy sent flying dozens of meters by a casual palm strike from the dark figure, crashing through debris and rubble, blood visible at the corner of his mouth, the dark figure standing unmoved in the distance with his hand still extended, devastating counterattack, brutal defeat"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "白夜挣扎着从废墟中站起来。他的冰蓝色光已经暗淡了很多，身上有伤。但他的眼神依然倔强。烬缓步走过来，像一个教训后辈的长者。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "挣扎站起", "expression": "倔强/伤痕累累", "position": "中" },
+          { "name": "烬", "action": "缓步走来", "expression": "审视", "position": "走来" }
+        ],
+        "dialogue": null,
+        "atmosphere": "站起来继续面对——少年的倔强",
+        "sfx": "白夜喘息声，废墟碎石掉落声，烬的脚步声",
+        "ai_image_prompt": "anime medium shot, battered silver-haired boy struggling to stand up from the rubble, ice-blue light dimmed and flickering, wounds and dirt on his clothes, yet his eyes remain defiant, the dark figure approaching slowly like an elder disciplining a child, stubborn youth vs overwhelming darkness"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP17-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "从战斗转为震撼的揭露——烬的真实身份",
+      "color_palette": ["#1C1C2E", "#3498DB", "#F39C12"],
+      "lighting": "烬胸口残留灯纹发出的微弱橙光打破黑暗",
+      "weather": "战斗后的粉尘缓缓沉落"
+    },
+    "video_prompt": "Anime style, after the one-sided battle, the dark villain stands over the defeated silver-haired boy. In a moment of vulnerability, his cloak shifts revealing ancient keeper lantern markings on his chest that still faintly glow. He whispers that he was once like the boy. The silver-haired boy stares in shock at the revelation. No subtitles, dramatic identity reveal, emotional twist.",
+    "bgm": {
+      "description": "战斗音乐突然静止，单一钢琴音符打破沉默，震撼的真相旋律",
+      "mood": "battle music abruptly stops, single piano note breaking silence, shocking revelation melody"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "烬站在白夜面前，低头看着这个倔强的少年。白夜再次凝聚冰蓝光想要攻击，但力量已不足——光刃只成形了一半就碎裂了。白夜咬牙不愿认输。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "居高临下注视", "expression": "审视/某种复杂", "position": "前" },
+          { "name": "白夜", "action": "光刃碎裂单膝跪地", "expression": "不甘/倔强", "position": "下方" }
+        ],
+        "dialogue": null,
+        "atmosphere": "战斗已经结束但倔强不允许认输",
+        "sfx": "光刃碎裂的断裂声，白夜痛苦的喘息",
+        "ai_image_prompt": "anime medium shot, dark cloaked figure standing over the kneeling silver-haired boy looking down at him, the boy trying to reform his ice-blue light blade but it shatters halfway, on one knee refusing to give up, complex dynamic of power and defiance, aftermath of one-sided battle"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "烬沉默了一会儿。他的眼神中闪过一丝复杂的情绪——不是嘲讽，不是愤怒，而是一种……怀念？他低声说出了那句话：'我曾经，也像你一样。'",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "沉默后低语", "expression": "复杂/怀念", "position": "中" }
+        ],
+        "dialogue": { "speaker": "烬", "text": "我曾经……也像你一样。", "emotion": "沉默/低语" },
+        "atmosphere": "反派的铠甲出现裂缝——一瞬间的脆弱",
+        "sfx": "风停了，只有烬低沉的声音在空气中回荡",
+        "ai_image_prompt": "anime extreme close-up, dark hooded figure's crimson eyes showing a flash of complex emotion - not mockery but nostalgia, his voice barely a whisper, a crack in the villain's armor, momentary vulnerability revealed, the briefest glimpse of who he once was, powerful emotional close-up"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "一阵风吹过，烬的黑色长袍被掀开了一角——露出了他的胸口。白夜的瞳孔猛然收缩。在烬漆黑的胸膛上，依然残留着灯守的灯纹——虽然已经千疮百孔、几乎熄灭，但那纹路是真实的。",
+        "camera": { "type": "特写", "movement": "快速推近", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "袍子被风掀开露出胸口灯纹", "expression": "未注意/不在意", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "震撼的真相——烬曾是灯守",
+        "sfx": "风掀起袍子的声音，白夜倒吸凉气的声响",
+        "ai_image_prompt": "anime dramatic close-up, wind blowing open the dark figure's cloak revealing his chest where ancient keeper lantern markings still remain, faintly glowing orange through the darkness, scarred and almost extinguished but unmistakably real keeper patterns, shocking revelation shot, dramatic wind-blown reveal"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "白夜看到灯纹的瞬间整个人僵住了。他不敢相信自己的眼睛——烬、毁灭灯火的存在，身上竟然有灯守的印记？这意味着什么？白夜的声音因震惊而颤抖。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "震惊凝固", "expression": "极度震惊/动摇", "position": "中" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "什么……？", "emotion": "震惊/动摇" },
+        "atmosphere": "世界观崩塌——敌人曾是同伴",
+        "sfx": "心跳声加速，震惊的耳鸣",
+        "ai_image_prompt": "anime extreme close-up, silver-haired boy's face frozen in complete shock, eyes wide and pupils contracted, mouth slightly open in disbelief, his worldview shattering, reflecting the faint orange glow of the keeper markings in his blue eyes, mind-blowing realization, shaken to the core"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "烬注意到自己的灯纹被看到了。他冷哼一声，将袍子拉回遮住胸口。那一瞬间的脆弱消失了，他重新变回黑暗的化身。但白夜已经看到了——真相无法收回。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "拉回袍子遮住灯纹", "expression": "冷漠/掩饰", "position": "左" },
+          { "name": "白夜", "action": "呆呆注视", "expression": "震惊未消", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "真相一闪即逝但已经足够改变一切",
+        "sfx": "袍子拉紧的声音，烬冷哼",
+        "ai_image_prompt": "anime medium shot, dark figure pulling his cloak back to cover the keeper marks on his chest with a cold expression, the brief vulnerability gone, but the silver-haired boy still staring in frozen shock having seen the truth, a secret revealed that changes everything, tension of exposed truth"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "烬转身离去，黑暗重新将他吞没。白夜跪在废墟中，受伤的身体已经无法追上。他的冰蓝色眼睛中映着烬消失的方向——但眼中已经不只有愤怒了，多了一些他自己都还没完全理解的东西。",
+        "camera": { "type": "远景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "消失在黑暗中", "expression": "背影", "position": "远去" },
+          { "name": "白夜", "action": "跪在废墟中注视", "expression": "复杂/动摇", "position": "前景" }
+        ],
+        "dialogue": null,
+        "atmosphere": "从单纯的愤怒到复杂的疑问——世界不是非黑即白",
+        "sfx": "烬消失的黑暗回响，白夜独自在废墟中的风声",
+        "ai_image_prompt": "anime wide cinematic shot, dark figure dissolving into shadows in the distance, silver-haired boy kneeling in the battle ruins in the foreground watching him leave, his blue eyes no longer showing only anger but something more complex - confusion and understanding beginning to form, the aftermath of a truth bomb, world no longer black and white, dramatic ending composition"
+      }
+    ]
+  }
+}

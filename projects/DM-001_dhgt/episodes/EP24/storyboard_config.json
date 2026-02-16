@@ -1,0 +1,239 @@
+{
+  "video_id_prefix": "DM-001-EP24",
+  "episode": 24,
+  "episode_title": "归途",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "灯火恢复后，五人踏上回灯塔城的归途。来时荒芜黑暗的道路如今已经恢复生机——曾经枯死的灯花重新绽放，曾经灰暗的天空恢复了色彩，曾经沉默的风铃树重新发出清脆的声响。烬走在路上，认出了许多曾经他守护过的地标，既怀念又释然。苏念的心灯，在归途中比来时更加明亮和稳定。",
+  "emotion_tone": "释然",
+  "connection": {
+    "from_previous": "烬重生后决定一起回家",
+    "to_next": "终于回到灯塔城"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP24-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "归途中的释然与美景，治愈的旅程",
+      "color_palette": ["#2ECC71", "#F1C40F", "#3498DB"],
+      "lighting": "温暖的午后阳光，万物复苏的光感",
+      "weather": "晴朗，微风，花瓣飞舞"
+    },
+    "video_prompt": "Anime style, a group of five travelers walking through a healing landscape. Dead trees blooming again, grey skies turning vibrant blue and golden, silent wind-chime trees ringing again. The path that was dark and desolate is now alive with light and color. Peaceful return journey, Ghibli-inspired healing nature, no subtitles.",
+    "bgm": {
+      "description": "木吉他与长笛的田园曲，脚步悠然的归途旋律",
+      "mood": "acoustic guitar and flute pastoral melody, unhurried footsteps on the journey home"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "五人走在一条山间小路上。这条路他们来时是灰暗枯寂的——如今两旁开满了灯花，一种会发出柔和暖光的小花。苏念和铃音走在前面，白夜和烬并肩走在中间，墨在苏念脚边小跑。",
+        "camera": { "type": "远景", "movement": "跟拍", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "走在前方看风景", "expression": "开心", "position": "左前" },
+          { "name": "铃音", "action": "蹦跳着走", "expression": "好奇", "position": "右前" },
+          { "name": "白夜", "action": "并肩行走", "expression": "平静", "position": "中" },
+          { "name": "烬（回归）", "action": "并肩行走", "expression": "怀念", "position": "中" },
+          { "name": "墨", "action": "小跑", "expression": "安详", "position": "脚边" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯花盛开的山间归途——美到不真实",
+        "sfx": "脚步声，灯花微微发光的声音，鸟鸣",
+        "ai_image_prompt": "anime wide scenic shot, five travelers walking along a mountain path lined with small glowing lantern flowers on both sides, the brown-haired girl and purple-haired girl in front, silver-haired boy and amber-eyed young man walking side by side, a grey cat trotting alongside, beautiful restored landscape with vibrant colors, Ghibli-inspired pastoral journey scene"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "铃音发现路边的树木都在开花——来时这些树全是枯死的。她好奇地指着它们，说回去的路好像跟来时不一样了。花瓣在微风中飘落，像一场彩色的花雨。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "指着开花的树好奇", "expression": "好奇/开心", "position": "中" }
+        ],
+        "dialogue": { "speaker": "铃音", "text": "回去的路好像跟来时不一样了呢。", "emotion": "好奇/开心" },
+        "atmosphere": "曾经枯死的树都在开花——归途如梦",
+        "sfx": "花瓣飘落的声音，微风穿过枝叶",
+        "ai_image_prompt": "anime medium shot, purple-haired girl pointing up at once-dead trees now blooming with colorful flowers, petals falling in the gentle breeze like colorful rain, magical transformation of the landscape, curious delighted expression, beautiful natural rebirth scene"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "白夜在路过一片恢复的灯火草原时停下脚步感慨。他平静地说灯火恢复了，这些地方也跟着醒了。远方的草原上，无数灯火碎片像萤火虫一样在空中轻轻漂浮。",
+        "camera": { "type": "远景", "movement": "缓慢左移", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "停步看远方草原", "expression": "平静/感慨", "position": "左" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "灯火恢复了，这些地方也跟着醒了。", "emotion": "平静/感慨" },
+        "atmosphere": "万物复苏的壮美草原——灯火如萤",
+        "sfx": "草原上灯火碎片漂浮的微弱光声，远处的风声",
+        "ai_image_prompt": "anime wide panoramic shot, silver-haired boy pausing to look over a restored grassland where countless lantern fragments float like fireflies in the air, vast beautiful landscape awakening with light, serene contemplative moment, magnificent restored nature, warm afternoon light"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "他们经过曾经的战场——白夜和烬战斗的地方。地上还留着战斗的痕迹，但裂缝中长出了新的灯花。两人同时看了一眼那里，然后几乎同时移开了目光。一切尽在不言中。",
+        "camera": { "type": "中景", "movement": "跟拍", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "瞥了一眼旧战场", "expression": "淡然", "position": "左" },
+          { "name": "烬（回归）", "action": "瞥了一眼旧战场", "expression": "默然", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "旧战场上长出新花——无需言语的和解",
+        "sfx": "风吹过裂缝中新花的声音",
+        "ai_image_prompt": "anime medium shot, silver-haired boy and amber-eyed young man both glancing at an old battlefield they pass, cracks in the ground now sprouting new glowing flowers, both looking away at the same time, silent understanding between former enemies, reconciliation without words, new growth from battle scars"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念蹲下来轻轻触碰路边一朵新开的灯花。花在她触碰的瞬间绽放得更亮。她感慨这一切比来时更漂亮了——也许是因为他们的旅途给这条路注入了新的意义。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "俯视" },
+        "characters": [
+          { "name": "苏念", "action": "蹲下触碰灯花", "expression": "感慨/温柔", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "好像……比来时更漂亮了。", "emotion": "感慨/温柔" },
+        "atmosphere": "触碰灯花的温柔瞬间——旅途赋予道路新意义",
+        "sfx": "灯花绽放的柔和声响，苏念温柔的声音",
+        "ai_image_prompt": "anime close-up from above, brown-haired girl crouching to gently touch a small glowing lantern flower by the roadside, the flower blooming brighter at her touch, soft tender expression, intimate moment with the restored natural world, warm light emanating from the flower onto her face"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "五人站在一个山坡上向下望。远方——终于！可以看到灯塔城的轮廓了。灯塔城的大灯塔正在发出明亮的光芒，像在召唤他们回来。苏念的心灯在胸口跳动，与远方灯塔的光呼应。",
+        "camera": { "type": "大远景", "movement": "缓慢推进", "angle": "俯视远眺" },
+        "characters": [
+          { "name": "苏念", "action": "站在山顶望灯塔城", "expression": "激动", "position": "中" },
+          { "name": "白夜", "action": "并肩远望", "expression": "安心", "position": "左" },
+          { "name": "铃音", "action": "雀跃", "expression": "兴奋", "position": "右" },
+          { "name": "墨", "action": "仰望", "expression": "安适", "position": "脚边" },
+          { "name": "烬（回归）", "action": "远望灯塔", "expression": "物是人非的感动", "position": "后" }
+        ],
+        "dialogue": null,
+        "atmosphere": "终于看到灯塔城——回家了",
+        "sfx": "远方灯塔的光声，心灯与灯塔光呼应的共鸣声",
+        "ai_image_prompt": "anime grand panoramic shot from hilltop, five figures standing on a hillside looking down at the distant silhouette of the lighthouse city with its great lighthouse shining brightly, calling them home, the girl's heart lantern pulsing in response to the distant lighthouse light, magnificent landscape view with the city visible on the horizon, anime cinematic homecoming vista"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP24-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "接近故乡的温暖感动与释然",
+      "color_palette": ["#F39C12", "#E74C3C", "#2ECC71"],
+      "lighting": "夕阳西下的金红色光芒，灯塔城的暖光",
+      "weather": "温暖的黄昏，天边有壮美的晚霞"
+    },
+    "video_prompt": "Anime style, the group approaching the lighthouse city as sunset falls. The freed keeper recognizes old landmarks with nostalgia. The girl's heart lantern shines steadily. They walk through the city gates as residents come out to greet them. Warm homecoming sunset, emotional return, no subtitles, Ghibli-inspired coming home scene.",
+    "bgm": {
+      "description": "归乡的竖琴与弦乐，带着满足与释然的温暖尾声",
+      "mood": "homecoming harp and strings, warm coda of fulfillment and peace"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "他们沿着山路向灯塔城走近。烬在路过一处旧石碑时停下了——他认出了这个地方。曾经这里有一个灯火驿站，是他作为灯守时经常休息的地方。如今灯火恢复，驿站的灯又亮了起来。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬（回归）", "action": "在旧石碑前停步", "expression": "怀念/释然", "position": "中" }
+        ],
+        "dialogue": { "speaker": "烬（回归）", "text": "这些地方……以前都有灯火守护。", "emotion": "怀念/释然" },
+        "atmosphere": "旧驿站的灯重新亮起——物是灯非又复明",
+        "sfx": "旧驿站灯火重新点亮的声音，烬怀念的叹息",
+        "ai_image_prompt": "anime medium shot, amber-eyed young man pausing at an old stone marker by the road, recognizing a former lantern relay station from his keeper days, the station's lanterns flickering back to life after ages of darkness, nostalgic bittersweet recognition, old place revived with new light"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念走到烬身边，看着恢复的驿站，然后看着烬说：以后也会有。简简单单四个字，却充满力量——这不只是安慰，而是她作为新灯守的承诺。苏念的心灯在此时特别明亮和稳定。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "看着烬坚定地说", "expression": "坚定/温暖", "position": "左" },
+          { "name": "烬（回归）", "action": "被苏念的话打动", "expression": "触动/安心", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "以后也会有。", "emotion": "坚定/温暖" },
+        "atmosphere": "新灯守的承诺——灯火不灭的传承",
+        "sfx": "苏念心灯稳定明亮的光声",
+        "ai_image_prompt": "anime close-up two-shot, brown-haired girl looking at the amber-eyed young man with determined warm eyes making a promise, her heart lantern shining especially bright and steady on her chest, a new keeper's vow to continue the legacy, simple but powerful words, passing of the torch moment"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "黄昏时分，他们走到了灯塔城的城门前。老旧的城门上还残留着当年烬离去时的裂痕——但裂痕间都长满了灯花。城门是开着的，门内传来温暖的光和人们的声音。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "仰视" },
+        "characters": [
+          { "name": "苏念", "action": "站在城门前仰望", "expression": "激动", "position": "中" },
+          { "name": "白夜", "action": "看着城门微笑", "expression": "安心", "position": "左" },
+          { "name": "铃音", "action": "兴奋张望", "expression": "期待", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯塔城门打开——回家了",
+        "sfx": "城门内传来的人声和温暖光声，欢迎的气氛",
+        "ai_image_prompt": "anime medium shot looking up at an old city gate with ancient cracks now filled with growing lantern flowers, the gate open wide with warm golden light and sounds of people spilling out, the group standing before it at sunset, the moment before stepping through the threshold, homecoming at the lighthouse city gates"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "他们走进城门。灯塔城的街道两旁，居民们举着灯笼走出来迎接。这些灯笼是用灯火碎片恢复后的碎片光做的——柔和温暖。老渡也在人群中，他的渡船模型灯笼最为特别。",
+        "camera": { "type": "中景", "movement": "跟拍", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "走入城中被欢迎", "expression": "感动", "position": "中" },
+          { "name": "老渡", "action": "在人群中举灯笼", "expression": "欣慰", "position": "旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯笼迎接——整座城在欢迎回归的灯守们",
+        "sfx": "欢迎的人群声，灯笼晃动的声音，温暖的呼唤",
+        "ai_image_prompt": "anime medium tracking shot, the group walking through the city gates into streets lined with residents holding soft warm lanterns, a welcoming celebration, an elderly ferryman with a special boat-shaped lantern in the crowd, warm golden evening light, the whole city greeting the returning keepers with joy"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "烬走入城中时犹豫了——他不确定灯塔城的人是否会接受他。但苏念回头拉住了他的手，白夜在身后推了他一把。居民们看到烬时的表情从惊讶变成了接受——因为苏念让他回来的。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬（回归）", "action": "犹豫在城门口", "expression": "不安/犹豫", "position": "中后" },
+          { "name": "苏念", "action": "回头拉烬的手", "expression": "温暖/鼓励", "position": "中前" },
+          { "name": "白夜", "action": "推了烬一把", "expression": "淡然", "position": "后" }
+        ],
+        "dialogue": null,
+        "atmosphere": "犹豫的游子被朋友带回家——接纳",
+        "sfx": "烬犹豫的脚步声，苏念温暖的拉扯声",
+        "ai_image_prompt": "anime medium shot, the freed amber-eyed young man hesitating at the city gate entrance, the brown-haired girl turning back to take his hand pulling him forward, the silver-haired boy pushing him gently from behind, residents looking with initial surprise then acceptance, bringing the prodigal keeper back home, acceptance and belonging"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "远方的大灯塔在黄昏中发出最明亮的一道光——欢迎所有灯守回家。苏念站在城中仰望灯塔，心灯与灯塔的光完美同步跳动。她知道旅途还没有完全结束——还有最后一件事要做。她要去灯塔顶层，那里藏着妈妈留下的最后的话。",
+        "camera": { "type": "远景", "movement": "缓慢上仰", "angle": "仰视" },
+        "characters": [
+          { "name": "苏念", "action": "仰望灯塔", "expression": "期待/坚定", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯塔的光召唤——还有最后一件事",
+        "sfx": "灯塔发出的宏伟光芒声，心灯同步的脉动",
+        "ai_image_prompt": "anime cinematic shot looking up, the great lighthouse towering above the city bathed in golden sunset light sending out its brightest beacon, the brown-haired girl standing below looking up with determined anticipation, her heart lantern pulsing in perfect sync with the lighthouse beam, one final task awaiting at the top, magnificent lighthouse beacon at golden hour"
+      }
+    ]
+  }
+}

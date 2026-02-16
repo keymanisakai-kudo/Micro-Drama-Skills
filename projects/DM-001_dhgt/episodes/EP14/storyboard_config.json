@@ -1,0 +1,238 @@
+{
+  "video_id_prefix": "DM-001-EP14",
+  "episode": 14,
+  "episode_title": "烬的阴影",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "在前往万灯之渊的路上，一个身披黑袍的神秘人出现在众人面前。他自称'烬'，曾经也是灯守，如今却以毁灭灯火为乐。烬轻而易举地捏碎了附近的灯火碎片——那些都是别人珍贵的记忆。苏念愤怒地想要阻止，却发现对方的力量远超想象。这是众人第一次直面黑暗的化身。",
+  "emotion_tone": "恐惧",
+  "connection": {
+    "from_previous": "苏念找到母亲碎片获得力量，但前方有阴影等待",
+    "to_next": "烬的出现带来威胁，团队内部开始产生分歧"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP14-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "暗影笼罩，不安的气息弥漫，黑暗势力首次现身",
+      "color_palette": ["#1C1C2E", "#4A0E0E", "#2C3E50"],
+      "lighting": "阴暗压抑，烬的出现带来吞噬光芒的黑暗",
+      "weather": "天色骤暗，空气冰冷凝滞"
+    },
+    "video_prompt": "Anime style, dark ominous scene, a cloaked figure emerges from shadow before the group of travelers. His appearance dims all surrounding light fragments. Silver-haired boy pushes the brown-haired girl behind him protectively. Tension and fear, dark atmosphere, the villain's first appearance, no subtitles, dramatic antagonist introduction.",
+    "bgm": {
+      "description": "低沉的大提琴和不和谐的弦乐，压迫感十足的暗黑旋律",
+      "mood": "ominous cello, dissonant strings, oppressive dark melody"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "四人行走中，突然所有散落的灯火碎片开始颤抖、闪烁——仿佛有什么可怕的东西在靠近。墨首先感应到危险，毛发竖起发出低吼。白夜也感觉到了异常。",
+        "camera": { "type": "中景", "movement": "微微震动", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "感到不安停步", "expression": "疑惑/不安", "position": "中" },
+          { "name": "白夜", "action": "警觉地环视四周", "expression": "警惕", "position": "左" },
+          { "name": "墨", "action": "毛发竖起低吼", "expression": "警戒", "position": "前方" }
+        ],
+        "dialogue": null,
+        "atmosphere": "Something terrible is approaching, 所有碎片在恐惧中颤抖",
+        "sfx": "碎片颤抖的细碎声，墨的低吼，不详的低频嗡鸣",
+        "ai_image_prompt": "anime medium shot with slight camera shake, group of travelers stopping as all surrounding light fragments begin trembling and flickering, grey cat with fur standing on end growling at unseen threat, silver-haired boy scanning surroundings alertly, foreboding atmosphere, fragments quaking in fear"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "前方的黑暗中，一个身影缓缓显形。他穿着褪色的灯守袍——但袍子已经完全变成了黑色，上面的灯纹已经熄灭。他的脸隐没在兜帽的阴影里，只能看到一双暗红色的眼睛。",
+        "camera": { "type": "中远景", "movement": "缓慢", "angle": "略仰视" },
+        "characters": [
+          { "name": "烬", "action": "从黑暗中缓缓显形", "expression": "隐藏/威压", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "黑暗的化身从虚无中浮现，令人窒息的压迫感",
+        "sfx": "黑暗凝聚的低沉声响，烬脚步落地的回响",
+        "ai_image_prompt": "anime medium-wide dramatic shot, a tall dark figure materializing from pure darkness, wearing a faded black keeper's robe with extinguished lantern patterns, his face hidden under a deep hood with only crimson red eyes visible, oppressive dark aura emanating from him, surrounding fragments dimming, villain's grand entrance, sinister presence"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "烬开口说话，声音低沉如同深渊的回声。他嘲讽地看了一眼苏念胸前的心灯，似乎觉得可笑。白夜本能地将苏念推到身后，摆出防御姿态。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "嘲讽地注视心灯", "expression": "嘲讽/轻蔑", "position": "左" },
+          { "name": "白夜", "action": "推苏念到身后防御", "expression": "警惕/保护", "position": "右" }
+        ],
+        "dialogue": { "speaker": "烬", "text": "又是些执迷不悟的灯守。", "emotion": "嘲讽/低沉" },
+        "atmosphere": "反派的轻蔑让气氛降到冰点",
+        "sfx": "烬的声音如回声般回荡，白夜推苏念的衣物摩擦声",
+        "ai_image_prompt": "anime close-up split composition, left side dark hooded figure with crimson eyes looking mockingly at the viewer, right side silver-haired boy pushing brown-haired girl behind him protectively with a guarded expression, tense confrontation, dark versus light, dramatic face-off"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "白夜大声质问来者身份。烬微微抬手，他的手指间缭绕着黑色的雾气——那是被腐蚀的灯火之力。铃音紧紧抓住苏念的袖子，全身颤抖。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "质问怒喝", "expression": "愤怒/警惕", "position": "前" },
+          { "name": "烬", "action": "缓缓抬手展示黑暗力量", "expression": "淡漠", "position": "对面" },
+          { "name": "铃音", "action": "抓住苏念袖子颤抖", "expression": "恐惧", "position": "后方" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "你是什么人！", "emotion": "警惕/防御" },
+        "atmosphere": "黑暗力量的展示令人恐惧",
+        "sfx": "黑雾缭绕的嘶嘶声，白夜的怒喝回荡",
+        "ai_image_prompt": "anime medium shot tense standoff, silver-haired boy standing defiantly shouting at the dark cloaked figure who calmly raises a hand wreathed in black corrupted fog, behind the boy a purple-haired girl clutching the brown-haired girl's sleeve trembling, dark energy swirling, confrontation scene, fear and courage"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "烬没有回答白夜的问题。他伸手随意抓住一颗飘过的灯火碎片——那颗碎片中保存着某个人快乐的记忆画面，可以隐约看到笑着的人影。烬冷漠地看了一眼。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "抓住一颗灯火碎片", "expression": "冷漠/不屑", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "冷漠地握住别人珍贵的记忆，即将毁灭",
+        "sfx": "碎片被抓住时发出挣扎般的呜咽，碎片中记忆的微弱笑声",
+        "ai_image_prompt": "anime extreme close-up of a pale hand in a dark sleeve grasping a glowing memory fragment, within the fragment a faint image of someone smiling happily is visible, the dark figure's crimson eyes looking at it with cold indifference, about to crush a precious memory, terrifying cruelty, stark contrast between warm fragment and cold hand"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "烬的手指用力一捏——碎片在他掌中碎裂，化为灰烬飘散。那个人快乐的记忆就此永远消失了。苏念看到这一幕，瞳孔收缩，整个人僵在原地。白夜握紧了拳头。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "捏碎灯火碎片", "expression": "漫不经心", "position": "左" },
+          { "name": "苏念", "action": "僵在原地", "expression": "瞳孔收缩/恐惧", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "无价的记忆被轻而易举地毁灭——残忍至极",
+        "sfx": "碎片碎裂的刺耳声，碎屑化为灰烬无声飘散",
+        "ai_image_prompt": "anime dramatic shot, dark figure crushing a glowing fragment in his fist which shatters into ashes and fades, on the right the brown-haired girl frozen in horror with contracted pupils, the ashes of the destroyed memory floating away like fireflies dying, brutal destruction of precious memory, shocking cruelty"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP14-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "恐惧与愤怒交织，黑暗力量的压倒性展示",
+      "color_palette": ["#1C1C2E", "#8B0000", "#2C3E50"],
+      "lighting": "烬不断毁灭碎片，周围光芒越来越暗",
+      "weather": "黑暗雾气从烬身上蔓延"
+    },
+    "video_prompt": "Anime style, the dark villain casually destroys more light fragments while declaring darkness is truth. The brown-haired girl screams in anger trying to stop him but a wave of dark energy pushes her back. Her companions catch her. The villain disappears into darkness with a final mocking laugh. Terrifying power display, no subtitles, dark antagonist scene.",
+    "bgm": {
+      "description": "不和谐的管弦乐急促升起，恐怖与紧张交织",
+      "mood": "dissonant orchestra rising rapidly, terror and tension interwoven"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "烬缓缓走过碎片海洋，每走一步，路过的碎片就像被吸干一样变暗、碎裂、消散。他漫不经心地伸手，继续捏碎经过的碎片，仿佛在做一件微不足道的事。",
+        "camera": { "type": "中远景", "movement": "缓慢跟拍", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "漫步毁灭碎片", "expression": "漫不经心", "position": "中" }
+        ],
+        "dialogue": { "speaker": "烬", "text": "灯火只是自欺欺人的幻象。我来教你们——真正的黑暗。", "emotion": "冰冷/轻蔑" },
+        "atmosphere": "漫步般的毁灭，比愤怒的破坏更令人恐惧",
+        "sfx": "碎片接连碎裂的声音，如同玻璃珠破碎",
+        "ai_image_prompt": "anime medium-wide tracking shot, dark cloaked figure walking casually through the field of floating light fragments, each one he passes near dims and crumbles to ash, his hand casually reaching out to crush fragments as he walks, trail of darkness left behind him, casual destruction more terrifying than rage, fragments dying around him"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念再也忍不住了。她冲向烬，心灯疯狂闪烁，试图阻止他继续毁灭碎片。她的声音因愤怒而颤抖——那些碎片都是某个人最珍贵的记忆。苏念的心灯向烬释放出一道光。",
+        "camera": { "type": "中景", "movement": "快速", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "冲向烬释放灯光", "expression": "愤怒/绝望", "position": "右" },
+          { "name": "烬", "action": "冷漠地看向苏念", "expression": "淡漠", "position": "左" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "不……不要！那是别人的记忆！", "emotion": "惊恐/愤怒" },
+        "atmosphere": "勇气与绝望驱使少女冲向黑暗",
+        "sfx": "苏念冲刺的急促脚步，心灯释放光芒的嗡鸣",
+        "ai_image_prompt": "anime dynamic action shot, brown-haired girl charging toward the dark figure with her heart lantern blazing wildly, releasing a beam of orange light at him, her face contorted with anger and tears, the dark figure standing unmoved looking at her calmly, brave but desperate charge, light versus darkness confrontation"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "烬只是随意一挥手，一波黑暗能量将苏念的光束击碎并将她掀飞。苏念像断了线的风筝一样飞了出去。白夜和铃音急忙冲上前接住她。力量差距是压倒性的。",
+        "camera": { "type": "中景", "movement": "快速", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "被黑暗能量掀飞", "expression": "痛苦", "position": "飞出" },
+          { "name": "白夜", "action": "冲上前接住苏念", "expression": "焦急", "position": "右" },
+          { "name": "铃音", "action": "帮助接住苏念", "expression": "恐惧/担忧", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "压倒性的力量差距——少女的光在黑暗面前不堪一击",
+        "sfx": "黑暗能量冲击的爆裂声，苏念被掀飞的风切声，接住时的撞击声",
+        "ai_image_prompt": "anime action shot, brown-haired girl being flung backward by a wave of dark energy, her light beam shattered, silver-haired boy and purple-haired girl rushing to catch her, the dark figure barely having moved with a casual wave of his hand, overwhelming power gap displayed, dramatic impact scene"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念倒在白夜怀里，气喘吁吁。她的心灯因为刚才的冲击变得暗淡了一些。烬远远地看着他们，似乎很失望——又是一群弱小的灯守，不值得他浪费时间。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "倒在白夜怀里喘息", "expression": "虚弱/不甘", "position": "右" },
+          { "name": "白夜", "action": "扶住苏念", "expression": "愤怒/焦虑", "position": "右" },
+          { "name": "烬", "action": "远远地冷漠注视", "expression": "失望/无趣", "position": "远处左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "战败后的虚弱与不甘",
+        "sfx": "苏念喘息声，心灯微弱闪烁的声音",
+        "ai_image_prompt": "anime medium shot, brown-haired girl collapsed in silver-haired boy's arms breathing heavily, her heart lantern dimmed from the impact, the dark figure standing far away watching with bored disappointment, aftermath of one-sided confrontation, vulnerability and defiance"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "烬转身准备离去。在消失前他回头说了一句话——这是给所有灯守的忠告，也是他自己经历过的真相。他的身影开始被黑暗吞没。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "转身即将消失", "expression": "意味深长", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "临别的警告——含义要到后面才能理解",
+        "sfx": "烬身影被黑暗吞没的声响",
+        "ai_image_prompt": "anime close-up, dark hooded figure turning to leave, his crimson eyes glowing as he glances back with a meaningful look, his body beginning to dissolve into shadows and darkness, parting warning, ominous departure, dark figure fading into the void"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "烬完全消失在黑暗中。留下众人在原地——苏念还靠在白夜身上，铃音紧紧握着她的手。四人的表情各不相同：苏念是不甘和恐惧，白夜是愤怒，铃音是害怕，墨警惕地注视着烬消失的方向。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "靠在白夜身上紧握铃音的手", "expression": "不甘/恐惧", "position": "中" },
+          { "name": "白夜", "action": "扶住苏念注视前方", "expression": "愤怒", "position": "左" },
+          { "name": "铃音", "action": "握住苏念的手", "expression": "害怕", "position": "右" },
+          { "name": "墨", "action": "警惕注视烬消失方向", "expression": "警戒", "position": "前" }
+        ],
+        "dialogue": null,
+        "atmosphere": "反派离去后留下的恐惧与压迫——暴风雨前的余震",
+        "sfx": "风声渐平，紧张的心跳声在寂静中回响",
+        "ai_image_prompt": "anime medium group shot, four travelers left behind after the villain's departure, brown-haired girl leaning against silver-haired boy exhausted, purple-haired girl holding her hand with fear, grey cat staring alertly at where the villain vanished, each face showing different emotions of defiance anger fear and vigilance, aftermath of terrifying encounter, emotional group portrait"
+      }
+    ]
+  }
+}

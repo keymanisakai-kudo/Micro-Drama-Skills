@@ -1,0 +1,232 @@
+{
+  "video_id_prefix": "DM-001-EP06",
+  "episode": 6,
+  "episode_title": "铃音",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "苏念和白夜在记忆之森深处发现了一个孤独的光点，走近后遇到了失去所有声音记忆的哑女铃音。她的心灯无色透明，用手势与两人交流。苏念被这无声的悲伤深深触动。",
+  "emotion_tone": "哀伤",
+  "connection": {
+    "from_previous": "在记忆之森深处发现了一个孤独的微光",
+    "to_next": "三人结伴后遭遇灰影袭击"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP06-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "孤寂而哀伤的森林深处，微光引路",
+      "color_palette": ["#9B59B6", "#D5D8DC", "#F5A623"],
+      "lighting": "森林深处光线极弱，仅有零星的记忆树叶微光和远处一点淡白色光芒",
+      "weather": "静谧，空气中漂浮着苍白的光尘"
+    },
+    "video_prompt": "Anime style, deep within a dark luminescent memory forest. A girl with brown hair in a low ponytail and a boy with silver-white messy hair cautiously approach a faint colorless light in the deepest part of the forest. They discover a young girl with light purple shoulder-length hair sitting alone against a crystal tree, a bell hair clip in her hair, wearing a purple dress with a music note necklace. Near her chest floats a completely colorless transparent heart lantern. The scene is sorrowful and quiet. No subtitles, cinematic, Ghibli-inspired.",
+    "bgm": {
+      "description": "极简钢琴单音，间以空旷的回声，如在无声世界中寻找共鸣",
+      "mood": "sorrowful, minimal piano, hollow echoes, lonely"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "记忆之森深处。苏念透过浓密的发光枝叶，看到远处一个微弱的、几乎无色的光点在闪烁。她的眼中映出那个孤独的光芒。",
+        "camera": { "type": "近景", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "透过枝叶凝视远处微光", "expression": "关切/紧张", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "那边……有一盏心灯在闪。", "emotion": "关切/紧张" },
+        "atmosphere": "在黑暗森林中捕捉到一丝微弱的生命之光",
+        "sfx": "树叶轻响，微弱的心灯脉动声",
+        "ai_image_prompt": "anime close-up, girl with brown hair low ponytail peering through dense glowing foliage, seeing a faint colorless flickering light in the deep dark forest, concerned expression, her amber eyes reflecting the distant light, atmospheric depth, dark purple tones"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "白夜伸手挡在苏念身前，警惕地观察着四周。他的冰蓝色心灯微微闪烁，手臂上的蓝色灯纹在暗处发光。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "伸手挡在苏念前方", "expression": "警惕/戒备", "position": "右" },
+          { "name": "苏念", "action": "被白夜拦住", "expression": "焦急", "position": "左" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "小心，可能是陷阱。", "emotion": "警惕/低沉" },
+        "atmosphere": "危险未知中的保护姿态",
+        "sfx": "白夜灯纹嗡鸣声",
+        "ai_image_prompt": "anime medium shot, boy with silver-white messy hair in black long coat blocking girl protectively, ice blue heart lantern flickering near his chest, blue glowing marks on his arm visible in the dark, alert cautious expression, dark forest background"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念轻轻拨开白夜的手，坚定地向微光走去。她小心翼翼地穿过半透明的记忆树叶，橙色心灯为她照亮前路。",
+        "camera": { "type": "中景", "movement": "跟随", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "坚定前行穿过枝叶", "expression": "温和而坚定", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "守灯人的本能驱使她走向需要帮助的灯火",
+        "sfx": "轻柔的脚步声，枝叶拂动",
+        "ai_image_prompt": "anime medium tracking shot, girl with brown hair walking determinedly through crystal glowing trees, warm orange heart lantern illuminating her path, red cloak flowing gently, pushing through luminescent leaves, resolute gentle expression"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "穿过最后一层枝叶，苏念看到了——一个淡紫色短发的少女蜷缩在一棵巨大记忆树的根部。她穿着紫色连衣裙，头上别着铃铛发夹，胸前漂浮着一盏完全透明无色的心灯。",
+        "camera": { "type": "远景转中景", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "蜷缩在树根旁", "expression": "空洞/不安", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "孤独少女与透明心灯的初见，极度哀伤的画面",
+        "sfx": "完全安静，如进入无声空间",
+        "ai_image_prompt": "anime medium shot, a lone girl with light purple shoulder-length hair curled up at the base of a giant crystal memory tree, bell hair clip, purple dress, music note necklace, completely colorless transparent glowing orb floating near her chest, empty lost expression, sorrowful atmosphere, isolated"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "铃音感知到有人靠近，猛地抬头。她的紫色眼睛充满恐惧。看到苏念温暖的橙色心灯后，她的表情从恐惧变为犹疑。苏念蹲下身，露出温柔的微笑。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "猛然抬头", "expression": "恐惧转犹疑", "position": "右" },
+          { "name": "苏念", "action": "蹲下身微笑", "expression": "温柔/安抚", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "信任的初始时刻，温暖心灯化解恐惧",
+        "sfx": "苏念心灯温暖的嗡鸣",
+        "ai_image_prompt": "anime close-up two-shot, purple-haired girl looking up startled then hesitant, violet eyes wide, opposite her a brown-haired girl crouching down with warm gentle smile, warm orange heart lantern glowing between them, emotional connection moment, soft lighting contrast"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "铃音张开嘴想说话，却发不出任何声音。她着急地用手势比划——指向自己的耳朵，又摇头，再指向心灯。苏念渐渐明白了什么，表情变得凝重。",
+        "camera": { "type": "近景", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "张嘴无声，用手势比划", "expression": "焦急/无奈", "position": "中" },
+          { "name": "苏念", "action": "看着铃音的手势", "expression": "逐渐理解/凝重", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "无声的表达，语言之外的沟通尝试",
+        "sfx": "铃铛发夹微弱的叮当声——唯一与声音相关的残留",
+        "ai_image_prompt": "anime close-up, purple-haired girl opening mouth but no sound, desperately gesturing with hands pointing to ears then shaking head then pointing at transparent heart lantern, bell hair clip jingling faintly, the other girl watching with growing understanding and sadness"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP06-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "深沉的哀伤与温暖的接纳，无声世界中的连接",
+      "color_palette": ["#D5D8DC", "#9B59B6", "#F5A623"],
+      "lighting": "铃音周围的光芒苍白透明，苏念的橙色心灯形成温暖的对比",
+      "weather": "静谧，偶有苍白光尘飘落"
+    },
+    "video_prompt": "Anime style, sorrowful scene in deep memory forest. The brown-haired girl realizes the purple-haired mute girl has lost all memories of sound — her heart lantern is colorless and transparent. The brown-haired girl reaches out and gently holds the mute girl's hand. The transparent heart lantern flickers weakly. The silver-haired boy watches silently. Three figures together under the dim crystal trees. Emotional, no subtitles, Studio Ghibli atmosphere.",
+    "bgm": {
+      "description": "低沉大提琴独奏渐入，与钢琴交织，悲而不绝",
+      "mood": "sorrowful, cello solo, emotional piano, tender sadness"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏念伸手轻触铃音的心灯——触碰的瞬间，她感到一片空白。没有任何声音的记忆，没有风声、雨声、笑声，只有绝对的寂静。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "手指触碰铃音的透明心灯", "expression": "震惊/心痛", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "她的心灯……没有颜色。", "emotion": "震惊/心疼" },
+        "atmosphere": "触碰到无声的记忆空白，极度的空虚感",
+        "sfx": "所有环境音突然消失——进入铃音感知的无声世界",
+        "ai_image_prompt": "anime extreme close-up, hand touching a completely transparent colorless glowing orb, the touch creates a ripple of absolute white emptiness, shocked pained expression in background, all color draining from the edges of frame, representing total silence"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念的眼角泛起泪光。她慢慢理解了——铃音不是天生聋哑，而是失去了所有关于声音的记忆。她忘记了鸟鸣、风声、自己的声音，因此再也无法发声。",
+        "camera": { "type": "近景", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "眼角含泪", "expression": "哀伤/理解", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "你听不见了吗？不……是你忘记了所有的声音。", "emotion": "哀伤/颤抖" },
+        "atmosphere": "真相的揭露带来深沉的悲伤",
+        "sfx": "缓慢恢复环境音，但铃音周围仍是无声区域",
+        "ai_image_prompt": "anime close-up, girl with amber eyes tearing up, deep sadness and understanding in her expression, transparent heart lantern reflected in her tears, sorrowful realization, warm orange light contrasting with colorless void"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "铃音低下头，双手握住自己的音符项链。泪水无声地滑落。她的嘴唇轻轻颤动，似乎在回忆曾经会唱的歌，但什么声音都发不出。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "微俯视" },
+        "characters": [
+          { "name": "铃音", "action": "低头握住音符项链", "expression": "无声流泪", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "无声的哭泣是最深的悲伤",
+        "sfx": "泪水滴落的微弱声响",
+        "ai_image_prompt": "anime extreme close-up, purple-haired girl looking down, hands clutching a music note necklace, silent tears falling, lips trembling trying to form words but no sound, transparent heart lantern pulsing weakly, bell hair clip motionless, devastating quiet sorrow"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念轻轻握住铃音的手。铃音惊讶地抬头，看到苏念温暖的微笑。苏念的橙色心灯发出柔和的脉动，仿佛在说——你不是一个人。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "握住铃音的手", "expression": "温暖/坚定", "position": "左" },
+          { "name": "铃音", "action": "被握住手惊讶抬头", "expression": "惊讶/感动", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "无声中的温暖接纳与承诺",
+        "sfx": "苏念的心灯温暖脉动声",
+        "ai_image_prompt": "anime close-up two-shot, brown-haired girl gently holding purple-haired girl's hand, warm encouraging smile, orange heart lantern pulsing softly between them, the mute girl looking up surprised and moved, tears still on her cheeks, connection moment, warm golden light"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "白夜默默走近，站在两人身后。他没有说话，只是轻轻将自己的黑色大衣解下，披在铃音因夜寒而微微发抖的肩上。铃音惊讶地回头看他。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "将大衣披在铃音肩上", "expression": "沉默/温柔", "position": "后方" },
+          { "name": "铃音", "action": "回头看白夜", "expression": "惊讶/感激", "position": "中" },
+          { "name": "苏念", "action": "看着白夜微笑", "expression": "欣慰", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "沉默少年用行动表达的善意",
+        "sfx": "衣物轻拂的柔和声",
+        "ai_image_prompt": "anime medium shot, silver-haired boy in black long coat draping his coat over the shivering purple-haired girl's shoulders, silent gentle gesture, she turns back surprised, brown-haired girl smiling approvingly, three companions forming a bond, crystal forest background"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "三人一起坐在记忆树下。铃音的透明心灯虽然无色，却似乎闪烁得比之前更稳定了一点。远处森林深处，几道灰色的影子正在缓缓逼近——但他们还未察觉。",
+        "camera": { "type": "远景", "movement": "缓慢后拉", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "坐在铃音身旁", "expression": "温和", "position": "左" },
+          { "name": "铃音", "action": "安静地靠近苏念", "expression": "安心", "position": "中" },
+          { "name": "白夜", "action": "靠树站立望向远处", "expression": "沉静", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "短暂的宁静，暗影接近的不祥预兆",
+        "sfx": "安静的夜风声，远处极隐约的灰影嗡鸣",
+        "ai_image_prompt": "anime wide shot, three figures resting under a large crystal memory tree, warm orange and cold blue heart lanterns glowing alongside a faint transparent one, peaceful moment, but in the far background dark grey shadows creeping closer between trees, ominous foreshadowing, beautiful yet unsettling"
+      }
+    ]
+  }
+}

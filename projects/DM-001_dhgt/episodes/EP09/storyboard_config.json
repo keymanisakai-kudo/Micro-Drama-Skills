@@ -1,0 +1,237 @@
+{
+  "video_id_prefix": "DM-001-EP09",
+  "episode": 9,
+  "episode_title": "幻梦湖",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "四人抵达幻梦湖，湖面如镜却映出每个人内心最深处的记忆。苏念在湖中看到了母亲的身影，忍不住伸手触碰水面，但影像在指尖碎裂。失去母亲倒影的苏念在湖畔崩溃，同伴们默默陪伴在侧。",
+  "emotion_tone": "忧伤",
+  "connection": {
+    "from_previous": "在墨的引领下走出记忆之森，抵达幻梦湖",
+    "to_next": "幻梦湖继续映出白夜的过去，揭示他的秘密"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP09-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "如梦似幻的忧伤，湖面映射的记忆带来不安与敬畏",
+      "color_palette": ["#4A6FA5", "#C0C0C0", "#8E7CC3"],
+      "lighting": "朦胧的月光洒在湖面上，湖中记忆影像散发出柔和微光",
+      "weather": "无风，湖面完全平静如镜"
+    },
+    "video_prompt": "Anime style, four travelers arrive at an ethereal dreamlike lake under moonlight. The lake surface is perfectly still like a mirror, reflecting not the sky but personal memories of each person. A brown-haired girl with amber eyes stares into the water and sees shifting images. A silver-haired boy warns her not to touch the water. Dark grey cat sits alert on the shore. Mysterious melancholic atmosphere, no subtitles, Ghibli-inspired dreamscape, soft moonlit tones.",
+    "bgm": {
+      "description": "空灵的钢琴独奏配以低沉的弦乐铺底，如梦境般飘渺",
+      "mood": "ethereal, solo piano, low strings, dreamy melancholy"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "四人站在幻梦湖畔。湖面广阔无边，完全平静如一面巨大的银镜，却不映天空——湖面上浮现着隐约的光影碎片，像无数人的记忆在水底流转。墨的尾尖在湖边微微颤动。",
+        "camera": { "type": "远景", "movement": "缓慢推进", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "站在湖畔凝视", "expression": "惊异/敬畏", "position": "中左" },
+          { "name": "白夜", "action": "站在旁边警惕观察", "expression": "凝重", "position": "中右" },
+          { "name": "铃音", "action": "好奇地望着湖面", "expression": "好奇", "position": "左" },
+          { "name": "墨", "action": "蹲在岸边尾尖颤动", "expression": "警觉", "position": "苏念脚旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "初见幻梦湖的震撼与不安，湖面映出记忆碎片",
+        "sfx": "极其轻微的水波声，远处如梦呓般的低语",
+        "ai_image_prompt": "anime wide shot, four figures standing at the edge of a vast perfectly still lake under moonlight, the lake surface reflects not the sky but faint shifting fragments of memories and light, dark grey cat crouching alert at the shore, ethereal dreamlike atmosphere, silver mirror lake, muted blues and purples, Ghibli-inspired landscape"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念走近湖边，低头看向水面。湖面开始对她产生反应——模糊的光影逐渐汇聚，在她面前的水面上形成一个朦胧的画面。是一个温暖的家的轮廓，窗户里透出橙色的灯光。",
+        "camera": { "type": "中景", "movement": "缓慢下移", "angle": "俯视湖面" },
+        "characters": [
+          { "name": "苏念", "action": "走近湖边低头凝视", "expression": "紧张/期待", "position": "上方" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "这个湖……好像在映着什么。", "emotion": "惊异/不安" },
+        "atmosphere": "湖面感应到苏念，开始显现她的记忆",
+        "sfx": "水面微微嗡鸣，如心跳般的低频脉动",
+        "ai_image_prompt": "anime medium overhead shot, brown-haired girl leaning over the lake edge looking down, the water surface below her responding with swirling light forming a hazy image of a warm cottage with orange lamplight in the windows, reflection made of memory, dreamy soft glow, girl's face lit by the reflection"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "白夜猛然伸手拦住苏念的肩膀，阻止她继续靠近。他的表情严肃而紧张，冰蓝色的眼睛直视苏念。他似乎知道这个湖的某些规则。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "伸手拦住苏念肩膀", "expression": "严肃/警告", "position": "右" },
+          { "name": "苏念", "action": "被拦住回头看", "expression": "疑惑/不舍", "position": "左" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "别碰水面。那不是倒影。", "emotion": "警告/紧张" },
+        "atmosphere": "白夜的紧急阻拦，暗示对幻梦湖的了解",
+        "sfx": "手掌抓住肩膀的急促声",
+        "ai_image_prompt": "anime close-up two-shot, silver-haired boy grabbing the brown-haired girl's shoulder firmly to stop her from leaning closer to the lake, his ice blue eyes intense and serious, her face turning back with confusion and reluctance, tense warning moment, moonlit side lighting"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "铃音站在稍远的地方，湖面在她面前也浮现出影像——一个模糊的、铃音张嘴说话的画面，嘴唇在动却听不到声音。铃音伸手捂住自己的嘴，眼眶泛红，但无声地后退了一步。",
+        "camera": { "type": "近景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "看到自己说话的倒影，捂嘴后退", "expression": "痛苦/压抑", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "铃音看到自己失去的声音，无声的悲伤",
+        "sfx": "极其安静，只有铃音铃铛发夹的微响",
+        "ai_image_prompt": "anime close-up, purple-haired girl standing by the lake seeing a blurry image of herself speaking in the water surface, her lips moving but no sound, she covers her mouth with her hand and steps back with reddening eyes, bell hair clip glinting sadly, silent grief, moonlit lake reflection, poignant melancholic moment"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "墨走到湖边，低头看了看水面。湖面在墨面前却没有浮现任何影像——只有一片深沉的虚无。墨平静地坐下，金银异色瞳映出湖面的空白。白夜注意到这一点，目光变得深邃。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "低角度" },
+        "characters": [
+          { "name": "墨", "action": "走到湖边低头看水面，坐下", "expression": "平静/空寂", "position": "中" },
+          { "name": "白夜", "action": "在后方注视墨", "expression": "深思", "position": "右后" }
+        ],
+        "dialogue": null,
+        "atmosphere": "猫灵没有记忆倒影的谜团，暗示墨的特殊身份",
+        "sfx": "安静的水面，微风拂过猫毛的声音",
+        "ai_image_prompt": "anime low angle close-up, dark grey cat sitting at the lake edge looking into the water, the lake surface before the cat shows nothing - just empty dark void, cat's heterochromia gold and silver eyes reflecting the blank water calmly, silver-haired boy observing the cat from behind with a deep contemplative gaze, mysterious empty reflection, moonlit stillness"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念甩开白夜的手，再次走向湖边。湖面上的影像变得更加清晰——她看到了一个女人的背影，长发飘散，穿着和苏念记忆中妈妈一样的衣服。苏念的眼睛瞬间湿润，整个人僵住了。",
+        "camera": { "type": "中景", "movement": "缓慢推近", "angle": "俯视" },
+        "characters": [
+          { "name": "苏念", "action": "挣脱走向湖边，看到母亲背影", "expression": "震惊/泪目", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "母亲的影像出现，苏念情感即将崩溃的临界点",
+        "sfx": "心跳声逐渐加速，水面微微震颤",
+        "ai_image_prompt": "anime medium overhead shot, brown-haired girl standing at the very edge of the lake staring down, in the water surface a clear image of a woman's back with long flowing hair in familiar clothing, the girl frozen in shock with tears forming in her amber eyes, orange heart lantern flickering emotionally, mother's silhouette in dream lake, devastating recognition moment"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP09-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "深沉的忧伤与失去的痛苦，触碰即碎的温柔",
+      "color_palette": ["#2C3E50", "#E74C3C", "#F5A623"],
+      "lighting": "湖面的光芒在母亲影像出现时变暖，碎裂后骤然暗淡",
+      "weather": "依然无风，但苏念触水后湖面开始泛起涟漪"
+    },
+    "video_prompt": "Anime style, a brown-haired girl kneels at a dream lake and sees her mother's figure clearly reflected in the water. She reaches out to touch the water desperately. As her fingertips break the water surface the mother's image shatters into fragments of light. The girl breaks down crying at the lake shore. Her companions stand behind her in silence supporting her with their presence. Dark grey cat nuzzles against her. Deep sorrow and loss, no subtitles, Ghibli-inspired emotional climax, moonlit tears.",
+    "bgm": {
+      "description": "悲伤的大提琴独奏渐入，配以空灵的女声哼唱，如母亲的摇篮曲碎片",
+      "mood": "sorrowful, cello solo, ethereal female humming, broken lullaby"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "湖面上母亲的影像转过身来——苏念终于看到了母亲的脸。那张温柔的脸庞带着微笑，嘴唇似乎在说着什么，但没有声音传来。苏念跪在湖边，泪水无法控制地流下。",
+        "camera": { "type": "特写", "movement": "缓慢", "angle": "俯视湖面" },
+        "characters": [
+          { "name": "苏念", "action": "跪在湖边看母亲的脸", "expression": "颤抖/泪流满面", "position": "上" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "妈妈……？", "emotion": "颤抖/渴望" },
+        "atmosphere": "母亲转身露出微笑，无声的重逢",
+        "sfx": "泪水滴落湖面的声音，遥远模糊的女声",
+        "ai_image_prompt": "anime extreme close-up split composition, top half shows brown-haired girl kneeling at lake edge with tears streaming down her face, bottom half shows the lake surface reflecting a gentle woman's face smiling warmly with lips moving silently, mother and daughter reunion through dream water, devastating emotional moment, warm glow from the reflection contrasting cool moonlight"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念无法自制地伸出手，颤抖的指尖慢慢靠近水面。白夜想要阻止但铃音拉住了他的衣袖——铃音无声地摇了摇头，眼中也含着泪。有些痛苦，必须自己去触碰。",
+        "camera": { "type": "近景", "movement": "极慢推近手指", "angle": "侧面" },
+        "characters": [
+          { "name": "苏念", "action": "颤抖伸手触向水面", "expression": "渴望/悲伤", "position": "前" },
+          { "name": "铃音", "action": "拉住白夜衣袖摇头", "expression": "含泪/理解", "position": "右后" },
+          { "name": "白夜", "action": "被铃音拉住", "expression": "纠结/无奈", "position": "左后" }
+        ],
+        "dialogue": null,
+        "atmosphere": "即将触碰的瞬间，同伴选择让她面对",
+        "sfx": "颤抖的呼吸声，心跳声",
+        "ai_image_prompt": "anime side close-up, trembling hand reaching slowly toward the lake surface where mother's smiling reflection waits, in the background silver-haired boy held back by purple-haired girl gripping his sleeve shaking her head with tears in her eyes, painful moment of letting someone face their grief, extreme tension, slow motion feel"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念的指尖触碰到水面的瞬间——母亲的影像如玻璃般碎裂。无数光芒碎片从触碰点爆散开来，如同打碎的琉璃灯。母亲温柔的笑容随着碎片散入虚空，湖面恢复一片漆黑。",
+        "camera": { "type": "特写", "movement": "急速拉远", "angle": "俯视" },
+        "characters": [
+          { "name": "苏念", "action": "指尖触水，影像碎裂", "expression": "惊恐/绝望", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "记忆碎裂的高潮瞬间，美丽而残忍",
+        "sfx": "玻璃碎裂般的清脆声响，光芒消散的嗡鸣，水面涟漪扩散",
+        "ai_image_prompt": "anime dramatic overhead shot, the moment a fingertip touches the water surface the mother's reflection shatters like breaking glass, thousands of glowing fragments exploding outward from the touch point, the gentle smile dissolving into scattered shards of light, lake turning dark, devastating beautiful destruction, crystalline shattering effect, emotional climax"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念双手撑在湖边的地面，身体颤抖，泪水不断滴落进漆黑的湖水中。她的橙色心灯剧烈闪烁，火焰几乎要熄灭。她低声呼唤，但母亲已经消失了。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "低角度" },
+        "characters": [
+          { "name": "苏念", "action": "双手撑地崩溃哭泣", "expression": "绝望/崩溃", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "不……回来……", "emotion": "悲伤/哽咽" },
+        "atmosphere": "失去母亲倒影后的彻底崩溃",
+        "sfx": "压抑的哭泣声，心灯火焰不稳定的噼啪声",
+        "ai_image_prompt": "anime low angle close-up, girl collapsed on the lake shore on her hands and knees, tears falling into the dark water, her orange heart lantern flickering wildly almost going out, body trembling, hair hanging down, broken by grief, dark lake reflecting nothing, emotion devastation, low moonlight casting long shadows"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "白夜默默走过来，脱下黑色长外套披在苏念颤抖的肩膀上。他没有说话，只是蹲在旁边。铃音跪在苏念另一侧，轻轻握住她的手。墨悄无声息地蜷缩在苏念膝前，呼噜声低沉而温暖。",
+        "camera": { "type": "中景", "movement": "缓慢环绕", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "跪在地上低头哭泣", "expression": "悲伤/脆弱", "position": "中" },
+          { "name": "白夜", "action": "脱外套披在苏念肩上蹲下", "expression": "沉默/关怀", "position": "右" },
+          { "name": "铃音", "action": "跪在旁边握住苏念的手", "expression": "无声的安慰", "position": "左" },
+          { "name": "墨", "action": "蜷缩在苏念膝前", "expression": "温暖陪伴", "position": "苏念膝前" }
+        ],
+        "dialogue": null,
+        "atmosphere": "同伴们用无声的陪伴给予温暖",
+        "sfx": "外套披上的布料声，墨的低沉呼噜声",
+        "ai_image_prompt": "anime medium shot gentle orbit, the broken girl kneeling by the dark lake, silver-haired boy draping his black long coat over her shoulders and crouching beside her silently, purple-haired girl kneeling on the other side holding her hand, dark grey cat curled up at her knees purring, companions in quiet solidarity, healing presence, moonlit shore, tender protective moment"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念的心灯渐渐稳定下来，火焰虽然微弱但不再闪烁。她缓缓抬起头，泪痕满面却目光坚定——母亲的微笑化作了她心灯里更深处的光。远处的湖面在月光下静静闪烁，像是在等待着什么。",
+        "camera": { "type": "中远景", "movement": "缓慢拉远", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "抬起头目光变坚定", "expression": "含泪但坚强", "position": "中" },
+          { "name": "白夜", "action": "蹲在旁边望着苏念", "expression": "微微放心", "position": "右" },
+          { "name": "铃音", "action": "握着苏念的手微笑", "expression": "温柔鼓励", "position": "左" },
+          { "name": "墨", "action": "抬头看苏念", "expression": "安静注视", "position": "前方" }
+        ],
+        "dialogue": null,
+        "atmosphere": "从悲伤中汲取力量，心灯未灭的坚韧",
+        "sfx": "心灯火焰恢复稳定的温暖声，湖面轻柔的水波声",
+        "ai_image_prompt": "anime medium wide shot, the girl slowly lifting her tear-stained face with newfound resolve in her amber eyes, orange heart lantern stabilizing to a steady warm glow, companions beside her under the moonlight by the dream lake, the vast lake shimmering in the distance as if waiting, bittersweet strength after grief, beautiful melancholic hope, cinematic framing"
+      }
+    ]
+  }
+}

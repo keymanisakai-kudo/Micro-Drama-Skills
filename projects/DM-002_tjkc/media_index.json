@@ -1,0 +1,33 @@
+{
+  "characters": [
+    {
+      "filename": "林策_ref.png",
+      "size_bytes": 1021649
+    },
+    {
+      "filename": "沈璃_ref.png",
+      "size_bytes": 1022602
+    },
+    {
+      "filename": "祁远_ref.png",
+      "size_bytes": 1132615
+    }
+  ],
+  "episodes": [
+    {
+      "episode": "EP24",
+      "files": [
+        {
+          "filename": "DM-002-EP24-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1647114
+        },
+        {
+          "filename": "DM-002-EP24-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1705738
+        }
+      ]
+    }
+  ]
+}

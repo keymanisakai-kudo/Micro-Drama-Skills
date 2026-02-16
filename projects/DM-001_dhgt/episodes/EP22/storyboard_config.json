@@ -1,0 +1,244 @@
+{
+  "video_id_prefix": "DM-001-EP22",
+  "episode": 22,
+  "episode_title": "灯火相传",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "四人找到烬。苏念不是来战斗的——她伸手触碰烬，将汇集了四种光的灯火直接传递给他。烬感受到了——久违的温暖。三人将自己的光一点一点注入烬的身体，烬胸口的灯纹开始重新发光。整个过程壮烈而温暖——他们不是在牺牲，而是在分享。烬的黑暗外壳开始出现裂缝，光从裂缝中透出来。",
+  "emotion_tone": "壮烈",
+  "connection": {
+    "from_previous": "决定用传递而非交换的方式拯救烬",
+    "to_next": "灯火注入烬体内引发新生"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP22-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "决战前的对峙——但这次不是战斗而是拯救",
+      "color_palette": ["#F39C12", "#3498DB", "#1C1C2E"],
+      "lighting": "四色光芒在黑暗中如火炬般闪耀",
+      "weather": "黑暗的废墟中，烬的领域"
+    },
+    "video_prompt": "Anime style, four travelers confront the dark villain again but this time not to fight. They carry a blazing four-colored light that pierces the darkness. The brown-haired girl reaches out to touch the villain. He's confused - no one has ever approached him with warmth instead of weapons. Dramatic confrontation of love versus darkness, no subtitles, climactic encounter.",
+    "bgm": {
+      "description": "从紧张的鼓点渐变为温暖的弦乐——战斗的节奏被爱的旋律替代",
+      "mood": "tense drums transitioning to warm strings, battle rhythm replaced by love's melody"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "烬的领域——一片被黑暗彻底吞噬的废墟之地。烬站在中央，周围是被他毁灭的无数碎片残骸。四人从废墟的边缘走来，苏念走在最前面，心灯散发着四色交织的光芒。",
+        "camera": { "type": "远景", "movement": "缓慢前推", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "站在黑暗中央", "expression": "冷漠/孤独", "position": "远处中央" },
+          { "name": "苏念", "action": "走在最前四色心灯", "expression": "坚定/温暖", "position": "前" },
+          { "name": "白夜", "action": "跟随", "expression": "准备好", "position": "后左" },
+          { "name": "铃音", "action": "跟随", "expression": "勇敢", "position": "后右" },
+          { "name": "墨", "action": "在苏念脚边", "expression": "坚定", "position": "前方地面" }
+        ],
+        "dialogue": null,
+        "atmosphere": "光走入最深的黑暗——不是为了战斗",
+        "sfx": "四人坚定的脚步声在废墟中回响，四色光芒照亮废墟的细微声",
+        "ai_image_prompt": "anime wide epic shot, four travelers walking into a domain of total darkness and destroyed fragment debris, brown-haired girl leading with a blazing four-colored heart lantern (orange blue purple silver), approaching the dark figure standing alone in the center of destruction, light advancing into deepest darkness, not for battle but for salvation, dramatic composition"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "烬感应到他们的到来——但这次的气息不同了。他感受到的不是敌意而是……温暖？他皱起眉头。苏念大声喊向烬，声音中没有恐惧。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "大声呼喊烬", "expression": "坚定/热情", "position": "左" },
+          { "name": "烬", "action": "感应到不同气息皱眉", "expression": "困惑/疑虑", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "烬！我们来了！", "emotion": "坚定/大声" },
+        "atmosphere": "不带敌意的呼唤让烬困惑",
+        "sfx": "苏念的呼喊在空旷中回荡",
+        "ai_image_prompt": "anime medium shot, brown-haired girl calling out boldly without fear, the dark figure in the distance frowning in confusion sensing warmth instead of hostility, unprecedented approach, confusion in the villain's eyes, brave call echoing"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "烬本能地释放出一波黑暗能量试图阻止他们——但这次苏念没有退后。她的四色心灯挡住了黑暗能量，形成一个光之护盾。白夜、铃音和墨在她身后输出光能维持护盾。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "心灯挡住黑暗能量", "expression": "坚持", "position": "前" },
+          { "name": "烬", "action": "释放黑暗能量", "expression": "本能/困惑", "position": "远处" },
+          { "name": "白夜", "action": "输出蓝光支援", "expression": "全力", "position": "后" }
+        ],
+        "dialogue": null,
+        "atmosphere": "用光之盾前进——不攻击只防御",
+        "sfx": "黑暗能量与光芒碰撞的嗡鸣，护盾持续声",
+        "ai_image_prompt": "anime dynamic shot, brown-haired girl standing firm as her four-colored heart lantern creates a light shield blocking dark energy waves, silver-haired boy purple-haired girl and grey cat channeling their light from behind to maintain the shield, advancing through darkness with pure defense, not attacking only protecting, light versus dark clash"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念顶着黑暗能量一步一步走向烬。烬加大了力度——但苏念的步伐不停。他看着这个女孩越来越近，感到了一种从未有过的困惑：没有人曾经这样走向过他。通常人们要么逃跑，要么试图攻击。",
+        "camera": { "type": "中景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "顶着黑暗一步步前进", "expression": "坚定/平静", "position": "靠近烬" },
+          { "name": "烬", "action": "加大力度但困惑", "expression": "困惑/动摇", "position": "后退" }
+        ],
+        "dialogue": { "speaker": "烬", "text": "你们又来自取灭亡？", "emotion": "嘲讽/疲惫" },
+        "atmosphere": "一步一步走向黑暗——靠的不是力量而是决心",
+        "sfx": "苏念的脚步声一步一步坚定回响",
+        "ai_image_prompt": "anime medium shot, brown-haired girl walking steadily toward the dark figure step by step against waves of dark energy, the dark figure intensifying his attacks but backing away in confusion, she keeps coming with no weapons only a blazing multicolored heart, something unprecedented, walking into darkness with only warmth"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念终于走到了烬面前——不到一臂的距离。烬不自觉地停止了攻击。他看着眼前这个女孩的心灯——四种颜色的光如此温暖，让他想起了……很久很久以前的感觉。他的暗红色眼睛微微颤动。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "站在烬面前", "expression": "温暖/无畏", "position": "左" },
+          { "name": "烬", "action": "停止攻击呆看", "expression": "动摇/回忆", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "黑暗在温暖面前停止了——因为它记得光的感觉",
+        "sfx": "黑暗能量消散的声音，只剩两人呼吸声",
+        "ai_image_prompt": "anime close-up, brown-haired girl standing directly before the dark figure at arm's length, her four-colored heart lantern blazing warmly, the dark figure having stopped his attacks staring at the light with trembling crimson eyes, remembering what warmth felt like so long ago, darkness surrendering to proximity of genuine warmth, intimate confrontation"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念伸出手——不是攻击，是触碰。她的手轻轻放在了烬的胸口——正是那个残留灯纹的位置。烬的身体剧烈颤抖——她在做什么？没有人碰过他。苏念说出了她的意图。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "将手放在烬胸口灯纹处", "expression": "温暖/坚定", "position": "中" },
+          { "name": "烬", "action": "全身颤抖", "expression": "震惊/不解", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "我不是来打你的——我是来还你的光。", "emotion": "温暖/坚定" },
+        "atmosphere": "触碰黑暗——不是为了消灭而是为了归还",
+        "sfx": "苏念手触碰烬胸口的温暖声响，烬颤抖的声音",
+        "ai_image_prompt": "anime extreme close-up, brown-haired girl's hand gently placed on the dark figure's chest right over the faded keeper marks, the dark figure trembling violently at the touch, four-colored light beginning to flow from her palm into his chest, not attack but gift, returning light to darkness, most tender act of courage"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP22-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "光注入黑暗——壮烈而温暖的传递过程",
+      "color_palette": ["#F39C12", "#3498DB", "#8E44AD", "#F1C40F"],
+      "lighting": "四色光从苏念手心流入烬体内，黑暗外壳出现金色裂缝",
+      "weather": "周围的碎片残骸开始微微发光"
+    },
+    "video_prompt": "Anime style, the brown-haired girl pours four-colored light into the dark villain's chest. He trembles feeling warmth for the first time in ages. His companions join in. Cracks of golden light appear in the dark figure's shell. The darkness begins breaking apart revealing the keeper within. Magnificent light-pouring scene, emotional liberation, no subtitles, climactic rescue.",
+    "bgm": {
+      "description": "壮丽的管弦乐高潮——四色光汇聚成宏大的生命赞歌",
+      "mood": "magnificent orchestral climax, four-colored light becoming grand hymn of life"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏念开始将四色灯火注入烬的胸口。光从她的掌心如水流般涌入烬的身体——橙色、冰蓝、淡紫、银灰。烬全身剧烈颤抖，他感受到了已经遗忘了不知多久的东西——温暖。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "注入四色光", "expression": "全力/温暖", "position": "左" },
+          { "name": "烬", "action": "颤抖接受光", "expression": "震惊/颤抖", "position": "右" }
+        ],
+        "dialogue": { "speaker": "烬", "text": "……什么……这个温暖……？", "emotion": "震惊/颤抖" },
+        "atmosphere": "光注入黑暗——久违的温暖让黑暗震颤",
+        "sfx": "四色光注入的和弦声，烬颤抖的呻吟",
+        "ai_image_prompt": "anime close-up, four-colored light pouring from the brown-haired girl's palm into the dark figure's chest like a warm river, orange blue purple silver streams entering his body, his entire frame shaking as he feels warmth for the first time in ages, his crimson eyes wide with shock, light penetrating darkness, magnificent transfer of light"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "白夜走上前，将手放在苏念肩上——传递更多冰蓝色光。铃音也走过来，将手放在苏念另一侧肩上——传递淡紫色光。墨跳到苏念头上——银灰色光如瀑布般汇入。三个人一起为苏念提供光源。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "传递光给烬", "expression": "坚持", "position": "中" },
+          { "name": "白夜", "action": "手放苏念肩传蓝光", "expression": "全力", "position": "左后" },
+          { "name": "铃音", "action": "手放苏念肩传紫光", "expression": "全力", "position": "右后" },
+          { "name": "墨", "action": "头上传银光", "expression": "全力", "position": "苏念头上" },
+          { "name": "烬", "action": "持续接受光", "expression": "颤抖/痛苦→温暖", "position": "前" }
+        ],
+        "dialogue": null,
+        "atmosphere": "四人合力将光注入黑暗——壮烈的传递",
+        "sfx": "四种光汇聚增强的和弦声，共振越来越强",
+        "ai_image_prompt": "anime medium shot, chain of light transfer, silver-haired boy's hand on right shoulder blue light, purple-haired girl's hand on left shoulder purple light, grey cat on head silver light, all channeling through the brown-haired girl into the dark figure, magnificent cascade of four colors, team pouring light together, epic scale light transmission"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "烬的黑色外壳开始出现裂缝——不是碎裂，而是从内部被光照亮。金色的裂缝在他身上蔓延，像是日出前天空中的第一道光。烬痛苦地低吼——不是身体的痛，而是记忆的痛。他开始看到自己过去的画面。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "黑暗外壳出现金色裂缝", "expression": "痛苦/记忆涌回", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "黑暗从内部被光撕裂——最灿烂的黎明",
+        "sfx": "黑暗外壳裂开的声响，金色光从裂缝中溢出的嗡鸣",
+        "ai_image_prompt": "anime dramatic close-up, the dark figure's black shell cracking from within, golden cracks of light spreading across his body like sunrise breaking through a dark sky, his face contorted in pain as memories rush back, light breaking through darkness from within, magnificent cracks of dawn on a dark shell"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "光持续注入。烬的暗红色眼睛开始变化——深红慢慢变淡，变成琥珀色，最终变成了温暖的金色。那是他年轻时的颜色。他看着苏念——在她的脸上他看到了曾经的自己：那个拼命想要守护所有人的年轻灯守。",
+        "camera": { "type": "特写", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "烬", "action": "眼睛从红变为金色", "expression": "回忆/理解/泪光", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "暗红变为金色——属于他的光正在回来",
+        "sfx": "眼睛颜色变化的轻微晶莹声，烬无声的呜咽",
+        "ai_image_prompt": "anime extreme close-up of eyes, the dark figure's crimson eyes gradually changing color, deep red fading to amber then to warm gold, his young self's eye color returning, tears forming in the transforming golden eyes, seeing his own past self in the girl before him, most powerful transformation detail, eyes reflecting the light of redemption"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "烬的黑色外壳大面积碎裂——露出里面的他。不是那个恐怖的黑暗化身，而是那个年轻的灯守。他的灯纹重新发光——不是金色，而是更温暖的琥珀色。他跪了下来，泪流满面。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬（回归）", "action": "黑暗碎裂跪下泪流", "expression": "释放/恸哭", "position": "中" },
+          { "name": "苏念", "action": "手依然在他胸口", "expression": "温暖/含泪微笑", "position": "旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "黑暗碎裂——被埋葬的英雄重新呼吸",
+        "sfx": "黑暗外壳碎裂如冰块般哗然，烬的恸哭声",
+        "ai_image_prompt": "anime dramatic shot, the dark shell shattering in large pieces falling away, revealing a young man underneath with renewed amber lantern markings glowing on his chest, he collapses to his knees weeping, the brown-haired girl's hand still on his chest with a tearful smile, liberation from darkness, the hero buried within freed at last, shattering darkness like breaking ice"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "烬（已经不再是烬了）跪在地上哭泣。苏念蹲下来，轻轻抱住了他——就像母亲曾经抱住小时候的她那样。白夜、铃音和墨在旁边守护。被毁灭的碎片残骸在四周开始重新发出微光——光正在回归。",
+        "camera": { "type": "中景", "movement": "缓慢拉远", "angle": "平视" },
+        "characters": [
+          { "name": "烬（回归）", "action": "跪地痛哭被苏念拥抱", "expression": "释放/感逝", "position": "中" },
+          { "name": "苏念", "action": "温柔拥抱烬", "expression": "慈爱/如母亲", "position": "中" },
+          { "name": "白夜", "action": "在旁守护", "expression": "平静微笑", "position": "左" },
+          { "name": "铃音", "action": "在旁擦泪微笑", "expression": "感动", "position": "右" },
+          { "name": "墨", "action": "蹲在旁边", "expression": "安静", "position": "旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯火相传的真谛——不是燃尽自己，是温暖彼此",
+        "sfx": "碎片残骸重新发光的微弱声响，感动的嗡鸣",
+        "ai_image_prompt": "anime medium shot slowly widening, brown-haired girl kneeling to gently embrace the weeping freed keeper like a mother holding a child, his dark shell completely shattered around them like broken armor, companions watching with tears and smiles, destroyed fragment debris in the background beginning to glow again with faint light, light returning to darkness, compassion triumphs, deeply moving rescue completion"
+      }
+    ]
+  }
+}

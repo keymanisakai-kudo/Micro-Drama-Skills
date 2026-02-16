@@ -1,0 +1,25 @@
+{
+  "last_updated": "2026-02-14",
+  "total_projects": 2,
+  "next_id": "DM-003",
+  "projects": [
+    {
+      "project_id": "DM-001",
+      "project_name": "灯火归途",
+      "directory": "DM-001_dhgt/",
+      "episodes": 25,
+      "status": "scripted",
+      "created_date": "2026-02-14",
+      "video_count": 50
+    },
+    {
+      "project_id": "DM-002",
+      "project_name": "碳金狂潮",
+      "directory": "DM-002_tjkc/",
+      "episodes": 25,
+      "status": "scripted",
+      "created_date": "2026-02-14",
+      "video_count": 50
+    }
+  ]
+}

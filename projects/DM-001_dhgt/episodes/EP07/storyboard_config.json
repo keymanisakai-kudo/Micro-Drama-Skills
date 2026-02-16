@@ -1,0 +1,232 @@
+{
+  "video_id_prefix": "DM-001-EP07",
+  "episode": 7,
+  "episode_title": "灰影袭来",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "灰影突然袭击三人，试图吞噬他们的心灯。苏念运用守灯人技能释放灯力冲击波驱散灰影，但消耗了大量灯力，自己的心灯也因此变得更加暗淡。",
+  "emotion_tone": "紧张",
+  "connection": {
+    "from_previous": "三人结伴后在记忆之森中休息",
+    "to_next": "灰影退去后精疲力竭，猫灵墨出现指引方向"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP07-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "危机四伏的战斗氛围，灰影包围的恐惧感",
+      "color_palette": ["#2C3E50", "#7F8C8D", "#E74C3C"],
+      "lighting": "森林荧光被灰影吞噬，仅剩三盏心灯的光芒在黑暗中挣扎",
+      "weather": "阴冷，空气凝滞，灰色雾气弥漫"
+    },
+    "video_prompt": "Anime style, intense battle scene in a dark memory forest. Grey translucent humanoid shadows swarm from all directions toward three young travelers. A boy with silver-white hair creates a blue energy shield. A girl with brown hair gathers warm orange lantern energy in her hands, eyes fierce and determined. A mute girl with purple hair hides behind them clutching her transparent heart lantern. The grey shadows have no faces, reaching with clawed hands toward the heart lanterns. Dynamic action, dark atmosphere, no subtitles, cinematic.",
+    "bgm": {
+      "description": "急促的弦乐配合重低音鼓点，战斗紧张感",
+      "mood": "intense, urgent strings, heavy percussion, battle tension"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "白夜猛然睁眼从假寐中惊醒——森林四周的记忆树叶光芒正在急速熄灭。灰色的浓雾从四面八方涌来，雾中可见无数灰色人形影子逼近。",
+        "camera": { "type": "远景", "movement": "快速环绕", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "惊醒站起", "expression": "震惊/紧张", "position": "中" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "它们来了——保护好你们的心灯！", "emotion": "紧迫/大喊" },
+        "atmosphere": "突如其来的危机，灰影群从四面围攻",
+        "sfx": "记忆树叶碎裂声，灰影的低沉嘶吼，急促心跳",
+        "ai_image_prompt": "anime wide shot, boy with silver-white messy hair jumping up alert, surrounding luminescent trees rapidly going dark, grey fog rolling in from all sides with dozens of faceless humanoid grey shadows emerging, crisis moment, dramatic lighting, dark and ominous"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念和铃音也被惊醒。苏念立刻站到铃音前面保护她。白夜张开双臂，冰蓝色心灯爆发出一道蓝色灯力护盾，挡住最近的几只灰影。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "张开双臂释放蓝色护盾", "expression": "全力以赴", "position": "前" },
+          { "name": "苏念", "action": "挡在铃音前方", "expression": "紧张/警觉", "position": "中" },
+          { "name": "铃音", "action": "蜷缩在苏念身后", "expression": "恐惧", "position": "后" }
+        ],
+        "dialogue": null,
+        "atmosphere": "背水一战的保护姿态",
+        "sfx": "灯力护盾嗡鸣声，灰影撞击护盾的沉闷声",
+        "ai_image_prompt": "anime medium shot, silver-haired boy arms spread creating blue energy shield barrier, grey shadows slamming against it, brown-haired girl standing protectively in front of cowering purple-haired girl, three heart lanterns glowing in the darkness, desperate defense"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "灰影越聚越多，白夜的护盾开始出现裂纹。一只灰影的手穿过裂缝，向铃音透明的心灯伸去——铃音无声地张大嘴，恐惧到极点。",
+        "camera": { "type": "近景", "movement": "快速推近", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "无声尖叫", "expression": "极度恐惧", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "护盾即将破裂的危急时刻",
+        "sfx": "护盾碎裂声，灰影贪婪的吸食声",
+        "ai_image_prompt": "anime close-up action, blue energy shield cracking, a grey translucent clawed hand reaching through the crack toward a transparent colorless heart lantern, purple-haired girl screaming silently mouth wide open in terror, extreme tension, horror moment"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念大喝一声，双手在胸前聚起浓烈的橙色灯力。她的心灯剧烈闪烁，全身散发出金橙色光芒。她作为守灯人的力量全面爆发。",
+        "camera": { "type": "中景", "movement": "快速推近", "angle": "微仰视" },
+        "characters": [
+          { "name": "苏念", "action": "双手聚灯力", "expression": "坚定/激昂", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "我是守灯人，绝不会让灯火被夺走！", "emotion": "坚定/激昂" },
+        "atmosphere": "守灯人力量觉醒的燃烧时刻",
+        "sfx": "灯力聚合的锐利音效，风暴般的能量涌动",
+        "ai_image_prompt": "anime medium shot low angle, girl with brown hair gathering intense orange lantern energy between her hands, her heart lantern blazing bright, entire body radiating golden-orange aura, fierce determined expression, red cloak billowing, power awakening moment, dramatic backlighting"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念双手向外推出——巨大的橙色灯力冲击波向四面八方扩散。灰影们被灯火之力灼烧，发出刺耳的嘶叫声，纷纷后退溶解。",
+        "camera": { "type": "远景", "movement": "快速后拉", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "双手推出灯力冲击波", "expression": "爆发", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯力大爆发驱散黑暗的高潮时刻",
+        "sfx": "巨大的灯力爆破声，灰影消融的嘶声",
+        "ai_image_prompt": "anime wide shot, massive orange shockwave expanding outward from the girl at center, grey shadows being burned and disintegrating on contact with the light, explosive energy burst, dynamic action lines, dramatic sacred light vs darkness battle"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "灰影被驱散殆尽，残余灰雾迅速退去。但苏念的身体突然一软，单膝跪地。她的橙色心灯明显暗淡了许多，光芒虚弱而不稳定。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "单膝跪地", "expression": "虚脱/喘息", "position": "中" },
+          { "name": "白夜", "action": "上前扶住苏念", "expression": "担忧", "position": "右" },
+          { "name": "铃音", "action": "跑向苏念", "expression": "担心", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "胜利的代价——心灯加速衰弱",
+        "sfx": "苏念粗重的喘息声，心灯微弱的颤动",
+        "ai_image_prompt": "anime medium shot, girl collapsing to one knee exhausted, her orange heart lantern visibly dimmer and flickering weakly, boy rushing to support her, purple-haired girl running toward them, aftermath of battle, grey fog retreating, cost of victory"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP07-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "战后疲惫与隐忧，胜利中的苦涩",
+      "color_palette": ["#2C3E50", "#F5A623", "#95A5A6"],
+      "lighting": "灰影退去后森林微光缓慢恢复，但苏念的心灯明显变暗",
+      "weather": "灰雾散去，夜色沉沉"
+    },
+    "video_prompt": "Anime style, aftermath of battle in memory forest. The brown-haired girl kneels exhausted, her orange heart lantern visibly dimmer. The silver-haired boy notices and tells her with worry. She forces a weak smile saying everyone is safe. The mute purple-haired girl silently holds her hand. Quiet emotional aftermath, forest slowly recovering its glow. No subtitles, cinematic, melancholic.",
+    "bgm": {
+      "description": "战斗音乐缓缓消退，转为沉重而温柔的弦乐长音",
+      "mood": "exhausted, melancholic strings, quiet aftermath, bittersweet"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏念跪在地上，双手撑地喘息。白夜半蹲在她旁边，注视着她胸前的心灯——橙色光芒比之前暗了整整一个色调。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "双手撑地喘息", "expression": "虚弱", "position": "中" },
+          { "name": "白夜", "action": "半蹲注视她的心灯", "expression": "凝重/担忧", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "碎！", "emotion": "爆发/全力" },
+        "atmosphere": "战后疲惫，代价沉重",
+        "sfx": "粗重喘息声",
+        "ai_image_prompt": "anime close-up, exhausted girl on her knees hands on ground breathing heavily, her orange heart lantern noticeably dimmer than before, silver-haired boy crouching beside her staring at the weakened lantern with grave concern, post-battle fatigue"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "白夜的特写。他的冰蓝色眼睛映出苏念暗淡的心灯。他低声说出自己的担忧——每次使用灯力，她的心灯都在加速消耗。",
+        "camera": { "type": "特写", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "凝视苏念心灯", "expression": "担忧/沉重", "position": "中" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "你的心灯……又暗了一层。", "emotion": "低沉/担忧" },
+        "atmosphere": "残酷的真相——每战斗一次就离熄灭更近",
+        "sfx": "风声轻拂",
+        "ai_image_prompt": "anime extreme close-up, ice blue eyes reflecting a dim flickering orange light, silver-white messy hair framing a worried grave expression, the reflected heart lantern clearly weaker than before, emotional weight, cinematic focus"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念勉强抬起头，向白夜露出一个虚弱但温暖的微笑。她的嘴唇微微颤抖，但眼神中满是庆幸——因为同伴们都安全。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "微仰视" },
+        "characters": [
+          { "name": "苏念", "action": "抬头勉强微笑", "expression": "虚弱/温暖", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "没关系……大家都还在就好。", "emotion": "虚弱/微笑" },
+        "atmosphere": "逞强的温柔，令人心疼的坚强",
+        "sfx": "微弱的心灯颤动声",
+        "ai_image_prompt": "anime close-up low angle, exhausted girl looking up with a weak but warm smile, trembling lips, eyes full of relief, dim orange heart lantern flickering beside her, brave selfless expression despite pain, emotional"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "铃音无声地走到苏念面前，跪下来紧紧握住苏念的手。她的紫色眼睛里满是感激和心疼。透明心灯微微颤动，像是在回应铃音的情感。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "跪下握住苏念的手", "expression": "感激/心疼", "position": "左" },
+          { "name": "苏念", "action": "回握铃音", "expression": "温暖", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "无声的感谢比千言万语更深",
+        "sfx": "两人心灯微弱的共鸣声",
+        "ai_image_prompt": "anime close-up, mute purple-haired girl kneeling and holding the brown-haired girl's hand tightly, violet eyes full of gratitude and concern, transparent heart lantern pulsing gently, two girls connected in silent understanding, emotional tender moment"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "白夜站起身，向森林深处望去。灰影虽然退了，但更深的暗处仍有微弱的灰色波动。他们不能留在这里。白夜向苏念伸出手。",
+        "camera": { "type": "中景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "向苏念伸出手", "expression": "沉静/坚定", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "必须继续前行的决心",
+        "sfx": "远处灰影的低频残响",
+        "ai_image_prompt": "anime medium shot, silver-haired boy standing and extending his hand toward the exhausted girl on the ground, looking back toward dark forest depths where faint grey movements remain, determined to keep moving, cold blue heart lantern steady"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念握住白夜的手站起来。三人相互扶持着，继续在暗淡的记忆之森中前行。苏念虽然虚弱，但目光坚定。远处的黑暗中，一双金银异色的猫眼正暗暗注视着他们。",
+        "camera": { "type": "远景", "movement": "缓慢后拉", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "被扶起继续前行", "expression": "虚弱但坚定", "position": "中" },
+          { "name": "白夜", "action": "扶着苏念", "expression": "沉默", "position": "右" },
+          { "name": "铃音", "action": "跟在旁边", "expression": "担心但跟随", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "疲惫中前行，暗处猫灵的伏笔",
+        "sfx": "疲惫的脚步声，远处极细微的猫叫声",
+        "ai_image_prompt": "anime wide shot, three exhausted figures supporting each other walking through dim memory forest, fading heart lanterns glowing weakly, in the extreme foreground corner a pair of heterochromia cat eyes gold and silver glinting in the shadows watching them, foreshadowing, atmospheric"
+      }
+    ]
+  }
+}

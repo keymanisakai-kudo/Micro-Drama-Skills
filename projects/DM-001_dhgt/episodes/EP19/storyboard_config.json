@@ -1,0 +1,245 @@
+{
+  "video_id_prefix": "DM-001-EP19",
+  "episode": 19,
+  "episode_title": "重聚",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "万灯之渊的入口终于出现在前方。就在苏念和铃音即将进入时，白夜从黑暗中走出——满身伤痕但表情已经不同了。他不再是愤怒的独行者，经历了与烬的对峙后他理解了一些东西。四人在渊口重聚。苏念向白夜说出了她的新计划：不仅要找回母亲的记忆，还要拯救烬。白夜沉默片刻后点头认同。四人一起踏入万灯之渊。",
+  "emotion_tone": "希望",
+  "connection": {
+    "from_previous": "了解烬的真相后苏念决心拯救烬，白夜战败后回归",
+    "to_next": "四人一起进入万灯之渊寻找母亲的灯笼和拯救的方法"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP19-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "分离后重逢的温暖与释然",
+      "color_palette": ["#3498DB", "#F39C12", "#2ECC71"],
+      "lighting": "清晨的微光中心灯重新照耀",
+      "weather": "天色微明，黎明前的淡蓝色"
+    },
+    "video_prompt": "Anime style, emotional reunion scene. The battered silver-haired boy emerges from the darkness, met by the overjoyed brown-haired girl. She runs toward him. He stands still but says softly 'I'm back.' The mute girl and cat also welcome him. Warm reunion at dawn, near the entrance to a vast glowing abyss. No subtitles, Ghibli-inspired reunion.",
+    "bgm": {
+      "description": "温暖的弦乐旋律，从小心翼翼到热烈绽放",
+      "mood": "warm string melody, from tentative to full bloom"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "万灯之渊的入口前——一个巨大的发光深渊，无数灯火碎片在其中如星河般旋转。苏念和铃音站在边缘，准备进入。苏念回头望了一眼来时的方向——依然在等白夜。",
+        "camera": { "type": "远景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "回头望来时方向", "expression": "牵挂/期待", "position": "渊口" },
+          { "name": "铃音", "action": "站在渊口等待", "expression": "安静", "position": "旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "壮观的万灯之渊入口前，依然在等待离去的同伴",
+        "sfx": "深渊中碎片旋转的嗡鸣声，风声",
+        "ai_image_prompt": "anime wide shot, a massive glowing abyss entrance with thousands of light fragments spiraling inside it like a galaxy, brown-haired girl and purple-haired girl standing at the edge, the brown-haired girl looking back over her shoulder toward the direction they came from, waiting for someone, magnificent abyss of lanterns, dawn approaching"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "远方的黑暗中出现了一个身影——蹒跚着但坚定地走来。微弱的冰蓝色光在身上闪烁。苏念瞪大了眼睛——是白夜！他满身伤痕、衣衫褴褛，但他回来了。苏念瞬间冲了出去。",
+        "camera": { "type": "中远景", "movement": "快速", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "蹒跚从黑暗中走来", "expression": "疲惫/平静", "position": "远方" },
+          { "name": "苏念", "action": "认出后飞奔出去", "expression": "惊喜/激动", "position": "冲出" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "白夜！", "emotion": "惊喜/释然" },
+        "atmosphere": "等待终于有了回应——他回来了",
+        "sfx": "苏念急促的脚步声，白夜虚弱但稳定的脚步声",
+        "ai_image_prompt": "anime medium-wide shot, a battered figure with faint ice-blue light emerging from the distant darkness walking unsteadily, brown-haired girl recognizing him and breaking into a run toward him with overwhelming joy, emotional reunion beginning, dawn light breaking through"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念跑到白夜面前停住了。她看到了他身上的伤——手臂有擦伤、衣服破损、脸上有灰尘。但白夜的眼神不一样了——没有了之前的愤怒和冷漠，多了一种……释然。他低声说了一句。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "站在苏念面前", "expression": "释然/温柔", "position": "左" },
+          { "name": "苏念", "action": "看着白夜的伤心疼", "expression": "心疼/释然", "position": "右" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "……我回来了。", "emotion": "低声/释然" },
+        "atmosphere": "三个字胜过千言万语",
+        "sfx": "风声停了，只有两人的呼吸声",
+        "ai_image_prompt": "anime close-up, silver-haired boy standing before the brown-haired girl, battered with torn clothes and wounds, but his eyes showing a new calm instead of anger, speaking softly, the girl looking at his injuries with worry but relief, tender reunion close-up, changed eyes"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念的眼泪涌了出来——但是在笑。她想打白夜但手落在他肩上变成了轻轻拍打：笨蛋。铃音也小跑过来，用手帕给白夜擦脸上的伤。墨跳上白夜的肩头蹭他的脸。小队重新完整了。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "边哭边笑拍白夜肩", "expression": "又哭又笑", "position": "左" },
+          { "name": "白夜", "action": "微微苦笑", "expression": "愧疚温暖", "position": "中" },
+          { "name": "铃音", "action": "帮白夜擦伤", "expression": "温暖", "position": "右" },
+          { "name": "墨", "action": "跳上白夜肩头蹭脸", "expression": "亲热", "position": "白夜肩上" }
+        ],
+        "dialogue": null,
+        "atmosphere": "小队重新完整——缺失的那一角回来了",
+        "sfx": "苏念又哭又笑的声音，墨的亲热喵声",
+        "ai_image_prompt": "anime medium shot, heartwarming reunion, brown-haired girl crying and laughing simultaneously patting the silver-haired boy's shoulder, purple-haired girl gently dabbing his face wounds with a handkerchief, grey cat perched on his shoulder nuzzling his cheek, the team whole again, warm morning light, joyful tearful reunion, everyone together"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "白夜看着苏念——他注意到苏念的心灯比之前亮了很多。苏念也注意到白夜的冰蓝色光虽然弱了，但变得更温和了，不再是攻击性的冷光。两个人都在分别中成长了。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "注意到苏念心灯变化", "expression": "惊讶/欣慰", "position": "左" },
+          { "name": "苏念", "action": "注意到白夜光变化", "expression": "温暖/理解", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "分离让双方都成长了——光的质感变了",
+        "sfx": "两种光交融的柔和和弦",
+        "ai_image_prompt": "anime close-up two-shot, silver-haired boy and brown-haired girl noticing how each other's light has changed, her orange heart lantern brighter, his ice-blue light softer and warmer than before, mutual recognition of growth during separation, warm interplay of blue and orange light between them"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "四人转身面对万灯之渊的入口。壮观的光之深渊在他们面前展开——无数灯火碎片在深处旋转如银河。他们的四种光——橙色、冰蓝、淡紫、银灰——在渊口的风中交织。目标就在眼前。",
+        "camera": { "type": "远景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "面对深渊", "expression": "坚定", "position": "中" },
+          { "name": "白夜", "action": "并肩站立", "expression": "平静", "position": "左" },
+          { "name": "铃音", "action": "准备好", "expression": "勇敢", "position": "右" },
+          { "name": "墨", "action": "走在前面", "expression": "探路", "position": "前" }
+        ],
+        "dialogue": null,
+        "atmosphere": "完整的小队面对最后的目标——万灯之渊",
+        "sfx": "深渊中碎片旋转的嗡鸣声渐大，四种光交织的和弦",
+        "ai_image_prompt": "anime wide epic shot, four travelers standing together at the edge of the magnificent Abyss of Ten Thousand Lanterns, a vast spiral of glowing fragments like a galaxy below them, their four different colored lights (orange, ice-blue, lavender, silver-grey) interweaving in the wind, ready to descend together, epic adventure composition, destination in sight"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP19-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "重聚后的新决心，以理解和拯救替代仇恨",
+      "color_palette": ["#F39C12", "#3498DB", "#2ECC71"],
+      "lighting": "万灯之渊的碎片光芒照亮众人",
+      "weather": "渊口有温暖的上升气流"
+    },
+    "video_prompt": "Anime style, at the entrance of the Abyss of Ten Thousand Lanterns, the brown-haired girl tells the reunited group her new plan - not just to find her mother's memory but to save the fallen keeper. The silver-haired boy nods in agreement. The four step together into the abyss. Hopeful determination, no subtitles, new mission accepted, epic descent beginning.",
+    "bgm": {
+      "description": "希望的旋律从弦乐中升起，渐渐变得宏大庄严",
+      "mood": "hopeful melody rising from strings, gradually becoming grand and solemn"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "在进入渊之前，苏念拦住大家——她想说一件重要的事。她把从云老那里听到的烬的真相简短地告诉了白夜。白夜沉默地听着。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "认真地讲述", "expression": "认真/诚恳", "position": "中" },
+          { "name": "白夜", "action": "沉默聆听", "expression": "沉思", "position": "左" },
+          { "name": "铃音", "action": "安静等待", "expression": "期待", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "在踏入最后关卡前分享重要信息",
+        "sfx": "苏念认真的叙述声音，渊口的风声",
+        "ai_image_prompt": "anime medium shot, brown-haired girl speaking earnestly to the group before they enter the abyss, silver-haired boy listening in silence with a thoughtful expression, purple-haired girl waiting quietly, important briefing before the final descent, serious discussion"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念说出了她的新目标——不只是找回母亲的记忆。她还要拯救烬。因为烬不是坏人，而是一个燃尽自己的灯守。她的心灯随着话语更加明亮。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "坚定地宣布新目标", "expression": "坚定/温暖", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "我们不只是去找回记忆——我们还要救他。救烬。", "emotion": "坚定/温暖" },
+        "atmosphere": "使命的升级——从个人目标到拯救他人",
+        "sfx": "心灯因决心增强的声响",
+        "ai_image_prompt": "anime close-up, brown-haired girl declaring her expanded mission with determination and warmth, her heart lantern blazing brighter with resolve, not just finding memories but saving the fallen keeper, inspiring leader moment, warm confident light"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "白夜沉默了几秒钟。他想起了烬的眼睛——那双暗红色眼睛中偶尔闪过的怀念。他想起了烬说'我曾经也像你一样'时的语气。最终白夜点了点头。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "回忆后点头认同", "expression": "平静/认同", "position": "中" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "……嗯。我知道了。", "emotion": "平静/认同" },
+        "atmosphere": "从亲身经历中理解并认同——不再只凭愤怒",
+        "sfx": "风声中白夜简短平静的回答",
+        "ai_image_prompt": "anime close-up, silver-haired boy's face after a moment of silent reflection, his expression shifting to calm acceptance and agreement, remembering the villain's eyes and words, nodding with understanding, growth from anger to comprehension, mature quiet agreement"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "铃音用手语比了一个'一起'的动作，然后指向深渊。墨走到最前面，尾巴竖得很高——它在带路。四人的目光汇聚在一起，达成了无声的共识：这一次，一起走。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "手语'一起'并指向深渊", "expression": "坚定微笑", "position": "右" },
+          { "name": "墨", "action": "走到最前面尾巴竖高", "expression": "自信/带路", "position": "前" },
+          { "name": "苏念", "action": "与大家交换眼神", "expression": "微笑", "position": "中" },
+          { "name": "白夜", "action": "与苏念交换眼神", "expression": "点头", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "无声的共识——这次一起面对一切",
+        "sfx": "墨自信的喵声，四人目光交汇的无声默契",
+        "ai_image_prompt": "anime medium shot, purple-haired girl making a 'together' sign and pointing to the abyss, grey cat walking to the front with tail high as a guide, all four exchanging determined glances and smiles, wordless agreement to face everything together this time, united team ready for the final challenge"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "四人开始走入万灯之渊。苏念走在前面，心灯为大家照亮道路。他们踏上由无数灯火碎片组成的光之阶梯，向深渊深处下降。碎片在他们脚边如潮水般涌动。",
+        "camera": { "type": "中景", "movement": "缓慢下降", "angle": "俯视" },
+        "characters": [
+          { "name": "苏念", "action": "走在前面心灯照路", "expression": "坚定", "position": "前" },
+          { "name": "白夜", "action": "跟随", "expression": "警觉", "position": "后左" },
+          { "name": "铃音", "action": "跟随", "expression": "好奇", "position": "后右" },
+          { "name": "墨", "action": "跳跃在碎片间", "expression": "灵活", "position": "穿梭" }
+        ],
+        "dialogue": null,
+        "atmosphere": "踏入最终之地——壮美的光之阶梯",
+        "sfx": "脚踩光之阶梯的清脆声，碎片涌动的声响",
+        "ai_image_prompt": "anime overhead shot, four travelers descending a staircase made of thousands of glowing fragments into the vast abyss, brown-haired girl leading with her lantern illuminating the path, fragments flowing like a luminous tide around their feet, descending into the Abyss of Ten Thousand Lanterns, spectacular descent, epic scale"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "大远景。四个小小的身影在浩瀚的灯火深渊中下降，如同在银河中行走。万千灯火碎片在周围旋转、流淌，每一颗都是某个人的珍贵记忆。在这片记忆的海洋中，有他们要找的答案。",
+        "camera": { "type": "大远景", "movement": "缓慢拉远", "angle": "俯视" },
+        "characters": [
+          { "name": "苏念", "action": "下降中", "expression": "前行", "position": "小人影" },
+          { "name": "白夜", "action": "下降中", "expression": "前行", "position": "小人影" },
+          { "name": "铃音", "action": "下降中", "expression": "前行", "position": "小人影" },
+          { "name": "墨", "action": "下降中", "expression": "前行", "position": "小人影" }
+        ],
+        "dialogue": null,
+        "atmosphere": "在记忆的银河中寻找答案——壮美至极",
+        "sfx": "万千碎片旋转的和弦声渐渐包围一切，宏大的深渊回响",
+        "ai_image_prompt": "anime grand wide cinematic shot pulling back, four tiny figures descending through the enormous spiral galaxy of glowing memory fragments, the Abyss of Ten Thousand Lanterns in all its magnificent glory, walking through a universe of preserved memories, breathtaking scale, epic Ghibli-inspired descent into the heart of memories, awe-inspiring final frame"
+      }
+    ]
+  }
+}

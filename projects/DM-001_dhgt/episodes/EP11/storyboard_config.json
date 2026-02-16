@@ -1,0 +1,238 @@
+{
+  "video_id_prefix": "DM-001-EP11",
+  "episode": 11,
+  "episode_title": "渡船人",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "四人在幻梦湖边遇到即将化为灰影的渡船老人。他用最后的灯力为他们开路渡湖，将自己仅存的灯火碎片交给苏念。在温暖的微笑中，老人化为灰影消散。苏念含泪收下碎片，发誓带着这份光走下去。",
+  "emotion_tone": "悲壮",
+  "connection": {
+    "from_previous": "白夜坦白了过去，四人带着沉重的真相继续前行",
+    "to_next": "渡过幻梦湖抵达流光荒原，碎片开始指引方向"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP11-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "雾气弥漫的湖面，苍老的渡船人如同即将熄灭的残烛",
+      "color_palette": ["#5D6D7E", "#F0E68C", "#2C3E50"],
+      "lighting": "浓雾中微弱的灯火光芒，渡船上悬挂的老旧灯笼",
+      "weather": "浓雾笼罩湖面，能见度极低"
+    },
+    "video_prompt": "Anime style, four travelers discover an old ferryman sitting in a weathered wooden boat on a fog-covered dream lake. The old man's heart lantern is barely flickering, almost extinguished. The brown-haired girl notices his dying light with concern. Thick mist over dark water, an old lantern on the boat casting feeble light, melancholic atmosphere, no subtitles, Ghibli-inspired, somber and poignant mood.",
+    "bgm": {
+      "description": "二胡低沉的旋律配以水面回声般的空灵音效",
+      "mood": "erhu melody, hollow water echoes, fading warmth"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "浓雾中的幻梦湖面，四人站在湖岸边，前方一片迷蒙。忽然雾中传来木桨划水的声音，一艘破旧的木船从雾气中缓缓显现，船头挂着一盏几乎要熄灭的灯笼。",
+        "camera": { "type": "远景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "站在湖岸向雾中张望", "expression": "警觉/好奇", "position": "中" },
+          { "name": "白夜", "action": "站在苏念身旁戒备", "expression": "冷静", "position": "左" },
+          { "name": "铃音", "action": "靠近苏念身侧", "expression": "不安", "position": "右" },
+          { "name": "墨", "action": "蹲在地上竖耳聆听", "expression": "警觉", "position": "前方" }
+        ],
+        "dialogue": null,
+        "atmosphere": "浓雾中出现的神秘渡船",
+        "sfx": "木桨缓缓划水声，雾气流动的低沉风声",
+        "ai_image_prompt": "anime wide shot, four travelers standing at the shore of a fog-covered dark lake, a weathered wooden boat slowly emerging from thick mist with a barely-lit lantern hanging on its bow, mysterious and melancholic atmosphere, dark water, visibility near zero, Ghibli-inspired fog scene"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "渡船靠岸，船上坐着一位白发苍苍的老者，穿着褪色的守灯人旧袍。他的身体边缘已经开始变得半透明，像要消散的烟雾。胸口的心灯只剩针尖大小的微光。",
+        "camera": { "type": "中景", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [
+          { "name": "老渡", "action": "坐在船尾手握船桨", "expression": "苍老/平静", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "即将化为灰影的老守灯人，身体边缘已在消散",
+        "sfx": "船身轻轻撞击岸边的木头声，微弱的灯火闪烁声",
+        "ai_image_prompt": "anime medium shot pushing in, an ancient white-haired old man sitting in a weathered boat wearing a faded lantern keeper robe, his body edges becoming translucent like fading smoke, the tiniest pinpoint of light flickering at his chest as his heart lantern, deeply aged and peaceful expression, dim lantern light, fog all around"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "老者抬起混浊的双眼，看向四个年轻人。他的声音沙哑微弱，像是很久没有说过话。他问他们是否要去万灯之渊——这条路他渡过很多寻灯人，但从未有人归来。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "老渡", "action": "抬眼看向四人", "expression": "混浊/慈祥", "position": "中" }
+        ],
+        "dialogue": { "speaker": "老渡", "text": "你们……要去万灯之渊？", "emotion": "沙哑/微弱" },
+        "atmosphere": "老者的提问暗含警告与悲伤",
+        "sfx": "沙哑的嗓音回荡在雾中",
+        "ai_image_prompt": "anime close-up, ancient old man's face with cloudy eyes looking up at the viewers, weathered wrinkled face with kind expression, mouth slightly open speaking in a hoarse voice, faded lantern keeper collar visible, fog swirling around him, dim warm light from his near-extinguished heart lantern, poignant questioning gaze"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念走近渡船，以守灯人的直觉感知到老者的心灯状态。她的表情从好奇变为心疼——这盏灯最多只剩几分钟的光。她伸手想要去维修老者的心灯，但老者轻轻摆手阻止。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "伸手想修复心灯被老者阻止", "expression": "心疼/急切", "position": "右" },
+          { "name": "老渡", "action": "轻轻摆手拒绝", "expression": "慈祥/释然", "position": "左" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "老爷爷，您的心灯……快要熄了。", "emotion": "心疼/急切" },
+        "atmosphere": "守灯人的职业本能与老者的坦然接受",
+        "sfx": "苏念的心灯感应到老者灯火时发出共鸣的微弱声响",
+        "ai_image_prompt": "anime medium shot, brown-haired girl reaching toward the old man in the boat with concern, her hand glowing faintly with keeper energy, the old man gently waving her hand away with a serene accepting smile, the tiny light at his chest barely visible, emotional interaction between young keeper and dying elder, fog-shrouded lake background"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "老者慢慢站起身，虽然身体半透明但动作仍然稳健。他拉起绳索，示意四人上船。白夜犹豫了一下，但看到苏念已经踏上渡船，也跟了上去。铃音小心翼翼地上船，墨轻巧地跳上船头。",
+        "camera": { "type": "中景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "老渡", "action": "站起拉绳索邀请上船", "expression": "坚定/慈祥", "position": "左" },
+          { "name": "苏念", "action": "第一个踏上渡船", "expression": "信任", "position": "中" },
+          { "name": "白夜", "action": "犹豫后跟上", "expression": "戒备", "position": "右" },
+          { "name": "铃音", "action": "小心上船", "expression": "紧张", "position": "右后" },
+          { "name": "墨", "action": "跳上船头", "expression": "灵巧", "position": "船头" }
+        ],
+        "dialogue": null,
+        "atmosphere": "踏上渡船，信任与未知并存",
+        "sfx": "木板吱嘎声，水面微波声，绳索拉扯声",
+        "ai_image_prompt": "anime medium shot, the old translucent ferryman pulling ropes standing in his boat, brown-haired girl stepping onto the weathered boat first, silver-haired boy following hesitantly, purple-haired girl carefully boarding, grey cat leaping onto the bow, misty lake surrounding the small boat, the old lantern flickering, boarding the ferry scene"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "老者开始划船，每一桨似乎都消耗着他所剩无几的灯力。船桨划过水面时，水中浮现出微弱的光痕——那是老者灯火燃烧的轨迹。雾气在船前方缓缓分开，渡船驶入幻梦湖深处。",
+        "camera": { "type": "远景", "movement": "缓慢跟拍", "angle": "侧视" },
+        "characters": [
+          { "name": "老渡", "action": "奋力划桨", "expression": "专注/坚毅", "position": "船尾" }
+        ],
+        "dialogue": null,
+        "atmosphere": "每一桨都在燃烧最后的生命，光轨划过黑暗的水面",
+        "sfx": "沉重的划桨声，水中光痕闪烁的嗡鸣，雾气分开的呼啸",
+        "ai_image_prompt": "anime wide tracking shot, the old ferryman rowing the boat through thick fog on the dark lake, each paddle stroke leaving faint glowing light trails in the water as his life force burns, the fog parting ahead of the boat revealing darkness beyond, four passengers sitting quietly in the boat, poetic and sorrowful atmosphere, life burning as fuel, luminous water trails"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP11-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "生命最后绽放的光辉，悲壮而温暖的告别",
+      "color_palette": ["#F39C12", "#E74C3C", "#5D6D7E"],
+      "lighting": "老者灯火最后爆发的金色光芒照亮整个湖面",
+      "weather": "雾气消散，星空显露"
+    },
+    "video_prompt": "Anime style, the old ferryman uses his last remaining heart lantern power to part the fog and deliver the travelers across the dream lake. He smiles peacefully and hands a glowing fragment to the brown-haired keeper girl. His body dissolves into grey ash as his lantern extinguishes, but his smile remains until the very end. The girl clutches the fragment with tears, vowing to carry it forward. Stars appear as fog clears. No subtitles, Ghibli-inspired, beautiful tragic farewell.",
+    "bgm": {
+      "description": "二胡旋律达到高潮后转为空灵的钢琴余韵，如灯火消散后的回响",
+      "mood": "erhu climax fading to ethereal piano, echo of extinguished flame"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "渡船抵达湖的对岸。老者放下船桨，疲惫但满足。他从胸口取出最后一颗微弱的灯火碎片——指尖大小，散发温暖的金色微光。他将碎片递向苏念。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "老渡", "action": "从胸口取出灯火碎片递出", "expression": "释然/温柔", "position": "左" },
+          { "name": "苏念", "action": "伸手准备接住", "expression": "震惊/不忍", "position": "右" }
+        ],
+        "dialogue": { "speaker": "老渡", "text": "灯火这东西啊……传出去才有意义。", "emotion": "释然/温柔" },
+        "atmosphere": "将生命最后的光芒传递给下一代守灯人",
+        "sfx": "灯火碎片温暖的嗡鸣声，湖水轻拍岸边",
+        "ai_image_prompt": "anime close-up, old ferryman's translucent weathered hand holding out a small golden glowing fragment from his chest toward the brown-haired girl, his expression peaceful and gentle, the girl reaching to receive it with trembling hands and shocked expression, warm golden light illuminating both their faces, passing of the flame, tender farewell moment"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念双手接住灯火碎片，碎片的温暖传遍她的掌心。她能感受到碎片中残留的记忆——老者年轻时也是一位守灯人，一生为无数人守护心灯，直到自己的灯火耗尽。她的眼泪夺眶而出。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "俯视" },
+        "characters": [
+          { "name": "苏念", "action": "双手捧着灯火碎片", "expression": "含泪/感动", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "通过碎片感知老者一生的守灯之路",
+        "sfx": "记忆涌入的回响声，眼泪滴落碎片的清脆声",
+        "ai_image_prompt": "anime overhead close-up of cupped hands holding a tiny golden glowing fragment, tears falling onto the hands, faint memory images swirling inside the fragment showing a young man tending lanterns, extreme emotional moment, warm golden light radiating from the small shard, teardrop detail"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念紧握碎片抬起头，含着泪坚定地看着老者。她以守灯人的承诺发誓会带着这份光走下去。白夜沉默地低下头致敬，铃音双手合十默祷。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "紧握碎片看向老者", "expression": "含泪/坚定", "position": "中" },
+          { "name": "白夜", "action": "低头致敬", "expression": "沉默/尊重", "position": "左" },
+          { "name": "铃音", "action": "双手合十", "expression": "默祷", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "我会带着它走下去的！", "emotion": "含泪/坚定" },
+        "atmosphere": "守灯人之间的传承誓言",
+        "sfx": "坚定的声音在雾中回荡",
+        "ai_image_prompt": "anime medium shot, brown-haired girl holding glowing fragment to her chest with tearful but resolute eyes looking at the old man, silver-haired boy bowing his head in respect on the left, purple-haired girl with hands clasped in prayer on the right, emotional vow scene, golden fragment light illuminating the girl's determined face"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "老者露出安详的微笑，他的身体开始从边缘向中心缓缓化为灰色的光尘。灰尘不是沉重的，而是轻盈地向上飘散，像萤火虫一样在空中发出最后的微光。他说出最后的话。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "老渡", "action": "微笑着化为灰尘", "expression": "安详/幸福", "position": "中" }
+        ],
+        "dialogue": { "speaker": "老渡", "text": "去吧……前面的路……很亮。", "emotion": "安详/微笑" },
+        "atmosphere": "最后的微笑，化为灰烬时的安宁",
+        "sfx": "身体化为光尘的细微声响，风铃般的消散声",
+        "ai_image_prompt": "anime close-up, the old ferryman smiling peacefully as his body dissolves from the edges into grey luminous particles floating upward like fireflies, his serene expression the last thing remaining, gentle dissolution, beautiful sad transformation, particles catching faint light as they rise, peaceful death scene"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "老者完全化为灰尘消散。空荡的渡船在水面上轻轻摇晃。苏念手中的灯火碎片发出一阵温暖的脉动——那是老者最后的心跳。浓雾在这一刻开始消散，露出头顶的星空。",
+        "camera": { "type": "远景", "movement": "缓慢拉远", "angle": "仰视" },
+        "characters": [
+          { "name": "苏念", "action": "仰望星空手握碎片", "expression": "泪痕/释然", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "老者消散后雾散天清，碎片如最后的心跳脉动",
+        "sfx": "雾气散去的呼啸声，灯火碎片脉动的温暖低鸣，星空出现",
+        "ai_image_prompt": "anime wide shot tilting upward, the fog clearing dramatically to reveal a vast starry sky above the dream lake, the empty boat gently rocking on the water, brown-haired girl standing on the shore looking up at the stars holding a pulsing golden fragment, grey luminous particles still floating upward merging with starlight, post-farewell serenity, beautiful cosmic reveal"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "四人站在湖的对岸，身后是渐渐消散的雾与空渡船。苏念将灯火碎片小心收入怀中，擦干眼泪。前方的路在星光下延伸——那是通向流光荒原的方向。墨轻声叫了一声，像在说：走吧。",
+        "camera": { "type": "远景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "擦泪将碎片收入怀中", "expression": "坚定", "position": "中左" },
+          { "name": "白夜", "action": "望向前方", "expression": "沉静", "position": "中右" },
+          { "name": "铃音", "action": "站在旁边", "expression": "悲伤但坚强", "position": "右" },
+          { "name": "墨", "action": "轻叫一声望向前路", "expression": "引导", "position": "前方" }
+        ],
+        "dialogue": null,
+        "atmosphere": "告别后踏上新的征程，星光照亮前路",
+        "sfx": "墨的轻叫声，脚步踏上新道路的声响，远处空灵的风声",
+        "ai_image_prompt": "anime wide cinematic shot, four travelers standing on the far shore of the lake looking ahead at a starlit path stretching toward the horizon, empty boat and dissipating fog behind them, brown-haired girl wiping tears but standing tall, grey cat at the front looking ahead as guide, starry sky above, the road to the luminous wasteland, hopeful departure after sorrowful farewell"
+      }
+    ]
+  }
+}

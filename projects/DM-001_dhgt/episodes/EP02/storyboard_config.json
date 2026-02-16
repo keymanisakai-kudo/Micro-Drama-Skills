@@ -1,0 +1,200 @@
+{
+  "video_id_prefix": "DM-001-EP02",
+  "episode": 2,
+  "episode_title": "暗淡的心",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "苏念发现自己的心灯开始忽明忽暗，试图回忆母亲的面容却一片模糊。心灯第一次闪烁，母亲的轮廓在记忆中消散。",
+  "emotion_tone": "不安",
+  "connection": {
+    "from_previous": "苏念在灯塔城的平静守灯人生活",
+    "to_next": "苏念将在古籍中寻找万灯之渊的线索"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP02-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "从日常的温暖逐渐转为不安，暖色渐被冷色侵蚀",
+      "color_palette": ["#F5A623", "#7F8C8D", "#2C3E50"],
+      "lighting": "早晨的阳光从暖色过渡到苍白，暗示记忆的褪色",
+      "weather": "多云的清晨"
+    },
+    "video_prompt": "Anime style, morning scene in a lighthouse bedroom. A girl with brown hair wakes up, reaches for a framed photo on her nightstand but the photo appears blurred and faded. She looks confused, touching her face in a mirror trying to remember something. Her warm orange heart lantern near her chest begins to flicker and dim slightly. The warm morning light gradually becomes pale and cold. Anxiety builds in her expression. Detailed interior, no subtitles, cinematic.",
+    "bgm": {
+      "description": "清晨钢琴曲渐变为不和谐的音符，弦乐带入不安的氛围",
+      "mood": "uneasy, fading warmth, dissonant undertones, piano"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "清晨，苏念在灯塔卧室中醒来。阳光透过窗户洒在床上，她的心灯温暖地悬浮在胸口。她伸手去拿床头柜上的一张照片。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "从床上坐起，伸手取照片", "expression": "睡眼惺忪/柔和", "position": "中" }],
+        "dialogue": null,
+        "atmosphere": "温暖的晨光，日常的清晨",
+        "sfx": "鸟鸣声，布料窸窣声",
+        "ai_image_prompt": "anime medium shot, girl waking up in cozy lighthouse bedroom, morning sunlight through round window, reaching for photo frame on nightstand, warm orange heart lantern floating near chest, messy brown hair, peaceful morning"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "照片特写——照片中应该是苏念小时候和母亲的合影，但母亲的面容模糊不清，如同被水洇开的水彩画。苏念的手指微微颤抖。",
+        "camera": { "type": "特写", "movement": "缓慢推近", "angle": "俯视" },
+        "characters": [{ "name": "苏念", "action": "拿着照片，手指颤抖", "expression": "困惑", "position": "中" }],
+        "dialogue": { "speaker": "苏念", "text": "妈妈……你的脸，我怎么想不起来了？", "emotion": "迷茫/恐惧" },
+        "atmosphere": "照片上的模糊暗示记忆正在消失，温暖褪色",
+        "sfx": "心跳声加速",
+        "ai_image_prompt": "anime extreme close-up, a photograph showing a little girl and a woman, but the woman's face is blurred like watercolor dissolving, trembling fingers holding the photo, morning light fading to pale, unsettling mood"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念紧闭双眼努力回忆，脑海中母亲的身影出现又碎裂。金色的记忆碎片如落叶般散去。她的额头冒出细汗。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "正面" },
+        "characters": [{ "name": "苏念", "action": "紧闭双眼，额头皱起", "expression": "痛苦/努力", "position": "中" }],
+        "dialogue": null,
+        "atmosphere": "内心世界的碎裂感，金色记忆碎片飞散",
+        "sfx": "玻璃碎裂般的记忆消散声",
+        "ai_image_prompt": "anime close-up face, girl with eyes tightly shut, sweat on forehead, faint golden memory fragments floating and shattering around her head like autumn leaves dissolving, distressed expression, warm tones fading to cold"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念走到梳妆镜前，看着镜中的自己。试图在自己脸上找到母亲的影子，但脑中一片空白。镜面微微泛出冷色。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视（通过镜子）" },
+        "characters": [{ "name": "苏念", "action": "对着镜子凝视", "expression": "迷茫/焦虑", "position": "中" }],
+        "dialogue": null,
+        "atmosphere": "镜中映射的不只是容貌，还有正在消失的记忆",
+        "sfx": "安静，只有呼吸声",
+        "ai_image_prompt": "anime medium shot through mirror reflection, girl staring at herself in vanity mirror, searching her own face, slight cold blue tint on mirror surface, warm room behind her contrasting with cold mirror, anxiety in amber eyes"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念用力摇头，强迫自己冷静下来。她双手抓住梳妆台边缘，深呼吸。铜戒指在晨光中微微反光。",
+        "camera": { "type": "近景", "movement": "微推", "angle": "侧面" },
+        "characters": [{ "name": "苏念", "action": "摇头，深呼吸，抓住桌沿", "expression": "勉强冷静", "position": "中" }],
+        "dialogue": { "speaker": "苏念", "text": "不对，一定是太累了。", "emotion": "自我安慰" },
+        "atmosphere": "强装镇定，但内心的不安无法掩盖",
+        "sfx": "深呼吸声",
+        "ai_image_prompt": "anime close-up side view, girl gripping edge of vanity table, shaking head, taking deep breath, copper ring glinting in morning light, forced calm expression, subtle anxiety visible"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念松开双手，低垂目光落在铜戒指上。晨光渐渐变得苍白。她的心灯微不可察地闪了一下——第一次异常闪烁。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "俯视" },
+        "characters": [{ "name": "苏念", "action": "低头看戒指", "expression": "隐忧", "position": "中" }],
+        "dialogue": null,
+        "atmosphere": "不祥的预兆，心灯的首次异常",
+        "sfx": "心灯闪烁的电流般微响",
+        "ai_image_prompt": "anime close-up, girl's hands with copper ring, looking down, heart lantern near chest flickering once unnaturally, morning light turning pale, ominous subtle atmosphere, foreshadowing shot"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP02-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "从不安升级为震惊，最后转化为坚定的决心",
+      "color_palette": ["#E74C3C", "#2C3E50", "#F39C12"],
+      "lighting": "灯塔工坊的暖光与心灯异常闪烁的冷光交替",
+      "weather": "阴天"
+    },
+    "video_prompt": "Anime style, girl in lighthouse workshop noticing her own heart lantern flickering erratically. She puts down her tools in shock, the warm orange orb near her chest dims and brightens unstably. She reaches toward it with trembling hands. Then her expression shifts from shock to fierce determination, she clenches her fist, tears in her eyes but resolute gaze. The heart lantern stabilizes slightly in response to her will. Dramatic lighting shifts, no subtitles, emotional climax.",
+    "bgm": {
+      "description": "紧张的弦乐骤起，在最后转为坚定有力的旋律",
+      "mood": "tense, shocking, then determined, dramatic strings"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "灯塔工坊，苏念像往常一样工作。她用工具校准一盏心灯时，手中的工具突然滑落——她的心灯毫无预兆地剧烈闪烁起来。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "工具从手中滑落，身体僵住", "expression": "惊愕", "position": "中" }],
+        "dialogue": null,
+        "atmosphere": "平静被突然打破，工具落地的声音格外刺耳",
+        "sfx": "金属工具落地声，心灯剧烈闪烁的嗡鸣",
+        "ai_image_prompt": "anime medium shot, girl in workshop suddenly freezing, metal tool falling from her hand, the orange heart lantern near her chest flickering wildly and erratically, shock on face, warm workshop setting contrasting with unstable light"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "心灯特写，橙色的灯火在明亮和黯淡之间快速交替，如将熄未熄的蜡烛。灯火内部隐约可见一个女性轮廓在消散。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "（灯火特写）", "expression": "—", "position": "中" }],
+        "dialogue": { "speaker": "苏念", "text": "我的灯……怎么会……", "emotion": "震惊/低语" },
+        "atmosphere": "灯火中消散的母亲身影，记忆正在流失",
+        "sfx": "灯火不稳定的脉动声，如心跳紊乱",
+        "ai_image_prompt": "anime extreme close-up, a floating orange flame orb flickering between bright and dim rapidly, inside the flame a faint silhouette of a woman dissolving and fading, unstable pulsing light, dramatic and unsettling"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念伸出颤抖的双手想要触碰自己的心灯，但灯火像受惊一样退缩了一下。她的眼睛瞪大，泪水开始在眼眶中蓄积。",
+        "camera": { "type": "近景", "movement": "缓慢推近", "angle": "正面" },
+        "characters": [{ "name": "苏念", "action": "伸手触碰心灯，灯火退缩", "expression": "恐惧/泪眼", "position": "中" }],
+        "dialogue": null,
+        "atmosphere": "心灯的排斥象征记忆的不可挽回，情绪达到低谷",
+        "sfx": "灯火退缩的气流声",
+        "ai_image_prompt": "anime close-up, girl reaching with trembling hands toward her flickering heart lantern, the flame shrinking away from her touch, wide eyes filling with tears, dramatic lighting contrast, emotional distress"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "一滴泪落下，滴在苏念的手背上。泪珠在灯火的照耀下呈金色。苏念低头看着自己的双手，手中的铜戒指映着灯火的不稳光芒。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "俯视" },
+        "characters": [{ "name": "苏念", "action": "低头，泪落手背", "expression": "悲伤", "position": "中" }],
+        "dialogue": null,
+        "atmosphere": "泪珠与灯火的交映，悲伤中酝酿力量",
+        "sfx": "泪滴声（放大），安静",
+        "ai_image_prompt": "anime extreme close-up, a golden tear dropping onto the back of a girl's hand, copper ring visible, the tear illuminated by flickering heart lantern light, emotional detail shot, warm gold teardrop on skin"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念猛然抬头，泪痕未干但目光变得锐利坚定。她紧紧握拳，铜戒指硌进掌心。心灯似乎感应到她的意志，闪烁减缓了一些。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "微仰视" },
+        "characters": [{ "name": "苏念", "action": "抬头握拳，目光坚定", "expression": "含泪但坚决", "position": "中" }],
+        "dialogue": { "speaker": "苏念", "text": "我不能失去这些记忆。", "emotion": "坚定/紧握拳头" },
+        "atmosphere": "从悲伤转为决心，灯光在坚定的意志下稍微稳定",
+        "sfx": "坚定的心跳声，灯火渐稳",
+        "ai_image_prompt": "anime close-up low angle, girl looking up with tear-streaked face but fierce determined eyes, clenched fist with copper ring pressing into palm, heart lantern flickering less wildly, dramatic upward lighting, heroic determination moment"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念转身望向工坊角落的古籍架。镜头跟随她的目光，架子上一本泛黄的古书微微发光——那是关于万灯之渊的传说记载。画面聚焦在书脊上，淡出。",
+        "camera": { "type": "中景", "movement": "摇镜至古籍架", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "转身看向古籍架", "expression": "决意", "position": "左" }],
+        "dialogue": null,
+        "atmosphere": "决心的方向已定，古籍发出的微光暗示答案的所在",
+        "sfx": "古书微光的轻响",
+        "ai_image_prompt": "anime medium shot, girl turning to look at an old bookshelf in corner of workshop, one ancient yellowed book glowing faintly on the shelf, camera panning from girl to glowing book, determined profile, dramatic foreshadowing, warm dim workshop"
+      }
+    ]
+  }
+}

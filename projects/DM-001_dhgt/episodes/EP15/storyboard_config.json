@@ -1,0 +1,236 @@
+{
+  "video_id_prefix": "DM-001-EP15",
+  "episode": 15,
+  "episode_title": "分歧",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "烬的出现让白夜陷入焦虑。他认为自己应该独自去解决烬——不想连累其他人。苏念试图劝阻，但白夜在争执中说出了伤人的话并甩开了她的手。白夜独自离开了队伍，消失在黑暗中。苏念站在原地无法释怀，铃音和墨默默陪伴在她身边。",
+  "emotion_tone": "焦虑",
+  "connection": {
+    "from_previous": "烬的压倒性力量让白夜感到必须独自面对",
+    "to_next": "白夜独自离去后，铃音用歌声安慰苏念"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP15-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "压抑的争执，友情的裂痕",
+      "color_palette": ["#34495E", "#7F8C8D", "#2C3E50"],
+      "lighting": "灰暗阴沉，心灯光芒暗淡",
+      "weather": "天色灰暗，空气沉重滞闷"
+    },
+    "video_prompt": "Anime style, tense argument scene. Silver-haired boy announces he's going alone to face the villain. Brown-haired girl desperately tries to stop him, grabbing his arm, but he coldly shakes her off and turns his back. Emotional conflict between friends, grey overcast atmosphere, no subtitles, dramatic relationship-testing moment.",
+    "bgm": {
+      "description": "紧张的弦乐震音，间杂沉默的间奏，压抑而矛盾",
+      "mood": "tense tremolo strings, intermittent silences, oppressive conflict"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "夜间临时营地。苏念在休息，铃音和墨也在。白夜一个人坐在远处，背对着大家，盯着烬消失的方向。他的冰蓝色光点在指间跳动——他在思考着什么。",
+        "camera": { "type": "中远景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "独自坐在远处思考", "expression": "沉思/焦虑", "position": "远处" },
+          { "name": "苏念", "action": "在营地附近坐着", "expression": "疲惫/忧虑", "position": "近处" }
+        ],
+        "dialogue": null,
+        "atmosphere": "白夜独自在阴影中做出决定",
+        "sfx": "夜风声，冰蓝光点跳动的细微声",
+        "ai_image_prompt": "anime medium-wide shot, makeshift night camp, silver-haired boy sitting alone at a distance with his back to the group, icy blue sparkles flickering at his fingertips as he stares into the dark horizon, brown-haired girl sitting near the camp looking at him with worry, isolation and contemplation, gloomy atmosphere"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "白夜站起身，收拾好自己的东西。苏念注意到他的动作，站起来问他要去哪里。白夜背对着她，冷静但决绝地说出自己的决定——他要一个人去找烬。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "站起身背对苏念", "expression": "决绝/冷静", "position": "左" },
+          { "name": "苏念", "action": "站起来询问", "expression": "不安/紧张", "position": "右" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "我去找他。一个人。", "emotion": "冷静/决绝" },
+        "atmosphere": "单方面的决定，不容商量的语气",
+        "sfx": "白夜站起的声响，衣物整理声",
+        "ai_image_prompt": "anime medium shot, silver-haired boy standing and gathering his things with his back to the brown-haired girl who rises with alarm, his posture rigid and determined, cold blue tones surrounding him contrasting with her warm orange, announcement of departure, tense body language"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念急忙走过去，伸手抓住白夜的袖子。她的声音因为焦急而颤抖——她知道白夜一个人根本不是烬的对手。白夜没有回头。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "抓住白夜袖子", "expression": "焦急/恳求", "position": "右" },
+          { "name": "白夜", "action": "没有回头", "expression": "背影/僵硬", "position": "左" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "白夜！你一个人不可能赢他的！", "emotion": "焦急/恳求" },
+        "atmosphere": "拼命想挽留同伴的少女",
+        "sfx": "抓住衣袖的声音，苏念急促的呼吸",
+        "ai_image_prompt": "anime close-up, brown-haired girl grabbing the sleeve of the silver-haired boy who refuses to turn around, her face desperate and pleading, his back rigid and tense, the pull of friendship against stubborn resolve, emotional tug of cloth, close intimate framing of the conflict"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "白夜终于转过头——但不是温柔地。他冷淡地看了苏念一眼，用力甩开了她的手。那一下力气让苏念踉跄后退了一步。白夜说出了伤人的话。",
+        "camera": { "type": "近景", "movement": "快速", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "甩开苏念的手", "expression": "冷淡/回避痛苦", "position": "左" },
+          { "name": "苏念", "action": "被甩开踉跄后退", "expression": "震惊/受伤", "position": "右" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "你管好你自己的路。", "emotion": "冷淡/回避" },
+        "atmosphere": "为了保护而选择伤害——白夜的残忍温柔",
+        "sfx": "甩开手的拍击声，苏念后退的脚步声",
+        "ai_image_prompt": "anime dramatic close-up, silver-haired boy turning with a cold expression forcefully shaking off the brown-haired girl's hand from his sleeve, she stumbles backward in shock, his eyes hiding pain behind coldness, cruel kindness of pushing someone away to protect them, emotional rupture moment"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念呆呆地看着自己被甩开的空手。白夜已经转身大步走向黑暗方向。铃音跑过来扶住苏念，用力拉她的袖子示意她不要追——那个方向太危险了。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "呆看自己空空的手", "expression": "茫然/受伤", "position": "中" },
+          { "name": "白夜", "action": "大步走向黑暗", "expression": "背影", "position": "远去" },
+          { "name": "铃音", "action": "跑来扶住苏念", "expression": "担忧/阻止", "position": "旁边" }
+        ],
+        "dialogue": null,
+        "atmosphere": "被甩开后的空虚和无力感",
+        "sfx": "白夜远去的脚步声，铃音跑来的脚步声",
+        "ai_image_prompt": "anime medium shot, brown-haired girl staring at her empty hand in shock, silver-haired boy walking away into the dark distance with determined strides, purple-haired girl running up to support her pulling her sleeve to prevent her from following, emotional aftermath of rejection, friend departing into danger"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "白夜的身影越来越小，最终消失在黑暗的地平线。他没有回头看一眼。苏念想喊他的名字，但声音卡在喉咙里。她的心灯在胸前微弱地闪烁。",
+        "camera": { "type": "远景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "消失在地平线", "expression": "背影消失", "position": "远方" },
+          { "name": "苏念", "action": "张嘴却喊不出声", "expression": "失声/无力", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "同伴离去的孤独感，无法挽回的背影",
+        "sfx": "风声吹过空旷原野，脚步声渐远至消失",
+        "ai_image_prompt": "anime wide cinematic shot, silver-haired boy's silhouette shrinking into the dark horizon without looking back, brown-haired girl standing in the foreground trying to call out but no words come, her mouth open silently, heart lantern flickering weakly, vast empty landscape, painful departure, loneliness engulfing the frame"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP15-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "离别后的空虚、无力感与互相依靠的温暖",
+      "color_palette": ["#2C3E50", "#5D6D7E", "#F39C12"],
+      "lighting": "灰暗中苏念心灯提供微弱温暖光",
+      "weather": "冷风轻拂，夜色沉寂"
+    },
+    "video_prompt": "Anime style, aftermath of the friend's departure. Brown-haired girl stands watching where he disappeared, tears falling. The mute purple-haired girl holds her hand gently. The grey cat rubs against her ankle comfortingly. Quiet emotional scene of those left behind finding strength in each other, dim lighting with warm heart lantern glow, no subtitles, Ghibli-inspired tender sadness.",
+    "bgm": {
+      "description": "钢琴独奏的悲伤旋律，缓慢而沉重，带有一丝温暖的和弦转折",
+      "mood": "sad piano solo, slow and heavy, with a faint warm chord transition"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏念终于可以出声了，但白夜已经完全看不到了。她低声叫了一声白夜的名字，声音被风吹散。泪水从她的脸颊滑落。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "低声叫白夜名字", "expression": "无力/流泪", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "迟到的呼唤，声音被风吹散",
+        "sfx": "微弱的呼唤声被风吹散，泪水滴落的声音",
+        "ai_image_prompt": "anime close-up, brown-haired girl's profile whispering a name into the wind, tears sliding down her cheek, the wind scattering her voice and her hair, vast empty dark horizon ahead, too-late calling, poignant solitude"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念的双腿发软，跪坐在地上。铃音走到她身边，蹲下来，用双手轻轻握住苏念的手。铃音说不了安慰的话，但她的手很温暖。苏念看着铃音的眼睛，终于忍不住哭出声来。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "略俯" },
+        "characters": [
+          { "name": "苏念", "action": "跪坐在地上痛哭", "expression": "崩溃/痛哭", "position": "中" },
+          { "name": "铃音", "action": "蹲下握住苏念的手", "expression": "心疼/无声安慰", "position": "旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "无声的安慰胜过千言万语",
+        "sfx": "苏念哭泣声，铃音轻柔地握手的细微声",
+        "ai_image_prompt": "anime close-up slightly overhead, brown-haired girl collapsed to her knees crying, purple-haired girl crouching beside her holding both her hands warmly, wordless comfort through touch, tears and handholding, gentle supportive presence, intimate sorrowful moment between two girls"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "墨也走过来，轻轻用头蹭苏念的脚踝。它发出一声柔软的「喵」，像是在说'我们还在呢'。苏念低头看着墨，泪眼朦胧中露出一丝苦笑。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "低头看墨苦笑", "expression": "泪眼苦笑", "position": "中" },
+          { "name": "墨", "action": "蹭苏念脚踝", "expression": "安慰", "position": "脚边" }
+        ],
+        "dialogue": { "speaker": "墨", "text": "喵……", "emotion": "安慰/无奈" },
+        "atmosphere": "小小的安慰也是安慰",
+        "sfx": "墨的轻柔猫叫声，蹭脚踝的细微声",
+        "ai_image_prompt": "anime close-up, grey cat rubbing against the brown-haired girl's ankle comfortingly, she looks down through tear-blurred eyes with a bittersweet half-smile, small warm comfort in a cold moment, cat's gentle consolation, tender pet-owner bond"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念擦干眼泪，问自己一个问题。她不理解白夜为什么要把所有事都扛在自己身上——明明可以一起面对。她的话有困惑，也有心疼。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "擦泪自言自语", "expression": "困惑/心疼", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "为什么……为什么要把所有事都扛在自己身上……", "emotion": "无力/难过" },
+        "atmosphere": "不理解但依然心疼的矛盾心情",
+        "sfx": "擦泪的声音，微弱的自语",
+        "ai_image_prompt": "anime close-up, brown-haired girl wiping her tears with the back of her hand, speaking softly to herself with a confused and pained expression, questioning why her friend insists on bearing everything alone, dim lighting with heart lantern glow on her face, introspective sorrow"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "铃音抬起手，轻轻指了指苏念胸前的心灯，然后又指了指自己的心口，最后指向白夜消失的方向。意思是：他的灯火虽然看不见了，但还在那里。苏念理解了铃音的意思。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "手语表达安慰", "expression": "认真/温暖", "position": "左" },
+          { "name": "苏念", "action": "看着铃音的手势", "expression": "恍然/感动", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "无声的智慧——看不见不代表不在",
+        "sfx": "铃音手指移动的轻微声，心灯的回应微光",
+        "ai_image_prompt": "anime medium shot, purple-haired girl making expressive gestures, pointing to the brown-haired girl's heart lantern then to her own heart then toward the dark horizon, silent wisdom and comfort, the brown-haired girl's expression changing from sadness to understanding, wordless communication between friends, sign language of the heart"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念看向白夜消失的方向。虽然看不到他，但她知道他的冰蓝色光一定还在某处。她将手放在胸前的心灯上，轻声说了一句只有她自己能听到的话——等着她。铃音、墨在她身旁。三个人（加猫）站成的阵型少了一角。",
+        "camera": { "type": "远景", "movement": "缓慢拉远", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "看向远方手放心灯上", "expression": "坚定中带着担忧", "position": "中" },
+          { "name": "铃音", "action": "站在苏念身旁", "expression": "安静陪伴", "position": "右" },
+          { "name": "墨", "action": "站在脚边", "expression": "安静", "position": "苏念脚边" }
+        ],
+        "dialogue": null,
+        "atmosphere": "少了一角的阵型——但前行不能停",
+        "sfx": "沉静的风声，心灯微弱但持续的嗡鸣",
+        "ai_image_prompt": "anime wide shot slowly pulling back, three figures (brown-haired girl, purple-haired girl, and grey cat) standing together looking toward the dark horizon, their formation noticeably missing the fourth member, brown-haired girl's hand on her heart lantern, dim but persistent warm glow, incomplete but not defeated, bittersweet determination to continue, cinematic ending composition"
+      }
+    ]
+  }
+}

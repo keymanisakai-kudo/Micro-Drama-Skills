@@ -1,0 +1,150 @@
+{
+  "video_id_prefix": "DM-001-EP04",
+  "episode": 4,
+  "episode_title": "白夜",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "苏念在旅途中遇到少年白夜，他的心灯是冷蓝色的。白夜自称失去了所有快乐的记忆，只记得悲伤。苏念邀请他一起去万灯之渊，两人决定同行。",
+  "emotion_tone": "孤独",
+  "connection": {
+    "from_previous": "苏念独自离开灯塔城踏上旅途",
+    "to_next": "两人将一起进入记忆之森"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP04-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "荒凉的旷野上偶遇孤独的陌生人，冷暖色调碰撞",
+      "color_palette": ["#3498DB", "#2C3E50", "#F5A623"],
+      "lighting": "灰蓝色的阴天光线，白夜的冰蓝心灯与苏念的暖橙心灯形成对比",
+      "weather": "阴天，冷风"
+    },
+    "video_prompt": "Anime style, desolate grey-blue landscape with dead trees. A girl with red cloak walks along a path and spots a boy sitting alone on a rock. He has messy silver-white hair, black coat, and a cold blue glowing orb near his chest contrasting with her warm orange one. He turns away coldly when she approaches. Stark contrast between warm and cold colors. Windy, overcast atmosphere, no subtitles, cinematic.",
+    "bgm": { "description": "冷色调的钢琴独奏，清冷而孤独", "mood": "cold, lonely, minimal piano, melancholic" },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1, "time_start": 0.0, "time_end": 2.5,
+        "scene_description": "荒凉的灰色旷野，枯树散落。苏念独自走在泥土小路上，斗篷被风吹起。远处一块巨石上隐约坐着一个人影。",
+        "camera": { "type": "远景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "行走", "expression": "警觉", "position": "左" }],
+        "dialogue": null, "atmosphere": "荒凉旷野中的孤独行者", "sfx": "冷风呼啸，脚步声",
+        "ai_image_prompt": "anime wide shot, desolate grey landscape with dead trees, girl in red cloak walking on dirt path, distant figure sitting on a large rock, overcast sky, cold windy atmosphere, lonely journey"
+      },
+      {
+        "grid_number": 2, "time_start": 2.5, "time_end": 5.0,
+        "scene_description": "苏念走近，看到石头上坐着一个银白色头发的少年。他穿着黑色长风衣，胸前悬浮着一颗冰蓝色的心灯——那是纯粹悲伤的颜色。",
+        "camera": { "type": "中景", "movement": "缓慢推近", "angle": "微仰视" },
+        "characters": [{ "name": "白夜", "action": "坐在石头上，一只脚悬空", "expression": "冷漠/空洞", "position": "中" }],
+        "dialogue": null, "atmosphere": "冷蓝色心灯的视觉冲击——纯粹的悲伤", "sfx": "冰蓝心灯低沉的嗡鸣",
+        "ai_image_prompt": "anime medium shot low angle, boy with messy silver-white hair sitting on large rock, black long coat, cold ice-blue glowing orb floating near chest, empty cold expression, grey desolate background, striking blue light"
+      },
+      {
+        "grid_number": 3, "time_start": 5.0, "time_end": 7.5,
+        "scene_description": "苏念靠近，白夜察觉到她的存在。他没有回头，只是偏了偏头。两人的心灯——暖橙与冰蓝——在空气中交汇出微妙的光晕。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "侧面" },
+        "characters": [{ "name": "白夜", "action": "微微偏头", "expression": "防备", "position": "右" }, { "name": "苏念", "action": "停步", "expression": "好奇/关切", "position": "左" }],
+        "dialogue": { "speaker": "白夜", "text": "别过来，我不需要任何人。", "emotion": "冷漠/防备" },
+        "atmosphere": "橙蓝两色心灯的碰撞，冷暖交融", "sfx": "两颗灯火间的微弱共鸣",
+        "ai_image_prompt": "anime medium side shot, two figures facing each other, boy on rock turning slightly away, girl standing below, warm orange and cold blue heart lanterns creating mixed light halos between them, striking color contrast, tense meeting"
+      },
+      {
+        "grid_number": 4, "time_start": 7.5, "time_end": 10.0,
+        "scene_description": "苏念没有退后，而是仰头认真地看着白夜的心灯。冰蓝色的灯火中隐约浮现哭泣的画面——全是悲伤的碎片。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "仰视" },
+        "characters": [{ "name": "苏念", "action": "仰望白夜的心灯", "expression": "心疼", "position": "中" }],
+        "dialogue": null, "atmosphere": "守灯人的感知——看见他人灯火中的痛苦", "sfx": "远处的哭泣声回响（灯火中的记忆）",
+        "ai_image_prompt": "anime close-up looking up, girl gazing at a cold blue floating flame, inside the blue flame faint images of crying and sadness, compassionate pained expression, blue light reflecting on her face"
+      },
+      {
+        "grid_number": 5, "time_start": 10.0, "time_end": 12.5,
+        "scene_description": "白夜皱眉回头，对上苏念含泪的目光。他的表情从冷漠变为微微动摇——很久没人为他落泪了。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "白夜", "action": "转头面对苏念", "expression": "微微动摇", "position": "右" }],
+        "dialogue": { "speaker": "苏念", "text": "你的灯……好冷。", "emotion": "心疼/低语" },
+        "atmosphere": "冰冷的防线出现裂痕", "sfx": "风声减弱",
+        "ai_image_prompt": "anime close-up two-shot, boy turning to face girl with slightly shaken expression breaking through his cold mask, girl with teary eyes looking at him with compassion, warm orange vs cold blue lighting on their faces"
+      },
+      {
+        "grid_number": 6, "time_start": 12.5, "time_end": 15.0,
+        "scene_description": "白夜迅速别过脸去，恢复冷漠的面具。但他的右臂上的蓝色灯纹微微变暗——他在压抑情感。苏念注意到了灯纹。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "侧面" },
+        "characters": [{ "name": "白夜", "action": "别过脸", "expression": "强装冷漠", "position": "中" }],
+        "dialogue": null, "atmosphere": "伪装的冷漠与隐藏的脆弱", "sfx": "灯纹微弱变化的声音",
+        "ai_image_prompt": "anime close-up side view, boy turning face away, forced cold expression but blue glowing marks on his right arm dimming slightly revealing suppressed emotion, subtle vulnerability beneath cold exterior"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP04-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "从孤独的对峙到温暖的联结，冷色渐暖",
+      "color_palette": ["#3498DB", "#F5A623", "#8E44AD"],
+      "lighting": "阴天渐渐透出一丝阳光，两颗心灯靠近",
+      "weather": "阴转多云"
+    },
+    "video_prompt": "Anime style, boy with silver hair sits on rock looking at his own cold blue heart lantern, bitter self-mocking expression. Girl with red cloak reaches out her hand to him with a warm smile. The two heart lanterns - blue and orange - begin to pulse in gentle sync. He reluctantly takes her hand. They start walking together into the distance, two lights side by side. Overcast sky breaking slightly. Emotional, hopeful, no subtitles.",
+    "bgm": { "description": "钢琴加入温暖的弦乐，从冷调渐变为温暖", "mood": "warming, hopeful, piano joining warm strings" },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1, "time_start": 0.0, "time_end": 2.5,
+        "scene_description": "白夜低头看着自己胸前冰蓝色的心灯。他的表情从冷漠变为深深的苦涩，嘴角微微扭曲成自嘲的弧度。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "俯视" },
+        "characters": [{ "name": "白夜", "action": "低头看自己的心灯", "expression": "苦涩自嘲", "position": "中" }],
+        "dialogue": { "speaker": "白夜", "text": "快乐？我已经忘了那是什么。", "emotion": "自嘲/苦涩" },
+        "atmosphere": "深沉的悲伤与自我放弃", "sfx": "冰蓝灯火的低沉脉动",
+        "ai_image_prompt": "anime close-up overhead, boy looking down at his own cold blue heart lantern, bitter self-mocking half-smile, silver-white hair, dark coat, deeply sad moment"
+      },
+      {
+        "grid_number": 2, "time_start": 2.5, "time_end": 5.0,
+        "scene_description": "苏念走到白夜面前，微微弯腰，将手伸向他。她的暖橙色心灯在两人之间散发温柔的光。她的笑容温暖而真诚。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "微俯视" },
+        "characters": [{ "name": "苏念", "action": "弯腰伸手", "expression": "温暖/诚恳", "position": "左" }, { "name": "白夜", "action": "坐在石头上仰视", "expression": "惊讶", "position": "右" }],
+        "dialogue": { "speaker": "苏念", "text": "那就一起去找回来。", "emotion": "温暖/坚定" },
+        "atmosphere": "温暖的手伸向冰冷的心灵", "sfx": "心灯温暖的嗡鸣增强",
+        "ai_image_prompt": "anime medium shot, girl bending slightly and extending her hand toward boy sitting on rock, warm orange heart lantern glowing brightly between them, warm sincere smile, boy looking up surprised, emotional connection moment"
+      },
+      {
+        "grid_number": 3, "time_start": 5.0, "time_end": 7.5,
+        "scene_description": "白夜看着苏念伸出的手，然后抬眼看她的脸。第一次，他的冰蓝眼睛里映出了一丝橙色——是苏念心灯的倒影。",
+        "camera": { "type": "特写", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [{ "name": "白夜", "action": "注视苏念的手和脸", "expression": "犹豫/微微动容", "position": "中" }],
+        "dialogue": null, "atmosphere": "冰冷的眼中出现温暖的色彩", "sfx": "灯火微弱的共鸣声",
+        "ai_image_prompt": "anime extreme close-up, boy's ice blue eyes with a tiny warm orange reflection of girl's heart lantern visible in his pupils, hesitant slightly touched expression, silver-white hair, subtle emotional thaw"
+      },
+      {
+        "grid_number": 4, "time_start": 7.5, "time_end": 10.0,
+        "scene_description": "白夜犹豫片刻，最终伸出手，指尖触碰苏念的手掌。那一瞬间，两颗心灯——冰蓝与暖橙——同时微微脉动了一下。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "白夜", "action": "伸手触碰苏念的手", "expression": "犹豫中的接受", "position": "右" }, { "name": "苏念", "action": "握住白夜的手", "expression": "微笑", "position": "左" }],
+        "dialogue": null, "atmosphere": "两颗灯火的首次共鸣，人与人之间的联结", "sfx": "双灯同步脉动的声音",
+        "ai_image_prompt": "anime close-up of two hands meeting, fingertips touching, warm orange and cold blue heart lanterns in background pulsing simultaneously, moment of connection, warm and cool light mixing beautifully"
+      },
+      {
+        "grid_number": 5, "time_start": 10.0, "time_end": 12.5,
+        "scene_description": "白夜站起身，虽然表情仍旧不太自然，但他没有松开手。苏念拉着他走下石头。阴天的云层中透出一缕阳光。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "白夜", "action": "从石头上站起", "expression": "别扭/不自然", "position": "右" }, { "name": "苏念", "action": "拉着他走下来", "expression": "开心", "position": "左" }],
+        "dialogue": null, "atmosphere": "阴天中透出阳光，象征希望", "sfx": "一缕阳光的温暖音效",
+        "ai_image_prompt": "anime medium shot, girl pulling boy off the rock by hand, she looks happy, he looks awkward but doesn't let go, sunlight breaking through overcast clouds above, symbolic warm light beam, two heart lanterns side by side"
+      },
+      {
+        "grid_number": 6, "time_start": 12.5, "time_end": 15.0,
+        "scene_description": "两人并肩走向远方，路的尽头隐约可见一片幽暗的树林——记忆之森。两颗心灯一蓝一橙，在灰色旷野中如同两颗伴行的星。画面渐远。",
+        "camera": { "type": "远景", "movement": "缓慢拉远", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "行走", "expression": "安定", "position": "左" }, { "name": "白夜", "action": "行走", "expression": "沉默（但不排斥）", "position": "右" }],
+        "dialogue": null, "atmosphere": "两颗灯火照亮彼此，走向未知的旅程", "sfx": "脚步声合拍，远处树林的沙沙声",
+        "ai_image_prompt": "anime wide shot, two figures walking side by side into the distance toward a dark mysterious forest on the horizon, one warm orange and one cold blue heart lantern glowing like companion stars, grey desolate landscape, cinematic journey shot"
+      }
+    ]
+  }
+}

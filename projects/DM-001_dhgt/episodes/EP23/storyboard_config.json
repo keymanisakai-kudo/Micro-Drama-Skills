@@ -1,0 +1,240 @@
+{
+  "video_id_prefix": "DM-001-EP23",
+  "episode": 23,
+  "episode_title": "新生之光",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "烬的黑暗外壳完全碎裂后，他作为曾经的灯守重新站起来。他的力量虽然减弱了很多，但胸口重新亮起的琥珀色灯纹比之前更温暖。他被毁灭的碎片开始自发恢复——原来灯火的记忆不会真正消失，只是需要光来唤醒。所有人的记忆开始恢复，灯塔城传来消息：灯火回来了。",
+  "emotion_tone": "喜悦",
+  "connection": {
+    "from_previous": "三人将光注入烬使其重生",
+    "to_next": "一切恢复后踏上归途"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP23-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "重生后的脆弱与希望，新的开始",
+      "color_palette": ["#F1C40F", "#E67E22", "#3498DB"],
+      "lighting": "黎明的金色光芒，烬的琥珀色灯纹柔和发光",
+      "weather": "天空开始明亮，云层散开"
+    },
+    "video_prompt": "Anime style, the freed keeper, no longer dark, kneels in the ruins of his former darkness. His amber lantern marks glow softly. The brown-haired girl helps him stand. Around them destroyed fragments begin to glow again and restore themselves. New dawn breaking, rebirth and hope, no subtitles, Ghibli-inspired resurrection scene.",
+    "bgm": {
+      "description": "温暖的弦乐重新升起，如同第一缕阳光照进黑暗房间",
+      "mood": "warm strings rising again, like first sunlight entering a dark room"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "烬的黑暗外壳碎片散落在地上，像蜕下的旧壳。他跪在中央，黑色长袍已经褪去，露出里面灯守袍的残痕。他的面容终于完全可见——一个疲惫但温柔的年轻人面容，有一双金色的眼睛。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬（回归）", "action": "跪在碎壳中", "expression": "脆弱/迷茫", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "蜕变后的脆弱——像刚出壳的新生",
+        "sfx": "残壳散落的轻微声，烬平稳的呼吸",
+        "ai_image_prompt": "anime close-up, a tired but gentle young man kneeling amid scattered pieces of dark shell like shed armor, his face fully visible for the first time with warm golden eyes, faded keeper robes underneath, amber lantern marks on his chest glowing softly, fragile post-rebirth moment, new life emerging from darkness"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "烬抬头看着苏念——第一次用正常的、不再有回声的声音说话。他的声音沙哑而颤抖，像一个哭了很久的人。他不确定自己是否有资格重新开始——他毁灭了那么多灯火。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "仰视" },
+        "characters": [
+          { "name": "烬（回归）", "action": "抬头看苏念不确定地问", "expression": "脆弱/不确定", "position": "下" }
+        ],
+        "dialogue": { "speaker": "烬（回归）", "text": "我……还能重新开始吗？", "emotion": "颤抖/不确定" },
+        "atmosphere": "最强者的脆弱一刻——能否被原谅",
+        "sfx": "烬沙哑颤抖的声音，第一次不带恶意的话语",
+        "ai_image_prompt": "anime close-up from below looking up, the freed young man looking up from his knees with vulnerable golden eyes, asking if he can start over, hoarse trembling voice from someone who cried for the first time in ages, fragile hope and deep guilt, seeking permission to hope again"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念蹲下来与烬平视，微笑着伸出手。她说了一句她从这段旅程中学到的话——灯火只要还有一点点光就不会熄灭。烬看着她的手，犹豫了一下，颤抖着握住了。苏念用力把他拉了起来。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "蹲下伸手拉烬起来", "expression": "温暖/微笑", "position": "左" },
+          { "name": "烬（回归）", "action": "犹豫后握住手站起", "expression": "感动/泪光", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "灯火只要还有一点点光，就永远不会熄灭。", "emotion": "温暖/微笑" },
+        "atmosphere": "拉起跌倒的人——灯守的真正使命",
+        "sfx": "握手的声音，拉起站立的声响",
+        "ai_image_prompt": "anime close-up, brown-haired girl crouching to offer her hand with a warm smile, the freed keeper hesitantly taking it with trembling fingers, she pulls him to his feet, the simple act of helping someone stand up, powerful symbolic gesture, warm eye contact between redeemer and redeemed"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "烬站起来的瞬间，他胸口的琥珀色灯纹发出一阵脉动——那是心灯在重启。微弱但真实的琥珀色光芒从他胸口散发。与此同时，周围被毁灭的碎片残骸开始出现变化——它们在微微发光。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬（回归）", "action": "站起后灯纹脉动", "expression": "惊讶于自己的光", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "心灯重启——连碎片残骸都在回应",
+        "sfx": "灯纹重启的脉动声，碎片残骸微光的细碎声",
+        "ai_image_prompt": "anime medium shot, the freed keeper standing upright for the first time, amber lantern marks on his chest pulsing with restarted light, around them the destroyed fragment debris beginning to glow faintly, his light reigniting causing a chain reaction, the first signs of restoration, hope visually spreading"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "碎片残骸不只是发光——它们在重新组合！被烬毁灭的碎片并没有真正消失，只是光被吸走了。现在光回来了，碎片开始恢复原状。一颗颗灯火碎片从灰烬中重生，漂浮起来。",
+        "camera": { "type": "远景", "movement": "缓慢环绕", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "惊喜地看碎片恢复", "expression": "惊喜", "position": "中" },
+          { "name": "烬（回归）", "action": "震惊地看碎片重生", "expression": "震惊/喜悦", "position": "旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯火不灭——碎片从灰烬中重生",
+        "sfx": "碎片重生时的清脆晶莹声，如同水晶生长的声音",
+        "ai_image_prompt": "anime wide panoramic shot, destroyed fragments throughout the landscape beginning to reassemble and float upward, light returning to ashes regenerating into glowing memory fragments, a field of darkness transforming into a field of light, resurrection of countless memories, magical restoration spreading outward like a wave"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念、白夜、铃音、墨和烬五个人站在重生的碎片海洋中。天空也在变亮——真正的黎明到来了。烬看着这一切，跪下用双手捧起一颗重生的碎片——里面是一个孩子的笑脸。他哭了，但这次是喜悦的泪水。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬（回归）", "action": "捧起重生碎片喜极而泣", "expression": "喜悦恸哭", "position": "中" },
+          { "name": "苏念", "action": "看着烬微笑", "expression": "欣慰", "position": "旁" },
+          { "name": "白夜", "action": "微笑", "expression": "释然", "position": "左" },
+          { "name": "铃音", "action": "擦泪", "expression": "喜悦", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "万物复苏——黎明终至",
+        "sfx": "黎明的温暖光芒声，碎片海洋的和弦，喜悦的泪水",
+        "ai_image_prompt": "anime medium shot in dawn light, the freed young keeper kneeling to cup a reborn fragment showing a child's smiling face inside, crying tears of joy, the group standing around him in a sea of restored glowing fragments, true dawn breaking above, all darkness dispelled, magnificent resurrection complete, tears of happiness, Ghibli-inspired joyous rebirth"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP23-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "万物恢复后的喜悦与感恩",
+      "color_palette": ["#F1C40F", "#2ECC71", "#3498DB"],
+      "lighting": "明亮的晨光，碎片在阳光中如宝石般闪烁",
+      "weather": "晴朗温暖的早晨，微风轻拂"
+    },
+    "video_prompt": "Anime style, all memories restored, the freed keeper looks at the renewed world with gratitude and guilt. The silver-haired boy tells him to look forward not back. The group prepares to return home. Communication from the lighthouse city - lights are returning everywhere. Joyful aftermath, hope and renewal, no subtitles, celebration of restoration.",
+    "bgm": {
+      "description": "欢快温暖的管弦乐，充满新生与希望的光明旋律",
+      "mood": "joyful warm orchestral, bright melody full of renewal and hope"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "烬站在重生的碎片海洋中环顾四周。如此多的碎片都恢复了——但他知道有些碎片被他碾碎时失去了太多，可能永远无法完全恢复。他的表情既有喜悦又有深深的愧疚。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬（回归）", "action": "环顾四周面带愧疚", "expression": "喜悦与愧疚交织", "position": "中" }
+        ],
+        "dialogue": { "speaker": "烬（回归）", "text": "那些被我毁灭的碎片……", "emotion": "痛苦/愧疚" },
+        "atmosphere": "喜悦中的愧疚——伤痕不能完全抹去",
+        "sfx": "烬低沉愧疚的声音，碎片轻柔的环境声",
+        "ai_image_prompt": "anime close-up, the freed young keeper surveying the field of restored fragments with mixed expression of joy and deep guilt, knowing some damage can never be fully undone, the weight of past sins amid restoration, complex emotional portrait of a redeemed villain"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "白夜走到烬身边。他对烬的感情很复杂——曾经的对手，如今的获救者。但白夜选择简单地拍了拍烬的肩膀，说了一句简短有力的话。人不能一直活在过去的阴影里。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "拍烬的肩", "expression": "平静/鼓励", "position": "左" },
+          { "name": "烬（回归）", "action": "被拍肩愣住", "expression": "惊讶/感动", "position": "右" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "别回头看了。往前走。", "emotion": "平静/鼓励" },
+        "atmosphere": "曾经的对手给出最简单的鼓励",
+        "sfx": "拍肩的声音，简短有力的话语",
+        "ai_image_prompt": "anime medium shot, silver-haired boy patting the freed keeper's shoulder with a calm encouraging expression, simple gesture from a former opponent, the freed keeper stunned by the unexpected kindness, moving forward instead of looking back, brief but powerful moment of masculine emotional support"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念的心灯突然闪动——云老的通讯再次接入。这次云老的声音充满了喜悦：灯塔城的灯火回来了！到处都在发光！人们的记忆在恢复！他既惊喜又不敢置信。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "接收云老通讯", "expression": "惊喜", "position": "中" },
+          { "name": "灯守·云老", "action": "全息形象传来", "expression": "喜极而泣", "position": "心灯上方" }
+        ],
+        "dialogue": null,
+        "atmosphere": "远方传来好消息——灯火回归灯塔城",
+        "sfx": "通讯接入声，云老激动的声音",
+        "ai_image_prompt": "anime medium shot, brown-haired girl's heart lantern flashing as the elderly keeper's hologram appears again, this time his expression is overjoyed with tears, delivering wonderful news that lights are returning everywhere, good news from the distant lighthouse city, joyful communication"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "大家听到好消息后都露出了笑容。铃音兴奋地拉着墨转圈，墨被甩得发出抗议的「喵！」。苏念和白夜相视一笑。烬看着他们的欢乐，露出了一个久违的、发自内心的微笑。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "拉着墨转圈", "expression": "兴奋", "position": "左" },
+          { "name": "墨", "action": "被转圈抗议", "expression": "抗议的喵", "position": "左" },
+          { "name": "苏念", "action": "与白夜相视微笑", "expression": "喜悦", "position": "中" },
+          { "name": "白夜", "action": "与苏念相视微笑", "expression": "释然微笑", "position": "中右" },
+          { "name": "烬（回归）", "action": "看着他们微笑", "expression": "久违的真心微笑", "position": "远处" }
+        ],
+        "dialogue": null,
+        "atmosphere": "最简单的快乐——大家一起笑",
+        "sfx": "铃音兴奋的动作声，墨的抗议叫声，笑声",
+        "ai_image_prompt": "anime medium group shot, purple-haired girl excitedly spinning with the grey cat who meows in protest, brown-haired girl and silver-haired boy exchanging smiles, the freed keeper watching them all from slight distance with a genuine heartfelt smile for the first time, everyone celebrating the good news, lively joyful group moment"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "烬走到苏念面前，郑重地鞠了一个深深的躬。不是拿出恐怖力量的黑暗存在，而是一个犯了错的人真诚的道歉。苏念没有让他鞠太久，温柔地扶起了他。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬（回归）", "action": "向苏念深深鞠躬", "expression": "真诚/感恩/歉意", "position": "左" },
+          { "name": "苏念", "action": "扶起烬", "expression": "宽容/温暖", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "真诚的道歉与温柔的宽恕",
+        "sfx": "鞠躬的衣物声，苏念温柔扶起的声响",
+        "ai_image_prompt": "anime medium shot, the freed young keeper bowing deeply before the brown-haired girl in genuine apology and gratitude, she gently lifting him back up with a forgiving warm expression, sincere repentance met with compassionate acceptance, no words needed, powerful silent exchange of forgiveness"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "五人一起看向远方——灯塔城的方向。现在他们有五种光了：橙、蓝、紫、银灰、琥珀。太阳从地平线升起，与他们的光交融。是时候回家了。",
+        "camera": { "type": "大远景", "movement": "缓慢拉远", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "看向远方微笑", "expression": "期待", "position": "中" },
+          { "name": "白夜", "action": "并肩站立", "expression": "平静", "position": "左" },
+          { "name": "铃音", "action": "并肩站立", "expression": "期待", "position": "右" },
+          { "name": "墨", "action": "苏念脚边", "expression": "安详", "position": "脚边" },
+          { "name": "烬（回归）", "action": "站在队伍中", "expression": "新的开始", "position": "后" }
+        ],
+        "dialogue": null,
+        "atmosphere": "五色光芒在日出中闪耀——回家的路在脚下",
+        "sfx": "日出的温暖光芒声，五种光交织的和弦，远方灯塔城方向的呼唤",
+        "ai_image_prompt": "anime grand wide cinematic shot, five figures standing together watching the sunrise on the horizon, five different colored lights (orange blue purple silver-grey amber) shining together harmoniously, the sun rising and blending with their combined light, time to go home, magnificent sunrise composition, united group of five looking toward tomorrow, Ghibli-inspired hopeful ending frame"
+      }
+    ]
+  }
+}

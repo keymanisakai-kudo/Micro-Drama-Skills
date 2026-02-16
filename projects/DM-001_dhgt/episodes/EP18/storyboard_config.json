@@ -1,0 +1,230 @@
+{
+  "video_id_prefix": "DM-001-EP18",
+  "episode": 18,
+  "episode_title": "烬的真相",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "苏念和铃音通过心灯与灯守·云老取得远程通讯。云老沉痛地讲述了烬的真相：烬曾是灯塔城最伟大的灯守，他的灯火曾照亮整座城。但他想守护所有人，燃尽了自己所有的光去填补黑暗，最终黑暗反噬吞噬了他。他从最亮的灯火变成了最深的黑暗。苏念终于理解了——烬不是天生的恶人，他只是把自己燃烧殆尽的守护者。",
+  "emotion_tone": "同情",
+  "connection": {
+    "from_previous": "白夜发现烬曾是灯守，苏念通过云老了解完整真相",
+    "to_next": "理解烬的真相后，苏念萌生了拯救他的念头"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP18-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "沉重的回忆，光辉的过去与黑暗的现在形成对比",
+      "color_palette": ["#F39C12", "#2C3E50", "#1C1C2E"],
+      "lighting": "通讯中的心灯微光，回忆画面中的金色光芒",
+      "weather": "安静的夜晚，空气沉重"
+    },
+    "video_prompt": "Anime style, the brown-haired girl communicates with an elderly keeper through her heart lantern, his translucent image floating above the lantern. He reveals the villain's past as the greatest keeper whose lantern once lit the entire city. Flashback shows a young man radiating brilliant golden light standing atop a lighthouse. Tragic backstory reveal, no subtitles, solemn storytelling scene.",
+    "bgm": {
+      "description": "沉重的钢琴与大提琴二重奏，述说辉煌与陨落的哀歌",
+      "mood": "heavy piano and cello duet, elegiac tale of glory and fall"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏念和铃音在营地。苏念的心灯忽然剧烈闪动——云老在远方试图与她建立通讯。苏念将心灯举起，半透明的云老形象在灯光中浮现，如同全息投影。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "举起闪动的心灯", "expression": "惊讶/专注", "position": "中" },
+          { "name": "灯守·云老", "action": "全息形象浮现", "expression": "沉重/关切", "position": "心灯上方" },
+          { "name": "铃音", "action": "好奇地看", "expression": "惊奇", "position": "旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "远程通讯建立——来自灯塔城的重要消息",
+        "sfx": "心灯闪动的嗡鸣，通讯建立的水晶音",
+        "ai_image_prompt": "anime medium shot, brown-haired girl holding up her pulsing heart lantern, a translucent holographic image of an elderly bearded man forming above it like a projection, purple-haired girl watching in amazement beside her, magical communication establishing, warm orange glow creating the elder's form"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "云老的表情非常沉重。他先问了苏念是否遇到了一个身穿黑色灯守袍的人。苏念点点头。云老闭了一下眼睛，似乎早已料到，但依然难以接受。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "灯守·云老", "action": "沉重地闭眼", "expression": "沉痛/无奈", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "预料之中但依然痛苦的确认",
+        "sfx": "云老沉重的叹息，通讯中的微弱静电声",
+        "ai_image_prompt": "anime close-up, elderly man's translucent holographic face closing his eyes in heavy sorrow upon hearing confirmation, white beard and kind but pained features, the weight of a truth he already knew but still hurts, somber old master"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "云老开始讲述：烬——他的真名已经没人记得了——曾经是灯塔城最伟大的灯守。回忆画面展开：一个年轻英俊的男子站在灯塔顶端，金色的灯火从他身上绽放，照亮了整个城市。所有人都仰望着他。",
+        "camera": { "type": "远景（回忆）", "movement": "缓慢仰视", "angle": "仰视" },
+        "characters": [
+          { "name": "烬（年轻时）", "action": "站在灯塔顶端释放金色灯火", "expression": "朝气/荣耀", "position": "中" }
+        ],
+        "dialogue": { "speaker": "灯守·云老", "text": "烬……曾经是最伟大的灯守。他的灯火能照亮整座城。", "emotion": "沉痛/缅怀" },
+        "atmosphere": "辉煌的过去——最耀眼的灯守",
+        "sfx": "金色光芒绽放的和弦声，人群赞叹的远景声",
+        "ai_image_prompt": "anime flashback wide shot from below, a young handsome man standing atop a lighthouse with magnificent golden lantern light radiating from his entire body illuminating the whole city below, people looking up at him in awe, the greatest keeper at his peak, golden glorious light, heroic pose, nostalgic memory colors with soft edges"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "回忆继续：年轻的烬帮各种人守护记忆——帮老人找回与妻子的回忆，让孩子看到去世父母的面容。他总是微笑着，温暖如太阳。苏念看着回忆画面，难以相信这是同一个人。",
+        "camera": { "type": "中景（回忆）", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "烬（年轻时）", "action": "微笑着帮助老人和孩子", "expression": "温暖/微笑", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "那他为什么会变成那样……", "emotion": "不解/同情" },
+        "atmosphere": "温暖善良的过去——与现在的黑暗判若两人",
+        "sfx": "回忆中温暖的环境声，人们的感谢声",
+        "ai_image_prompt": "anime flashback montage, young handsome man with warm golden light helping an elderly person see memories of their wife, a child seeing their deceased parent's face in a light fragment, the young man smiling warmly like the sun, helping everyone with genuine kindness, stark contrast to the dark villain he became, warm golden tones, nostalgic soft focus"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "回忆画面转暗：黑暗开始从城市的边缘蔓延。记忆碎片大量消散，人们恐慌。年轻的烬挺身而出——他将自己的灯火不断注入黑暗试图填补它。光芒越来越亮，但黑暗也越来越深。",
+        "camera": { "type": "远景（回忆）", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "烬（年轻时）", "action": "将灯火注入黑暗", "expression": "拼命/不顾一切", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "以一己之力对抗黑暗——英雄的悲剧开端",
+        "sfx": "光与暗激烈碰撞的声响，烬拼尽全力的呐喊",
+        "ai_image_prompt": "anime flashback dramatic shot, young man pouring blazing golden light into encroaching darkness from the city's edge, his body straining with incredible effort, the light blazing brighter but the darkness growing deeper in response, hero trying to save everyone alone, tragic beginning of the fall, epic struggle between one man's light and overwhelming darkness"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "回忆画面：烬的光越燃越烈——但他自己开始从内部碎裂。他在燃烧自己的生命。金色的光芒达到最高点，然后——像太阳熄灭一样——瞬间全部吞噬为黑暗。苏念看着这一幕，捂住了嘴。",
+        "camera": { "type": "特写（回忆）", "movement": "快速", "angle": "平视" },
+        "characters": [
+          { "name": "烬（年轻时→堕落）", "action": "光芒达到顶点后被黑暗吞噬", "expression": "痛苦→绝望→虚无", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "最亮的光熄灭后成为最深的暗——英雄的陨落",
+        "sfx": "光芒极致绽放后发出刺耳的断裂声，然后是一切声音被吞噬的寂静",
+        "ai_image_prompt": "anime flashback dramatic transformation shot, young man's golden light reaching supernova intensity, his body beginning to crack from within, then in one devastating moment all the light implodes into total darkness, the sun dying and becoming a black hole, hero's fall visualized as light becoming darkness, most tragic moment, extreme visual contrast"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP18-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "悲剧的真相揭示后的同情与领悟",
+      "color_palette": ["#2C3E50", "#F39C12", "#E74C3C"],
+      "lighting": "心灯通讯的柔和光线中夹杂泪光",
+      "weather": "平静而沉重的夜晚"
+    },
+    "video_prompt": "Anime style, the elder keeper explains how the greatest keeper burned out all his light trying to save everyone alone, and the darkness consumed him. The brown-haired girl cries realizing the villain is not evil but a hero who burned out. She declares she wants to save him. Emotional revelation and determination, no subtitles, tragic backstory conclusion.",
+    "bgm": {
+      "description": "大提琴独奏悲歌，在最后转为带有希望的钢琴和弦",
+      "mood": "cello solo elegy, transitioning to hopeful piano chords at the end"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "回忆画面结束，回到当下。云老的半透明形象在心灯上方沉默着。他继续讲述：烬燃尽所有光去填补黑暗，但灯火有极限——当他什么都不剩的时候，黑暗就反过来填满了他。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "灯守·云老", "action": "沉痛讲述", "expression": "悲伤/感慨", "position": "中" }
+        ],
+        "dialogue": { "speaker": "灯守·云老", "text": "他想守护所有人的光……但灯火有极限，当他燃尽所有去填补黑暗——黑暗反而吞噬了他。", "emotion": "悲伤/感慨" },
+        "atmosphere": "最简单也最残酷的真相",
+        "sfx": "云老沉重的声音在空气中回荡",
+        "ai_image_prompt": "anime close-up, translucent holographic elderly man speaking with deep sorrow, explaining the tragic truth, his expression carrying decades of guilt and regret, warm orange holographic glow contrasting with the weight of his words, revealing the villain's tragic origin"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念听完真相，整个人呆住了。泪水从她的眼眶涌出——不是恐惧或愤怒的泪水，而是同情和心疼。她想到了烬捏碎碎片时冷漠的表情，想到了他胸口残留的灯纹。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "泪水涌出呆住", "expression": "震惊/同情/心疼", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "恨意变成了心疼——反派也曾是英雄",
+        "sfx": "泪水滴落的声音，心灯共鸣的温暖嗡鸣",
+        "ai_image_prompt": "anime extreme close-up, brown-haired girl's face frozen in realization, tears welling up and streaming down not from fear but from compassion and heartbreak, understanding that the villain was once the greatest hero, empathy replacing hatred, emotional transformation portrait"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念终于领悟了一切。她用手背擦着不断涌出的泪水，哽咽着说出自己的理解。烬不是坏人——他只是一个把自己的光全部给了别人，最后只剩黑暗的人。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "哽咽着说出领悟", "expression": "泪流满面/领悟", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "他不是坏人……他只是把自己烧光了。", "emotion": "领悟/心疼" },
+        "atmosphere": "最深的理解——把温暖给了所有人自己却只剩寒冷",
+        "sfx": "苏念哽咽的声音，铃音轻轻抽泣",
+        "ai_image_prompt": "anime close-up, brown-haired girl wiping endless tears with the back of her hand, speaking through sobs with profound understanding, her expression showing deep compassion rather than hatred, the moment villain becomes victim in her eyes, emotional epiphany, tearful realization"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "铃音也在默默流泪。她虽然不能说话，但她用手语在空气中比划了一个动作——像是拥抱的形状。云老看到苏念的反应，眼眶也红了——他没想到这个年轻的灯守会选择同情而非恐惧。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "默默流泪比划拥抱手语", "expression": "同情/流泪", "position": "右" },
+          { "name": "灯守·云老", "action": "眼眶泛红", "expression": "感动/意外", "position": "上方（全息）" },
+          { "name": "苏念", "action": "抬头看云老", "expression": "坚定", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "同情的力量——选择理解比选择恐惧更勇敢",
+        "sfx": "铃音无声的抽泣，通讯中云老声音的轻微颤抖",
+        "ai_image_prompt": "anime medium shot, purple-haired girl silently crying making a hugging gesture in sign language, translucent elderly man's eyes reddening with surprise and emotion at the young keeper choosing compassion, brown-haired girl looking up with determination, three people moved by the same tragic truth, collective empathy"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念的心灯在她说出领悟后变得更亮了。她看着自己胸前的灯火——那是温暖的橙色，和年轻烬的金色不同，但本质是一样的。她不想走烬的老路，但她也不想放弃他。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "俯视" },
+        "characters": [
+          { "name": "苏念", "action": "低头看自己的心灯", "expression": "领悟/决心", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "灯火的意义在于分享——不是燃尽自己",
+        "sfx": "心灯温暖的嗡鸣增强",
+        "ai_image_prompt": "anime overhead close-up, brown-haired girl looking down at her glowing orange heart lantern which has brightened after her realization, understanding that her light and the fallen keeper's were the same in essence, determination forming to not repeat his mistake but also not abandon him, warm introspective glow"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "云老的通讯因为距离太远开始不稳定。在消失前，云老最后看了苏念一眼——那个眼神里有嘱托、有担忧、也有信任。通讯断开。苏念握紧拳头，看向远方。她的目标不仅是找到母亲的记忆——她还要拯救烬。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "灯守·云老", "action": "通讯断开前最后注视", "expression": "嘱托/信任", "position": "消散" },
+          { "name": "苏念", "action": "握紧拳头看向远方", "expression": "坚定/新决心", "position": "中" },
+          { "name": "铃音", "action": "站在旁边擦泪", "expression": "支持", "position": "旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "使命升级——不仅寻找记忆，还要拯救堕落的英雄",
+        "sfx": "通讯断开的静电声，苏念握拳的声音，远方的风声",
+        "ai_image_prompt": "anime medium shot, translucent elderly man's hologram fading away with a trusting final look, brown-haired girl clenching her fist with renewed determination looking toward the horizon, purple-haired girl beside her wiping tears but supporting, mission expanded beyond finding memories to saving the fallen hero, determined departure composition"
+      }
+    ]
+  }
+}

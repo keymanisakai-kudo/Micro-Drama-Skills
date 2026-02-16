@@ -1,0 +1,243 @@
+{
+  "video_id_prefix": "DM-001-EP08",
+  "episode": 8,
+  "episode_title": "猫灵·墨",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "精疲力竭的三人在记忆之森中迷路时，一只深灰色的猫灵突然出现。它拥有金银异色瞳和微微半透明的尾尖，能感应灯火的方向。苏念为它取名'墨'，它成为第四位同伴，引领众人走出森林。",
+  "emotion_tone": "温馨",
+  "connection": {
+    "from_previous": "灰影战斗后精疲力竭，在森林中迷失方向",
+    "to_next": "在墨的引领下走出记忆之森，抵达梦湖"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP08-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "疲惫迷途中的意外惊喜，神秘而可爱的相遇",
+      "color_palette": ["#7F8C8D", "#F5A623", "#BDC3C7"],
+      "lighting": "暗淡的森林中，猫灵周围有微弱的银灰色光晕",
+      "weather": "雾气渐散，晨曦前的灰蓝色调"
+    },
+    "video_prompt": "Anime style, exhausted trio lost in a dim memory forest. A mysterious dark grey cat appears on a tree branch above them, with striking heterochromia eyes - one gold one silver. Its tail tip is slightly translucent and glowing. The cat jumps down gracefully and approaches the group. The brown-haired girl crouches down curiously. The cat has no visible heart lantern. Warm mysterious encounter, no subtitles, Ghibli-inspired cute animal character.",
+    "bgm": {
+      "description": "轻快的木管乐器旋律配以叮咚的钟琴，温暖而灵动",
+      "mood": "gentle, playful woodwinds, warm chimes, mysterious cute"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "三人在暗淡的记忆之森中艰难前行。苏念靠着白夜的肩膀，脚步虚浮。铃音紧紧跟在后面。四周的树木不再发光，一片灰暗，他们已经迷路了。",
+        "camera": { "type": "远景", "movement": "缓慢跟随", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "虚弱前行", "expression": "疲惫", "position": "中" },
+          { "name": "白夜", "action": "扶着苏念", "expression": "沉默/焦虑", "position": "右" },
+          { "name": "铃音", "action": "紧跟其后", "expression": "不安", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "筋疲力竭的迷途，灰暗而压抑",
+        "sfx": "疲惫拖沓的脚步声，沉重的呼吸",
+        "ai_image_prompt": "anime wide shot, three exhausted figures trudging through dim grey forest, trees no longer glowing, girl leaning on boy's shoulder barely walking, purple-haired girl following anxiously, lost and tired, muted colors, pre-dawn grey blue"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "一个柔软的「喵」声从头顶传来。三人同时抬头——树枝上蹲着一只深灰色的猫，金色和银色的异色瞳在暗处闪闪发光。它的尾巴尖端微微半透明，散发着淡淡的灰光。",
+        "camera": { "type": "中景", "movement": "快速抬起", "angle": "仰视" },
+        "characters": [
+          { "name": "墨", "action": "蹲在树枝上俯视", "expression": "好奇/镇定", "position": "上方中央" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "这只猫……没有心灯。", "emotion": "疑惑/警觉" },
+        "atmosphere": "意外的相遇，神秘的猫灵",
+        "sfx": "清脆的猫叫声，树叶沙沙",
+        "ai_image_prompt": "anime medium shot looking up, dark grey cat perched on crystal tree branch, striking heterochromia eyes one gold one silver glowing in the dim, tail tip slightly translucent and shimmering, elegant mysterious pose, three figures looking up from below, magical animal encounter"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "猫灵轻盈地从树枝跳下，落地无声。它绕着三人走了一圈，在每个人的心灯前停留片刻嗅探。经过铃音时，它用头蹭了蹭铃音的小腿。铃音无声地露出惊喜的表情。",
+        "camera": { "type": "近景", "movement": "跟随猫移动", "angle": "低角度" },
+        "characters": [
+          { "name": "墨", "action": "跳下绕行嗅探，蹭铃音小腿", "expression": "好奇/亲近", "position": "中" },
+          { "name": "铃音", "action": "被猫蹭腿", "expression": "惊喜", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "猫灵用独特方式感知每个人的灯火",
+        "sfx": "轻柔的猫脚步声，铃音铃铛发夹的微响",
+        "ai_image_prompt": "anime low angle close-up, dark grey cat landing silently and walking around the group, sniffing near each person's heart lantern, rubbing its head against purple-haired girl's leg affectionately, girl's surprised happy expression, heterochromia eyes glinting, cute intimate moment"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "白夜警惕地观察着猫灵。他注意到这只猫确实没有心灯——胸前空空，但尾尖的半透明光芒像是另一种灯火的形态。他的表情从警觉变为好奇。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "蹲下观察猫灵", "expression": "警觉转好奇", "position": "左" },
+          { "name": "墨", "action": "端坐回望白夜", "expression": "从容", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "人与灵之间的无声审视",
+        "sfx": "白夜灯纹微弱嗡鸣",
+        "ai_image_prompt": "anime close-up two-shot, silver-haired boy crouching to examine dark grey cat, the cat sitting upright looking back at him calmly, no heart lantern visible on the cat but its tail tip glows translucently, boy's expression shifting from wary to curious, eye-level perspective"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念蹲下来，轻轻向猫灵伸出手。猫灵走过来用鼻子碰了碰她的手指，然后转身朝某个方向走了几步，回头看向三人，像是在引路。",
+        "camera": { "type": "近景", "movement": "跟随", "angle": "低角度" },
+        "characters": [
+          { "name": "苏念", "action": "蹲下伸手", "expression": "温柔/好奇", "position": "左" },
+          { "name": "墨", "action": "碰苏念手指后转身引路", "expression": "灵动", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "它好像在叫我们跟它走。", "emotion": "好奇/温柔" },
+        "atmosphere": "猫灵主动引路的温馨瞬间",
+        "sfx": "轻柔的猫咪鼻息，猫爪踏地的细微声",
+        "ai_image_prompt": "anime low angle close-up, brown-haired girl crouching extending her hand gently, dark grey cat touching her fingers with its nose then turning to walk in a specific direction looking back, guiding gesture, warm curious expression, translucent tail tip glowing softly"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "猫灵的尾尖突然亮起更明显的灰白色光芒，像是一个小小的灯笼。光芒指向森林中一条之前完全看不见的小径。三人对视一眼，决定跟随。",
+        "camera": { "type": "中景", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [
+          { "name": "墨", "action": "尾尖发光照亮小径", "expression": "引导", "position": "前方" },
+          { "name": "苏念", "action": "惊喜地看着发光的小径", "expression": "惊喜", "position": "中" },
+          { "name": "白夜", "action": "与苏念对视后点头", "expression": "默许", "position": "右" },
+          { "name": "铃音", "action": "紧跟队伍", "expression": "期待", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "猫灵展现灯火感应能力，隐藏道路被揭示",
+        "sfx": "灯火感应的清脆共鸣声，小径上光芒蔓延的声音",
+        "ai_image_prompt": "anime medium shot, dark grey cat's tail tip glowing brighter grey-white like a tiny lantern, illuminating a hidden path through the forest that was previously invisible, three figures looking at the revealed path with surprise and hope, magical guiding light, warm discovery moment"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP08-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "温馨而充满希望，新同伴带来的安心感",
+      "color_palette": ["#F5A623", "#BDC3C7", "#1ABC9C"],
+      "lighting": "随着猫灵引路，周围逐渐出现微弱的暖光，预示着森林出口",
+      "weather": "雾气散去，前方透出微弱的水面反光"
+    },
+    "video_prompt": "Anime style, a dark grey cat with heterochromia eyes leads three young travelers along a hidden glowing path through a memory forest. The cat's translucent tail tip glows like a tiny lantern sensing the direction of lantern fire. The brown-haired girl names the cat Mo. Forest gradually brightens, ahead through the trees glimpse of a glowing lake. Warm heartfelt journey scene, no subtitles, Ghibli-inspired, hopeful atmosphere.",
+    "bgm": {
+      "description": "温暖的原声吉他配以轻柔的长笛，旅途中的小确幸",
+      "mood": "warm, acoustic guitar, gentle flute, hopeful journey"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "猫灵在前方小跑引路，尾尖的光芒随步伐轻轻摇晃。它每隔几步就停下来等一等后面的三人，耳朵转动感知方向。苏念注意到猫灵的尾尖在接近某个方向时会变得更亮。",
+        "camera": { "type": "中景", "movement": "跟随", "angle": "平视" },
+        "characters": [
+          { "name": "墨", "action": "小跑引路停下等待", "expression": "灵活/耐心", "position": "前方" },
+          { "name": "苏念", "action": "观察猫灵的尾尖", "expression": "发现/惊喜", "position": "后方" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "你能感应到灯火的方向？", "emotion": "惊喜/温暖" },
+        "atmosphere": "跟随猫灵的引导，发现它的能力",
+        "sfx": "轻快的猫脚步声，尾尖光芒的微微嗡鸣",
+        "ai_image_prompt": "anime medium tracking shot, dark grey cat trotting ahead on glowing path, translucent tail tip swaying like a lantern, stopping and looking back to wait for the group, ears rotating to sense direction, brown-haired girl following watching the tail glow with wonder, warm lighting along the path"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念跟上猫灵，轻轻将它抱起。猫灵不挣扎，反而舒服地眯起金银异色的眼睛，在苏念怀里发出细细的呼噜声。苏念的橙色心灯在猫灵靠近时微微变暖。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "抱起猫灵", "expression": "温暖/怜爱", "position": "中" },
+          { "name": "墨", "action": "被抱起眯眼呼噜", "expression": "舒适/信任", "position": "苏念怀中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "人与灵的信任建立，温馨治愈",
+        "sfx": "猫灵的呼噜声，心灯温暖的轻响",
+        "ai_image_prompt": "anime close-up, girl with brown hair holding a dark grey cat in her arms gently, the cat squinting its gold and silver eyes contentedly purring, her orange heart lantern glowing slightly warmer near the cat, tender loving expression, healing warm moment, detailed cat fur texture"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "铃音走到苏念旁边，仰头看着猫灵，无声地伸出一根手指。猫灵伸出舌头舔了舔铃音的手指。铃音的脸上绽放出本集最灿烂的笑容——虽然无声，却如阳光般温暖。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "伸手指被猫舔", "expression": "灿烂无声的笑", "position": "左" },
+          { "name": "墨", "action": "舔铃音手指", "expression": "亲昵", "position": "中" },
+          { "name": "苏念", "action": "看着铃音微笑", "expression": "欣慰", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "失去声音的少女与猫灵的无声交流，最纯粹的温暖",
+        "sfx": "猫灵轻柔的呼噜声",
+        "ai_image_prompt": "anime close-up, purple-haired girl extending a finger toward the grey cat, cat licking her finger gently, the girl beaming with the brightest most radiant silent smile, bell hair clip glinting, brown-haired girl watching warmly, heartwarming innocent moment, soft golden light"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念低头看着怀中的猫灵，它深灰色的毛皮如墨色般深沉。苏念轻声为它取名。猫灵听到名字后，竖起耳朵，金银异色瞳亮了一下，仿佛认同了这个名字。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "低头看猫灵", "expression": "柔和/命名", "position": "上" },
+          { "name": "墨", "action": "竖耳回应", "expression": "灵动/认同", "position": "下" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "走吧，墨。带我们出去。", "emotion": "柔和/信任" },
+        "atmosphere": "命名的仪式感，猫灵的灵性回应",
+        "sfx": "猫灵轻叫一声，如回应",
+        "ai_image_prompt": "anime extreme close-up, girl looking down at dark grey cat in her arms, the cat's ears perking up and heterochromia gold silver eyes brightening in response to hearing its new name, naming moment, intimate bond forming, warm soft focus"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "墨从苏念怀中灵巧跳下，尾尖发出更明亮的光芒，笔直指向前方。树林间的雾气正在消散，前方隐约出现了水面的反光。四人——加上墨——加快脚步向前。",
+        "camera": { "type": "中景", "movement": "跟随前行", "angle": "平视" },
+        "characters": [
+          { "name": "墨", "action": "跳下引路尾尖指向前方", "expression": "坚定引导", "position": "前方" },
+          { "name": "苏念", "action": "加快脚步", "expression": "期待", "position": "中左" },
+          { "name": "白夜", "action": "沉稳跟随", "expression": "微微放松", "position": "中右" },
+          { "name": "铃音", "action": "轻快跟上", "expression": "期待", "position": "后" }
+        ],
+        "dialogue": null,
+        "atmosphere": "希望在前方，森林出口即将到来",
+        "sfx": "轻快的脚步声，远处水面的轻微波光声",
+        "ai_image_prompt": "anime medium shot, dark grey cat leading the way with brightly glowing tail, three figures following with renewed energy, fog clearing between trees, faint shimmer of water reflecting light visible ahead through the trees, hopeful forward momentum, brightening atmosphere"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "最后一排记忆树分开，四名同伴站在森林边缘。眼前豁然开朗——一片广阔的湖泊在晨曦中闪耀，湖面如镜，倒映着逐渐亮起的天空。墨蹲在苏念脚边，尾尖的光芒轻轻摇曳。",
+        "camera": { "type": "远景", "movement": "缓慢推出", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "站在森林边缘望向湖泊", "expression": "震撼/希望", "position": "中左" },
+          { "name": "白夜", "action": "并肩站立", "expression": "微微惊讶", "position": "中右" },
+          { "name": "铃音", "action": "双手合十", "expression": "感动", "position": "左" },
+          { "name": "墨", "action": "蹲在苏念脚边", "expression": "安然", "position": "苏念脚旁" }
+        ],
+        "dialogue": null,
+        "atmosphere": "走出黑暗迎向光明，梦湖的壮丽初见",
+        "sfx": "湖面波光的轻柔声响，晨风拂过，鸟鸣声",
+        "ai_image_prompt": "anime wide panoramic shot, four companions standing at the edge of memory forest looking out at a vast shimmering lake reflecting dawn sky, dark grey cat sitting at the girl's feet with tail tip glowing gently, break from darkness into light, awe and hope, beautiful landscape, Studio Ghibli panorama, warm golden dawn light"
+      }
+    ]
+  }
+}

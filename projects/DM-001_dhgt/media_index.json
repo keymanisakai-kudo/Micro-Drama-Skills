@@ -1,0 +1,259 @@
+{
+  "characters": [
+    {
+      "filename": "墨_ref.png",
+      "size_bytes": 901517
+    },
+    {
+      "filename": "灯守·云老_ref.png",
+      "size_bytes": 1332308
+    },
+    {
+      "filename": "烬_ref.png",
+      "size_bytes": 1025474
+    },
+    {
+      "filename": "白夜_ref.png",
+      "size_bytes": 1030566
+    },
+    {
+      "filename": "老渡_ref.png",
+      "size_bytes": 1171793
+    },
+    {
+      "filename": "苏念_ref.png",
+      "size_bytes": 1060405
+    },
+    {
+      "filename": "铃音_ref.png",
+      "size_bytes": 986397
+    }
+  ],
+  "episodes": [
+    {
+      "episode": "EP11",
+      "files": [
+        {
+          "filename": "DM-001-EP11-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1211316
+        },
+        {
+          "filename": "DM-001-EP11-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1564404
+        }
+      ]
+    },
+    {
+      "episode": "EP12",
+      "files": [
+        {
+          "filename": "DM-001-EP12-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1610745
+        },
+        {
+          "filename": "DM-001-EP12-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1534258
+        }
+      ]
+    },
+    {
+      "episode": "EP13",
+      "files": [
+        {
+          "filename": "DM-001-EP13-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1502427
+        },
+        {
+          "filename": "DM-001-EP13-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1524748
+        }
+      ]
+    },
+    {
+      "episode": "EP14",
+      "files": [
+        {
+          "filename": "DM-001-EP14-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1443891
+        },
+        {
+          "filename": "DM-001-EP14-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1304672
+        }
+      ]
+    },
+    {
+      "episode": "EP15",
+      "files": [
+        {
+          "filename": "DM-001-EP15-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1418536
+        },
+        {
+          "filename": "DM-001-EP15-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1455251
+        }
+      ]
+    },
+    {
+      "episode": "EP16",
+      "files": [
+        {
+          "filename": "DM-001-EP16-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1562086
+        },
+        {
+          "filename": "DM-001-EP16-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1521750
+        }
+      ]
+    },
+    {
+      "episode": "EP17",
+      "files": [
+        {
+          "filename": "DM-001-EP17-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1768783
+        },
+        {
+          "filename": "DM-001-EP17-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1452407
+        }
+      ]
+    },
+    {
+      "episode": "EP18",
+      "files": [
+        {
+          "filename": "DM-001-EP18-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1707059
+        },
+        {
+          "filename": "DM-001-EP18-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1569504
+        }
+      ]
+    },
+    {
+      "episode": "EP19",
+      "files": [
+        {
+          "filename": "DM-001-EP19-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1647047
+        },
+        {
+          "filename": "DM-001-EP19-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1680227
+        }
+      ]
+    },
+    {
+      "episode": "EP20",
+      "files": [
+        {
+          "filename": "DM-001-EP20-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1445781
+        },
+        {
+          "filename": "DM-001-EP20-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1520010
+        }
+      ]
+    },
+    {
+      "episode": "EP21",
+      "files": [
+        {
+          "filename": "DM-001-EP21-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1598602
+        },
+        {
+          "filename": "DM-001-EP21-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1555705
+        }
+      ]
+    },
+    {
+      "episode": "EP22",
+      "files": [
+        {
+          "filename": "DM-001-EP22-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1538601
+        },
+        {
+          "filename": "DM-001-EP22-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1626556
+        }
+      ]
+    },
+    {
+      "episode": "EP23",
+      "files": [
+        {
+          "filename": "DM-001-EP23-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1506793
+        },
+        {
+          "filename": "DM-001-EP23-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1606730
+        }
+      ]
+    },
+    {
+      "episode": "EP24",
+      "files": [
+        {
+          "filename": "DM-001-EP24-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1814033
+        },
+        {
+          "filename": "DM-001-EP24-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1668008
+        }
+      ]
+    },
+    {
+      "episode": "EP25",
+      "files": [
+        {
+          "filename": "DM-001-EP25-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1615196
+        },
+        {
+          "filename": "DM-001-EP25-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1628048
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "video_id_prefix": "DM-001-EP20",
+  "episode": 20,
+  "episode_title": "万灯之渊",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "四人深入万灯之渊。在渊的最深处，苏念找到了母亲完整的灯笼——它比碎片大得多，保存着母亲所有完整的记忆。当苏念触碰灯笼时，完整的记忆展现在眼前：母亲在消失前将自己的灯火分给了无数人，最后一刻对苏念说'去吧，为所有人的灯火而行'。苏念终于理解了母亲的选择——和烬一样，母亲也拼尽全力守护他人。",
+  "emotion_tone": "壮美",
+  "connection": {
+    "from_previous": "四人进入万灯之渊寻找母亲记忆",
+    "to_next": "找到母亲灯笼后面临抉择——取回记忆的代价"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP20-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "神秘壮美的深渊世界，充满敬畏",
+      "color_palette": ["#F39C12", "#E67E22", "#1A5276"],
+      "lighting": "万千碎片的光芒如水下阳光般摇曳",
+      "weather": "无风无声，碎片如水流般缓缓流动"
+    },
+    "video_prompt": "Anime style, deep inside the Abyss of Ten Thousand Lanterns, travelers navigate through rivers of glowing memory fragments. At the deepest point they find a complete intact lantern radiating warm golden light - the mother's lantern. The brown-haired girl approaches it trembling with joy. Majestic underwater cathedral of light, no subtitles, awe-inspiring discovery.",
+    "bgm": {
+      "description": "宏大而神圣的管弦乐，如同进入大教堂般庄严",
+      "mood": "grand sacred orchestral, solemn cathedral-like awe"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "万灯之渊的深处。四人已经下降了很久，周围的碎片越来越密集。它们不再是零散的碎片，而是形成了如河流般流动的光带——记忆之河。白夜注意到碎片似乎在引导他们走向某个方向。",
+        "camera": { "type": "远景", "movement": "缓慢前推", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "行走在光带之间", "expression": "敬畏", "position": "前" },
+          { "name": "白夜", "action": "警觉观察", "expression": "警觉", "position": "后" }
+        ],
+        "dialogue": null,
+        "atmosphere": "在记忆之河中前行——深渊最深处的壮美",
+        "sfx": "光带流动的低沉嗡鸣，脚步在虚无中的回响",
+        "ai_image_prompt": "anime wide atmospheric shot, travelers walking between flowing rivers of glowing memory fragments deep in the abyss, the fragments forming luminous streams like underwater currents, awe-inspiring deep sea cathedral of light, mysterious and beautiful, the deepest heart of the memory world"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "这些碎片流最终汇聚到一个点——在渊的最深最中心，悬浮着一盏完整的灯笼。不是碎片，而是完整的一整盏。灯笼散发着温暖的金色光芒，大约有两个拳头大小。苏念的心灯疯狂地共鸣。",
+        "camera": { "type": "中远景", "movement": "缓慢推近", "angle": "略仰" },
+        "characters": [
+          { "name": "苏念", "action": "看到灯笼心灯共鸣", "expression": "震动/认出", "position": "近" }
+        ],
+        "dialogue": null,
+        "atmosphere": "在所有碎片的中心找到母亲完整的灯笼",
+        "sfx": "心灯与母亲灯笼强烈共鸣的和弦，碎片流汇聚的声响",
+        "ai_image_prompt": "anime medium-wide shot from slightly below, all fragment streams converging to a single point where a complete intact lantern floats, radiating warm golden light, about two fists in size, the brown-haired girl's heart lantern pulsing wildly in resonance, the mother's complete lantern found at the deepest center, magnificent discovery"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念颤抖着向灯笼走去。每走一步，她的心灯和灯笼之间的共鸣就更强——两道橙色的光在空中交汇成一条光线。她知道这就是母亲的灯笼——她记忆的全部。",
+        "camera": { "type": "中景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "颤抖着走向灯笼", "expression": "激动/泪光", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "妈妈的灯笼……它一直在这里等我。", "emotion": "颤抖/喜悦" },
+        "atmosphere": "母女间的光在深渊最深处重逢",
+        "sfx": "两道光交汇的温暖共鸣，苏念颤抖的脚步声",
+        "ai_image_prompt": "anime medium shot, brown-haired girl walking tremblingly toward the floating golden lantern, a visible beam of orange light connecting her heart lantern to the mother's lantern like a lifeline, tears of joy forming, approaching her mother's complete memory, emotional bridge of light, deep abyss background"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "白夜注意到周围有异常——碎片河流的流动方式像是有意识的。有些碎片在向苏念靠近时改变了方向，像是……在保护灯笼？还是在阻止接近？白夜低声提醒苏念小心。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "警觉地观察碎片异动", "expression": "警觉/低声", "position": "后方" },
+          { "name": "苏念", "action": "听到提醒但继续前进", "expression": "专注", "position": "前方" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "小心。这里的碎片……好像活的。", "emotion": "警觉/低声" },
+        "atmosphere": "美丽之下隐藏着某种规则",
+        "sfx": "碎片异常流动的声响，白夜低声警告",
+        "ai_image_prompt": "anime medium shot, silver-haired boy in the background watching with alert tension as the memory fragment streams begin moving in unusual patterns, some circling protectively around the golden lantern, brown-haired girl continuing forward in the foreground focused on the lantern, something alive in the fragments, beautiful but potentially dangerous"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念到达灯笼面前。灯笼悬浮在与她胸口同高的位置，温暖的金光直接照在她脸上。透过灯笼的光，苏念可以看到里面保存的画面——那是母亲完整一生的记忆。她伸出手。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "面对灯笼伸出手", "expression": "敬畏/渴望", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "在灯笼的光芒中看到母亲完整的一生",
+        "sfx": "灯笼温暖嗡鸣达到最强，苏念屏住呼吸",
+        "ai_image_prompt": "anime close-up, brown-haired girl face to face with the floating golden lantern at chest height, warm golden light bathing her face, through the lantern's glow faint images of a woman's lifetime of memories visible, her hand reaching out to touch it, moment before contact, reverent approach, golden warm illumination"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念的手指触碰到灯笼——瞬间白光爆裂。所有人都被白光笼罩。在白光中，苏念感到自己被传送到了记忆的深处。同伴们的身影在白光中消失，只剩她和灯笼。",
+        "camera": { "type": "特写→白光", "movement": "快速拉远", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "手触灯笼白光爆发", "expression": "震惊/沉浸", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "触碰记忆的瞬间——传送到母亲记忆深处",
+        "sfx": "触碰时的清脆一响，白光爆发的剧烈嗡鸣，一切声音被光吞没",
+        "ai_image_prompt": "anime dramatic shot, brown-haired girl's fingertips touching the golden lantern, an explosion of white light erupting from the contact point engulfing everything, all companions vanishing in the brilliant flash, entering the deepest memory, moment of transcendence, overwhelming white light, dramatic contact moment"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP20-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "沉浸在母亲的完整记忆中，感动与领悟交织",
+      "color_palette": ["#F1C40F", "#F39C12", "#FFFFFF"],
+      "lighting": "金色记忆光芒充满整个空间",
+      "weather": "记忆世界中温暖的光雾弥漫"
+    },
+    "video_prompt": "Anime style, inside the mother's complete memory. The brown-haired girl sees her mother's final moments - giving her lantern light to countless people before whispering 'Go, walk for everyone's lantern light.' The girl cries understanding her mother's choice was the same as the fallen keeper's. Mother's love and sacrifice, golden warm memories, no subtitles, Ghibli-inspired profound emotional climax.",
+    "bgm": {
+      "description": "母亲的主题旋律完整版——钢琴与弦乐的深情合奏，壮美而温暖",
+      "mood": "mother's theme full version, piano and strings passionate ensemble, magnificent warmth"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "金色的记忆世界。苏念站在一片温暖的光芒中——这是母亲灯笼内部的记忆空间。眼前展现的是母亲人生的画面：从少女时成为灯守，到结婚生子，到照亮整个灯塔城。",
+        "camera": { "type": "远景", "movement": "缓慢环绕", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "站在记忆空间中观看", "expression": "敬畏/感动", "position": "中心" }
+        ],
+        "dialogue": null,
+        "atmosphere": "沉浸在母亲完整一生的记忆中",
+        "sfx": "金色光芒流动的柔和声，记忆画面转换的水波声",
+        "ai_image_prompt": "anime wide panoramic shot, brown-haired girl standing in a vast golden memory space, panoramic scenes of a woman's life flowing around her like projected films - becoming a keeper, marriage, birth of a child, lighting a city, immersive memory world, golden warm light everywhere, Ghibli-inspired memory palace"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "记忆画面来到最后的场景——苏念的母亲站在灯塔城的边缘，面前是吞噬记忆的黑暗浪潮。与烬一样的情况——但母亲做出了不同选择。她没有独自燃尽，而是将自己的灯火一点点分给身边的每个人。",
+        "camera": { "type": "中远景（记忆）", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "母亲", "action": "将灯火分给每个人", "expression": "温柔/坚定", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "母亲的选择——不是燃尽自己，而是将光传递",
+        "sfx": "灯火分散传递的温暖音符，人们接过光的感激声",
+        "ai_image_prompt": "anime flashback medium-wide shot, a gentle woman standing at the edge of a city facing approaching darkness, instead of burning all her light alone she carefully distributes small flames of her lantern to every person around her, each person receiving a tiny warm light, different choice from the fallen keeper, sharing rather than sacrificing alone, warm golden distribution of light"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "母亲将光分给最后一个人后，她自己已经变得透明——像一个即将消散的灯火。但她不害怕。她回过头看向幼年苏念的方向——小苏念被云老抱在怀里，在远处睡着了。母亲露出最后的微笑。",
+        "camera": { "type": "近景（记忆）", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "母亲", "action": "回头看向幼年苏念方向", "expression": "慈爱/无悔", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "妈妈……", "emotion": "泪水/温暖" },
+        "atmosphere": "母亲最后的时刻——无悔的微笑",
+        "sfx": "母亲身体透明化的轻微声响，苏念在记忆空间中的哽咽",
+        "ai_image_prompt": "anime flashback close-up, the mother becoming translucent like a fading lantern after giving away all her light, she turns to look at a young child sleeping in an old man's arms far away, her most loving final smile, no fear only love, transparent fading figure with residual warmth, most heartbreaking maternal smile"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "即将消散的母亲对着幼年苏念的方向低声说出了最后的嘱托。苏念在记忆空间中清楚地听到了这句话——EP13碎片中听不完整的那句话的完整版。母亲的身体化为无数金色的光点，飘散向整个城市。",
+        "camera": { "type": "特写（记忆）", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "母亲", "action": "说出最后嘱托后化为光点", "expression": "温柔/释然", "position": "中" }
+        ],
+        "dialogue": { "speaker": "母亲（记忆）", "text": "去吧，为所有人的灯火而行。", "emotion": "温柔/鼓励" },
+        "atmosphere": "母亲的最后嘱托——不是只为自己而是为所有人",
+        "sfx": "母亲温柔的声音在金色空间中回荡，化为光点的晶莹声",
+        "ai_image_prompt": "anime flashback close-up, the translucent mother whispering her final words with a serene smile, then dissolving into thousands of golden light particles that scatter across the entire city, her last wish for her daughter, becoming part of everyone's light, beautiful dissolution, maternal love transcending physical form"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念在记忆空间中泣不成声。她终于完全理解了——母亲不是消失了，她把自己变成了所有人的光。她和烬面对的是同样的选择，但母亲选择了分享而不是独自燃尽。苏念明白了灯火的真谛。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "泪流满面地领悟", "expression": "恸哭/领悟", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "完整的领悟——灯火不是燃烧自己，是传递给他人",
+        "sfx": "苏念的恸哭声在金色空间中回荡，心灯达到最亮",
+        "ai_image_prompt": "anime close-up, brown-haired girl weeping uncontrollably in the golden memory space, tears flowing freely as she fully understands her mother's choice, her heart lantern blazing at its brightest with this realization, epiphany through grief and love, the meaning of lantern light understood, emotional climax"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "金色记忆空间开始消散，苏念回到了万灯之渊中。同伴们围在她身边。母亲的灯笼缓缓降落到苏念手中——它不再是无法触碰的，因为苏念已经理解了它。灯笼在苏念掌心缩小，融入了她的心灯。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "灯笼融入心灯", "expression": "泪中微笑/平静", "position": "中" },
+          { "name": "白夜", "action": "在旁守护", "expression": "安静", "position": "左" },
+          { "name": "铃音", "action": "在旁守护", "expression": "感动", "position": "右" },
+          { "name": "墨", "action": "蹲在脚边", "expression": "安静", "position": "脚边" }
+        ],
+        "dialogue": null,
+        "atmosphere": "母亲的灯笼融入心灯——两代灯火合为一体",
+        "sfx": "灯笼融入心灯的温暖共鸣，空间恢复正常的声响",
+        "ai_image_prompt": "anime medium shot, golden memory space dissolving back to the abyss, the mother's lantern gently descending into the brown-haired girl's palms, shrinking and merging into her heart lantern which now glows with an enriched deeper warmth, companions watching over her, two generations of lantern light becoming one, peaceful resolution, warm culmination"
+      }
+    ]
+  }
+}

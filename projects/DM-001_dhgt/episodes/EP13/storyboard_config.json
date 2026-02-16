@@ -1,0 +1,234 @@
+{
+  "video_id_prefix": "DM-001-EP13",
+  "episode": 13,
+  "episode_title": "灯火碎片",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "苏念在流光荒原中收集到一块属于母亲的灯火碎片。碎片中保存着一段温暖的记忆——母亲抱着幼年苏念坐在灯塔上，轻声说'你就是我的灯火'。这段失而复得的记忆让苏念泣不成声，也更坚定了她到达万灯之渊的决心。",
+  "emotion_tone": "感动",
+  "connection": {
+    "from_previous": "铃音短暂恢复声音给了众人希望，苏念在碎片中寻找母亲的记忆",
+    "to_next": "母亲碎片的温暖给苏念力量，但黑暗的威胁正在逼近"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP13-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "在万千碎片中寻找珍贵的那一颗，如同大海捞针的温柔",
+      "color_palette": ["#E67E22", "#F39C12", "#2C3E50"],
+      "lighting": "母亲碎片散发独特的温暖橙色光，与苏念心灯共鸣",
+      "weather": "流光荒原上微风轻拂，碎片随风轻轻摇曳"
+    },
+    "video_prompt": "Anime style, brown-haired girl walking through the luminous wasteland, suddenly drawn to a particular warm orange fragment that resonates with her heart lantern. She reaches out trembling to touch it and sees a flash of her mother's face in the fragment. Emotional discovery moment, tears forming, warm orange glow, no subtitles, Ghibli-inspired tender memory scene.",
+    "bgm": {
+      "description": "温暖的钢琴独奏，如同摇篮曲的旋律逐渐浮现",
+      "mood": "warm piano solo, lullaby melody emerging gently"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏念一个人在碎片海洋中缓缓行走，白夜、铃音和墨在不远处休息。她的心灯忽然发出一阵不寻常的脉动——像是在回应什么。苏念停下脚步，感受着方向。",
+        "camera": { "type": "中景", "movement": "缓慢跟拍", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "停下脚步感应方向", "expression": "专注/感应", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "心灯在引导她走向某个特别的碎片",
+        "sfx": "心灯脉动的温暖嗡鸣，脚步停止后的寂静",
+        "ai_image_prompt": "anime medium tracking shot, brown-haired girl walking alone among floating glowing fragments, her orange heart lantern pulsing unusually, she stops and tilts her head sensing a direction, other companions resting in the far background, introspective searching moment, warm fragment light surrounding her"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念循着心灯的指引走了几步，在无数碎片中发现了一颗——它不大，只有拇指大小，但发出的橙色光芒与苏念心灯完全一样的色调。碎片仿佛也在等她，微微颤动。",
+        "camera": { "type": "近景", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "发现特殊碎片", "expression": "震动/颤抖", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "在万千碎片中找到唯一属于母亲的那一颗",
+        "sfx": "碎片与心灯同频共振的和弦声",
+        "ai_image_prompt": "anime close-up, brown-haired girl's face illuminated by a small thumb-sized orange fragment floating before her at eye level, the fragment glowing exactly the same orange hue as her heart lantern, trembling slightly as if waiting for her, her eyes widening with recognition, intimate discovery, warm orange dual glow"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念颤抖着伸出双手，轻轻捧住那颗碎片。碎片触碰她掌心的瞬间，温暖如潮水般涌来——记忆画面闪现：一张温柔的女人面容，正微笑着看向镜头。那是妈妈的脸。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "俯视手心" },
+        "characters": [
+          { "name": "苏念", "action": "双手捧住碎片", "expression": "颤抖/渴望", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "妈妈……这是你的光吗？", "emotion": "颤抖/渴望" },
+        "atmosphere": "失去的记忆重新触碰的瞬间",
+        "sfx": "碎片入手时温暖的嗡鸣，记忆画面闪入时的回响",
+        "ai_image_prompt": "anime overhead close-up of cupped trembling hands holding a warm orange glowing fragment, within the fragment a brief flash of a gentle woman's smiling face visible, tears beginning to fall onto the hands, extremely emotional intimate moment, warm light radiating from the shard, memory rediscovered"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "记忆画面展开——金色的阳光下，灯塔城的灯塔顶层。一个温柔的女人抱着5岁的小苏念坐在栏杆边，远处是整个城市的灯火。母亲的面容清晰而温暖，长发在夕阳中飘动。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念（幼年）", "action": "被母亲抱着", "expression": "幸福/天真", "position": "中" },
+          { "name": "母亲", "action": "抱着幼年苏念", "expression": "慈爱/温柔", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "金色记忆中的母女时光，最珍贵的画面",
+        "sfx": "温暖的风声，远处灯塔城的钟声",
+        "ai_image_prompt": "anime medium shot, golden sunset memory scene, a gentle woman with flowing hair holding a 5-year-old girl on top of a lighthouse tower, city of lanterns visible in the background, golden warm light bathing them, mother and daughter tender moment, nostalgic memory visualization, dreamy soft edges indicating this is a memory, Ghibli-inspired warmth"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "记忆中的母亲低头看向怀中的小苏念，嘴唇轻轻张开说了什么。虽然在碎片记忆中听不清声音，但苏念能读出母亲的唇语——那是她一直试图回忆却怎么也想不起来的那句话。",
+        "camera": { "type": "近景", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [
+          { "name": "母亲", "action": "低头对小苏念说话", "expression": "无限慈爱", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "母亲说出那句关键的话——唇形可见但声音在现实中才响起",
+        "sfx": "记忆中柔和模糊的环境声",
+        "ai_image_prompt": "anime close-up, memory scene, a gentle mother's face looking down with infinite love, her lips moving to speak important words, soft golden light, the child's small hand reaching up to touch her face, tender maternal love, dreamy memory quality, warm soft focus, the most precious memory"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏念在现实中紧捧碎片，泪水滑落面颊。碎片中母亲的面容她终于又看到了——虽然只是碎片，不是完整的记忆，但那张脸如此清晰、如此温暖。苏念哽咽着低语。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "紧捧碎片泪流满面", "expression": "哽咽/思念", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "我好想你……", "emotion": "哽咽/低语" },
+        "atmosphere": "与失去的母亲记忆重逢的感动至极",
+        "sfx": "泪水滴落碎片的清脆声，心灯温暖的共鸣",
+        "ai_image_prompt": "anime extreme close-up, brown-haired girl's tearful face holding the glowing orange fragment close to her chest, tears streaming freely, her lips trembling whispering to the fragment, the warm orange glow reflecting off her wet cheeks, profound emotional portrait, missing her mother, raw grief and love"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP13-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "母亲的声音从碎片中回响，化悲伤为前行的力量",
+      "color_palette": ["#F39C12", "#E67E22", "#F1C40F"],
+      "lighting": "碎片爆发出温暖的金色光芒，如同母亲的拥抱",
+      "weather": "荒原上出现温暖的微风，碎片轻柔地飘动"
+    },
+    "video_prompt": "Anime style, the mother's voice echoes from the fragment saying 'You are my lantern light.' The brown-haired girl clutches the fragment tightly with tears but smiling, resolving to keep going. Her companions watch with emotion. The orange fragment merges partially with her heart lantern making it glow brighter. No subtitles, Ghibli-inspired, mother's love transcending memory loss, emotional climax.",
+    "bgm": {
+      "description": "母亲的声音化为旋律，温暖的弦乐编织成拥抱般的音墙",
+      "mood": "mother's voice becoming melody, warm strings weaving embrace"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "碎片突然发出一阵脉动，从中传来一个声音——那是母亲的声音。清晰的、温柔的，仿佛她就站在身边。苏念瞪大了眼睛，碎片中回响着那句她遗忘已久的话。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "听到母亲声音震住", "expression": "震惊/狂喜", "position": "中" }
+        ],
+        "dialogue": { "speaker": "母亲（记忆）", "text": "小念啊，你就是我的灯火。", "emotion": "温柔/慈爱" },
+        "atmosphere": "母亲的声音穿越记忆回响——最温暖的话",
+        "sfx": "碎片共鸣后传出温柔女声，回荡在空气中",
+        "ai_image_prompt": "anime close-up, brown-haired girl's face frozen in shock and joy, the orange fragment in her hands pulsing with light as a warm voice emanates from it, sound waves visible in the warm glow, her eyes wide and glistening, hearing her mother's voice for the first time in so long, powerful emotional revelation"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏念将碎片紧紧抱在胸口，蜷缩着身体无声地哭泣。白夜、铃音和墨远远地看着她，没有打扰。给她这个独处的时刻。铃音的眼眶也红了，白夜别过了头。",
+        "camera": { "type": "远景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "蜷缩抱着碎片哭泣", "expression": "无声恸哭", "position": "中" },
+          { "name": "白夜", "action": "别过头不看", "expression": "沉默/动容", "position": "远处左" },
+          { "name": "铃音", "action": "远远站着擦眼泪", "expression": "同情流泪", "position": "远处右" },
+          { "name": "墨", "action": "安静地蹲在中间", "expression": "守候", "position": "远处中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "给悲伤留出空间，同伴们远远守护",
+        "sfx": "风声中隐约的抽泣声，碎片温暖的持续嗡鸣",
+        "ai_image_prompt": "anime wide shot, brown-haired girl curled up on the ground hugging the glowing fragment to her chest crying silently, her companions standing at a respectful distance watching with emotion, silver-haired boy looking away, purple-haired girl wiping tears, grey cat sitting still guarding, floating fragments around them like quiet witnesses, giving space to grief, poignant distance"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念慢慢抬起头。虽然满脸泪痕，但她的眼中有了新的光芒——不再是迷茫和恐惧，而是温暖的、像母亲一样的坚定。她将碎片收入怀中，擦干眼泪。",
+        "camera": { "type": "近景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "抬头擦泪将碎片收入怀中", "expression": "含泪微笑/坚定", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "我一定会找到你的。", "emotion": "坚定/含泪微笑" },
+        "atmosphere": "从悲伤中汲取力量，母亲的话成为前行的灯火",
+        "sfx": "擦泪声，碎片收入怀中时与心灯共鸣",
+        "ai_image_prompt": "anime close-up, brown-haired girl lifting her tear-stained face revealing new determination in her eyes, a warm glow like her mother's love, she tucks the fragment into her chest near her heart lantern, wiping tears with a brave smile, transformed by her mother's words, inner strength awakened, warm orange light from within"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "碎片融入苏念的心灯时，她的橙色心灯明显变得更加明亮。那一小块母亲的记忆虽然不完整，却成为了心灯最坚固的燃料。苏念站起身，心灯在胸前散发出前所未有的温暖光芒。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "仰视" },
+        "characters": [
+          { "name": "苏念", "action": "站起身心灯大放光芒", "expression": "坚定/温暖", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "母亲的碎片成为心灯最坚固的燃料",
+        "sfx": "心灯增强的温暖嗡鸣，光芒扩散的声响",
+        "ai_image_prompt": "anime medium shot from below, brown-haired girl standing up with her orange heart lantern blazing noticeably brighter than before, the mother's fragment fuel strengthening the flame, her silhouette framed against the floating light fragments, powerful resurgence, enhanced inner light, determined pose, dramatic upward angle"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏念向白夜、铃音和墨走过去。她的表情已经不是之前忧虑的样子了——多了一份从母亲那里继承的温暖坚定。白夜看到她的心灯变化，微微点头。",
+        "camera": { "type": "中景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "走向同伴们", "expression": "温暖/坚定", "position": "中" },
+          { "name": "白夜", "action": "看到心灯变化点头", "expression": "认同", "position": "左" },
+          { "name": "铃音", "action": "露出安心的表情", "expression": "安心/微笑", "position": "右" },
+          { "name": "墨", "action": "走向苏念", "expression": "亲近", "position": "苏念脚边" }
+        ],
+        "dialogue": null,
+        "atmosphere": "带着母亲的光重新回到同伴身边",
+        "sfx": "温暖的脚步声，同伴间无言的默契",
+        "ai_image_prompt": "anime medium shot, brown-haired girl walking back to her companions with a new warmth and strength in her expression, her heart lantern glowing brighter, silver-haired boy nodding in acknowledgment, purple-haired girl smiling with relief, grey cat trotting to meet her, reunion after emotional moment, inherited maternal strength"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "四人继续前行。苏念走在最前面，她增强的心灯为周围照出更大范围的光。流光荒原的碎片海洋在他们身后渐渐远去，前方的天际线上隐约可见黑色的轮廓——那似乎是什么阴影。",
+        "camera": { "type": "远景", "movement": "缓慢推进", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "走在最前面照亮前路", "expression": "坚定", "position": "前中" },
+          { "name": "白夜", "action": "并肩行走", "expression": "冷静", "position": "后左" },
+          { "name": "铃音", "action": "跟随", "expression": "坚毅", "position": "后右" },
+          { "name": "墨", "action": "走在队伍中间", "expression": "警觉", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "带着母亲的力量前行，但远方似乎有阴影等待",
+        "sfx": "坚定的行进脚步声，远处隐约的不祥低鸣",
+        "ai_image_prompt": "anime wide cinematic shot, four travelers walking forward with the brown-haired girl leading at the front her enhanced heart lantern casting wider warm light, the luminous wasteland of fragments behind them, ahead on the horizon a dark ominous silhouette barely visible, contrast between warm light and approaching darkness, foreshadowing danger, epic journey composition"
+      }
+    ]
+  }
+}

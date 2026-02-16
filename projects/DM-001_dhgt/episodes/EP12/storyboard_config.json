@@ -1,0 +1,237 @@
+{
+  "video_id_prefix": "DM-001-EP12",
+  "episode": 12,
+  "episode_title": "流光荒原",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "四人穿越到流光荒原——一片漂浮着无数破碎灯火碎片的广袤荒野。铃音在碎片中找到了一段属于自己的旋律记忆，碎片融入她的心灯后，她短暂地发出了声音。那一声微弱的'啊'让所有人流下了眼泪。",
+  "emotion_tone": "惊喜",
+  "connection": {
+    "from_previous": "渡船老人的灯火碎片指引方向，抵达流光荒原",
+    "to_next": "铃音恢复的希望激励众人，苏念在碎片中寻找母亲的记忆"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP12-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "奇幻壮观的灯火碎片海洋，如同行走在破碎的星河之中",
+      "color_palette": ["#F1C40F", "#E74C3C", "#8E44AD"],
+      "lighting": "无数灯火碎片自发光，如萤火虫组成的银河",
+      "weather": "无风，空气中漂浮着微光粒子"
+    },
+    "video_prompt": "Anime style, four travelers stepping into a vast luminous wasteland where countless broken heart lantern fragments float in the air like a sea of fireflies and shattered stars. The silver-haired boy comments on the lost memories. The brown-haired girl notices the purple-haired girl's hand starting to glow when she touches a fragment. Magical wasteland of floating warm lights, no subtitles, Ghibli-inspired wonderland, awe and beauty.",
+    "bgm": {
+      "description": "空灵的音乐盒旋律漂浮在风中，碎片碰撞时发出风铃般的声响",
+      "mood": "ethereal music box floating in wind, wind chime fragment collisions"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "四人踏入流光荒原。这是一片广袤的灰白色平原，但空气中悬浮着成千上万的灯火碎片——大小不一，从指甲盖到拳头大，散发着各种颜色的微弱光芒。它们如同破碎的星河漂浮在半空中。",
+        "camera": { "type": "远景", "movement": "缓慢推进", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "走入碎片海洋中仰望", "expression": "震撼/敬畏", "position": "中" },
+          { "name": "白夜", "action": "走在身旁环顾", "expression": "沉思", "position": "左" },
+          { "name": "铃音", "action": "好奇地伸手触碰碎片", "expression": "好奇/惊奇", "position": "右" },
+          { "name": "墨", "action": "追逐低处漂浮的碎片", "expression": "活泼", "position": "前方" }
+        ],
+        "dialogue": null,
+        "atmosphere": "如同走进了破碎的星河，壮观而哀伤",
+        "sfx": "碎片轻柔的叮当声，脚步踏过荒原的沙沙声",
+        "ai_image_prompt": "anime wide shot, four travelers entering a vast pale wasteland filled with thousands of floating glowing fragments of all sizes and colors suspended in the air like a shattered galaxy, brown-haired girl looking up in awe, grey cat playfully chasing low-floating fragments, spectacular magical landscape, warm multicolored tiny lights everywhere"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "白夜伸手接住一块漂浮的蓝色碎片，碎片触碰他掌心的瞬间闪过一段画面——一个不认识的孩子在大笑。这不是他的记忆。他轻轻放开碎片，它重新漂浮起来。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "接住蓝色碎片后放开", "expression": "感慨/沉思", "position": "中" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "这些碎片……全是别人丢失的记忆。", "emotion": "低沉/感慨" },
+        "atmosphere": "碎片中承载着无数陌生人的失落记忆",
+        "sfx": "碎片触碰手心的清脆声，记忆画面闪过的回响",
+        "ai_image_prompt": "anime close-up, silver-haired boy holding a blue glowing fragment in his palm, a faint image of a laughing unknown child briefly visible within the fragment, his expression contemplative and somber, fragment floating back up as he releases it, warm blue glow on his face, intimate moment with a stranger's lost memory"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "铃音在碎片海洋中走着，一颗特别的碎片主动飘向她——它是透明无色的，和铃音的心灯颜色一样。碎片触碰铃音的指尖时，她的整只手开始发出柔和的淡紫色光芒。",
+        "camera": { "type": "中景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "被透明碎片主动吸引触碰", "expression": "惊讶/感应", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "碎片主动找到了它的主人，缘分般的相遇",
+        "sfx": "碎片靠近铃音时发出共鸣的嗡鸣声",
+        "ai_image_prompt": "anime medium shot, purple-haired girl walking among floating fragments, a transparent colorless fragment drifting toward her on its own and touching her fingertip, her entire hand beginning to glow with soft lavender light, surprised expression, destined reconnection, magical resonance, soft purple aura spreading from the point of contact"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念注意到铃音的异常反应，急忙跑过来。铃音的手越来越亮，光芒从手指蔓延到手臂。碎片正在融入铃音的身体——那是铃音自己丢失的声音记忆碎片之一。",
+        "camera": { "type": "中景", "movement": "快速", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "跑向铃音", "expression": "惊喜/激动", "position": "左" },
+          { "name": "铃音", "action": "光芒蔓延全身", "expression": "震惊/不知所措", "position": "中" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "铃音！你的手在发光！", "emotion": "惊喜/激动" },
+        "atmosphere": "碎片回归主人的激动时刻",
+        "sfx": "光芒蔓延的温暖共鸣声加强",
+        "ai_image_prompt": "anime medium shot, brown-haired girl rushing toward the purple-haired girl who is engulfed in growing lavender light, the transparent fragment merging into the girl's hand and the glow spreading up her arm, both girls' expressions of excitement and shock, warm magical glow, fragment returning to its owner, dynamic movement"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "碎片完全融入铃音的心灯中。铃音的透明心灯第一次出现了一丝淡紫色的光——虽然微弱，但确实在那里。铃音瞪大眼睛看着自己的心灯，手不自觉地捂住了喉咙。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "仰视" },
+        "characters": [
+          { "name": "铃音", "action": "捂住喉咙看着自己心灯的变化", "expression": "难以置信/激动", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "心灯第一次呈现颜色——声音记忆开始回归",
+        "sfx": "心灯首次发出带有旋律的嗡鸣",
+        "ai_image_prompt": "anime close-up from below, purple-haired girl staring at her own heart lantern hovering above her chest now showing the faintest hint of lavender color for the first time, her hand instinctively covering her throat, wide eyes of disbelief and hope, the tiny lavender light precious and fragile, emotional revelation, breakthrough moment"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "白夜和墨也围了过来。四人的目光都集中在铃音身上。铃音的嘴唇在颤抖——她似乎想要尝试什么。周围的碎片仿佛感应到这个时刻，微微向她倾斜漂浮过来。",
+        "camera": { "type": "中景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "嘴唇颤抖尝试发声", "expression": "紧张/期待", "position": "中" },
+          { "name": "苏念", "action": "屏住呼吸注视", "expression": "期待/紧张", "position": "左" },
+          { "name": "白夜", "action": "安静注视", "expression": "关注", "position": "右" },
+          { "name": "墨", "action": "蹲在铃音脚边仰望", "expression": "专注", "position": "铃音脚边" }
+        ],
+        "dialogue": null,
+        "atmosphere": "所有人屏息等待铃音的第一个声音",
+        "sfx": "碎片向铃音靠近的轻柔叮当声，紧张的寂静",
+        "ai_image_prompt": "anime medium shot, all four companions and the grey cat gathered around the purple-haired girl whose lips are trembling trying to speak, surrounding fragments slowly floating toward her, everyone holding their breath, tense anticipation moment, the girl at center surrounded by drifting lights, emotional buildup, warm multicolored fragment glow"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP12-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "奇迹般的突破——沉默终于被打破的感动时刻",
+      "color_palette": ["#9B59B6", "#F1C40F", "#E74C3C"],
+      "lighting": "铃音发声时所有碎片同时爆发出耀眼光芒",
+      "weather": "碎片在空中形成旋涡般的光流"
+    },
+    "video_prompt": "Anime style, the purple-haired mute girl opens her mouth and produces a single trembling sound for the first time. All the floating light fragments in the wasteland burst into brilliant light simultaneously. The brown-haired girl cries with joy and grabs her hand. The moment of miracle - voice returning from silence. No subtitles, Ghibli-inspired, emotional peak, explosion of warm light.",
+    "bgm": {
+      "description": "从寂静突然转为温暖的弦乐ensemble，铃音的声音如同乐曲中突然出现的独奏",
+      "mood": "silence breaking into warm strings ensemble, solo voice emerging"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "铃音深吸一口气，缓缓张开嘴。一瞬间——一个微弱的、颤抖的声音从她的喉咙中发出：'啊——'。这是铃音失去声音记忆后第一次发出声音。虽然微弱如风中残烛，但那确实是她的声音。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "张嘴发出第一声", "expression": "震惊/不可思议", "position": "中" }
+        ],
+        "dialogue": { "speaker": "铃音", "text": "啊——", "emotion": "微弱/颤抖" },
+        "atmosphere": "沉默被打破的奇迹瞬间",
+        "sfx": "一声微弱的人声，仿佛从深渊中挣扎出来",
+        "ai_image_prompt": "anime extreme close-up, purple-haired girl's face as she opens her mouth and produces her first sound, eyes wide with shock at her own voice, tears forming at the corners of her eyes, mouth slightly open with a visible breath, the most intimate emotional moment, miracle of voice returning, close-up portrait"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "铃音发出声音的瞬间，流光荒原上所有漂浮的碎片同时爆发出耀眼的光芒——仿佛万千萤火虫同时亮起。光芒从铃音为中心向四面八方扩散，如同水面上的涟漪。",
+        "camera": { "type": "远景", "movement": "快速拉远", "angle": "俯视" },
+        "characters": [
+          { "name": "铃音", "action": "站在碎片光芒爆发的中心", "expression": "被光芒包围", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "所有碎片回应铃音的声音，共鸣爆发",
+        "sfx": "碎片同时亮起的巨大共鸣声如同管风琴和弦",
+        "ai_image_prompt": "anime wide overhead shot pulling back rapidly, all the countless floating fragments in the wasteland simultaneously bursting into brilliant light radiating out from the purple-haired girl at the center, ripples of light expanding in every direction, spectacular cosmic-scale luminous explosion, breathtaking magical moment, rings of light"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念喜极而泣，冲上前抓住铃音的双手。她的眼泪大颗大颗地滚落，但脸上是灿烂的笑容。铃音自己也在流泪——她低头看着自己的喉咙，仍然不敢相信。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "拉住铃音双手喜极而泣", "expression": "喜极而泣", "position": "左" },
+          { "name": "铃音", "action": "低头看喉咙流泪", "expression": "不敢相信/感动", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "铃音……你出声了！", "emotion": "喜极而泣" },
+        "atmosphere": "奇迹发生后的喜悦与感动的泪水",
+        "sfx": "温暖的弦乐上升，两人的哭泣与笑声交织",
+        "ai_image_prompt": "anime medium shot, brown-haired girl grabbing the purple-haired girl's hands with tears streaming down her face but beaming with joy, the purple-haired girl also crying looking down at her own throat in disbelief, both girls emotional and connected, surrounding fragments still glowing beautifully, tears of joy and miracle, warm lighting"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "白夜站在一旁，嘴角微微上扬——这可能是他失去快乐记忆后最接近微笑的表情。墨在地上打转，尾巴竖得高高的，似乎也在庆祝。碎片光芒逐渐平静，但空气中多了一种温暖的共鸣。",
+        "camera": { "type": "中景", "movement": "缓慢横移", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "嘴角微微上扬", "expression": "接近微笑", "position": "左" },
+          { "name": "墨", "action": "竖尾巴打转庆祝", "expression": "兴奋", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "白夜最接近微笑的瞬间，小小的奇迹给每个人带来温暖",
+        "sfx": "碎片平静下来的柔和叮当声，墨的低沉呼噜",
+        "ai_image_prompt": "anime medium shot panning, silver-haired boy standing slightly apart with the corner of his mouth barely turned up in the closest thing to a smile since losing his joy, grey cat spinning in circles with tail straight up celebrating, fragments settling into gentle glow, subtle but powerful emotional beat, hint of warmth cracking the ice, understated joy"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "铃音试着再次发声，但声音消失了——碎片只恢复了一瞬间的记忆。她有些失落，但苏念紧紧握着她的手告诉她这是一个开始。铃音眼含泪光点了点头。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "试图再次发声但失败", "expression": "失落但怀有希望", "position": "中" },
+          { "name": "苏念", "action": "紧握铃音的手安慰", "expression": "鼓励/温暖", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "虽然短暂，但希望的种子已经种下",
+        "sfx": "声音消失时的轻微回响",
+        "ai_image_prompt": "anime close-up, purple-haired girl opening her mouth but no sound coming out this time, slight disappointment on her face but brown-haired girl squeezing her hand reassuringly with an encouraging warm expression, tears still glistening on both faces, bittersweet but hopeful, the beginning of recovery, gentle intimate moment"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "四人继续前行在流光荒原中。碎片在他们周围轻柔地漂浮，像是在为他们照路。远方的地平线上，隐约可见更密集的灯火汇聚——那是万灯之渊的方向。苏念的心灯发出温暖的橙光，仿佛也在期待着什么。",
+        "camera": { "type": "远景", "movement": "缓慢推进", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "走在前面目光坚定", "expression": "坚定/期待", "position": "中左" },
+          { "name": "白夜", "action": "并肩同行", "expression": "平静", "position": "中右" },
+          { "name": "铃音", "action": "走在旁边摸着喉咙", "expression": "回味/希望", "position": "右" },
+          { "name": "墨", "action": "在前方领路", "expression": "活泼", "position": "前方" }
+        ],
+        "dialogue": null,
+        "atmosphere": "带着希望继续前行，万灯之渊在远方等待",
+        "sfx": "碎片柔和的叮当伴奏声，坚定的脚步声，远方微弱的低鸣",
+        "ai_image_prompt": "anime wide cinematic shot, four travelers walking through the luminous wasteland with floating fragments gently drifting around them like guiding lights, in the far distance a dense concentration of lights visible at the horizon suggesting their destination, brown-haired girl's orange heart lantern glowing warmly, grey cat leading the way, hopeful journey forward, beautiful atmospheric landscape"
+      }
+    ]
+  }
+}

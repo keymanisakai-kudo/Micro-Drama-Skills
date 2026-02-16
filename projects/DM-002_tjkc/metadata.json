@@ -1,0 +1,17 @@
+{
+  "project_id": "DM-002",
+  "project_name": "碳金狂潮",
+  "directory": "DM-002_tjkc",
+  "theme": "CCI宏观科幻世界观下的金融短剧",
+  "genre": [
+    "科幻",
+    "金融",
+    "悬疑",
+    "短剧"
+  ],
+  "episodes": 25,
+  "duration_per_episode_seconds": 30,
+  "status": "scripted",
+  "created_date": "2026-02-14",
+  "updated_date": "2026-02-14"
+}

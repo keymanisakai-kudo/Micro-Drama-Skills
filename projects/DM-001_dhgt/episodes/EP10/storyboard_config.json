@@ -1,0 +1,240 @@
+{
+  "video_id_prefix": "DM-001-EP10",
+  "episode": 10,
+  "episode_title": "白夜的秘密",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "幻梦湖开始映出白夜的过去——一个银发少年在阳光下开怀大笑的画面。众人震惊于白夜曾经如此快乐。白夜终于坦白：他的快乐记忆被一个神秘人偷走了，他踏上这条路就是为了追踪那个人。沉重的真相让旅途的意义变得更加深刻。",
+  "emotion_tone": "沉重",
+  "connection": {
+    "from_previous": "在幻梦湖畔看到各自的记忆，苏念经历了母亲影像碎裂的痛苦",
+    "to_next": "带着白夜的真相继续前行，即将遇到摆渡人"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP10-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "震惊与反差，曾经的阳光少年与现在冰冷的白夜形成强烈对比",
+      "color_palette": ["#F39C12", "#2C3E50", "#3498DB"],
+      "lighting": "湖中映出的过去影像是温暖的金色阳光，而现实中仍是冰冷的月光",
+      "weather": "湖面依然平静，偶有微风泛起细纹"
+    },
+    "video_prompt": "Anime style, a dream lake reflecting the past of a silver-haired boy. In the lake surface a vivid memory plays - the same boy but younger with warm bright eyes laughing happily in golden sunlight, full of joy and life. The present boy stands at the shore watching his past self with a frozen expression, ice blue eyes unreadable. His companions stare in shock at how different he once was. Contrast between warm past and cold present, no subtitles, Ghibli-inspired emotional revelation, dual lighting warm and cold.",
+    "bgm": {
+      "description": "温暖的音乐盒旋律逐渐变调为沉重的低音提琴，过去与现在的交错",
+      "mood": "music box turning somber, contrabass undertone, bittersweet contrast"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "清晨微光中，四人仍在幻梦湖畔。苏念已经平静下来，披着白夜的黑色外套坐在岸边。湖面忽然再次泛起光芒——这一次，涟漪从白夜站立的方向扩散开来，湖水主动回应了他。",
+        "camera": { "type": "中景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "站在湖边被动触发湖面反应", "expression": "微愣/戒备", "position": "中" },
+          { "name": "苏念", "action": "坐在岸边抬头注意到异变", "expression": "关切", "position": "右" },
+          { "name": "铃音", "action": "站在苏念旁边", "expression": "好奇", "position": "右后" },
+          { "name": "墨", "action": "突然竖起耳朵望向湖面", "expression": "警觉", "position": "左" }
+        ],
+        "dialogue": null,
+        "atmosphere": "湖面主动映出白夜的记忆，不受他控制",
+        "sfx": "湖面涟漪扩散的水声，光芒升起的嗡鸣",
+        "ai_image_prompt": "anime medium shot, early dawn by the dream lake, silver-haired boy standing at the shore as the lake suddenly ripples and glows from his direction without him touching it, brown-haired girl sitting nearby in a black coat looking up alertly, dark grey cat ears perking up, lake surface lighting up involuntarily, subtle tension, cold morning light meeting warm lake glow"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "湖面上浮现出一个清晰的影像——一个银发少年站在阳光明媚的花园里，穿着干净的白衬衫，他的眼睛不是冰蓝色，而是温暖的天蓝色。最令人震惊的是——他在开怀大笑。那笑容灿烂得像太阳。铃音无声地指向湖面。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "俯视湖面" },
+        "characters": [
+          { "name": "铃音", "action": "指向湖面中白夜的影像", "expression": "震惊/无声惊叹", "position": "右" }
+        ],
+        "dialogue": { "speaker": "铃音", "text": "……！", "emotion": "无声惊叹" },
+        "atmosphere": "过去的白夜——一个阳光灿烂的少年",
+        "sfx": "温暖的阳光声效（从湖面影像中传来），惊讶的吸气声",
+        "ai_image_prompt": "anime overhead close-up of the lake surface, a vivid bright memory reflected in the water showing a young silver-haired boy in a clean white shirt standing in a sunlit garden laughing joyfully with warm sky-blue eyes and a radiant smile, a hand pointing at the reflection from the side in shock, warm golden light emanating from the water, dramatic contrast, beautiful nostalgic memory"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏念站起来走到白夜身边，难以置信地看着湖中那个笑着的少年，又看向身边面无表情的白夜。同一个人，却像是两个完全不同的灵魂。白夜的拳头紧紧攥着，手臂上的蓝色纹路微微发光。",
+        "camera": { "type": "中景", "movement": "缓慢横移", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "走到白夜身边来回看", "expression": "震惊/不可思议", "position": "左" },
+          { "name": "白夜", "action": "站立不动拳头紧握", "expression": "面无表情/内在痛苦", "position": "右" }
+        ],
+        "dialogue": { "speaker": "苏念", "text": "白夜……那是你吗？你在笑。", "emotion": "震惊/不可思议" },
+        "atmosphere": "现在的冰冷与过去的温暖形成残酷对比",
+        "sfx": "蓝色纹路嗡鸣声加重，拳头攥紧的声音",
+        "ai_image_prompt": "anime medium shot, brown-haired girl standing next to silver-haired boy looking back and forth between him and the lake reflection in disbelief, the lake shows a laughing happy version of him while the present boy stands frozen emotionless with clenched fists and glowing blue arm marks, split between warm past reflection and cold present reality, dramatic emotional contrast"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "湖面的影像继续播放——少年白夜的画面突然变暗。一个黑色的身影出现在影像中，伸出手触碰少年白夜的胸口。光芒从少年体内被抽离，他的笑容一点一点消失，眼睛从温暖的天蓝变成冰冷的蓝。",
+        "camera": { "type": "近景", "movement": "缓慢推近", "angle": "俯视湖面" },
+        "characters": [
+          { "name": "白夜", "action": "看着自己被夺去快乐的画面", "expression": "僵硬/隐忍", "position": "画面上方边缘" }
+        ],
+        "dialogue": null,
+        "atmosphere": "快乐被偷走的恐怖瞬间在湖面重演",
+        "sfx": "不祥的低频嗡鸣，光芒被抽离的撕裂声",
+        "ai_image_prompt": "anime overhead shot of lake surface, the memory image darkening, a shadowy black figure appearing reaching toward the young boy's chest, streams of golden light being pulled from the boy's body, his smile fading away, his warm blue eyes turning cold ice blue, horrifying theft of joy, dark supernatural moment, golden light being drained into darkness"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "白夜猛地转身背对湖面，呼吸急促。影像中的黑影消失时留下一道痕迹——正是白夜手臂上蓝色纹路的形状。苏念看到这一切，双手捂住了嘴。铃音紧紧抓着自己的裙摆。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "猛然转身背对湖面", "expression": "痛苦/逃避", "position": "中" },
+          { "name": "苏念", "action": "双手捂嘴", "expression": "震惊/心疼", "position": "左" },
+          { "name": "铃音", "action": "抓紧裙摆", "expression": "悲伤/同情", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "真相的冲击——蓝色纹路是被夺去快乐的伤疤",
+        "sfx": "急促的呼吸声，布料攥紧的声音",
+        "ai_image_prompt": "anime medium shot, silver-haired boy turning sharply away from the lake breathing hard, the lake behind him still showing the blue trace marks left by the dark figure matching his arm marks perfectly, brown-haired girl covering her mouth in shock, purple-haired girl gripping her dress hem, revelation of trauma, tense emotional moment, cold dawn light"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "白夜伸手按住自己的手臂——蓝色纹路正发出不稳定的光。湖面上的影像最终消散，但真相已经无法隐藏了。墨安静地走到白夜脚边，用头蹭了蹭他的小腿。白夜低下头，影子遮住了他的表情。",
+        "camera": { "type": "近景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "按住手臂上的蓝色纹路低头", "expression": "阴沉/脆弱", "position": "中" },
+          { "name": "墨", "action": "蹭白夜的小腿", "expression": "安慰", "position": "白夜脚边" }
+        ],
+        "dialogue": null,
+        "atmosphere": "真相暴露后的沉默，白夜最脆弱的瞬间",
+        "sfx": "蓝色纹路不稳定的嗡鸣声，湖面影像消散的叹息声",
+        "ai_image_prompt": "anime close-up, silver-haired boy pressing his hand against his glowing unstable blue arm marks, head lowered with shadow covering his expression, dark grey cat rubbing against his leg comfortingly, lake behind returning to dark stillness, most vulnerable moment, hidden pain revealed, atmospheric dawn light, shadow and light on face"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP10-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "沉重的坦白与同伴间更深的理解，悲伤却坚定",
+      "color_palette": ["#2C3E50", "#3498DB", "#E67E22"],
+      "lighting": "黎明前最暗的时刻逐渐过渡到微弱的曙光",
+      "weather": "微风吹过湖面，泛起轻微涟漪"
+    },
+    "video_prompt": "Anime style, silver-haired boy finally confesses his truth to his companions by the dream lake at dawn. He reveals that his happy memories were stolen by a mysterious person and the blue marks on his arms are the scars left behind. He has been tracking that person all along. The brown-haired girl takes his hand firmly. The group resolves to continue together. Heavy emotional confession scene, no subtitles, Ghibli-inspired, dawn breaking slowly over the lake.",
+    "bgm": {
+      "description": "低沉的钢琴和弦，间以大提琴的叹息式旋律，最终加入微弱的希望音符",
+      "mood": "heavy piano chords, sighing cello, faint hopeful notes at end"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "沉默良久。白夜依然背对着众人，按着手臂。终于，他的肩膀轻轻颤抖了一下，开口说话。声音很低，像是在讲述一个已经久远的故事。苏念和铃音静静地听着。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "背面" },
+        "characters": [
+          { "name": "白夜", "action": "背对众人低声开口", "expression": "低沉/压抑", "position": "中前" },
+          { "name": "苏念", "action": "站在后方安静聆听", "expression": "认真/心疼", "position": "后左" },
+          { "name": "铃音", "action": "站在后方安静聆听", "expression": "悲伤/专注", "position": "后右" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "我的快乐……被人偷走了。", "emotion": "低沉/痛苦" },
+        "atmosphere": "终于开口的沉重告白，背影中的脆弱",
+        "sfx": "湖面微风声，极其安静的环境",
+        "ai_image_prompt": "anime medium shot from behind, silver-haired boy's back facing the viewer standing by the lake, shoulders trembling slightly as he speaks, two girls standing behind him listening intently, vast dark lake and pre-dawn sky in the background, heavy confession atmosphere, vulnerable back silhouette, muted dark blue tones"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "白夜缓缓转过身面对苏念和铃音。他卷起袖子，露出手臂上蔓延的蓝色纹路。纹路在曙光中呈现出一种不自然的冰冷蓝光——那是快乐被抽离后留下的灵魂伤疤。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "转身卷起袖子展示纹路", "expression": "平静的痛苦", "position": "中" }
+        ],
+        "dialogue": null,
+        "atmosphere": "展示伤疤的勇气，蓝色纹路的真正含义",
+        "sfx": "衣袖卷起的布料声，蓝色纹路低沉的嗡鸣",
+        "ai_image_prompt": "anime close-up, silver-haired boy turning to face the viewer rolling up his sleeve revealing the blue glowing marks extending along his arm, the marks pulsing with cold unnatural blue light like scars on the soul, his expression calm but carrying deep pain, pre-dawn light illuminating the marks, revelation of truth, ice blue veins of stolen joy"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "白夜抬起头看向远方——湖对岸模糊的地平线上，似乎有什么在等待。他的冰蓝色瞳孔中映出一丝微弱的追寻之光。他说出了自己踏上这条路的真正原因。",
+        "camera": { "type": "近景", "movement": "缓慢推近面部", "angle": "平视" },
+        "characters": [
+          { "name": "白夜", "action": "抬头看向远方", "expression": "沉重/坚定", "position": "中" }
+        ],
+        "dialogue": { "speaker": "白夜", "text": "我一直在追那个人。这条路……就是他留下的痕迹。", "emotion": "沉重/坚定" },
+        "atmosphere": "揭示旅途的真正目的——追踪偷走快乐的人",
+        "sfx": "风声拂过，远处低沉的回响",
+        "ai_image_prompt": "anime close-up face shot slowly pushing in, silver-haired boy looking toward the far horizon across the lake, ice blue eyes reflecting a faint light of pursuit and determination, speaking his truth about tracking the person who stole his joy, heavy resolve, pre-dawn sky behind him, wind in his silver-white hair, intense emotional portrait"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏念走到白夜面前，伸出手坚定地握住了他的手——正是蓝色纹路蔓延的那只手。白夜愣住了。苏念的橙色心灯温暖的光芒触碰到蓝色纹路时，纹路的冰冷光芒瞬间柔和了一些。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "握住白夜有蓝色纹路的手", "expression": "坚定/温暖", "position": "左" },
+          { "name": "白夜", "action": "被握住手愣住", "expression": "惊愣/动容", "position": "右" }
+        ],
+        "dialogue": null,
+        "atmosphere": "温暖握住伤痛的手，心灯的光柔化冰冷的纹路",
+        "sfx": "橙色心灯温暖的嗡鸣，蓝色纹路的冰冷声响渐弱",
+        "ai_image_prompt": "anime extreme close-up of two hands clasping, brown-haired girl firmly holding the silver-haired boy's hand where blue marks glow, her orange heart lantern light touching the blue marks and softening their cold glow, his shocked expression at the warmth, emotional hand-holding gesture, warmth meeting cold, orange and blue light blending, intimate supportive moment"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "铃音走上前来，从另一边握住白夜的另一只手。墨跳到白夜的肩上，用头蹭他的脸颊。白夜的眼角闪过一丝不可察觉的湿润——冰封的外壳出现了第一道裂缝。",
+        "camera": { "type": "中景", "movement": "缓慢", "angle": "平视" },
+        "characters": [
+          { "name": "铃音", "action": "握住白夜另一只手", "expression": "温柔/坚定", "position": "右" },
+          { "name": "白夜", "action": "被两人握着手", "expression": "眼角微湿/动容", "position": "中" },
+          { "name": "苏念", "action": "握着白夜的手", "expression": "温暖的微笑", "position": "左" },
+          { "name": "墨", "action": "跳上白夜肩膀蹭脸", "expression": "亲昵", "position": "白夜肩上" }
+        ],
+        "dialogue": null,
+        "atmosphere": "所有同伴包围的温暖，冰封之心开始融化",
+        "sfx": "三颗心灯共鸣的温暖声响，猫灵的轻柔呼噜",
+        "ai_image_prompt": "anime medium shot, silver-haired boy being held from both sides, brown-haired girl holding one hand purple-haired girl holding the other, dark grey cat perched on his shoulder nuzzling his cheek, his eyes glistening with the faintest hint of moisture, first crack in the ice, surrounded by warmth, companions standing with him, gentle pre-dawn light, emotionally powerful group support scene"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "黎明的第一缕曙光从湖面的远方升起，金色的光线铺满整个湖面。四名同伴面向曙光并肩而立，各自的心灯在晨光中发出稳定的光芒。前方的路虽然沉重，但他们已不再各自承担。湖面映出四个人的倒影——完整的同行者。",
+        "camera": { "type": "远景", "movement": "缓慢拉远", "angle": "平视" },
+        "characters": [
+          { "name": "苏念", "action": "面向曙光站立", "expression": "坚定/温暖", "position": "中左" },
+          { "name": "白夜", "action": "面向曙光站立", "expression": "安静/微弱的温度", "position": "中右" },
+          { "name": "铃音", "action": "面向曙光站立", "expression": "平静/坚毅", "position": "左" },
+          { "name": "墨", "action": "蹲在白夜肩上望向远方", "expression": "安然", "position": "白夜肩上" }
+        ],
+        "dialogue": null,
+        "atmosphere": "黎明破晓，同行者的誓言，沉重却充满力量",
+        "sfx": "晨风拂过湖面的辽阔声，远处鸟鸣，心灯稳定的温暖嗡鸣",
+        "ai_image_prompt": "anime wide cinematic shot, four companions standing side by side facing the first golden dawn light breaking over the dream lake, their silhouettes against the sunrise, each heart lantern glowing steadily, the vast lake reflecting their complete group silhouette, cat on the boy's shoulder, heavy but resolute mood, Ghibli-inspired panoramic dawn, golden light washing over them, beautiful hopeful ending composition"
+      }
+    ]
+  }
+}

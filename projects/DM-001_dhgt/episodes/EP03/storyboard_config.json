@@ -1,0 +1,151 @@
+{
+  "video_id_prefix": "DM-001-EP03",
+  "episode": 3,
+  "episode_title": "万灯传说",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "anime",
+  "subtitle": false,
+  "synopsis": "苏念在古籍中发现万灯之渊的记载——所有熄灭的灯火最终都会流向那里。师傅云老告诫她万灯之渊的危险，但苏念决心出发。夜晚，她独自离开灯塔城。",
+  "emotion_tone": "决意",
+  "connection": {
+    "from_previous": "苏念发现心灯异常，决心寻找答案",
+    "to_next": "踏上旅途，将遇到失去快乐记忆的少年白夜"
+  },
+
+  "part_a": {
+    "video_id": "DM-001-EP03-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "古籍阅览的神秘感与发现希望的激动",
+      "color_palette": ["#D4A574", "#2C3E50", "#F5A623"],
+      "lighting": "烛光照亮古籍页面，周围暗影深重",
+      "weather": "室内，外面阴天"
+    },
+    "video_prompt": "Anime style, girl reading an ancient glowing book in a dim lighthouse library by candlelight. The pages show illustrations of a vast abyss filled with thousands of floating dim lanterns. Her eyes widen with hope and determination. An old man with white hair and beard appears at the doorway, his bright golden heart lantern illuminating his stern worried face. Mysterious ancient library atmosphere, warm candlelight, no subtitles.",
+    "bgm": { "description": "神秘的竖琴与低沉的大提琴，营造古老传说的氛围", "mood": "mysterious, ancient, hopeful undertone, harp and cello" },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1, "time_start": 0.0, "time_end": 2.5,
+        "scene_description": "灯塔图书室，苏念在烛光下翻阅泛黄古籍。书架上的灯火碎片瓶投下斑驳光影。她的手指划过文字，神情专注。",
+        "camera": { "type": "中景", "movement": "缓慢推近", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "翻阅古籍", "expression": "专注", "position": "中" }],
+        "dialogue": null, "atmosphere": "安静的图书室，烛光摇曳", "sfx": "翻页声，烛火噼啪",
+        "ai_image_prompt": "anime medium shot, girl reading ancient yellowed book by candlelight in dim lighthouse library, bookshelves with glowing jar fragments, focused expression, warm candlelight, atmospheric shadows"
+      },
+      {
+        "grid_number": 2, "time_start": 2.5, "time_end": 5.0,
+        "scene_description": "古籍页面特写。书上绘有万灯之渊的插图——一个巨大的深渊中漂浮着无数暗淡的灯火，如沉睡的星海。文字记载着传说。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "俯视" },
+        "characters": [],
+        "dialogue": { "speaker": "苏念", "text": "万灯之渊……失去的灯火都会流向那里。", "emotion": "专注/希望" },
+        "atmosphere": "古老传说的神秘插图散发微光", "sfx": "古书微光嗡鸣",
+        "ai_image_prompt": "anime close-up of ancient book pages, illustration showing a vast abyss with thousands of floating dim lanterns like sleeping stars, old yellowed parchment, mysterious glowing illustration, candlelit"
+      },
+      {
+        "grid_number": 3, "time_start": 5.0, "time_end": 7.5,
+        "scene_description": "苏念的眼睛亮起来，她在书中发现了前往万灯之渊的路线标记。她激动地用手指描画路线。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "手指描画古籍上的路线", "expression": "激动/希望", "position": "中" }],
+        "dialogue": null, "atmosphere": "发现希望的激动感", "sfx": "心跳加速",
+        "ai_image_prompt": "anime close-up, girl's brightening eyes and excited expression, finger tracing a route on ancient map in book, candlelight reflecting in amber eyes, hopeful discovery moment"
+      },
+      {
+        "grid_number": 4, "time_start": 7.5, "time_end": 10.0,
+        "scene_description": "突然，一个沉重的声音从身后传来。图书室门口站着白发苍苍的云老，他的金色心灯明亮而稳定，但面容严肃。",
+        "camera": { "type": "中景", "movement": "快速切换", "angle": "平视" },
+        "characters": [{ "name": "云老", "action": "站在门口，双手背后", "expression": "严肃/忧虑", "position": "中" }],
+        "dialogue": null, "atmosphere": "权威长者的登场，气氛骤然凝重", "sfx": "脚步声停止",
+        "ai_image_prompt": "anime medium shot, old man with white hair and beard standing in library doorway, bright golden heart lantern glowing near his chest, stern worried expression, hands behind back, dramatic doorway lighting"
+      },
+      {
+        "grid_number": 5, "time_start": 10.0, "time_end": 12.5,
+        "scene_description": "云老缓步走向苏念，凝视着她手中的古籍。他的眼中闪过一丝复杂的情感——仿佛他知道这一天终究会来。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "云老", "action": "走近，凝视古籍", "expression": "复杂/沉痛", "position": "右" }, { "name": "苏念", "action": "抬头看向师傅", "expression": "紧张", "position": "左" }],
+        "dialogue": { "speaker": "云老", "text": "那个地方，没有人能活着回来。", "emotion": "沉重/警告" },
+        "atmosphere": "师徒对峙，沉重的警告", "sfx": "安静，灯火轻响",
+        "ai_image_prompt": "anime close-up two-shot, old master looking down at ancient book in girl's hands, complex painful expression, girl looking up nervously, dramatic lighting between them, tense moment"
+      },
+      {
+        "grid_number": 6, "time_start": 12.5, "time_end": 15.0,
+        "scene_description": "苏念紧握古籍，目光从恐惧转为坚定。书页上万灯之渊的插图在她瞳中映射。云老沉默地看着她，叹了口气。",
+        "camera": { "type": "特写", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "紧握书本", "expression": "坚定", "position": "中" }],
+        "dialogue": null, "atmosphere": "无声的决心表达", "sfx": "书页紧握的声音",
+        "ai_image_prompt": "anime extreme close-up, girl's determined amber eyes with the book illustration of lantern abyss reflected in her pupils, gripping the book tightly, shift from fear to resolve, dramatic eye detail shot"
+      }
+    ]
+  },
+
+  "part_b": {
+    "video_id": "DM-001-EP03-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "告别与启程，夜色中的孤独与勇气",
+      "color_palette": ["#1A1A2E", "#F39C12", "#8E44AD"],
+      "lighting": "灯塔城夜晚的灯火与月光交织，城门外是黑暗的未知",
+      "weather": "月夜，微风"
+    },
+    "video_prompt": "Anime style, emotional farewell scene. Girl confronts old master, pleading but determined. The old man sighs and turns away. Night scene, girl with red cloak and leather backpack walking alone through the city gate of the lantern city into darkness. She pauses at the gate, looking back at the glowing city one last time, then steps forward into the moonlit path. Her heart lantern flickers but she walks on. Cinematic, emotional, no subtitles.",
+    "bgm": { "description": "悠远的笛声配合弦乐，从离别的忧伤过渡到启程的决意", "mood": "farewell, lonely, courageous, flute and strings" },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1, "time_start": 0.0, "time_end": 2.5,
+        "scene_description": "苏念站起身面对云老，双手紧握在胸前。灯火的光芒照亮她坚定的面容。师徒二人之间的空气凝重。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "站起面对师傅", "expression": "恳求但坚定", "position": "左" }, { "name": "云老", "action": "面对苏念", "expression": "严肃", "position": "右" }],
+        "dialogue": { "speaker": "苏念", "text": "师傅，我必须去。", "emotion": "恳求但坚定" },
+        "atmosphere": "师徒间无法调和的分歧与深厚的情感", "sfx": "灯火共鸣声",
+        "ai_image_prompt": "anime medium shot, young girl standing facing old master in library, hands clasped at chest, determined plea, warm lantern light between them, emotional confrontation"
+      },
+      {
+        "grid_number": 2, "time_start": 2.5, "time_end": 5.0,
+        "scene_description": "云老闭上眼，深深叹息。他转过身去，不看苏念。他的金色心灯微微颤动，透露出内心的不舍。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "侧面" },
+        "characters": [{ "name": "云老", "action": "转身，叹息", "expression": "无奈/心疼", "position": "中" }],
+        "dialogue": { "speaker": "云老", "text": "你和你母亲……一样倔。", "emotion": "无奈/心疼" },
+        "atmosphere": "长辈的无奈与暗藏的关于苏念母亲的线索", "sfx": "叹息声，心灯颤动",
+        "ai_image_prompt": "anime close-up side view, old man turning away, eyes closed, deep sigh, golden heart lantern trembling slightly, back turned to girl, emotional resignation, dim library background"
+      },
+      {
+        "grid_number": 3, "time_start": 5.0, "time_end": 7.5,
+        "scene_description": "夜晚，苏念穿上深红色斗篷，背上装满守灯工具的皮质背包。她在灯塔卧室中最后看了一眼那张模糊的照片，然后将它放入口袋。",
+        "camera": { "type": "中景", "movement": "固定", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "穿戴装备，收好照片", "expression": "沉静/决然", "position": "中" }],
+        "dialogue": null, "atmosphere": "出发前的宁静准备，告别熟悉的房间", "sfx": "背包扣环声，布料窸窣",
+        "ai_image_prompt": "anime medium shot, girl putting on red cloak and leather backpack in lighthouse bedroom at night, tucking a blurred photograph into pocket, quiet determined preparation, moonlight through window"
+      },
+      {
+        "grid_number": 4, "time_start": 7.5, "time_end": 10.0,
+        "scene_description": "苏念走过灯塔城寂静的夜晚街道，街灯和零星行人的心灯在远处闪烁。她的脚步声在石板路上回响。",
+        "camera": { "type": "远景", "movement": "跟随", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "独自行走在夜街", "expression": "坚定", "position": "中" }],
+        "dialogue": null, "atmosphere": "深夜的灯塔城，一个人的旅途", "sfx": "脚步声回响，远处灯火嗡鸣",
+        "ai_image_prompt": "anime wide shot, lone girl in red cloak walking through quiet lantern city streets at night, cobblestones, distant lighthouse lights and floating lanterns, solitary journey beginning, cinematic moonlit atmosphere"
+      },
+      {
+        "grid_number": 5, "time_start": 10.0, "time_end": 12.5,
+        "scene_description": "苏念到达灯塔城的大门。她停下脚步，回头最后望了一眼——灯塔的光芒温暖而遥远。她的眼中映着灯火，嘴唇微动。",
+        "camera": { "type": "近景", "movement": "固定", "angle": "侧面" },
+        "characters": [{ "name": "苏念", "action": "回头望向城市", "expression": "眷恋又决然", "position": "中" }],
+        "dialogue": { "speaker": "苏念", "text": "等我回来。", "emotion": "低语/温柔" },
+        "atmosphere": "告别的瞬间，灯火城的温暖与前方未知的对比", "sfx": "夜风声",
+        "ai_image_prompt": "anime close-up profile, girl at city gate looking back, lighthouse city glowing warmly in the distance reflected in her eyes, red cloak in wind, bittersweet farewell expression, moonlit"
+      },
+      {
+        "grid_number": 6, "time_start": 12.5, "time_end": 15.0,
+        "scene_description": "苏念转身迈出城门，走向月光照亮的小路。她的身影逐渐变小，但心灯的微弱橙光在黑暗中格外醒目。像一颗孤独的星，走向未知。",
+        "camera": { "type": "远景", "movement": "固定，渐远", "angle": "平视" },
+        "characters": [{ "name": "苏念", "action": "迈步走向远方", "expression": "坚定（背影）", "position": "中" }],
+        "dialogue": null, "atmosphere": "孤独而勇敢的启程，小小灯火在广阔黑暗中前行", "sfx": "脚步渐远，音乐渐强",
+        "ai_image_prompt": "anime wide shot, small figure walking away through city gate into moonlit path, red cloak visible, tiny warm orange heart lantern glowing in vast darkness, lone star in the night, cinematic departure shot, emotional ending"
+      }
+    ]
+  }
+}
