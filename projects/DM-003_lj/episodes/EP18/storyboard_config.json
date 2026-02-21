@@ -1,0 +1,405 @@
+{
+  "video_id_prefix": "DM-003-EP18",
+  "episode": 18,
+  "episode_title": "算清这笔账",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "林宇指出三号车间老旧电机空转率高达30%，浪费的不只是每月十几万电费，更是惊人的碳排放成本。赵总咬牙承认机器老旧。",
+  "emotion_tone": "紧迫、真实",
+  "connection": {
+    "from_previous": "漏斗比喻打动",
+    "to_next": "提出解决方案"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP18-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "林宇用精准数据直击痛点，三号车间空转率触目惊心",
+      "color_palette": ["#2D2D2D", "#B22222", "#DAA520"],
+      "lighting": "车间灯光昏黄，图表上的红色数字在灯下格外刺眼",
+      "weather": "室内三号车间"
+    },
+    "video_prompt": "Inside an old factory workshop with aging machinery, a young man in dark gray blazer presents data charts showing shocking waste figures, pointing at old motors and knocking on the table for emphasis, speaking with urgency about electricity waste and carbon costs, an older stocky man in khaki jacket watching grimly. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "低沉大提琴持续音，间歇性打击乐如倒计时",
+      "mood": "紧迫、严肃、逼真"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "三号车间环境：几台老旧电机正在空转，发出沉闷的嗡鸣声。林宇手持图表站在电机旁，严肃开口。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手持图表站在老旧电机旁",
+            "expression": "严肃",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "双手插兜站在一旁",
+            "expression": "审视",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "三号车间，空转率30%。",
+          "emotion": "严肃"
+        },
+        "atmosphere": "老旧电机的空转声如同金钱在燃烧",
+        "sfx": "电机空转嗡鸣声",
+        "ai_image_prompt": "Cinematic medium shot inside an old factory workshop, aging electric motors running idle and humming, a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt standing next to the motors holding a data chart, speaking seriously, a 55-year-old stocky man in khaki jacket standing nearby with hands in pockets watching, dim yellow industrial lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "图表特写：三号车间设备运行数据，空转率用红色粗体标注「30%」，旁边标注月均电费损失。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "俯视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "冰冷的数字比任何控诉都更有力",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic extreme close-up top-down shot of a data chart on paper showing Workshop No.3 equipment utilization data, the number 30 percent highlighted in bold red, monthly electricity loss figures in yuan listed beside it, a finger pointing at the key statistic, paper on a dusty metal surface under yellow factory light, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇走近赵建国，指着图表上的电费数据，声音加重：「浪费的不只是每月十几万电费。」",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "走近赵建国，指着电费数据",
+            "expression": "加重语气、认真",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "低头看数据",
+            "expression": "凝重",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "浪费的不只是每月十几万电费。",
+          "emotion": "加重语气"
+        },
+        "atmosphere": "数字一层层剥开真相",
+        "sfx": "脚步声",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer stepping closer and pointing at electricity cost data on a chart, speaking with weighted emphasis, a 55-year-old stocky man in khaki jacket beside him looking down at the numbers with a grave expression, old factory machines in soft focus background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇猛地一敲桌面，声音激动：「更是惊人的碳排放成本！」赵建国身体微微一震。",
+        "camera": {
+          "type": "中景",
+          "movement": "快速推进",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "敲桌子，身体前倾",
+            "expression": "激动、不容忽视",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "身体微震",
+            "expression": "被触动",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "更是惊人的碳排放成本！",
+          "emotion": "激动"
+        },
+        "atmosphere": "敲桌声如警钟，碳排放成本这把暗刀终于亮出",
+        "sfx": "敲击金属桌面声、回响",
+        "ai_image_prompt": "Cinematic medium shot from slightly below of a 30-year-old Chinese man in dark gray blazer slamming his hand on a metal table surface with intense emotion, leaning forward, and a 55-year-old stocky man in khaki jacket flinching slightly from the impact, old factory machinery looming behind them, dramatic moment of truth, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国转身看向正在空转的老旧电机，目光复杂。这些跟了他二十年的机器，如今成了负资产。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "转身看向空转的老旧电机",
+            "expression": "复杂、痛苦",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "二十年的老伙计变成了吞噬利润的怪物",
+        "sfx": "电机嗡鸣声更加明显",
+        "ai_image_prompt": "Cinematic medium shot following a 55-year-old stocky Chinese man in khaki jacket turning to stare at old running motors in the factory, his expression complex and pained, yellow light reflecting off the worn metal of aging machines that have been running for decades, emotional weight of realizing reliable old equipment has become a liability, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "林宇站在赵建国身后，两人一起看着嗡嗡作响的老旧设备。空气中弥漫着紧迫感。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "凝视老旧设备",
+            "expression": "沉重",
+            "position": "左"
+          },
+          {
+            "name": "林宇",
+            "action": "站在赵建国身后",
+            "expression": "等待",
+            "position": "右偏后"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "两人共同面对真相——设备老化的现实无处可逃",
+        "sfx": "电机运转声、金属疲劳咯吱声",
+        "ai_image_prompt": "Cinematic wide shot from slightly above of two men standing together looking at rows of old humming factory motors, a 55-year-old stocky man in khaki jacket in front with heavy shoulders and a 30-year-old man in dark gray blazer standing behind him, aging industrial equipment filling the frame, yellow dim lighting, atmosphere of urgency and harsh reality, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP18-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "赵建国咬牙承认困境，无奈中的真实",
+      "color_palette": ["#3C3C3C", "#8B6914", "#696969"],
+      "lighting": "昏黄灯光照在赵建国疲惫的脸上，明暗对比强烈",
+      "weather": "室内三号车间"
+    },
+    "video_prompt": "Inside an old factory workshop, a 55-year-old stocky man in khaki jacket stands among aging machines, admitting with gritted teeth that the equipment is old, then spreading his hands in frustration about the cost of replacement. A young man in dark gray blazer listens intently. Raw emotional honesty. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "大提琴独奏低沉旋律，弦乐铺底如叹息",
+      "mood": "无奈、真实、沉重"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵建国一手扶在老旧电机上，手指摸过斑驳的铁锈，低头咬紧牙关。这台机器他比谁都熟悉。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "手扶电机，手指摸过铁锈",
+            "expression": "咬牙、痛苦",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "我也知道机器老……",
+          "emotion": "咬牙"
+        },
+        "atmosphere": "手掌下的铁锈是二十年时光的痕迹",
+        "sfx": "手指划过粗糙金属声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket, one hand resting on the surface of an old rusted electric motor, fingers tracing over flaking rust, head bowed, jaw clenched, painful admission on his face, yellow factory light casting deep shadows, intimate moment of vulnerability, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "特写：赵建国的手在电机表面，指缝中嵌着铁锈粉末，手上有常年劳作的老茧和伤痕。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "手掌按在电机上",
+            "expression": null,
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "一双布满老茧的手，诉说着工厂主的艰辛",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic extreme close-up top-down shot of a weathered calloused hand with old scars pressing on the surface of a rusted factory motor, rust dust in the creases between fingers, years of hard work written in every line of the skin, yellow dim light, intimate detail shot representing decades of factory work, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国抬起头，转向林宇，摊开双手，满脸无奈和苦涩，声音低沉但真实。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "转向林宇，摊开双手",
+            "expression": "无奈、苦涩",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "但换新设备要一大笔钱，我拿什么换？",
+          "emotion": "无奈"
+        },
+        "atmosphere": "摊手的姿态暴露了困兽犹斗的无力",
+        "sfx": "叹息声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket turning to face someone, spreading both hands open in a gesture of helplessness, face full of bitter frustration and raw honesty, speaking with a low gravelly voice, dim yellow factory lighting on his weathered face, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇认真倾听，微微点头表示理解。他没有反驳，而是让赵建国把苦水倒完。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "认真倾听，微微点头",
+            "expression": "理解、共情",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "倾听本身就是最好的说服",
+        "sfx": "安静，远处电机声",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt, listening intently and nodding slightly with genuine understanding and empathy, not interrupting, respectful and patient expression, dim factory workshop background with old machinery, warm human connection moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国背靠老旧电机，双臂垂下，疲惫而真实。身后是整个需要更新换代的车间。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "背靠电机，双臂垂下",
+            "expression": "疲惫、无力",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "一个工厂主与他老旧帝国的真实困境",
+        "sfx": "电机嗡鸣声、金属疲劳声",
+        "ai_image_prompt": "Cinematic medium shot of a 55-year-old stocky Chinese man in khaki jacket leaning back against an old factory motor, arms hanging down at his sides in exhaustion, the entire outdated workshop stretching behind him with rows of aging machines, a man defeated by reality, dim yellow industrial lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "林宇眼中闪过一丝光亮，嘴角微动——他有解决方案。但他没有急着说，而是平静地看着赵建国。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "眼中闪过光亮，嘴角微动",
+            "expression": "自信、平静",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "暗示转机即将到来，林宇已有底牌",
+        "sfx": "安静，留白",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt, a subtle light of confidence flickering in his eyes, the corner of his mouth barely moving as if holding back a solution, calm and assured expression, looking steadily at someone off-camera, dim factory workshop background, hint of hope emerging, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

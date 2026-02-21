@@ -1,0 +1,393 @@
+{
+  "video_id_prefix": "DM-003-EP20",
+  "episode": 20,
+  "episode_title": "低8%",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "翻到方案最后一页——有碳追踪认证，综合关税成本比东南亚竞争对手低8%！赵总死死盯着'低8%'数据，手微微颤抖，眼神从排斥变为审视再到希望。",
+  "emotion_tone": "震动、转折",
+  "connection": {
+    "from_previous": "绿色金融方案引起赵总好奇",
+    "to_next": "赵总问安装时间"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP20-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "林宇亮出王牌，步步铿锵，气氛走向高潮",
+      "color_palette": ["#1A3C5E", "#C5A030", "#FFFFFF"],
+      "lighting": "办公室灯光聚焦在方案页面上，林宇面部侧光",
+      "weather": "室内"
+    },
+    "video_prompt": "Inside a factory office, a young man in dark gray blazer dramatically turns to the last page of a proposal on a tablet, revealing a critical data point about carbon tracking certification and 8 percent lower tariff costs. His voice grows powerful and deliberate as he delivers each word. Climactic revelation scene. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "弦乐渐强，低音大提琴铺底，在'低8%'处全部乐器暂停一拍后爆发",
+      "mood": "悬念递进、震撼揭示"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇压低声音，表情郑重，手指缓缓翻向方案的最后一页。赵建国被他突然放慢的节奏吸引，屏住呼吸。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "压低声音，缓缓翻页",
+            "expression": "压低声音、郑重",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "屏住呼吸注视",
+            "expression": "被吸引、紧张",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "更重要的是——",
+          "emotion": "压低声音"
+        },
+        "atmosphere": "刻意放慢的节奏制造出紧张的悬念感",
+        "sfx": "纸页翻动声，安静的空气",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt leaning forward with a serious solemn expression, voice lowered, slowly turning to the last page of a proposal on a tablet, a 55-year-old stocky man in khaki jacket visible in soft focus background holding his breath, tense suspenseful moment, warm side lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "平板翻到最后页的特写：页面顶部是碳追踪认证的Logo和说明，下方是关税对比数据表格。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "俯视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "关键页面如底牌翻开，信息密度极高",
+        "sfx": "翻页声、短暂的安静",
+        "ai_image_prompt": "Cinematic extreme close-up top-down of a tablet screen showing the final page of a business proposal with a carbon tracking certification logo at the top, and a comparative tariff data table below showing an 8 percent cost advantage highlighted in bold red, clean professional document layout, dramatic screen glow, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇手指点在碳追踪认证上，语气郑重如宣读判决书般说出'有了碳追踪认证'。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手指点在屏幕上，郑重宣布",
+            "expression": "郑重、庄严",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "有了碳追踪认证——",
+          "emotion": "郑重"
+        },
+        "atmosphere": "每一个字都像钉子一样钉入赵总心里",
+        "sfx": "手指轻点平板声",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer pointing firmly at a tablet screen with his index finger on the carbon tracking certification section, solemn declarative expression, delivering words with the gravity of a verdict, strong side lighting on his face, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国死死盯着平板屏幕，瞳孔微微放大，嘴巴微张——他在屏幕上看到了那个数字。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "死死盯着屏幕，瞳孔放大",
+            "expression": "震惊、瞳孔放大",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "无声的震撼，数据的冲击力让一切语言多余",
+        "sfx": "心跳声隐约可闻",
+        "ai_image_prompt": "Cinematic extreme close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair, eyes wide and fixed on something below frame, pupils slightly dilated, mouth slightly open in shock, staring at critical data that has shaken him to the core, dramatic lighting catching the reflection in his eyes, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇字字铿锵——'综合关税成本比东南亚低8%！'每个字都像子弹射出。他直视赵建国。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "字字铿锵说出关键数据",
+            "expression": "铿锵有力、目光如炬",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "综合关税成本比东南亚低8%！",
+          "emotion": "字字铿锵"
+        },
+        "atmosphere": "王炸出场，话音落地如惊雷",
+        "sfx": "背景音乐在此处暂停一拍",
+        "ai_image_prompt": "Cinematic close-up from slightly below of a 30-year-old Chinese man with short curly black hair in dark gray blazer delivering a powerful statement with fierce conviction, eyes burning with intensity, every word deliberate and forceful like bullets, strong upward lighting giving him an authoritative presence, climactic moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国整个人僵住，双手撑在桌面上，目光钉在平板'低8%'的数据上。空气凝固。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "僵住，双手撑桌，死盯数据",
+            "expression": "震动、呆滞",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "时间仿佛静止，'低8%'三个字如炸雷般在赵总脑中回响",
+        "sfx": "极度安静，只有远处机器低频背景",
+        "ai_image_prompt": "Cinematic medium shot of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket frozen in place, both hands pressed flat on the desk, staring down at a tablet showing the number 8 percent, completely stunned, the air around him seems to have stopped moving, factory office setting, dramatic tension, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP20-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "赵总内心地震，从不敢相信到开始希望",
+      "color_palette": ["#2C3E50", "#E67E22", "#F39C12"],
+      "lighting": "侧光打在赵建国颤抖的手上，暖光从窗口渐渐渗入",
+      "weather": "室内，窗外阳光渐亮"
+    },
+    "video_prompt": "In a factory office, a 55-year-old stocky man in khaki jacket stares at data on a tablet with trembling hands, whispering 'lower by 8 percent?' in disbelief. He slowly raises his head to look at the young man across from him, eyes shifting from doubt to desperate hope, asking 'are you sure?' A profound emotional turning point. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "单一钢琴音符缓缓奏出，弦乐从极弱渐入，在赵总抬头时温暖铺开",
+      "mood": "震动、颤抖、希望初生"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵建国的手特写：粗糙的手指放在平板屏幕上'低8%'的数字旁边，手在微微颤抖。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "手指放在屏幕旁，微微颤抖",
+            "expression": null,
+            "position": "手部特写"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "颤抖的粗糙手指和冰冷的数字形成强烈的情感张力",
+        "sfx": "微弱颤抖声、心跳声",
+        "ai_image_prompt": "Cinematic extreme close-up top-down of a weathered rough hand with thick fingers trembling slightly next to a tablet screen showing the bold number 8 percent in red, calloused fingers of a factory worker beside cold digital data, profound emotional moment, dramatic side lighting casting shadows, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国低声喃喃'……低8%？'声音发颤，眼眶微微泛红。他不敢相信自己苦撑多年的困局竟有出路。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "低声喃喃，声音颤抖",
+            "expression": "颤抖、不敢相信、眼眶泛红",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "……低8%？",
+          "emotion": "颤抖、不敢相信"
+        },
+        "atmosphere": "多年坚守的老人在数据面前第一次看到了希望的裂缝",
+        "sfx": "颤抖的声音回响",
+        "ai_image_prompt": "Cinematic extreme close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair, whispering in disbelief with a trembling voice, eyes slightly reddened with emotion, the weight of years of struggling visible on his weathered face, a crack of hope breaking through his armor, warm dramatic lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇不说话，只是沉稳地点了点头，目光直视赵建国，给他时间消化。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "沉稳点头，目光直视",
+            "expression": "笃定、给人力量",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "无声的点头比千言万语更有力量",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt giving a slow steady nod, calm unwavering gaze full of quiet conviction, not speaking, letting the silence do the convincing, warm office lighting, composed and empowering presence, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国缓缓抬起头，直视林宇的眼睛。他的眼神从怀疑经过审视最终落在希望上——'你确定？'",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "缓缓抬头，直视林宇",
+            "expression": "眼神从怀疑转向希望",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "你确定？",
+          "emotion": "眼神从怀疑转向希望"
+        },
+        "atmosphere": "两个字承载着一个老厂长全部的期待与不安",
+        "sfx": "极静中的两个字格外沉重",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket slowly raising his head to look directly at someone, eyes undergoing a visible transformation from skepticism through scrutiny to fragile hope, asking a desperate question, deeply emotional turning point, warm side lighting catching moisture in his eyes, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "两人四目相对的中景。赵建国眼中有了光，林宇目光坚定。窗外阳光开始照进办公室。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "眼中有了光芒",
+            "expression": "希望初生",
+            "position": "左"
+          },
+          {
+            "name": "林宇",
+            "action": "目光坚定对视",
+            "expression": "笃定、真诚",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "阳光渐入如隐喻，希望正在照进这间灰暗的办公室",
+        "sfx": "窗外鸟鸣隐约传入",
+        "ai_image_prompt": "Cinematic medium shot of two men facing each other across a desk in a factory office, a 55-year-old stocky man in khaki jacket on the left with a new light appearing in his eyes, and a 30-year-old man in dark gray blazer on the right with steady determined gaze, sunlight beginning to stream through the window illuminating the space between them, a moment of connection and dawning hope, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国低头再次看向平板上的'低8%'数据，然后深吸一口气，双手慢慢握拳放在桌上——这是一个准备做决定的姿态。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "低头看数据，深吸口气，双手握拳放桌",
+            "expression": "下定决心的前奏",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "握紧的双拳是心墙崩塌后重建信心的第一块砖",
+        "sfx": "深呼吸声、拳头轻触桌面",
+        "ai_image_prompt": "Cinematic medium shot from slightly above of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket looking down at a tablet on the desk showing the number 8 percent, taking a deep breath, slowly clenching both fists and placing them on the desk in a gesture of resolve, sunlight from the window warming the scene, a man on the verge of a life-changing decision, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

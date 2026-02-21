@@ -1,0 +1,418 @@
+{
+  "video_id_prefix": "DM-003-EP03",
+  "episode": 3,
+  "episode_title": "碳足迹？",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "助理战战兢兢解释'碳足迹不达标'和'碳关税'，赵总一脸茫然和烦躁，怒斥'什么狗屁碳关税'。",
+  "emotion_tone": "困惑、烦躁",
+  "connection": {
+    "from_previous": "承接赵总暴怒退单",
+    "to_next": "引出林宇和苏娜登场"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP03-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "办公室紧张压抑，助理小心翼翼",
+      "color_palette": ["#3D3D3D", "#5A4A3A", "#A89070"],
+      "lighting": "昏暗办公灯，冷色日光从百叶窗缝隙渗入",
+      "weather": "室内，窗外灰色阴天"
+    },
+    "video_prompt": "Cinematic 15s scene in a tense Chinese factory office, a nervous young assistant in white dress shirt cautiously explains carbon footprint issues to his furious boss, the boss sits behind a messy desk with scattered papers from the previous outburst, oppressive smoke-filled atmosphere, master-servant power dynamic in every frame. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "低频弦乐持续音，偶有不安的钢琴单音",
+      "mood": "紧张、压抑"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "助理小周站在办公室门口，手拿文件夹，犹豫片刻后小心推门进入，赵建国背对门坐着。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "厂长助理小周",
+            "action": "小心翼翼推门进入",
+            "expression": "紧张、犹豫",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "背对门坐在椅子上",
+            "expression": "沉闷",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "厂长助理小周",
+          "text": "赵总，他们邮件里说……",
+          "emotion": "战战兢兢"
+        },
+        "atmosphere": "暴风雨后的沉闷办公室，下属战战兢兢",
+        "sfx": "门轻轻推开声、皮鞋小心踏步声",
+        "ai_image_prompt": "Medium shot of a tense office scene, a nervous 35-year-old Chinese man in a white dress shirt holding a document folder cautiously pushing open a door, inside a 55-year-old stocky man in khaki jacket sits with his back turned at a messy desk with scattered papers on the floor, smoky oppressive atmosphere, warm dim lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "助理走到桌前，低头翻开文件夹，指着一行英文条款，声音越来越小。赵建国半转身斜眼看他。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "厂长助理小周",
+            "action": "翻文件指条款",
+            "expression": "小心翼翼",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "半转身斜视",
+            "expression": "不耐烦",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "权力与恐惧的对峙，助理如履薄冰",
+        "sfx": "翻页声",
+        "ai_image_prompt": "Close-up two-shot of a nervous assistant in white shirt opening a document folder pointing at English text while a stern factory boss half-turns in his chair glaring sideways at him, tense power dynamic, scattered papers on the desk from previous outburst, warm dim office lighting with cigarette smoke haze, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "文件特写：英文条款上'Carbon Footprint Non-Compliance'字样被红笔圈出，助理的手指在发抖。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "厂长助理小周",
+            "action": "颤抖的手指指着文件",
+            "expression": "紧张",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "厂长助理小周",
+          "text": "是因为我们的碳足迹不达标。",
+          "emotion": "小心翼翼"
+        },
+        "atmosphere": "冰冷的条款文字，命运被陌生的词汇定义",
+        "sfx": "纸张轻颤声",
+        "ai_image_prompt": "Extreme close-up of an official document with English text Carbon Footprint Non-Compliance circled in red pen, a trembling finger pointing at the words, shallow depth of field blurring the background office, cold clinical document under warm tungsten light creating contrast, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国面部特写：眉头紧锁，嘴角下撇，一脸茫然混着烦躁，完全不懂'碳足迹'是什么。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "皱眉盯着文件",
+            "expression": "茫然、烦躁",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "老一代工厂主面对陌生概念的困惑与抗拒",
+        "sfx": "沉重鼻息声",
+        "ai_image_prompt": "Tight close-up of a 55-year-old Chinese man with graying buzz-cut hair, deep frown lines, confused and irritated expression, mouth turned down, trying to comprehend an unfamiliar concept, warm side lighting on his weathered face, smoke curling past his ear, frustration mixed with bewilderment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "助理吞了口口水继续解释，双手比划着'碳关税'概念，赵建国的不耐烦越来越明显。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "厂长助理小周",
+            "action": "双手比划解释",
+            "expression": "紧张硬撑",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "不耐烦地靠在椅背上",
+            "expression": "烦躁",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "厂长助理小周",
+          "text": "加上碳关税，总成本贵了15%。",
+          "emotion": "紧张"
+        },
+        "atmosphere": "越解释越紧张，空气中弥漫着即将爆发的危险",
+        "sfx": "手指敲击桌面声",
+        "ai_image_prompt": "Medium shot of two men in a smoky office, a nervous assistant in white dress shirt gesturing with both hands trying to explain a concept while a stocky factory boss in khaki jacket leans back in his chair with visible impatience, arms crossed, the tension between them palpable, warm overhead lighting, scattered papers on desk, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国缓缓靠前，双手撑在桌上，低头死死盯着那份文件，指节发白，沉默比怒吼更可怕。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "撑桌低头盯文件",
+            "expression": "压抑的愤怒",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "暴风雨前的死寂，下一秒即将爆发",
+        "sfx": "心跳声渐强",
+        "ai_image_prompt": "High angle close shot of a 55-year-old Chinese man leaning forward over his desk on white-knuckled fists, staring down at the carbon compliance document, veins visible on his hands, ominous silence before explosion, smoke drifting through warm dim light, oppressive tension at breaking point, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP03-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "赵总暴怒爆发，拒绝接受现实",
+      "color_palette": ["#2B1F14", "#8B0000", "#4A4A4A"],
+      "lighting": "暖光骤然增强，怒气冲天的红色调",
+      "weather": "室内，氛围压迫"
+    },
+    "video_prompt": "Cinematic 15s scene of explosive confrontation, the factory boss erupts screaming about carbon tax being nonsense, pounds desk violently, points out the window at the workshop floor, passionately defending his workers sweat, then furiously dismisses his trembling assistant, raw emotional outburst in a smoky industrial office. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "激烈弦乐猛烈上升，铜管加入，突然中断归于沉寂",
+      "mood": "爆发、激昂、戛然而止"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵建国猛拍桌子站起，震得茶杯跳起来，怒吼出声，助理吓得后退一步。",
+        "camera": {
+          "type": "中景",
+          "movement": "快速推进",
+          "angle": "仰视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "猛拍桌子暴怒站起",
+            "expression": "暴怒",
+            "position": "中"
+          },
+          {
+            "name": "厂长助理小周",
+            "action": "吓得后退一步",
+            "expression": "惊恐",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "什么狗屁碳关税！",
+          "emotion": "暴怒"
+        },
+        "atmosphere": "火山爆发般的怒吼，整个房间都在颤抖",
+        "sfx": "猛烈拍桌声、茶杯碰撞声",
+        "ai_image_prompt": "Low angle dramatic shot of a furious 55-year-old Chinese factory boss in khaki jacket slamming the desk and standing up explosively, tea cup jumping from impact, a terrified young assistant in white shirt stumbling backward, smoke-filled office with warm dramatic lighting, power and rage radiating from the boss, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国大步走到窗边，用力推开百叶窗，指着窗外的车间厂房，手指颤抖。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "大步走到窗边指向车间",
+            "expression": "激动",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "愤怒的老板指向他毕生心血的工厂",
+        "sfx": "百叶窗猛开声、脚步重踏声",
+        "ai_image_prompt": "Medium tracking shot of a stocky Chinese man in khaki jacket striding to a window and shoving open venetian blinds, pointing forcefully at the factory workshop visible outside, trembling finger silhouetted against gray daylight, passionate defensive gesture toward his life's work, dust particles in light beams, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国面部特写：眼眶泛红，青筋暴起，用尽全力嘶吼，为工人们的辛苦呐喊。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定微颤",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "嘶吼",
+            "expression": "激动到近乎崩溃",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "每颗螺丝钉都是工人一滴汗砸出来的！",
+          "emotion": "激动"
+        },
+        "atmosphere": "为尊严而战的嘶吼，眼里有泪也有火",
+        "sfx": "嘶吼回声",
+        "ai_image_prompt": "Intense extreme close-up of a 55-year-old Chinese man with graying buzz-cut screaming with raw emotion, reddened eyes glistening, veins bulging on his neck and temple, mouth wide open in a passionate roar defending his workers honor, warm dramatic side lighting, slight camera shake conveying visceral energy, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "窗外短暂插入：车间里工人们正在操作机床，汗水浸透衣背，火花飞溅。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "工人群众",
+            "action": "操作机床",
+            "expression": "专注、辛劳",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "烈火与汗水的真实劳动场景，与冰冷条款形成对比",
+        "sfx": "机床运转声、金属切割声、焊接火花声",
+        "ai_image_prompt": "Cinematic medium panning shot inside a Chinese factory workshop, workers in blue uniforms operating CNC lathes and milling machines, sparks flying from metal cutting, sweat-soaked backs under harsh fluorescent lights, authentic hard labor scene contrasting cold bureaucratic carbon regulations, industrial heat haze, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国转身怒指助理，手臂伸直指向门口，脸色铁青，不容辩驳。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "伸手指向门口赶人",
+            "expression": "铁青、不耐烦",
+            "position": "左"
+          },
+          {
+            "name": "厂长助理小周",
+            "action": "缩着肩膀准备退出",
+            "expression": "怯懦",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "出去！",
+          "emotion": "不耐烦"
+        },
+        "atmosphere": "绝对权威的驱逐，不容任何解释",
+        "sfx": "厉声回响",
+        "ai_image_prompt": "Medium shot of a confrontation in a smoky office, a furious stocky Chinese factory boss in khaki jacket pointing rigidly at the door with arm fully extended, ordering out a cowering young assistant in wrinkled white shirt who hunches his shoulders, iron-faced authority versus meek submission, dramatic warm lighting with deep shadows, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "助理快步退出关门，赵建国独自站在烟雾中，低头看着桌上那份碳足迹文件，拳头缓缓握紧。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢拉远",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "独自低头看文件握拳",
+            "expression": "愤怒与困惑交织",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "门关上后的寂静，一个人面对未知的敌人",
+        "sfx": "门关闭声、沉重呼吸声",
+        "ai_image_prompt": "Wide cinematic shot pulling back from a lone 55-year-old Chinese factory boss standing in his smoky dim office after dismissing his assistant, door just closed in background, looking down at a carbon compliance document on his desk, fist slowly clenching, isolated figure surrounded by scattered papers and cigarette smoke, warm tungsten light creating a pool of light around him in the dark room, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

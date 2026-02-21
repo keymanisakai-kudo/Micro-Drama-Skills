@@ -1,0 +1,398 @@
+{
+  "video_id_prefix": "DM-003-EP10",
+  "episode": 10,
+  "episode_title": "黑色的星星",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "童童趴在废弃汽车引擎盖上画画,举起画纸给舅舅看——一幅巨大黑烟囱和暗淡黄色星星的画。'画星星,可是怎么也画不亮。'",
+  "emotion_tone": "童真、忧伤",
+  "connection": {
+    "from_previous": "放学路上",
+    "to_next": "童童问工厂生病了"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP10-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "废弃角落的童趣，纯真与荒废的对比",
+      "color_palette": ["#6B7B8D", "#D4A06A", "#2C3E50"],
+      "lighting": "傍晚最后一缕暖光打在废弃汽车引擎盖上，周围逐渐暗下来",
+      "weather": "傍晚，天色渐暗"
+    },
+    "video_prompt": "A 7-year-old boy with mushroom-cut hair in blue-white striped shirt and dark blue overalls lies on the hood of an abandoned rusty car drawing on paper, while a 30-year-old man in dark gray blazer leans against the car watching casually. The boy excitedly holds up his drawing showing dark chimneys and faint yellow stars. Warm dusk light on an industrial wasteland. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "轻快的木琴与口风琴交织，带一丝童谣味道",
+      "mood": "童真、温暖、微妙忧伤"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "路边一辆废弃的锈色汽车，童童趴在引擎盖上，专心致志地画画，蜡笔散落一旁。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "趴在引擎盖上画画，蜡笔散落",
+            "expression": "专注、认真",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "废弃汽车上的小画家，荒废中的纯真角落",
+        "sfx": "蜡笔在纸上的沙沙声、远处鸟叫",
+        "ai_image_prompt": "Cinematic medium shot from slightly above of a 7-year-old Chinese boy with mushroom-cut black hair lying prone on the rusty hood of an abandoned car, intensely focused on drawing with crayons scattered around him, wearing blue-white striped shirt and dark blue overalls, yellow backpack set aside, warm dusk light on the car's surface, overgrown weeds around the vehicle, industrial wasteland setting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "林宇靠在废弃汽车旁，双手插兜，随意地探头看童童在画什么。'童童，画什么呢？'",
+        "camera": {
+          "type": "中景",
+          "movement": "横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "靠在车旁，双手插兜，探头看",
+            "expression": "随意、悠闲",
+            "position": "右"
+          },
+          {
+            "name": "童童",
+            "action": "继续画画",
+            "expression": "专注",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "童童，画什么呢？",
+          "emotion": "随意"
+        },
+        "atmosphere": "日常的舅侄互动，温暖而随意",
+        "sfx": "衣服蹭车身声",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man with short curly black hair in dark gray blazer over white t-shirt leaning casually against an abandoned rusty car with hands in pockets, craning his neck to peek at a 7-year-old boy drawing on the car hood, relaxed casual moment between uncle and nephew, warm dusk lighting, industrial background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "童童兴奋地直起上半身，双手举起画纸对着舅舅，大声喊'画星星！'，脸上满是骄傲。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "直起身，双手举起画纸展示",
+            "expression": "天真、骄傲、兴奋",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "童童",
+          "text": "画星星！",
+          "emotion": "天真"
+        },
+        "atmosphere": "孩子展示作品的纯真骄傲，画面充满温暖的光",
+        "sfx": "纸张抖动声",
+        "ai_image_prompt": "Cinematic close-up of a 7-year-old Chinese boy with mushroom-cut black hair and big sparkling dark eyes sitting up excitedly on a rusty car hood, holding up a drawing with both hands toward the camera with a proud beaming smile, blue-white striped shirt and dark blue overalls, the drawing showing dark shapes and yellow marks visible from behind the paper, warm golden dusk light on his face, innocent pride radiating, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "画纸特写：黑色蜡笔画的巨大烟囱冒着黑烟，旁边有几颗用黄色蜡笔画的星星，颜色暗淡模糊。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "正面"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "童稚画笔下的世界：黑烟遮蔽了星星，直觉而深刻",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic extreme close-up of a child's crayon drawing on white paper, depicting large black industrial smokestacks with thick dark smoke billowing upward, several small stars drawn in pale faded yellow crayon beside the smoke looking dim and barely visible, crude childish art style but emotionally powerful, the paper slightly crumpled on a rusty metal surface, warm side lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇凑近看画，微微笑了一下，伸手揉了揉童童的头发。童童咧嘴笑。",
+        "camera": {
+          "type": "中近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "凑近看画，微笑，揉童童头发",
+            "expression": "温暖的笑",
+            "position": "右"
+          },
+          {
+            "name": "童童",
+            "action": "被揉头发，咧嘴笑",
+            "expression": "开心",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "舅侄之间温暖的互动，暂时的安宁",
+        "sfx": "轻笑声",
+        "ai_image_prompt": "Cinematic medium close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer leaning in to look at a child's drawing, a gentle smile crossing his face as he reaches over to ruffle the hair of a 7-year-old boy with mushroom-cut hair who grins widely, warm intimate uncle-nephew moment beside an abandoned car at dusk, golden light on their faces, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "童童把画放在引擎盖上，趴回去继续画，嘴里哼着歌。林宇靠回车身，抬头看向远处灰蒙蒙的天空。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "趴回引擎盖继续画画，哼歌",
+            "expression": "沉浸、快乐",
+            "position": "左"
+          },
+          {
+            "name": "林宇",
+            "action": "靠回车身，抬头看天空",
+            "expression": "若有所思",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "一个画着画，一个看着天，各自沉浸在不同的世界里",
+        "sfx": "童谣哼唱声、蜡笔沙沙声",
+        "ai_image_prompt": "Cinematic medium shot slowly pulling back showing a 7-year-old boy lying on an abandoned car hood continuing to draw while humming, and a 30-year-old man leaning against the car looking up at the hazy gray sky, two different worlds side by side, the boy in innocent creative joy and the man in contemplative silence, warm dusk fading light, industrial horizon, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP10-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "童真困惑与大人的沉默震动",
+      "color_palette": ["#3C3C3C", "#C7A94E", "#5A6B7C"],
+      "lighting": "暮色加深，最后一丝暖光打在画纸上，人物面部半明半暗",
+      "weather": "傍晚转夜，天色快暗"
+    },
+    "video_prompt": "A young boy sitting on an abandoned car holds up his drawing of dark chimneys and dim stars, frowning in frustration saying he cannot make the stars bright enough. His uncle stares at the drawing in stunned silence, deeply moved. The dim dusk light fades around them in an industrial wasteland. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "钢琴单音缓慢下行，大提琴长音如叹息",
+      "mood": "忧伤、触动、沉思"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "童童坐在引擎盖上，把画举到面前对着天空看，眉头微皱，对比着真实的天空和画上的星星。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "坐在引擎盖上，举画对着天空看",
+            "expression": "困惑、比较",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "孩子试图在灰蒙蒙的天空里寻找星星的亮度",
+        "sfx": "风轻轻吹过纸张声",
+        "ai_image_prompt": "Cinematic close-up from slightly below of a 7-year-old Chinese boy with mushroom-cut black hair sitting on a rusty car hood, holding up a crayon drawing against the dimming gray sky and squinting at it with a furrowed brow, comparing the pale yellow stars on paper to the hazy sky above, blue-white striped shirt and dark blue overalls, last warm light of dusk illuminating the paper edges, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "童童把画放下来，低头看着画上暗淡的黄色星星，小嘴嘟起，一脸沮丧。'可是怎么也画不亮。'",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "放下画，低头看，嘟嘴",
+            "expression": "困惑、沮丧",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "童童",
+          "text": "可是怎么也画不亮。",
+          "emotion": "困惑、沮丧"
+        },
+        "atmosphere": "孩子朴素的困惑，无意间说出了深刻的真相",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a 7-year-old Chinese boy with mushroom-cut black hair looking down at his crayon drawing with a pouty frustrated expression, the drawing showing dark smokestack chimneys and pale barely-visible yellow stars, his small fingers touching the dim stars on the paper, blue-white striped shirt visible, genuinely puzzled and sad, intimate emotional moment, dimming dusk light, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇听到这句话，身体微微一僵。他转头看向童童手中的画，目光从随意变得认真。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "身体微僵，转头认真看画",
+            "expression": "被触动、从散漫变认真",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "孩子无意的话击中了大人的心，瞬间凝固",
+        "sfx": "心跳声一下",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer, his body stiffening slightly, turning his head with a shifting expression from casual to intensely serious, looking toward something off-screen with struck realization in his eyes, half his face lit by fading golden dusk light and half in shadow, emotional turning point captured, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇视角：画纸特写——黑色烟囱占据画面大半，旁边几颗黄色星星被黑烟笼罩，怎么也亮不起来。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "正面"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "画作的震撼：孩子的笔触道出了被污染遮蔽的星空",
+        "sfx": "低频嗡鸣，如远处工厂回声",
+        "ai_image_prompt": "Cinematic extreme close-up of a child's crayon drawing filling the frame, large crude black smokestacks dominating the paper with thick swirls of black and gray smoke, several small yellow stars scattered near the top nearly obscured by the dark smoke, the yellow crayon strokes faded and dim as if unable to shine through the darkness, paper texture visible, emotionally devastating simplicity, dusk light falling on the paper surface, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇愣住了，嘴微张但说不出话。他缓缓蹲下来，目光停在画上，眼眶微微泛红。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "愣住，缓缓蹲下，目光定在画上",
+            "expression": "愣住、眼眶泛红",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "……",
+          "emotion": "愣住"
+        },
+        "atmosphere": "沉默比千言万语更沉重，大人在孩子的画前无言以对",
+        "sfx": "安静，只有风声",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair slowly crouching down, mouth slightly open unable to speak, eyes fixed on something below the frame with reddening eye rims, deeply moved and stunned expression, dark gray blazer and white t-shirt, dim dusk light creating emotional chiaroscuro on his face, profound silent moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "远景：暮色中，废弃汽车旁，蹲着的大人和坐在引擎盖上的孩子，画纸在两人之间。远处烟囱沉默矗立，天空中看不到一颗星星。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "蹲在车旁，凝视画纸",
+            "expression": "沉思、触动",
+            "position": "右"
+          },
+          {
+            "name": "童童",
+            "action": "坐在引擎盖上，看着舅舅",
+            "expression": "不解",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "暮色笼罩的工业荒地上，一幅画连接两代人的无声对话，没有星星的天空是最沉默的控诉",
+        "sfx": "夜虫初鸣、远处工厂持续低频轰鸣",
+        "ai_image_prompt": "Cinematic wide shot at dusk of an abandoned rusty car on an industrial wasteland, a 30-year-old man crouching beside the car and a 7-year-old boy sitting on the hood with a drawing between them, distant factory smokestacks silhouetted against a starless gray-purple twilight sky, the scene a powerful visual metaphor of pollution stealing the stars, vast empty sky with no stars visible, deeply melancholic and thought-provoking composition, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

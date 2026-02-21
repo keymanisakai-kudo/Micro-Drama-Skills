@@ -1,0 +1,417 @@
+{
+  "video_id_prefix": "DM-003-EP08",
+  "episode": 8,
+  "episode_title": "最后一家",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "苏娜冷静分析:赵建国是名单上最后有规模的传统厂,被拒就要清算。林宇陷入自我怀疑。",
+  "emotion_tone": "沉重、迷茫",
+  "connection": {
+    "from_previous": "承接账户余额绝望",
+    "to_next": "林宇接童童放学"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP08-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "苏娜冷静分析，死局浮现",
+      "color_palette": ["#37474F", "#455A64", "#607D8B"],
+      "lighting": "办公室冷白荧光灯，苏娜脸上光线均匀冷硬",
+      "weather": "室内办公室，窗外阴沉"
+    },
+    "video_prompt": "In a small office, a composed young woman in gold-rimmed glasses calmly explains to a defeated young man that their last potential client has rejected them and they face liquidation. She speaks with analytical precision. Cold office environment. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "低音提琴拨弦，间隔越来越短，像在倒数",
+      "mood": "沉重、紧迫、宣判"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏娜坐在林宇对面的椅子上，打开笔记本电脑，屏幕上显示客户拜访名单。她指着最后一行。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "打开笔记本指着屏幕最后一行",
+            "expression": "冷静、直接",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "坐在对面，无力地靠着椅背",
+            "expression": "疲惫、听",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "苏娜用数据说话，理性中透着冰冷",
+        "sfx": "笔记本电脑打开的声音",
+        "ai_image_prompt": "Cinematic medium shot in a small office, a 28-year-old Chinese woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck sitting across from a desk, opening a laptop and pointing at the last line on the screen, facing a 30-year-old tired man in dark gray blazer leaning back in his chair, cold fluorescent lighting, professional analytical atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏娜面部近景，表情冷静但眼底有一丝沉重，直接说出残酷事实：赵建国是名单最后一家。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "直视林宇说话",
+            "expression": "冷静、直接",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏娜",
+          "text": "赵建国是名单上最后一家。",
+          "emotion": "直接"
+        },
+        "atmosphere": "冷静的语气中暗藏着终结的重量",
+        "sfx": "空调低频嗡鸣",
+        "ai_image_prompt": "Cinematic close-up of a 28-year-old Chinese woman with shoulder-length straight black hair and gold-rimmed glasses in black turtleneck, calm composed face with a trace of heaviness deep in her eyes, speaking directly, cold office fluorescent lighting casting even light on her face, shallow depth of field with blurred office background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "笔记本屏幕特写：客户拜访清单上十几个名字全被红线划掉，只剩最后的'赵建国-建国染织'也标注了'已拒'。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢下移",
+          "angle": "微俯"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "一长串被划掉的名字是无数次碰壁的证据",
+        "sfx": "手指在触控板上滑动的声音",
+        "ai_image_prompt": "Cinematic extreme close-up of a laptop screen showing a client visit list spreadsheet, over a dozen names crossed out with red lines, the last entry reading Chinese characters highlighted with a red rejected mark, cold blue screen glow, finger reflection on screen edge, visual representation of total rejection, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏娜合上笔记本，双手交叠放在上面，语气理性地说出清算的可能性。林宇目光低垂。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "合上笔记本，双手交叠",
+            "expression": "理性、冷静",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "目光低垂",
+            "expression": "沉重",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏娜",
+          "text": "他拒绝了，我们就得清算。",
+          "emotion": "理性、冷静"
+        },
+        "atmosphere": "清算二字如宣判，在小办公室中回荡",
+        "sfx": "笔记本合上的轻响",
+        "ai_image_prompt": "Cinematic medium shot of a 28-year-old Chinese woman in black turtleneck with gold-rimmed glasses closing a laptop and folding her hands on top of it, speaking rationally, across from a 30-year-old man in dark gray blazer with downcast eyes, the word liquidation hanging in the air between them, cold office setting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇双手十指交叉抵在额头上，闭眼消化这个事实。桌面上散落的名片和合同草案格外讽刺。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "十指交叉抵额，闭眼",
+            "expression": "痛苦、消化",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "桌面上无用的准备材料是对梦想最大的嘲讽",
+        "sfx": "指关节轻微响声",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a 30-year-old Chinese man with short curly black hair pressing his interlocked fingers against his forehead with eyes closed, dark gray blazer, scattered business cards and contract drafts on the messy desk visible in foreground, absorbing devastating news, cold fluorescent lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "窗外阴沉天空下的城市天际线，办公室窗户上映着林宇和苏娜两个沉默的身影倒影。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "坐在桌前（窗户倒影）",
+            "expression": "沉重",
+            "position": "左（倒影）"
+          },
+          {
+            "name": "苏娜",
+            "action": "坐在对面（窗户倒影）",
+            "expression": "沉默",
+            "position": "右（倒影）"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "窗外灰暗天际与窗上两人倒影叠合，内外皆困",
+        "sfx": "远处城市车流声、风声",
+        "ai_image_prompt": "Cinematic wide shot looking out through an office window at a gray overcast city skyline, the reflections of two people, a young man and a young woman, ghostly visible on the glass surface, merging their defeated silhouettes with the bleak urban landscape, cold desaturated tones, existential isolation, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP08-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "信念动摇，迷茫与沉重",
+      "color_palette": ["#4A5568", "#718096", "#A0AEC0"],
+      "lighting": "窗边灰暗自然光为主，荧光灯关闭，色调偏冷",
+      "weather": "室内，窗外阴天压低的云层"
+    },
+    "video_prompt": "In a dim office with overcast light from window, a tired young man in dark gray blazer questions their startup direction while a woman in black turtleneck gazes out the window saying data does not lie. Heavy existential mood. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "弦乐四重奏极弱长音，渐渐消散如希望流逝",
+      "mood": "迷茫、沉重、黯淡"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇站起身走到窗边，双手插在裤兜里，背对苏娜望着窗外灰蒙蒙的城市。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "站起走到窗边，双手插兜望窗外",
+            "expression": "迷茫、疲惫",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "坐在原位看着林宇背影",
+            "expression": "关注",
+            "position": "左远"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "林宇走向窗边，如走向一面映出失败的镜子",
+        "sfx": "椅子推开声、脚步声",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt standing up and walking to a window with hands in his pockets, his back to a 28-year-old woman with gold-rimmed glasses sitting at a desk in the background, looking out at a gray overcast cityscape, small office with messy desk, melancholy atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "林宇侧脸特写，窗外灰白光线勾勒面部轮廓，嘴唇缓缓开合，声音疲惫而苦涩。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "面朝窗外说话",
+            "expression": "疲惫、动摇",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "在生存面前，环保确实像奢侈品。",
+          "emotion": "疲惫、动摇"
+        },
+        "atmosphere": "当理想主义者开始质疑理想本身",
+        "sfx": "窗外远处传来的汽笛声",
+        "ai_image_prompt": "Cinematic extreme close-up side profile of a 30-year-old Chinese man with short curly black hair by a window, gray-white natural light from outside tracing the contours of his tired face, lips moving slowly with a bitter weary voice, dark gray blazer collar visible, blurred gray cityscape through the window, moment of idealism crumbling, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏娜听到这话双手微微攥紧，然后慢慢站起身来，整理了一下衣领，也走向窗边。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "攥紧双手，站起来走向窗边",
+            "expression": "克制、沉重",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "苏娜也被动摇触动，但选择站到战友身边",
+        "sfx": "椅子移动声、脚步声",
+        "ai_image_prompt": "Cinematic medium shot of a 28-year-old Chinese woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck, clenching her fists briefly on the desk before standing and straightening her collar, walking toward the window, determined yet heavy, small office setting, cold office lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏娜站在林宇身旁，两人并肩望着窗外。苏娜目光沉静，低声说出自己的坚持。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "站在林宇旁边注视窗外",
+            "expression": "低沉、坚定",
+            "position": "左"
+          },
+          {
+            "name": "林宇",
+            "action": "站在窗边微微侧头",
+            "expression": "听",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏娜",
+          "text": "数据不会说谎。",
+          "emotion": "低沉"
+        },
+        "atmosphere": "简短有力的话语，是理性的最后防线",
+        "sfx": "远处若有若无的雷声",
+        "ai_image_prompt": "Cinematic close-up side view of two people standing shoulder to shoulder at a window, a 28-year-old Chinese woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck on the left speaking quietly with steady conviction, a 30-year-old man with short curly black hair in dark gray blazer on the right tilting his head slightly to listen, gray cityscape outside the window, subdued natural lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇转头看了苏娜一眼，嘴角微微动了动，没有笑也没有说话。目光中闪过一丝复杂。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "转头看苏娜，嘴角微动",
+            "expression": "复杂、感激又迷茫",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "无法用语言回应，复杂情绪在沉默中流淌",
+        "sfx": "心跳般的低频脉动",
+        "ai_image_prompt": "Cinematic extreme close-up of a 30-year-old Chinese man with short curly black hair turning his head to look at someone beside him, the corner of his mouth twitching slightly, complex emotions of gratitude and confusion in his eyes, natural gray window light on his face, dark gray blazer, intimate moment of silent communication, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "两人并肩站在窗前的全景剪影，窗外灰色天际线延伸。沉默中，此章结束在未知的将来中。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "并肩站在窗前",
+            "expression": "沉默",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "并肩站在窗前",
+            "expression": "沉默",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "两个剪影在灰色天际前显得微小而倔强，迷茫中仍并肩而立",
+        "sfx": "风声渐起、远处隐约雷鸣",
+        "ai_image_prompt": "Cinematic wide shot pulling back to reveal two silhouetted figures standing side by side at a large office window, a man and a woman, looking out at a vast gray overcast cityscape stretching to the horizon, their small figures against the enormous sky, messy office interior framing them, profound silence and uncertainty, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

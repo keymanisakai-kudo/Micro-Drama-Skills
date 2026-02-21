@@ -1,0 +1,374 @@
+{
+  "video_id_prefix": "DM-003-EP24",
+  "episode": 24,
+  "episode_title": "换血续命",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "赵总站在新办公室窗前，感慨万千。「以前觉得环保是找麻烦……现在才知道，是给工厂换血续命。」推开窗户，清新空气涌入。",
+  "emotion_tone": "感悟、重生",
+  "connection": {
+    "from_previous": "三年大单",
+    "to_next": "找回星星（大结局）"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP24-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "赵建国站在新办公室窗前，感慨过去，领悟重生",
+      "color_palette": ["#E8D5B7", "#87CEEB", "#F5F5DC"],
+      "lighting": "午后暖阳从落地窗洒入，金色光线笼罩室内",
+      "weather": "晴朗"
+    },
+    "video_prompt": "Inside a modern renovated office, a stocky older man in white shirt stands by a large window looking out pensively. He reflects on his past resistance to environmental reform, now understanding it saved his factory. Warm golden afternoon light floods the room. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "钢琴柔和旋律缓缓展开，弦乐温暖铺底，逐渐明亮",
+      "mood": "感悟、温暖、释然"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "新办公室全景——明亮宽敞，绿植点缀。赵建国站在落地窗前，背影沐浴在金色阳光中，双手背后，沉思。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "站在落地窗前，双手背后，沉思",
+            "expression": "沉思",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "金色阳光洒满新办公室，象征焕然新生",
+        "sfx": "办公室安静的环境音，远处鸟鸣",
+        "ai_image_prompt": "Cinematic wide shot of a bright modern renovated office with green potted plants, a 55-year-old stocky Chinese man with buzz-cut graying hair in a crisp white shirt standing at a large floor-to-ceiling window with his hands behind his back, bathed in warm golden afternoon sunlight, looking out pensively, clean modern furniture and warm wood tones in the office, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国侧脸特写，眼神望向窗外远方，嘴角微动，开口说'以前觉得环保是找麻烦……'，语气充满感慨。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "望向窗外，开口感慨",
+            "expression": "感慨、怀旧",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "以前觉得环保是找麻烦……",
+          "emotion": "感慨"
+        },
+        "atmosphere": "侧脸映着暖光，眼神中有岁月的沉淀",
+        "sfx": "无",
+        "ai_image_prompt": "Cinematic close-up side profile of a 55-year-old stocky Chinese man with buzz-cut graying hair in white shirt, gazing out a window with emotional reflection, warm golden light illuminating half his face, speaking with deep feeling, wrinkles visible, eyes distant with memory, glass window reflection in background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国的手指触碰窗框，玻璃上映出远处整洁的工厂园区。他的表情从感慨转为沉吟。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "手指触碰窗框，目光深远",
+            "expression": "沉吟、回忆",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "窗玻璃上叠映着新旧两个世界",
+        "sfx": "手指轻触玻璃的细微声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man's hand touching a window frame, his reflection visible in the glass overlaid with a view of a clean modern factory campus outside, warm interior light mixing with outdoor daylight, contemplative mood, clean office interior, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国微微低头，顿了顿，说'现在才知道——'。眼眶微微泛红，声音略带颤抖。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "微微低头后抬起，眼眶泛红",
+            "expression": "动容、停顿",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "现在才知道——",
+          "emotion": "顿了顿"
+        },
+        "atmosphere": "短暂的停顿承载了多年的转变与领悟",
+        "sfx": "无",
+        "ai_image_prompt": "Cinematic extreme close-up from slightly below of a 55-year-old stocky Chinese man with buzz-cut graying hair in white shirt, lowering his head briefly then looking up, eyes slightly reddened with emotion, pausing mid-sentence, warm golden window light catching tears forming, raw vulnerability on a weathered face, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国抬头直视前方，表情郑重又释然，说出'是给工厂换血续命'。阳光恰好照亮他整张脸。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "正面"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "抬头直视前方，表情坚定",
+            "expression": "郑重、释然",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "是给工厂换血续命。",
+          "emotion": "郑重、释然"
+        },
+        "atmosphere": "阳光恰到好处地照亮领悟的面容，如同重生",
+        "sfx": "弦乐微微扬起",
+        "ai_image_prompt": "Cinematic close-up front view of a 55-year-old stocky Chinese man with buzz-cut graying hair in white shirt, looking straight ahead with solemn yet relieved expression, full warm golden sunlight illuminating his entire face, a look of profound understanding and rebirth, eyes clear and determined, bright window behind him creating a halo of light, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "远景——赵建国站在落地窗前的全身轮廓，办公室现代整洁，阳光将他的影子投射在地板上。一盆绿植在桌上生机盎然。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "站在窗前，身姿挺拔",
+            "expression": "平静、从容",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "阳光中挺立的身影，从抵触到重生的完整蜕变",
+        "sfx": "远处鸟鸣、微风",
+        "ai_image_prompt": "Cinematic wide shot pulling back to reveal a 55-year-old stocky Chinese man in white shirt standing tall at a large floor-to-ceiling window in a modern clean office, his long shadow stretching across polished floor, a vibrant green potted plant on the desk, warm golden afternoon light flooding the space, sense of rebirth and new beginning, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP24-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "推开窗户迎接新空气，重生与通透",
+      "color_palette": ["#87CEEB", "#90EE90", "#F0F8FF"],
+      "lighting": "明亮自然光涌入，蓝天白云映衬",
+      "weather": "碧空万里，清澈透亮"
+    },
+    "video_prompt": "A stocky older man in white shirt pushes open a large window, fresh clean air rushes in, curtains billow. Outside the window — blue sky, white clouds, factory smokestacks standing clean with no black smoke. He takes a deep breath and smiles peacefully. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "弦乐渐强，加入竖琴与长笛，旋律明亮上扬",
+      "mood": "重生、通透、希望"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵建国双手推向窗户把手，窗扇缓缓打开。第一缕新鲜空气带动白色窗帘轻轻飘起。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "双手推开窗户",
+            "expression": "期待",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "窗户推开的瞬间，象征向新世界敞开心扉",
+        "sfx": "窗户推开的咔嗒声，风涌入的呼呼声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in white shirt pushing open a large window with both hands, white curtains beginning to billow inward as fresh air rushes in, bright natural light flooding through the opening, anticipation on his face, modern office interior, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "窗户完全打开，清新空气涌入室内。白色窗帘被风吹得飘舞如翼，阳光碎金洒入。赵建国的头发被微风轻拂。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "站在敞开的窗前，迎风",
+            "expression": "舒展",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "风与光一同涌入，洗涤一切陈旧",
+        "sfx": "窗帘飘动声、风声、鸟鸣",
+        "ai_image_prompt": "Cinematic medium side shot of a 55-year-old stocky Chinese man in white shirt standing at a fully open window, white curtains billowing dramatically around him like wings in the fresh breeze, golden sunlight streaming in, his short graying hair ruffled by the wind, expression of relief and openness, bright blue sky visible through the window, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国视角望出窗外——蓝天白云如洗，远处整洁的工厂园区，烟囱挺立但不再冒黑烟，绿化带郁郁葱葱。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢横摇",
+          "angle": "微俯"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "蓝天绿地取代了曾经的黑烟灰霾，天地一新",
+        "sfx": "风声、远处鸟群飞过",
+        "ai_image_prompt": "Cinematic wide shot from an office window looking out over a clean modern factory campus under a brilliant blue sky with white clouds, tall smokestacks standing quietly with no black smoke, lush green landscaping and trees along the factory roads, clear clean air, dramatic transformation from industrial pollution to green manufacturing, bright hopeful daylight, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "更远处天际线——蓝天延伸到远方，几只白鸟飞过干净的天空。工厂区与自然和谐共处的全景。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢向上摇",
+          "angle": "平视渐仰"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "辽阔天空下的绿色工业区，人与自然的和解",
+        "sfx": "鸟鸣、微风",
+        "ai_image_prompt": "Cinematic panoramic shot of a green industrial district under a vast clear blue sky, white birds flying across the clean horizon, factory buildings surrounded by trees and gardens, smokestacks standing tall and clean, harmonious coexistence of industry and nature, brilliant sunlight, sense of environmental transformation and hope, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国在窗前闭上眼睛，深深吸一口气，胸膛微微起伏。风轻拂他的脸庞，表情平静而满足。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "正面"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "闭眼深呼吸",
+            "expression": "平静、满足",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "深呼吸的瞬间，所有过往的挣扎化为平静",
+        "sfx": "深呼吸声、风声",
+        "ai_image_prompt": "Cinematic extreme close-up front view of a 55-year-old stocky Chinese man with buzz-cut graying hair in white shirt, eyes closed, taking a deep breath by an open window, chest rising gently, wind softly touching his face, expression of profound peace and contentment, warm natural light on his skin, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国缓缓睁开眼，嘴角浮现一抹温暖的微笑。阳光在他眼中闪烁，远处蓝天倒映在他的瞳孔里。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢后拉至近景",
+          "angle": "正面"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "睁开眼，微笑",
+            "expression": "平静、满足、微笑",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "一个微笑承载了全部的蜕变与新生",
+        "sfx": "音乐渐弱，鸟鸣余韵",
+        "ai_image_prompt": "Cinematic close-up slowly pulling back of a 55-year-old stocky Chinese man with buzz-cut graying hair in white shirt, slowly opening his eyes with a warm gentle smile forming, sunlight sparkling in his eyes, blue sky reflected in his pupils, expression of deep contentment and rebirth, beautiful warm natural light, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

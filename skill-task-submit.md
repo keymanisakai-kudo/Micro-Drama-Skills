@@ -33,7 +33,7 @@
     "model": "Seedance 2.0 Fast",
     "referenceMode": "全能参考",
     "aspectRatio": "16:9",
-    "duration": "5s"
+    "duration": "15s"
   },
   "referenceFiles": [
     {
@@ -58,7 +58,7 @@
 | `modelConfig.model` | string | 否 | `"Seedance 2.0 Fast"` | 模型选择 |
 | `modelConfig.referenceMode` | string | 否 | `"全能参考"` | 参考模式 |
 | `modelConfig.aspectRatio` | string | 否 | `"16:9"` | 画面比例 |
-| `modelConfig.duration` | string | 否 | `"5s"` | 视频时长 |
+| `modelConfig.duration` | string | 否 | `"15s"` | 视频时长 |
 | `referenceFiles` | object[] | 否 | `[]` | 参考图片对象列表 |
 | `referenceFiles[].fileName` | string | **是** | - | 图片文件名（用于在 prompt 中通过 `(@fileName)` 引用） |
 | `referenceFiles[].base64` | string | **是** | - | 图片的 Base64 编码数据（包含 Data URI scheme，如 `data:image/png;base64,...`） |
@@ -283,7 +283,7 @@ curl -X POST http://localhost:3456/api/tasks/push \
       "model": "Seedance 2.0 Fast",
       "referenceMode": "全能参考",
       "aspectRatio": "16:9",
-      "duration": "5s"
+      "duration": "15s"
     },
     "realSubmit": true,
     "tags": ["portrait", "sunset"]
@@ -308,7 +308,7 @@ resp = requests.post(f"{API_BASE}/api/tasks/push", json={
         "model": "Seedance 2.0 Fast",
         "referenceMode": "全能参考",
         "aspectRatio": "16:9",
-        "duration": "5s",
+        "duration": "15s",
     },
     "realSubmit": True,
 })
@@ -360,7 +360,7 @@ const resp = await fetch(`${API_BASE}/api/tasks/push`, {
       model: 'Seedance 2.0 Fast',
       referenceMode: '全能参考',
       aspectRatio: '16:9',
-      duration: '5s',
+      duration: '15s',
     },
     realSubmit: true,
   }),

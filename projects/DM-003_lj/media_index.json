@@ -1,0 +1,41 @@
+{
+  "characters": [
+    {
+      "filename": "厂长助理_ref.png",
+      "size_bytes": 1198240
+    },
+    {
+      "filename": "林宇_ref.png",
+      "size_bytes": 1435257
+    },
+    {
+      "filename": "童童_ref.png",
+      "size_bytes": 1166328
+    },
+    {
+      "filename": "苏娜_ref.png",
+      "size_bytes": 1159521
+    },
+    {
+      "filename": "赵建国_ref.png",
+      "size_bytes": 1506025
+    }
+  ],
+  "episodes": [
+    {
+      "episode": "EP02",
+      "files": [
+        {
+          "filename": "DM-003-EP02-A_storyboard.png",
+          "type": "image",
+          "size_bytes": 1310485
+        },
+        {
+          "filename": "DM-003-EP02-B_storyboard.png",
+          "type": "image",
+          "size_bytes": 1568838
+        }
+      ]
+    }
+  ]
+}

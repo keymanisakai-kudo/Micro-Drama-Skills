@@ -1,0 +1,388 @@
+{
+  "video_id_prefix": "DM-003-EP12",
+  "episode": 12,
+  "episode_title": "顿悟",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "林宇盯着童童的画，脑中回闪赵总白天的话'总成本贵了15%'、'饭碗保不住'。恍然大悟：'星星没藏起来，是被挡住了。赵总的利润也是。'",
+  "emotion_tone": "觉醒、希望",
+  "connection": {
+    "from_previous": "童童的话触动",
+    "to_next": "打电话给苏娜"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP12-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "闪回交织沉思，黑暗中酝酿灵感",
+      "color_palette": ["#1A1A2E", "#4A4A6A", "#FFD700"],
+      "lighting": "室内仅一盏台灯微光，闪回画面冷蓝调",
+      "weather": "夜晚，室内"
+    },
+    "video_prompt": "A dimly lit room at night, a young man sits alone staring at a child's crayon drawing. Flashback sequences intercut: an older factory owner's voice echoes about costs and lost business. The man's face shifts between troubled reflection and dawning realization. Moody contrast lighting. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "低沉弦乐持续音，闪回时加入混响钢琴碎片，逐渐积聚张力",
+      "mood": "沉思、压抑中酝酿转折"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "深夜，林宇独坐书桌前，面前摊着童童的蜡笔画，台灯发出微弱暖光。他目光凝滞，沉浸在思绪中。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "独坐书桌前，凝视蜡笔画",
+            "expression": "沉思、困惑",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "深夜的孤独与沉思，思绪如潮水般涌来",
+        "sfx": "钟表滴答声、远处夜虫鸣叫",
+        "ai_image_prompt": "Cinematic medium shot from slightly above of a 30-year-old Chinese man with short curly black hair in white t-shirt sitting alone at a desk at night, staring at a child's crayon drawing of black stars under gray sky spread before him, single warm desk lamp casting soft light on his troubled face, dark room around him, deep contemplation, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "闪回：画面切为冷蓝调，赵建国在工厂办公室里皱眉拍桌，声音在脑海中回响——'总成本比别人贵了15%'。",
+        "camera": {
+          "type": "近景",
+          "movement": "微微晃动",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "皱眉拍桌，痛苦表情",
+            "expression": "焦虑、愤怒",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "总成本比别人贵了15%……",
+          "emotion": "回声/闪回"
+        },
+        "atmosphere": "冷蓝闪回如记忆碎片浮现，带着回声效果",
+        "sfx": "手拍桌面闷响、回声效果",
+        "ai_image_prompt": "Cinematic close-up flashback scene in cold blue tint, a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket and dark polo slamming his hand on a desk in a factory office, grimacing with frustration, speaking about costs being too high, memory fragment with slight motion blur and echo effect, desaturated cool tones, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "快切回林宇面部特写，台灯光在他脸上形成半明半暗，眉头紧锁，嘴唇微动。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "眉头紧锁，低头沉思",
+            "expression": "困惑、煎熬",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "半明半暗的脸象征内心的挣扎",
+        "sfx": "心跳声隐约可闻",
+        "ai_image_prompt": "Cinematic extreme close-up of a 30-year-old Chinese man with short curly black hair, face half-lit by a warm desk lamp and half in shadow, brow deeply furrowed, lips moving slightly in thought, troubled expression, intimate night scene, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "闪回：冷蓝调画面中赵建国背对窗户，肩膀下沉，声音颤抖——'我连饭碗都保不住了'。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "背对窗户，肩膀下沉",
+            "expression": "绝望、疲惫",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "我连饭碗都保不住了……",
+          "emotion": "回声/闪回"
+        },
+        "atmosphere": "绝望的声音在记忆中回荡，沉重如铅",
+        "sfx": "回声效果、工厂机器远处低鸣",
+        "ai_image_prompt": "Cinematic medium shot flashback in cold blue tint, a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket standing with his back to a window, shoulders slumped in defeat, speaking with a trembling voice about losing everything, factory office setting, memory fragment with echo effect, melancholy blue desaturation, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇的手指无意识地划过蜡笔画中灰色天空的部分，目光从困惑逐渐变化。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "俯拍"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手指划过蜡笔画上的灰色天空",
+            "expression": "从困惑到若有所悟",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "指尖触碰画面的瞬间，灵感在酝酿",
+        "sfx": "手指划过纸面的细微摩擦声",
+        "ai_image_prompt": "Cinematic extreme close-up overhead shot of a man's finger slowly tracing across the gray sky area of a child's crayon drawing, black stars visible on the drawing, warm desk lamp light illuminating the colorful paper, a moment of dawning insight, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "林宇的眼神从画作移开，缓缓抬起头，面对黑暗的窗户，瞳孔中映出一丝微光——思维正在连接。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "缓缓抬头，望向黑暗窗户",
+            "expression": "思维连接中，眼中微光",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "黑暗中即将迎来光明，转折的前奏",
+        "sfx": "背景音乐张力渐增",
+        "ai_image_prompt": "Cinematic close-up from slightly below of a 30-year-old Chinese man with short curly black hair slowly lifting his head from a drawing, eyes moving to stare at a dark window, a faint gleam of light reflected in his pupils, expression shifting from confusion to the edge of realization, dramatic single lamp light, dark room, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP12-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "恍然大悟，黑暗中突现光明",
+      "color_palette": ["#1A1A2E", "#FFD700", "#F5F5DC"],
+      "lighting": "从暗调突转明亮，台灯光仿佛变得更亮",
+      "weather": "夜晚，室内"
+    },
+    "video_prompt": "A dimly lit room at night suddenly feels brighter as a young man has an epiphany. He stares at a child's drawing, then stands up with eyes shining with realization. He connects the child's words about hidden stars to his client's hidden profits. Dramatic lighting shift. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "弦乐骤然扬起，加入明亮钢琴和弦，如破晓般辉煌",
+      "mood": "顿悟、觉醒、希望涌现"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇猛然睁大眼睛，盯着蜡笔画，嘴角微动，开口说'不，星星没有藏起来'。",
+        "camera": {
+          "type": "特写",
+          "movement": "快速推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "猛然睁大眼睛，开口说话",
+            "expression": "恍然大悟",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "不，星星没有藏起来……",
+          "emotion": "恍然"
+        },
+        "atmosphere": "灵感的电火花划破黑暗",
+        "sfx": "一声清脆的音效如灯泡亮起",
+        "ai_image_prompt": "Cinematic extreme close-up of a 30-year-old Chinese man with short curly black hair suddenly widening his eyes in a eureka moment, staring at something below frame, mouth opening to speak, single warm desk lamp illuminating his face dramatically against the dark room, electric moment of realization, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "林宇的手指点在蜡笔画灰色天空上，然后缓缓向上抬起，仿佛在拨开灰色的幕布，揭示藏在后面的星星。",
+        "camera": {
+          "type": "特写",
+          "movement": "跟随手指上移",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手指从画上灰色天空向上抬",
+            "expression": "顿悟中",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "手指的动作如同拨开迷雾",
+        "sfx": "纸面摩擦声过渡到象征性的光亮音效",
+        "ai_image_prompt": "Cinematic close-up of a man's finger pressing on the gray sky area of a child's crayon drawing then lifting upward as if peeling away a veil revealing stars beneath, dramatic warm lamplight, symbolic gesture of uncovering hidden truth, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇猛地抬头，眼睛发亮，坚定地说'是被挡住了'。灯光仿佛也变得更明亮了。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "猛然抬头，眼睛发亮",
+            "expression": "眼睛发亮、坚定",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "是被挡住了。",
+          "emotion": "眼睛发亮"
+        },
+        "atmosphere": "顿悟的高光时刻，灯光似乎都为之明亮",
+        "sfx": "弦乐骤起",
+        "ai_image_prompt": "Cinematic close-up from slightly below of a 30-year-old Chinese man with short curly black hair suddenly lifting his head with shining eyes full of conviction, speaking with certainty, warm desk lamp light appearing brighter on his illuminated face, dark background creating dramatic contrast, moment of epiphany, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇从椅子上站起来，一手拿着蜡笔画，动作有力而果断，充满了刚刚获得灵感的兴奋。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟随上升",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "猛然站起，手持蜡笔画",
+            "expression": "兴奋、坚定",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "站起的动作如同一个宣言——不再犹豫",
+        "sfx": "椅子向后滑动声",
+        "ai_image_prompt": "Cinematic medium shot from slightly below of a 30-year-old Chinese man with short curly black hair in white t-shirt rising forcefully from a desk chair, holding a child's crayon drawing in one hand, determined and energized expression, warm desk lamp light from below creating dramatic uplighting, dark room background, powerful moment of standing up with newfound purpose, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇兴奋地来回踱步，一手指向空气，激动地说出'赵总的利润也是！'，眼中闪烁着发现真相的光芒。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "来回踱步，手指空气",
+            "expression": "兴奋、自信",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "赵总的利润也是！",
+          "emotion": "兴奋、坚定"
+        },
+        "atmosphere": "兴奋的能量充满整个房间，黑暗被信念点亮",
+        "sfx": "脚步来回声、音乐高昂",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man with short curly black hair in white t-shirt pacing excitedly in a dimly lit room, pointing emphatically at the air, eyes sparkling with the thrill of discovery, animated body language full of energy and conviction, warm desk lamp light catching his movements, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "林宇停在窗前，手中还握着蜡笔画，目光坚定地望向窗外的夜空，仿佛已经看到了星星。远处微弱的城市灯光。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "站在窗前，望向夜空",
+            "expression": "坚定、充满希望",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "窗外的夜空不再是黑暗——而是藏满了星星",
+        "sfx": "音乐渐收为希望的余音、远处城市夜声",
+        "ai_image_prompt": "Cinematic medium side shot of a 30-year-old Chinese man with short curly black hair in white t-shirt standing at a window at night, holding a child's crayon drawing, gazing out at the night sky with determined hopeful eyes, faint city lights in the distance, reflection in the window glass, a man who has found his answer, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

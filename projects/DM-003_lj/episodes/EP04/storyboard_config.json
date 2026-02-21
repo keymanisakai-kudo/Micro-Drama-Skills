@@ -1,0 +1,448 @@
+{
+  "video_id_prefix": "DM-003-EP04",
+  "episode": 4,
+  "episode_title": "不速之客",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "林宇和苏娜出现在赵总办公室门口,尝试自我介绍。林宇递名片说'德国客户说的碳足迹正是我们能帮您解决的',赵建国半信半疑打量来人。",
+  "emotion_tone": "紧张、忐忑",
+  "connection": {
+    "from_previous": "承接赵总怒斥助理",
+    "to_next": "引出碰壁场景"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP04-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "办公室门口，紧张的初次见面",
+      "color_palette": ["#3B3F4A", "#8C7A5E", "#D9CDB8"],
+      "lighting": "室内日光灯偏冷白，走廊自然光从侧面补入",
+      "weather": "室内场景"
+    },
+    "video_prompt": "Two young professionals, a man in a dark gray blazer and a woman in a black turtleneck with gold-rimmed glasses, appear at the doorway of a factory boss's office. The man knocks politely, introduces himself with a business card. The stocky older boss in a khaki jacket looks up impatiently from his desk. Tense first meeting atmosphere. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "轻微紧张弦乐，低音提琴拨弦节奏",
+      "mood": "紧张、期待"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵总办公室门口走廊，林宇和苏娜并排站立，林宇深吸一口气，抬手敲门。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "抬手敲门，微微紧张",
+            "expression": "紧张、克制",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "手持文件夹站在林宇身后",
+            "expression": "冷静、警觉",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "走廊灯光偏暗，两人紧张地准备推门而入",
+        "sfx": "敲门声",
+        "ai_image_prompt": "Cinematic medium shot of a corridor outside a factory office door, a 30-year-old Chinese man in a dark gray slim-fit blazer and white t-shirt with short slightly curly black hair raising his hand to knock, a 28-year-old Chinese woman with shoulder-length straight black hair and gold-rimmed glasses in a black turtleneck standing behind him holding a folder, fluorescent hallway lighting, tense anticipation, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "门开一半，林宇探头进入，礼貌鞠躬，赵建国坐在办公桌后方抬头看向门口。",
+        "camera": {
+          "type": "中景",
+          "movement": "推",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "推门探头进入，微微鞠躬",
+            "expression": "礼貌、小心",
+            "position": "左"
+          },
+          {
+            "name": "赵建国",
+            "action": "从文件中抬头，皱眉看向门口",
+            "expression": "不耐烦",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "赵总，打扰了。",
+          "emotion": "礼貌、小心"
+        },
+        "atmosphere": "办公室内灯光偏暖，赵建国桌上堆满文件，气氛尴尬",
+        "sfx": "门吱呀声",
+        "ai_image_prompt": "Cinematic shot from inside a cluttered factory office, a 30-year-old Chinese man in dark gray blazer peering through a half-open door with a polite bow, a 55-year-old stocky Chinese man with buzz-cut graying hair in a khaki jacket and dark polo sitting behind a messy desk looking up with furrowed brows, warm desk lamp light contrasting with cold hallway light, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇走进办公室，双手递出名片，苏娜跟在身后。赵建国没有起身，只是靠在椅背上打量。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "双手递出名片",
+            "expression": "诚恳、认真",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "跟在林宇身后，观察办公室",
+            "expression": "冷静",
+            "position": "左偏后"
+          },
+          {
+            "name": "赵建国",
+            "action": "靠在椅背上，双手交叉，上下打量来人",
+            "expression": "审视",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "我是'绿迹'科技的林宇。",
+          "emotion": "诚恳"
+        },
+        "atmosphere": "正式但尴尬的自我介绍时刻",
+        "sfx": "名片轻放在桌面的声音",
+        "ai_image_prompt": "Cinematic close-up of a young Chinese man in dark gray blazer presenting a business card with both hands across a desk to a stocky older man in khaki jacket who leans back in his chair with crossed arms, scrutinizing gaze, a woman with gold-rimmed glasses visible behind, factory office with industrial windows, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国拿起名片瞥了一眼，随手扔在桌上，语气不耐烦地问绿迹是什么公司。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "拿起名片看一眼后随手扔在桌上",
+            "expression": "不耐烦、轻蔑",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "绿迹？搞什么的？",
+          "emotion": "不耐烦"
+        },
+        "atmosphere": "名片被随意对待，暗示赵建国对来客不感兴趣",
+        "sfx": "名片落在桌面的轻响",
+        "ai_image_prompt": "Cinematic close-up of a weathered hand of a 55-year-old man picking up a business card from a cluttered desk, then tossing it dismissively, green logo text GreenTrace visible on the card, stacks of invoices and factory documents around, overhead warm light casting shadows, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇与苏娜交换一个眼神，苏娜微微点头鼓励。林宇挺直身体准备进入正题。",
+        "camera": {
+          "type": "近景",
+          "movement": "横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "侧头看向苏娜，获取鼓励后挺直身体",
+            "expression": "紧张但坚定",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "微微点头，目光坚定",
+            "expression": "冷静、鼓励",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "两人默契配合，为关键说辞蓄势",
+        "sfx": "轻微脚步调整声",
+        "ai_image_prompt": "Cinematic two-shot of a young Chinese man in dark gray blazer and a woman with gold-rimmed glasses in black turtleneck exchanging a meaningful glance, she gives a subtle encouraging nod, factory office background slightly blurred, warm-cool mixed lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国不耐烦地看向手表，暗示想赶人，林宇深吸一口气准备出击。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "不耐烦地看手表",
+            "expression": "厌烦、催促",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "深吸一口气",
+            "expression": "紧张蓄力",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "时间紧迫，窗口即将关闭",
+        "sfx": "手表滴答声",
+        "ai_image_prompt": "Cinematic split-focus shot, a 55-year-old stocky Chinese man in khaki jacket impatiently checking his wristwatch in the foreground, a determined young man in dark gray blazer taking a deep breath in the background, office desk between them piled with documents, tension palpable, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP04-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "林宇试图抓住机会，赵总审视",
+      "color_palette": ["#4A4035", "#A0886C", "#E8D5B7"],
+      "lighting": "办公室顶灯暖光，窗外侧光形成轮廓",
+      "weather": "室内场景，窗外可见阴天"
+    },
+    "video_prompt": "In a factory boss's office, a young man in a dark gray blazer leans forward earnestly mentioning German clients and carbon footprint, the older boss in khaki jacket raises an eyebrow with skeptical interest, the atmosphere shifts from dismissal to cautious curiosity. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "弦乐渐强，加入轻微钢琴旋律暗示转机",
+      "mood": "紧张转向期待"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇向前迈一步，手掌朝上做出解释的手势，表情急切而真诚。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "向前迈一步，手掌朝上做解释手势",
+            "expression": "急切、真诚",
+            "position": "左"
+          },
+          {
+            "name": "赵建国",
+            "action": "靠在椅背上，双臂交叉",
+            "expression": "不耐烦",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "德国客户说的碳足迹——",
+          "emotion": "急切"
+        },
+        "atmosphere": "林宇抓住最后机会，赵建国即将失去耐心",
+        "sfx": "脚步声",
+        "ai_image_prompt": "Cinematic medium shot of a determined 30-year-old Chinese man in dark gray blazer stepping forward with open palm gesture explaining urgently, facing a skeptical 55-year-old stocky man in khaki jacket with crossed arms leaning back in office chair, factory office setting with industrial windows, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国听到'德国客户'时微微一愣，身体从椅背前倾了几厘米。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "听到关键词时微微前倾",
+            "expression": "惊讶、警觉",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "'德国客户'四个字像钩子一样勾住了赵建国的注意力",
+        "sfx": "椅子轻微吱呀声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in a khaki jacket, his body subtly leaning forward from a leather office chair, eyebrows slightly raised with alert interest, previously dismissive expression cracking, warm desk lamp lighting one side of his face, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇趁势继续，语气变得自信，苏娜在旁边适时打开平板展示数据图表。",
+        "camera": {
+          "type": "中景",
+          "movement": "横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "语气坚定地继续阐述",
+            "expression": "自信、从容",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "打开平板电脑准备展示",
+            "expression": "专业、配合",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "正是我们能帮您解决的。",
+          "emotion": "自信"
+        },
+        "atmosphere": "关键时刻，团队配合默契",
+        "sfx": "平板解锁音效",
+        "ai_image_prompt": "Cinematic medium shot of a confident young Chinese man in dark gray blazer speaking with conviction while a woman with gold-rimmed glasses and black turtleneck holds up a tablet showing data charts beside him, factory office environment, professional team presentation moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国的手指在桌上轻叩，目光在林宇和苏娜之间来回审视。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "手指叩桌，目光来回审视",
+            "expression": "半信半疑、思量",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "赵建国在权衡这两个不速之客的可信度",
+        "sfx": "手指叩桌声",
+        "ai_image_prompt": "Cinematic extreme close-up of a weathered hand with thick fingers tapping rhythmically on a wooden desk surface, blurred background showing two young figures standing, harsh overhead fluorescent light reflecting off the desk, contemplative tension, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国缓缓挑起一边眉毛，嘴角微动，发出一声意味深长的'哦？'。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "挑眉，嘴角微动",
+            "expression": "半信半疑、好奇",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "哦？",
+          "emotion": "半信半疑"
+        },
+        "atmosphere": "赵建国的防线略有松动，但仍充满戒备",
+        "sfx": "空气中的沉默",
+        "ai_image_prompt": "Cinematic tight close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair raising one eyebrow skeptically, corner of mouth twitching with reluctant interest, dark polo collar visible, warm side lighting creating dramatic shadows on his weathered face, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "三人对峙画面：赵建国居中偏右坐着，林宇和苏娜在左侧站着，空气中紧张与微妙的好奇并存。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "靠在椅背上，双手放在扶手上",
+            "expression": "审视、沉吟",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "身体微微前倾，等待回应",
+            "expression": "期待、忐忑",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "手持平板站在林宇旁边",
+            "expression": "冷静、观察",
+            "position": "左偏后"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "三人对峙定格，悬念感十足，引出下一集的碰壁",
+        "sfx": "低频弦乐渐入",
+        "ai_image_prompt": "Cinematic wide medium shot of a tense standoff in a factory office, a 55-year-old stocky man in khaki jacket seated behind a desk on the right studying two young visitors on the left, a man in dark gray blazer leaning forward expectantly and a woman in black turtleneck with gold-rimmed glasses holding a tablet, stacks of documents on desk, industrial window light mixing with warm overhead lamp, dramatic tension frozen in the frame, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

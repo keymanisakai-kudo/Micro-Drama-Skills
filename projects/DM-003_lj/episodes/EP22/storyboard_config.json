@@ -1,0 +1,339 @@
+{
+  "video_id_prefix": "DM-003-EP22",
+  "episode": 22,
+  "episode_title": "焕然一新",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "字幕“半年后”。崭新的工厂装了绿迹系统,大屏实时显示碳排放数据。赵总穿白衬衫站在新办公室,满意微笑。",
+  "emotion_tone": "成就、光明",
+  "connection": {
+    "from_previous": "握手签约",
+    "to_next": "三年大单"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP22-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "半年后焕然一新，蓝天白云下的工厂重生",
+      "color_palette": ["#87CEEB", "#F0F8FF", "#4CAF50"],
+      "lighting": "明亮自然光，清新通透",
+      "weather": "晴天，蓝天白云"
+    },
+    "video_prompt": "A transformed modern factory exterior under blue sky, then interior showing brand-new green technology monitoring screens with real-time data. A 55-year-old man in white shirt walks through the clean bright workshop, smiling with satisfaction. Time jump montage. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "明快钢琴旋律配轻快弦乐，节奏上扬",
+      "mood": "成就、光明、清新"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "字幕“半年后”叠印在工厂全景上。工厂外观焕然一新——粉刷过的外墙、蓝天白云、绿化带。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "时间跳跃的清新感，对比之前灰暗破旧的工厂",
+        "sfx": "鸟鸣、微风",
+        "ai_image_prompt": "Cinematic wide establishing shot of a renovated modern factory exterior under bright blue sky with white clouds, freshly painted walls, green landscaping along the entrance, clean and professional appearance, text overlay '半年后' (Six Months Later), dramatic contrast from previous rundown state, bright and hopeful, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "崭新车间内景——整洁的生产线上方安装了绿迹系统显示屏，数据实时流动，绿色指示灯闪烁。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "科技与工业的完美融合，数据流动充满生命力",
+        "sfx": "电子设备轻微嗡鸣、数据刷新声",
+        "ai_image_prompt": "Cinematic medium shot of a modern clean factory workshop interior, brand-new green technology monitoring screens mounted above production lines displaying real-time carbon emission data with flowing green graphs and numbers, LED indicator lights glowing green, bright clean industrial space, technology meets manufacturing, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国穿白衬衫走在崭新的车间中，左右巡视，满意地微微一笑。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "走在车间中巡视，微笑",
+            "expression": "满意微笑",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "不错……",
+          "emotion": "满意微笑"
+        },
+        "atmosphere": "老板焕发新生的自信，与之前的愁眉苦脸形成鲜明对比",
+        "sfx": "皮鞋踩在干净地面上的声音",
+        "ai_image_prompt": "Cinematic medium tracking shot of a 55-year-old stocky Chinese man with buzz-cut graying hair now wearing a crisp white dress shirt, walking through a bright clean renovated factory workshop, looking left and right with a satisfied smile, modern equipment and green tech monitors visible in the background, dramatic transformation from his previous khaki-jacket frustrated appearance, bright natural lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国用手轻轻抚过一台崭新的设备表面，指尖沿着光滑的金属滑过，眼神温柔。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "手抚过新设备表面",
+            "expression": "温柔、珍惜",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "手指与新设备的触感传达着珍惜与感恩",
+        "sfx": "手指滑过金属表面的轻响",
+        "ai_image_prompt": "Cinematic close-up of a weathered hand gently running fingertips across a shiny new piece of factory equipment, the hand belonging to a 55-year-old man in white shirt, tender careful touch on smooth metal surface, bright clean factory environment reflected on the equipment surface, pride and gratitude in the gesture, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "绿迹系统主控台全景——多块屏幕同时显示碳排放数据、能耗曲线、合规状态，全部绿灯。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "微仰"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "科技感满满的控制中心，绿色数据代表健康运转",
+        "sfx": "电子屏幕切换声、数据流动声",
+        "ai_image_prompt": "Cinematic medium shot from slightly below of a green technology master control console with multiple screens displaying carbon emission data, energy consumption curves, and compliance status, all showing green indicators and positive trends, modern control room aesthetic within a factory setting, glowing screens in a bright clean space, technological achievement, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国站在全新的办公室窗前，透过明亮的玻璃看着运转中的车间，双手叉腰，满意的背影。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "站在窗前看车间，双手叉腰",
+            "expression": "满意、自豪",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "老板的背影不再是孤独与抗拒，而是自信与满足",
+        "sfx": "远处车间正常运转的低频声",
+        "ai_image_prompt": "Cinematic medium shot from behind of a 55-year-old stocky Chinese man in white dress shirt standing at a bright clean office window, hands on hips, looking out through glass at the running factory workshop below, confident satisfied posture, bright natural light flooding through the window, complete transformation from his previous defeated silhouette, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP22-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "工厂新貌运转中，成就感弥漫",
+      "color_palette": ["#4CAF50", "#66BB6A", "#E8F5E9"],
+      "lighting": "明亮工厂照明，大屏绿色光晕",
+      "weather": "室内"
+    },
+    "video_prompt": "Workers operating new equipment in a bright clean factory. A large screen shows a declining carbon emission curve with green graphs. A 55-year-old man in white shirt stands before the screen, nodding with deep satisfaction. Modern industrial success. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "弦乐渐强，加入明快节拍，充满成就感",
+      "mood": "成就、前进、满足"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "工人们在明亮整洁的车间中操作新设备，动作娴熟，精神饱满。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "充满活力的现代化工厂，人与机器和谐运转",
+        "sfx": "机器运转声、工人交谈声",
+        "ai_image_prompt": "Cinematic medium panning shot of workers in clean uniforms operating new modern machinery in a bright clean factory workshop, efficient and energetic movements, well-lit industrial space with green technology monitors on the walls, modern manufacturing at its best, vibrant and productive atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "新安装的自动化检测线，产品依次通过扫描仪，每件都获得碳追踪二维码标签。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "微俯"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "科技赋能传统制造的具象化呈现",
+        "sfx": "扫描仪嘀嘀声、传送带运行声",
+        "ai_image_prompt": "Cinematic close-up from slightly above of products moving along a new automated inspection line, each item passing through a scanner and receiving a carbon tracking QR code label, green LED lights confirming each scan, modern factory production line, technology enabling sustainable manufacturing, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "碳排放大屏特写——曲线明显下降，数字跳动，绿色图表占满屏幕，合规率显示99.2%。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "数据可视化的胜利，绿色代表成功",
+        "sfx": "数据刷新滴滴声",
+        "ai_image_prompt": "Cinematic close-up of a large monitoring screen displaying a clearly declining carbon emission curve, numbers updating in real-time, green charts and graphs filling the screen, compliance rate showing 99.2 percent, dark background of control room making the green data glow brilliantly, visual proof of environmental success, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国站在碳排放大屏前，双手背在身后，抬头仰望屏幕上的绿色数据。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "双手背后，仰望大屏",
+            "expression": "欣慰、自豪",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "从怀疑到亲眼见证，数据带来的信心",
+        "sfx": "屏幕光线嗡鸣",
+        "ai_image_prompt": "Cinematic medium shot from slightly below of a 55-year-old stocky Chinese man with buzz-cut graying hair in white dress shirt standing before a large glowing green data screen, hands clasped behind his back, looking up at the carbon emission data with pride and satisfaction, green light from the screen illuminating his face, factory control room, moment of vindication, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "大屏上碳排放数据曲线继续下降，旁边弹出新通知：“EU CBAM Compliance: PASSED”。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "通过认证的决定性时刻，一切努力得到回报",
+        "sfx": "通知弹出声",
+        "ai_image_prompt": "Cinematic extreme close-up of a large monitoring screen showing a downward carbon emission curve with a new notification popup reading 'EU CBAM Compliance: PASSED' in green text, celebration graphics on screen, digital triumph, green and white color scheme, sharp focus on the screen data, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国看着屏幕上的通过认证通知，缓缓点了点头，嘴角带着深沉的欣慰笑容。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "看着数据，缓缓点头",
+            "expression": "欣慰",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "（看着数据，点了点头）",
+          "emotion": "欣慰"
+        },
+        "atmosphere": "无需言语，一个点头胜过千言万语",
+        "sfx": "安静，远处车间正常运转声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in white dress shirt, slowly nodding with a deep satisfied smile while looking at a glowing green screen off-camera, green light reflected on his face, profound contentment and vindication, quiet emotional moment, factory control room, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

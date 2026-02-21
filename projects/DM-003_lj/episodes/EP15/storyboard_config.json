@@ -1,0 +1,399 @@
+{
+  "video_id_prefix": "DM-003-EP15",
+  "episode": 15,
+  "episode_title": "找回订单",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "次日清晨，林宇大步走向赵总工厂，手中拿着封面写着《找回订单》的方案。清晨阳光照在他坚定的脸上。",
+  "emotion_tone": "坚定、决心",
+  "connection": {
+    "from_previous": "通宵做好方案",
+    "to_next": "再闯赵总工厂"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP15-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "清晨出发，一字赴战的坚定",
+      "color_palette": ["#FFB347", "#87CEEB", "#2C3E50"],
+      "lighting": "清晨金色阳光低角度照射，长影子，暖色调",
+      "weather": "清晨晴朗，阳光温暖"
+    },
+    "video_prompt": "Early morning, a determined young Chinese man in dark gray blazer picks up a proposal document from a desk and walks out the door with purpose. Golden morning sunlight streams through the doorway. Brief powerful moment. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "简短有力的钢琴和弦，短暂静音后弦乐渐起，节奏稳健如行军",
+      "mood": "坚定、出发、使命感"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "清晨办公室，阳光从窗户洒入。桌上摆着完成的方案，封面「找回订单」四字清晰。林宇站在桌前，整了整西装。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "站在桌前整理西装",
+            "expression": "沉稳、坚定",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "通宵后的清晨，阳光洗去疲惫，只剩决心",
+        "sfx": "晨间鸟鸣、微风声",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man with short curly black hair standing in a office in early morning light, adjusting his dark gray blazer over a white t-shirt, golden sunlight streaming through windows, a completed proposal document on the desk with bold Chinese title visible on the cover, calm determined expression, warm morning atmosphere after an all-night work session, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "方案封面特写：白色封面上「找回订单」四个黑色大字，下方有林宇和苏娜的名字。阳光在纸面上形成光斑。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "四字承载一夜心血，阳光赋予它战书般的庄重",
+        "sfx": "纸张轻微沙沙声",
+        "ai_image_prompt": "Cinematic extreme close-up of a white proposal document cover with four bold black Chinese characters as the title, names printed below, golden morning sunlight creating warm light patches on the paper surface, sharp focus on the calligraphy, table surface and desk items softly blurred, sense of gravity and determination, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇伸手拿起方案，夹在腋下。深吸一口气，目光坚毅地望向门口方向。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "拿起方案夹在腋下，深吸一口气",
+            "expression": "坚毅、决绝",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "即将出征前的最后一刻宁静",
+        "sfx": "深呼吸声",
+        "ai_image_prompt": "Cinematic close-up from slightly below of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt picking up a document and tucking it under his arm, taking a deep breath, eyes looking toward the door with fierce determination, golden morning light hitting his face from the side, heroic moment of resolve, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇走到门口，苏娜站在一旁看着他，微微点头。林宇说出一个字：「走。」然后推门而出。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "走到门口，推门",
+            "expression": "坚定、短促",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "站在一旁点头",
+            "expression": "信任、鼓励",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "走。",
+          "emotion": "短促、坚定"
+        },
+        "atmosphere": "一个字胜过千言，出发的号角",
+        "sfx": "脚步声、门把转动声",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man with short curly black hair in dark gray blazer walking toward an office door with a proposal document under his arm, a 28-year-old woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck standing to the side nodding with trust, golden morning light flooding through the doorway as the man pushes the door open, moment of departure, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "门外走廊，阳光铺满地面。林宇大步走出，身后苏娜跟上。两人的影子被晨光拉得很长。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "大步向前走",
+            "expression": "坚定",
+            "position": "前"
+          },
+          {
+            "name": "苏娜",
+            "action": "跟在身后",
+            "expression": "冷静、跟随",
+            "position": "后"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "晨光中的两道身影，步伐坚定向前",
+        "sfx": "有力的脚步声回响",
+        "ai_image_prompt": "Cinematic medium shot of two young Chinese professionals striding down a sunlit corridor, a 30-year-old man with short curly black hair in dark gray blazer leading with a proposal under his arm, a 28-year-old woman with gold-rimmed glasses in black turtleneck following close behind, their long shadows stretching across the sun-drenched floor, golden morning light creating dramatic backlighting, purposeful determined stride, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "建筑外景，林宇和苏娜走出大楼。清晨的城市街道，阳光洒在他们身上。林宇手中方案在阳光下泛白。两人走向停放的车辆。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "走出大楼，走向车辆",
+            "expression": "坚定",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "并肩前行",
+            "expression": "沉稳",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "清晨出征，阳光为他们送行",
+        "sfx": "城市清晨环境音、远处车流声",
+        "ai_image_prompt": "Cinematic wide shot of two young Chinese professionals walking out of an office building into a bright morning city street, a 30-year-old man with short curly black hair in dark gray blazer carrying a white proposal document catching the sunlight, walking alongside a 28-year-old woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck, heading toward a parked car, golden sunrise light bathing the entire scene, hopeful and determined atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP15-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "无对白的纯画面叙事，坚定走向目标",
+      "color_palette": ["#FFD700", "#4A90D9", "#3C3C3C"],
+      "lighting": "清晨金色阳光，侧逆光，温暖而庄重",
+      "weather": "清晨晴朗，微风"
+    },
+    "video_prompt": "A determined young Chinese man in dark gray blazer strides toward an industrial factory gate in the golden morning light, holding a white proposal document. Close-up of the proposal cover. Sunrise light on his resolute face. Pure visual storytelling, no dialogue. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "弦乐渐强，大提琴稳健主旋律，逐渐加入小提琴高音线，情绪持续上升",
+      "mood": "坚定、壮志、即将迎战"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "车辆驶过清晨的工业区道路，两旁是工厂建筑。阳光在车窗上反射金光。车内林宇的侧脸，目光坚定看向前方。",
+        "camera": {
+          "type": "近景",
+          "movement": "跟拍",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "坐在车内望向前方",
+            "expression": "坚定、沉着",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "驶向战场途中的宁静与决心",
+        "sfx": "汽车引擎声、轮胎压过路面声",
+        "ai_image_prompt": "Cinematic close-up side profile of a 30-year-old Chinese man with short curly black hair in dark gray blazer sitting in a car, looking forward with determined steady gaze, golden morning sunlight reflecting off the car window creating lens flares, industrial factory buildings passing by outside, early morning atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "车内副驾驶座上的方案特写，封面「找回订单」四字在晨光中清晰可见。林宇的手轻轻按在方案上。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手按在方案上",
+            "expression": "珍视",
+            "position": "手部入画"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "方案是一夜心血的凝结，也是重新开始的武器",
+        "sfx": "汽车行驶声",
+        "ai_image_prompt": "Cinematic extreme close-up of a white proposal document on a car passenger seat, four bold black Chinese characters on the cover clearly visible in golden morning sunlight streaming through the car window, a man's hand gently resting on top of the document, warm light and shadow playing across the paper, sense of weight and importance, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇从车中走出，手持方案，抬头望见远处的工厂大门。清晨阳光从他身后照来，在地上投下笔直的影子。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "下车，手持方案，望向工厂",
+            "expression": "坚定、庄重",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "独自面对曾经碰壁之地，这一次不同了",
+        "sfx": "车门关闭声、清晨鸟鸣",
+        "ai_image_prompt": "Cinematic medium shot from slightly below of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt stepping out of a car holding a white proposal document, looking up at a factory gate in the distance, golden morning backlight creating a dramatic silhouette edge and a long shadow on the ground, industrial buildings in the background, heroic determined pose, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇大步走在通往工厂的水泥路上，方案紧握手中。镜头从正面拍摄他迎面走来，步伐有力。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后退跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "大步向前走，方案紧握",
+            "expression": "坚定、无畏",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "一步一步走向命运的转折点",
+        "sfx": "有力的脚步声回响在空旷道路上",
+        "ai_image_prompt": "Cinematic medium shot from the front of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt walking toward camera with powerful determined strides on a cement road leading to a factory, gripping a white proposal document firmly, golden morning light from behind creating rim lighting on his shoulders and hair, factory buildings growing larger in the background, epic approach shot, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "方案封面「找回订单」四字在行走节奏中微微晃动的特写。阳光在白纸上跳跃。林宇的手指紧握方案边缘。",
+        "camera": {
+          "type": "特写",
+          "movement": "手持微晃",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手握方案行走",
+            "expression": "坚定",
+            "position": "手部入画"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "四个字随步伐律动，如心跳般坚定",
+        "sfx": "脚步声节奏感",
+        "ai_image_prompt": "Cinematic handheld close-up of a white proposal document cover with four bold black Chinese characters being carried while walking, the document slightly swaying with each step, golden sunlight dancing on the white paper, a man's fingers gripping the edge firmly, slight motion blur from walking rhythm, dynamic and determined, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "远景：工厂大门在前方，林宇的身影逆光行走，越来越近。清晨阳光将他的轮廓镀上金色。画面定格在他即将推门的瞬间。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "走向工厂大门，即将推门",
+            "expression": "坚定、决绝",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "逆光中的身影走向命运之门，悬念留给下一集",
+        "sfx": "脚步声停止、短暂寂静、金属门把声",
+        "ai_image_prompt": "Cinematic wide shot of a solitary figure of a 30-year-old Chinese man in dark gray blazer walking toward a large factory gate, backlit by brilliant golden morning sunrise creating a dramatic silhouette with golden rim light outlining his entire body, the factory gate looming before him, the moment just before he pushes the door open, epic and cinematic freeze frame feeling, powerful determination, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

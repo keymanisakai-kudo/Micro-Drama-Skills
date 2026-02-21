@@ -1,0 +1,405 @@
+{
+  "video_id_prefix": "DM-003-EP07",
+  "episode": 7,
+  "episode_title": "账户余额",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "林宇回到凌乱的办公室,电脑屏幕显示公司余额¥45,210。苏娜递来财务报表。",
+  "emotion_tone": "焦虑、绝望",
+  "connection": {
+    "from_previous": "承接被赵总赶出工厂",
+    "to_next": "苏娜分析清算可能"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP07-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "凌乱办公室，绝望的数字",
+      "color_palette": ["#2C3E50", "#34495E", "#5D6D7E"],
+      "lighting": "办公室冷白荧光灯，电脑屏幕蓝光打在脸上",
+      "weather": "室内办公室，窗外天色灰暗"
+    },
+    "video_prompt": "A disheveled young man in a dark gray blazer sits in a messy small office, staring at a computer screen showing a bank balance of 45210 yuan. Papers and coffee cups scattered on desk. Cold fluorescent lighting. Despair and anxiety. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "极简钢琴，低音区缓慢重复的两个音符，如倒计时",
+      "mood": "焦虑、绝望、倒计时"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "凌乱的小办公室全景：桌上散落着文件、空咖啡杯、计算器。林宇推门走入，疲惫地把包扔在椅子上。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "推门进入，把包扔在椅子上",
+            "expression": "疲惫、空洞",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "凌乱的办公室映射创业维艰，冷白灯光无情",
+        "sfx": "门推开声、包落在椅子上的闷响",
+        "ai_image_prompt": "Cinematic wide shot of a small messy startup office, papers scattered on desks, empty coffee cups, a calculator, whiteboard with faded notes, a 30-year-old Chinese man with short curly black hair in dark gray blazer pushing open the door and tossing his bag onto a chair wearily, cold fluorescent overhead lighting, gray overcast light from window, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "林宇坐下，按亮电脑屏幕。蓝白色的光照亮他疲惫的脸。手指无意识地在桌面上敲击。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "坐下按亮电脑，手指敲桌面",
+            "expression": "疲惫、紧张",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "电脑屏幕的蓝光如审判之光打在脸上",
+        "sfx": "键盘点击声、鼠标点击声",
+        "ai_image_prompt": "Cinematic medium shot from the side of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt sitting at a messy desk, pressing a key to wake up a computer monitor, blue-white screen light illuminating his tired face, fingers tapping nervously on the desk surface, dark office background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "电脑屏幕特写：银行账户页面，余额数字¥45,210.00刺眼地显示在屏幕正中。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "冰冷的数字是最残酷的现实",
+        "sfx": "电脑风扇运转声",
+        "ai_image_prompt": "Cinematic extreme close-up of a computer monitor screen showing a bank account balance page, the number 45210.00 yuan displayed prominently in the center, cold blue-white screen glow, slight screen flicker, reflection of a person's silhouette faintly visible on the glass, shallow depth of field with screen edges blurring, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇面部特写，屏幕蓝光映在脸上，嘴唇微动喃喃自语'四万五'，眼神空洞。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "喃喃自语，盯着屏幕",
+            "expression": "绝望、空洞",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "四万五……",
+          "emotion": "喃喃自语、绝望"
+        },
+        "atmosphere": "数字带来的绝望在脸上凝固",
+        "sfx": "呼吸声加重",
+        "ai_image_prompt": "Cinematic extreme close-up of a 30-year-old Chinese man's face with short curly black hair, computer screen blue light reflecting on his features, lips barely moving whispering a number, hollow desperate eyes, dark gray blazer collar visible, messy office background in deep blur, existential dread, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇缓缓向后靠在椅背上，双手捂住脸，指缝间漏出疲惫的叹息。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "靠在椅背上双手捂脸",
+            "expression": "崩溃边缘、疲惫",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "双手捂脸的姿态是无声的崩溃",
+        "sfx": "椅子吱呀声、沉重叹息",
+        "ai_image_prompt": "Cinematic medium shot from slightly above of a 30-year-old Chinese man in dark gray blazer leaning back in an office chair, both hands covering his face, a heavy sigh escaping through his fingers, messy desk with scattered papers and cold computer screen glow in background, cold fluorescent lighting, moment of private despair, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "办公室门口，苏娜手持一份文件夹出现在门框中，看到林宇的状态，停顿了一下。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "站在门口，手持文件夹，停顿",
+            "expression": "心疼但克制",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "双手捂脸靠在椅子上",
+            "expression": "绝望",
+            "position": "左远"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "苏娜目睹林宇崩溃瞬间，短暂的心疼",
+        "sfx": "脚步声停顿",
+        "ai_image_prompt": "Cinematic medium shot framed through a doorway, a 28-year-old Chinese woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck standing in the doorframe holding a folder, pausing as she sees inside the office, in the background a young man slumped in a chair with hands over his face, computer screen glowing blue, door frame creating natural framing, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP07-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "财务绝境，自我怀疑",
+      "color_palette": ["#3B4252", "#4C566A", "#5E81AC"],
+      "lighting": "办公室荧光灯偏冷，窗外灰暗天光",
+      "weather": "室内办公室，窗外阴天"
+    },
+    "video_prompt": "In a messy small office, a calm young woman in gold-rimmed glasses hands a financial report to a desperate young man at his desk. He reads it and slumps back, questioning their startup's direction. Cold fluorescent office lighting. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "钢琴低音区持续音，大提琴长弓悲叹旋律",
+      "mood": "绝望、自我怀疑、沉重"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏娜走到林宇桌前，将财务报表文件夹放在桌上，手指轻轻点了点封面，语气冷静。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "放下文件夹，手指轻点",
+            "expression": "冷静、专业",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "放下捂脸的手，抬头看苏娜",
+            "expression": "疲惫、红眼",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏娜",
+          "text": "账上的钱只够发下个月工资了。",
+          "emotion": "冷静"
+        },
+        "atmosphere": "冷静的陈述比任何安慰都更有重量",
+        "sfx": "文件夹放桌上的轻响",
+        "ai_image_prompt": "Cinematic medium shot of a 28-year-old Chinese woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck placing a financial report folder on a messy desk and tapping it gently, facing a 30-year-old man with short curly black hair in dark gray blazer who lifts his tired red-rimmed eyes to look up at her, cold fluorescent office lighting, papers scattered on desk, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "林宇打开财务报表，一页页翻看，每一页上的红色数字都在加深他脸上的阴影。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "翻阅财务报表",
+            "expression": "越来越沉重",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "一页页翻过的不只是数字，是即将终结的梦想",
+        "sfx": "纸张翻动声",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a 30-year-old Chinese man with short curly black hair flipping through financial report pages, red numbers visible on the paper, his expression growing darker with each page, dark gray blazer sleeves, messy desk surface, cold overhead lighting casting shadows on his face, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇合上报表，仰头靠在椅背上闭眼。双手无力垂在扶手两侧。苏娜站在旁边静静看他。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "合上报表仰头闭眼，双手垂下",
+            "expression": "痛苦、疲惫",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "站在旁边静静注视",
+            "expression": "关切但克制",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "数据确认了最坏的预感，沉默是唯一的语言",
+        "sfx": "椅子吱呀声、空调低频嗡鸣",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man in dark gray blazer slumped back in an office chair with eyes closed and arms hanging limply at his sides, a closed financial report on the desk, a 28-year-old woman with gold-rimmed glasses in black turtleneck standing beside him watching quietly, cold office environment, fluorescent lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇睁开眼，目光看向天花板，缓缓开口说出内心最深的自我怀疑，声音沙哑。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "仰头看着天花板说话",
+            "expression": "痛苦、自我怀疑",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "也许我们选错了赛道。",
+          "emotion": "痛苦、自我怀疑"
+        },
+        "atmosphere": "最令人心碎的不是失败，是开始怀疑初衷",
+        "sfx": "声音微微颤抖的共鸣",
+        "ai_image_prompt": "Cinematic extreme close-up from slightly below of a 30-year-old Chinese man with short curly black hair looking up at the ceiling, eyes open with deep pain, lips moving slowly as he speaks with a hoarse voice, dark gray blazer collar visible, fluorescent light reflected in his eyes, moment of profound self-doubt, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏娜听到这话微微皱眉，欲言又止。她扶了扶眼镜，目光复杂地看着林宇。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "微微皱眉，扶眼镜",
+            "expression": "欲言又止、复杂",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "苏娜内心也在动摇，但她选择了沉默",
+        "sfx": "眼镜框轻触",
+        "ai_image_prompt": "Cinematic close-up of a 28-year-old Chinese woman with shoulder-length straight black hair and gold-rimmed glasses in black turtleneck, frowning slightly, adjusting her glasses, complex emotions in her eyes, wanting to speak but holding back, cold office lighting on her face, shallow depth of field with blurred office background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "办公室全景：两人沉默相对，桌上散落的文件和亮着余额的屏幕构成绝望的静物画面。窗外灰暗天色。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "瘫坐在椅子上",
+            "expression": "绝望",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "站在旁边低头不语",
+            "expression": "沉重",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "办公室角落里两个创业者的至暗时刻",
+        "sfx": "空调嗡鸣、远处街道车辆声",
+        "ai_image_prompt": "Cinematic wide shot of a small messy startup office, a 30-year-old man in dark gray blazer slumped in a chair on the left, a 28-year-old woman in black turtleneck standing beside him with bowed head on the right, computer screen still glowing with the balance number, scattered papers and empty cups on the desk, gray overcast light from the window mixing with cold fluorescent overhead light, still life of startup despair, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

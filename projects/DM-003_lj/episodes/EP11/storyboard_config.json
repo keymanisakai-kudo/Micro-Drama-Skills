@@ -1,0 +1,412 @@
+{
+  "video_id_prefix": "DM-003-EP11",
+  "episode": 11,
+  "episode_title": "工厂生病了",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "童童问'赵爷爷的工厂是不是生病了'，说老师告诉他天变灰了星星就藏起来了。纯真的童言触动林宇。",
+  "emotion_tone": "纯真、触动",
+  "connection": {
+    "from_previous": "黑色的星星画作",
+    "to_next": "林宇顿悟"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP11-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "童童天真发问，温馨中带着忧伤",
+      "color_palette": ["#FFF8E7", "#E8D5B7", "#A0522D"],
+      "lighting": "傍晚室内暖黄台灯光，窗外透进最后的天光",
+      "weather": "傍晚，室内"
+    },
+    "video_prompt": "A warm living room at dusk, a 7-year-old boy with mushroom-cut hair in blue-white stripes and dark blue overalls looks up at a young man curiously, asking innocent questions. The man crouches down gently to talk to the child. Warm lamp light fills the room. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "轻柔钢琴音符如音乐盒，偶尔点缀木琴叮咚声",
+      "mood": "温馨、天真、微微忧伤"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "傍晚客厅，暖黄灯光下，童童坐在地毯上翻看自己的画，林宇坐在沙发上看文件。温馨家庭氛围。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "坐在地毯上翻看自己的画",
+            "expression": "专注",
+            "position": "右下"
+          },
+          {
+            "name": "林宇",
+            "action": "坐在沙发上看文件",
+            "expression": "疲惫但放松",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "温馨的家庭傍晚，暖色灯光营造安全感",
+        "sfx": "翻纸声、远处时钟滴答声",
+        "ai_image_prompt": "Cinematic medium shot of a warm living room at dusk, a 7-year-old Chinese boy with mushroom-cut hair wearing blue-white striped shirt and dark blue overalls sitting on a carpet looking at drawings, a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt sitting on a sofa reading documents, warm amber lamp light, cozy family atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "童童突然抬头，眼睛大大的，仰望着林宇，带着天真的好奇开口发问。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "抬头仰望林宇，大眼睛闪烁",
+            "expression": "天真好奇",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "童童",
+          "text": "舅舅，赵爷爷的工厂是不是生病了？",
+          "emotion": "天真好奇"
+        },
+        "atmosphere": "孩子纯净的眼神如一束光照进大人的世界",
+        "sfx": "背景音乐轻柔过渡",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a 7-year-old Chinese boy with mushroom-cut hair and big curious eyes looking up, wearing blue-white striped shirt and dark blue overalls with a yellow backpack nearby, warm amber lamplight on his face, innocent expression asking a question, cozy living room background soft focus, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇放下手中文件，微微一怔，低头看向童童，露出温柔但意外的表情。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "放下文件，低头看向童童",
+            "expression": "温柔、意外",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "被童言触动的一瞬，时间仿佛慢了下来",
+        "sfx": "文件轻放在茶几上的声音",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt, lowering documents and looking down with a gentle surprised expression, warm amber lamplight highlighting his face, soft living room background, moment of being touched by a child's words, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇从沙发上滑下来，蹲在童童面前，与他平视，温柔地问为什么这么说。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢下降",
+          "angle": "平视（儿童视角高度）"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "蹲下来与童童平视",
+            "expression": "温柔、好奇",
+            "position": "左"
+          },
+          {
+            "name": "童童",
+            "action": "认真地看着林宇",
+            "expression": "期待回答",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "为什么这么说？",
+          "emotion": "温柔、好奇"
+        },
+        "atmosphere": "大人蹲下与孩子平视，拉近了两个世界的距离",
+        "sfx": "沙发布料摩擦声",
+        "ai_image_prompt": "Cinematic medium shot at child's eye level, a 30-year-old Chinese man with short curly black hair in dark gray blazer crouching down to be at the same height as a 7-year-old boy with mushroom-cut hair in blue-white stripes and dark blue overalls, facing each other in a warm living room, gentle inquiry, warm amber lamplight, intimate family moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "童童歪着小脑袋想了想，手指缠着衣角，准备认真回答。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视（儿童视角高度）"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "歪头思考，手指缠着衣角",
+            "expression": "认真思考",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "孩子认真思考的模样格外打动人心",
+        "sfx": "安静片刻、钟表滴答声",
+        "ai_image_prompt": "Cinematic close-up at child's eye level of a 7-year-old Chinese boy with mushroom-cut hair tilting his head to think, fingers fidgeting with the hem of his blue-white striped shirt, dark blue overalls, endearing thoughtful expression, warm amber lamplight on his round face, soft focus living room background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "双人侧面构图：林宇蹲着认真听，童童抬起小手比划天空的样子，窗外暮色渐深。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "蹲着认真听童童说话",
+            "expression": "专注、温柔",
+            "position": "左"
+          },
+          {
+            "name": "童童",
+            "action": "抬手比划天空",
+            "expression": "认真",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "大人与孩子的对话在暮色中格外温暖",
+        "sfx": "窗外鸟鸣渐弱",
+        "ai_image_prompt": "Cinematic medium side shot of a 30-year-old Chinese man with short curly black hair in dark gray blazer crouching and listening attentively, and a 7-year-old boy with mushroom-cut hair in blue-white stripes and dark blue overalls raising his small hand to gesture toward the sky, warm living room with deepening dusk light through the window, intimate side profile composition, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP11-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "童言无忌中的忧伤真相，触动心灵",
+      "color_palette": ["#FDE68A", "#D4A574", "#6B7280"],
+      "lighting": "暖黄台灯光渐暗，窗外最后的暮光消退",
+      "weather": "傍晚转夜，室内"
+    },
+    "video_prompt": "A warm living room in the evening, a young man crouching beside a 7-year-old boy who earnestly explains about gray skies and hidden stars. The child's innocent words deeply move the man. Warm fading lamplight. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "钢琴旋律由轻快转为深沉，加入大提琴低音长弓",
+      "mood": "从天真到触动、从好奇到忧伤"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "童童认真地用双手比划天空，小脸严肃地向林宇解释天空是灰色的。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视（儿童视角高度）"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "双手比划天空，表情严肃",
+            "expression": "认真",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "童童",
+          "text": "每次路过那里，天空都是灰色的。",
+          "emotion": "认真"
+        },
+        "atmosphere": "孩子用最简单的话描述最深刻的真相",
+        "sfx": "安静的室内环境音",
+        "ai_image_prompt": "Cinematic close-up at child's eye level of a 7-year-old Chinese boy with mushroom-cut hair, serious little face, both small hands raised gesturing at the sky, wearing blue-white striped shirt and dark blue overalls, earnestly explaining something, warm amber lamplight, soft focus living room, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "林宇听到这话微微愣住，眼神从温柔变为若有所思，嘴角的笑容凝固。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "愣住，笑容凝固",
+            "expression": "若有所思",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "童言击中了某个内心角落，思绪开始翻涌",
+        "sfx": "背景音乐微弱",
+        "ai_image_prompt": "Cinematic extreme close-up of a 30-year-old Chinese man with short curly black hair, his gentle smile freezing on his face as realization slowly dawns, eyes shifting from warmth to deep thought, warm amber lamplight on one side of his face, deep emotional shift, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "童童低头翻出自己的画——一张灰色天空下黑色星星的蜡笔画，轻轻拿给林宇看。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢下移",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "低头翻出蜡笔画递给林宇",
+            "expression": "伤感",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "孩子的画是最直白的控诉",
+        "sfx": "翻纸声",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a 7-year-old Chinese boy with mushroom-cut hair looking down and pulling out a crayon drawing showing black stars under a gray sky, small hands holding up the drawing, wearing blue-white stripes and dark blue overalls, poignant childhood artwork, warm lamplight, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "童童抬起头，眼睛里泛着微光，说出老师教他的话，声音带着童稚的伤感。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视（儿童视角高度）"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "抬头看林宇，眼中泛光",
+            "expression": "伤感",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "童童",
+          "text": "老师说，天变灰了，星星就藏起来了。",
+          "emotion": "伤感"
+        },
+        "atmosphere": "孩子的伤感如同清澈的水滴落在平静的湖面",
+        "sfx": "安静到几乎无声，只有呼吸声",
+        "ai_image_prompt": "Cinematic extreme close-up at child's eye level of a 7-year-old Chinese boy with mushroom-cut hair looking up with glistening eyes full of innocent sadness, speaking softly about stars hiding, warm amber lamplight reflecting in his teary eyes, deeply emotional child portrait, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇接过画，目光落在灰色天空和黑色星星上，手微微颤抖，被深深触动。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "双手接过画，目光凝视，手微颤",
+            "expression": "深深触动",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "一张孩子的蜡笔画重新定义了整个命题",
+        "sfx": "纸张轻微颤动声",
+        "ai_image_prompt": "Cinematic extreme close-up of adult hands with slight trembling holding a child's crayon drawing showing black stars under a gray sky, a 30-year-old man's face partially visible behind the drawing with deeply moved expression, warm amber lamplight illuminating the colorful drawing, profound emotional moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "林宇轻轻把童童搂进怀里，目光越过童童的肩膀望向窗外渐暗的天空，若有所思。童童靠在他胸前。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "搂住童童，望向窗外",
+            "expression": "若有所思、被触动",
+            "position": "中"
+          },
+          {
+            "name": "童童",
+            "action": "靠在林宇胸前",
+            "expression": "安静依赖",
+            "position": "中偏下"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "温暖拥抱中酝酿着思想的转变，暮色窗外留下悬念",
+        "sfx": "窗外远处汽车驶过声、室内温暖的寂静",
+        "ai_image_prompt": "Cinematic medium side shot of a 30-year-old Chinese man with short curly black hair in dark gray blazer gently hugging a 7-year-old boy with mushroom-cut hair in blue-white stripes and dark blue overalls, the man gazing thoughtfully past the child's shoulder toward a window showing a darkening evening sky, warm amber lamplight in the room, profound contemplation mixed with tenderness, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "scene_01": {
+    "name": "赵建国办公室",
+    "file": "E:\\projects\\rytesa.ai\\Micro-Drama-Skills\\projects\\DM-003_lj\\scenes\\scene_01_ref.png"
+  },
+  "scene_02": {
+    "name": "林宇创业办公室",
+    "file": "E:\\projects\\rytesa.ai\\Micro-Drama-Skills\\projects\\DM-003_lj\\scenes\\scene_02_ref.png"
+  },
+  "scene_03": {
+    "name": "工厂车间",
+    "file": "E:\\projects\\rytesa.ai\\Micro-Drama-Skills\\projects\\DM-003_lj\\scenes\\scene_03_ref.png"
+  },
+  "scene_04": {
+    "name": "工业区街道",
+    "file": "E:\\projects\\rytesa.ai\\Micro-Drama-Skills\\projects\\DM-003_lj\\scenes\\scene_04_ref.png"
+  },
+  "scene_05": {
+    "name": "工厂大门外景",
+    "file": "E:\\projects\\rytesa.ai\\Micro-Drama-Skills\\projects\\DM-003_lj\\scenes\\scene_05_ref.png"
+  }
+}

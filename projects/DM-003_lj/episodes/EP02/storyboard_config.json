@@ -1,0 +1,388 @@
+{
+  "video_id_prefix": "DM-003-EP02",
+  "episode": 2,
+  "episode_title": "退单风暴",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "赵建国在烟雾缭绕的办公室收到德国客户退单邮件，暴怒摔文件，质问'合作五年说退就退'。",
+  "emotion_tone": "愤怒、震惊",
+  "connection": {
+    "from_previous": "承接第1集碳关税时代背景",
+    "to_next": "引出助理解释碳足迹原因"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP02-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "烟雾缭绕的压抑办公室，愤怒爆发",
+      "color_palette": ["#3B3226", "#8B4513", "#C0392B"],
+      "lighting": "昏暗暖黄灯光混合冷色屏幕光，烟雾弥漫",
+      "weather": "室内，窗外阴天"
+    },
+    "video_prompt": "Cinematic 15s scene in a smoky Chinese factory boss office, a stocky 55-year-old man in khaki jacket receives a cancellation email, explodes in rage slamming documents on desk, dramatic lighting with cigarette smoke swirling, warm tungsten overhead light mixed with cold monitor glow. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "低沉弦乐急速升温，定音鼓重击",
+      "mood": "紧张、爆发"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵建国办公室全景：烟雾缭绕，老旧实木桌上散落文件，电脑屏幕泛着冷光，赵建国背对镜头坐着。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "背对镜头坐在办公桌前看电脑",
+            "expression": "沉默",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "烟雾弥漫的封闭办公室，压抑沉闷，暴风雨前的寂静",
+        "sfx": "键盘点击声、烟灰缸轻碰声",
+        "ai_image_prompt": "Wide cinematic shot of a dimly lit Chinese factory boss office, cigarette smoke swirling in warm tungsten light, a stocky 55-year-old Chinese man with buzz-cut graying hair in a khaki jacket sitting with his back to camera at a heavy wooden desk cluttered with documents, cold blue computer screen glow on his face, oppressive atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "电脑屏幕特写：德国客户退单邮件，标题'Order Cancellation'刺眼醒目，赵建国的脸映在屏幕上。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "盯着屏幕，表情骤变",
+            "expression": "震惊",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "退单？！",
+          "emotion": "震惊、暴怒"
+        },
+        "atmosphere": "屏幕冷光照亮震惊的脸庞，空气凝固",
+        "sfx": "邮件提示音",
+        "ai_image_prompt": "Extreme close-up of a computer screen showing an email with bold header Order Cancellation from a German company, the reflection of a shocked 55-year-old Chinese man with graying buzz-cut visible in the monitor glass, cold blue screen light illuminating his widening eyes, dramatic moment of realization, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国猛地站起，椅子向后滑出，双手撑桌，怒视屏幕，烟雾被气流吹散。",
+        "camera": {
+          "type": "中景",
+          "movement": "快速推进",
+          "angle": "仰视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "猛然站起撑桌",
+            "expression": "暴怒",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "愤怒爆发瞬间，空气中的烟被震荡打散",
+        "sfx": "椅子猛烈后退声、桌面重击声",
+        "ai_image_prompt": "Low angle medium shot of a furious 55-year-old Chinese factory boss in khaki jacket slamming both hands on a wooden desk, standing up abruptly, office chair sliding back, cigarette smoke dispersing from the sudden movement, veins visible on his neck, overhead warm light casting dramatic shadows, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国抓起桌上的合同文件猛力摔在地上，纸张四散飞舞，茶杯晃动。",
+        "camera": {
+          "type": "近景",
+          "movement": "跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "抓文件猛摔",
+            "expression": "暴怒失控",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "合作了五年，说退就退？！",
+          "emotion": "愤怒"
+        },
+        "atmosphere": "文件如雪片飞散，愤怒到达顶点",
+        "sfx": "纸张撕裂翻飞声、物品碰撞声",
+        "ai_image_prompt": "Close-up cinematic shot of a furious Chinese man in khaki jacket grabbing contract documents and hurling them across the room, white papers scattering through smoky air in slow motion, tea cup wobbling on desk, intense rage expression on his weathered face, warm dramatic lighting with flying paper creating dynamic composition, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国用力拍桌子，桌上的烟灰缸弹起，文件夹滑落，整个房间震动。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定微颤",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "重拍桌面",
+            "expression": "狂怒",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "桌面物品被震飞的瞬间，力量感十足",
+        "sfx": "重拍桌面巨响、玻璃烟灰缸弹跳声",
+        "ai_image_prompt": "Extreme close-up of a thick weathered hand slamming down hard on a wooden desk surface, glass ashtray bouncing from the impact, cigarette ash scattering, file folders sliding off the edge, shallow depth of field capturing the moment of violent contact, dust and smoke particles illuminated by warm overhead light, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国面部特写：双目赤红，咬紧牙关，额头青筋暴起，烟雾从身后缭绕而过。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "咬牙怒视前方",
+            "expression": "愤怒到极点",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "愤怒定格在脸上，暴风雨的中心",
+        "sfx": "沉重呼吸声",
+        "ai_image_prompt": "Intense close-up portrait of a 55-year-old Chinese man with graying buzz-cut hair, bloodshot eyes, clenched jaw, veins pulsing on forehead, cigarette smoke drifting behind him like a storm cloud, warm side lighting creating deep shadows on his weathered face, raw fury frozen in time, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP02-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "从愤怒到无奈，背影孤独",
+      "color_palette": ["#2C2416", "#6B4226", "#8C8C8C"],
+      "lighting": "昏暗暖光渐暗，窗外灰色天光渗入",
+      "weather": "室内，窗外阴沉"
+    },
+    "video_prompt": "Cinematic 15s scene continuation, the factory boss paces angrily then gradually deflates, ranting about German clients betrayal, finally standing alone by a dirty window overlooking the factory yard, his silhouette against gray sky, the anger giving way to exhaustion and helplessness. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "激烈弦乐渐弱，转为孤独的大提琴独奏",
+      "mood": "从愤怒到落寞"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵建国在办公室来回踱步，一脚踢开地上散落的文件，手指着空气怒骂。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "愤怒踱步踢文件",
+            "expression": "咬牙切齿",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "嫌我们报价高？去东南亚找代工了？！",
+          "emotion": "咬牙切齿"
+        },
+        "atmosphere": "困兽般在笼中踱步的愤怒",
+        "sfx": "皮鞋踱步声、纸张踩踏声",
+        "ai_image_prompt": "Medium tracking shot of a stocky 55-year-old Chinese man in khaki jacket pacing furiously in a smoky office, kicking scattered papers on the floor, pointing angrily at nothing, disheveled appearance, warm dim lighting, cigarette smoke trailing his movement, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国猛抓桌上座机话筒又重重放回，想打电话又不知该找谁，满脸不甘。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "抓话筒又放下",
+            "expression": "不甘、焦躁",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "愤怒中无处宣泄的无力感",
+        "sfx": "话筒重放声",
+        "ai_image_prompt": "Close-up of a frustrated 55-year-old Chinese factory boss grabbing a desk phone receiver then slamming it back down, conflicted expression of rage and helplessness, khaki jacket rumpled, graying buzz-cut hair, dim warm office lighting, smoke haze in background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国扶着椅背低头喘气，怒气渐消，疲惫袭来，肩膀微微下沉。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "扶椅背低头喘气",
+            "expression": "疲惫、不甘",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "德国佬翻脸比翻书还快！",
+          "emotion": "愤恨、不甘"
+        },
+        "atmosphere": "愤怒的高潮过后，疲惫与不甘涌上来",
+        "sfx": "粗重喘息声",
+        "ai_image_prompt": "Slightly high angle medium shot of a defeated 55-year-old Chinese man leaning on the back of an office chair, head bowed, shoulders slumping, catching his breath after an outburst, scattered papers on floor around him, warm dim lighting emphasizing exhaustion, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国缓缓走向窗边，推开百叶窗一角，望向楼下灰蒙蒙的工厂车间。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "走向窗边推开百叶窗",
+            "expression": "沉重",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "从愤怒转向沉思，窗外的世界灰暗而真实",
+        "sfx": "百叶窗叶片翻动声",
+        "ai_image_prompt": "Medium shot from behind of a stocky Chinese man in khaki jacket walking slowly toward a window with venetian blinds, pushing open one slat to peer outside at a gray factory yard below, dust particles floating in the sliver of gray daylight, contemplative mood replacing anger, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "窗外视角：灰色天空下的工厂厂区，几个工人在搬运货物，一切正常运转却暗藏危机。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "工人群众",
+            "action": "在厂区搬运货物",
+            "expression": "正常劳作",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "看似平静的工厂，实则风暴已至",
+        "sfx": "远处机器运转声、叉车声",
+        "ai_image_prompt": "Point-of-view shot looking down from an office window at a Chinese factory yard through venetian blinds, workers in blue uniforms loading crates onto a truck, gray overcast sky, industrial buildings and smokestacks in background, everything appears normal but ominous undertone, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国背影剪影站在窗前，烟头微光在指间明灭，孤独的身影映在灰色天光中。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢拉远",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "背对镜头站在窗前抽烟",
+            "expression": "孤独、落寞",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "孤独的背影定格，暗示更大的风暴还在后面",
+        "sfx": "烟头燃烧的细微声、远处汽笛声",
+        "ai_image_prompt": "Wide cinematic silhouette shot of a stocky man standing alone at a large office window, cigarette ember glowing faintly in his hand, gray daylight streaming through dusty venetian blinds creating stripe patterns across the dark room, lonely figure against industrial skyline outside, melancholic and isolated atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

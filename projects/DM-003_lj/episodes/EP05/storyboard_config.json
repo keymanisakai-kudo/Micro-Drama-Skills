@@ -1,0 +1,454 @@
+{
+  "video_id_prefix": "DM-003-EP05",
+  "episode": 5,
+  "episode_title": "碰壁",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "林宇试图推销碳追踪系统,赵总愤怒打断——'我连饭碗都保不住了!你让我花几十万买软件救北极熊？'苏娜冷静回应被赵总喝止。",
+  "emotion_tone": "愤怒、无奈",
+  "connection": {
+    "from_previous": "承接林宇苏娜初次见面",
+    "to_next": "引出赵总下逐客令"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP05-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "车间背景，赵总情绪爆发",
+      "color_palette": ["#5C3A2E", "#8B4513", "#C74B3F"],
+      "lighting": "车间高窗侧光，顶部工业灯管偏黄，赵总面部阴影加重",
+      "weather": "室内工厂车间"
+    },
+    "video_prompt": "Inside a factory workshop with idle machines, a stocky older man in a khaki jacket erupts in anger, slamming his hand on equipment, shouting about losing orders and workers' wages, while a young man in dark gray blazer stands frozen, his presentation cut short. Raw emotional outburst. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "急促低沉大提琴，间歇性鼓点如心跳加速",
+      "mood": "压迫、愤怒、不安"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "车间一角，赵建国背对停工的机床，双手叉腰，语气冰冷地打量林宇和苏娜。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "双手叉腰，背对机床",
+            "expression": "不屑、冷漠",
+            "position": "中"
+          },
+          {
+            "name": "林宇",
+            "action": "站在对面，手持平板准备演示",
+            "expression": "紧张但努力保持镇定",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "站在林宇旁边，手持笔记本",
+            "expression": "冷静观察",
+            "position": "左偏后"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "我知道你们是搞环保软件的。",
+          "emotion": "不屑"
+        },
+        "atmosphere": "停工车间里弥漫着压抑气息，机床蒙灰",
+        "sfx": "车间远处滴水声、通风管嗡鸣",
+        "ai_image_prompt": "Cinematic medium shot inside an idle factory workshop, a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket and dark polo standing with hands on hips in front of dusty CNC machines, facing two young visitors, a man in dark gray blazer holding a tablet and a woman in black turtleneck with gold-rimmed glasses, cold industrial lighting from high windows, dust particles visible in light beams, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国猛地转身指向停工的三号生产线，愤怒情绪开始爆发，声音回荡在空旷车间。",
+        "camera": {
+          "type": "中景",
+          "movement": "快速横移跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "猛转身指向停工生产线",
+            "expression": "焦躁、愤怒",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "三号线停工一周了！工人等着发工资！",
+          "emotion": "焦躁"
+        },
+        "atmosphere": "空旷车间回声加重愤怒感，停工的机器无声控诉",
+        "sfx": "手掌拍击铁皮声、回声",
+        "ai_image_prompt": "Cinematic medium shot of an enraged 55-year-old Chinese factory boss in khaki jacket spinning around and pointing aggressively at a row of idle production line machines covered in dust sheets, empty worker stations visible, his voice echoing in the cavernous workshop space, dramatic side lighting from high industrial windows, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国双拳砸在铁皮工作台上，弯腰低头，声音从愤怒转为绝望。林宇下意识后退半步。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "双拳砸桌，弯腰低头",
+            "expression": "愤怒、绝望",
+            "position": "中"
+          },
+          {
+            "name": "林宇",
+            "action": "下意识后退半步",
+            "expression": "震惊、不安",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "我连饭碗都快保不住了！",
+          "emotion": "愤怒、绝望"
+        },
+        "atmosphere": "金属撞击声与绝望的嘶吼在车间回荡",
+        "sfx": "拳头砸铁皮台面的沉闷撞击声",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a 55-year-old stocky man in khaki jacket slamming both fists on a metal workbench, hunched over in despair, veins visible on his hands, a young man in dark gray blazer stepping back in shock in the background, harsh industrial overhead lighting, raw emotional breakdown in a factory setting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇面部特写，嘴唇微张想说话又咽回去，眼神中闪过一丝动摇但很快恢复坚定。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "嘴唇微张又闭上",
+            "expression": "震动、心疼、坚定",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "林宇被赵建国的痛苦触动，但仍相信自己的方案能帮助对方",
+        "sfx": "呼吸声",
+        "ai_image_prompt": "Cinematic extreme close-up of a 30-year-old Chinese man's face with short slightly curly black hair, lips parting as if to speak then pressing together, eyes showing a flash of empathy and pain before hardening with resolve, shallow depth of field with blurred factory background, warm-cool split lighting on face, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏娜冷静地向前一步，调整眼镜，准备开口。赵建国抬头怒视。",
+        "camera": {
+          "type": "中景",
+          "movement": "横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "向前迈一步，扶了扶眼镜",
+            "expression": "冷静、理性",
+            "position": "左"
+          },
+          {
+            "name": "赵建国",
+            "action": "从工作台上撑起身体怒视",
+            "expression": "怒视",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "暴风雨前的片刻，苏娜准备迎向怒火",
+        "sfx": "高跟鞋一步声",
+        "ai_image_prompt": "Cinematic medium shot of a composed 28-year-old Chinese woman with shoulder-length straight black hair and gold-rimmed glasses in a black turtleneck stepping forward calmly, adjusting her glasses, while an enraged older man in khaki jacket glares at her from behind a metal workbench, factory workshop background with idle machines, tension between calm and fury, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "苏娜目光对视赵建国，三人在停工车间中形成紧张的对峙三角，空气凝滞。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "目光平视赵建国",
+            "expression": "沉着冷静",
+            "position": "左"
+          },
+          {
+            "name": "赵建国",
+            "action": "双手撑在工作台上",
+            "expression": "愤怒、疲惫",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "站在苏娜旁边稍后方",
+            "expression": "紧张",
+            "position": "左偏后"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "三角对峙升级，空气凝固，为下半段埋下引线",
+        "sfx": "车间通风管低频嗡鸣",
+        "ai_image_prompt": "Cinematic wide shot of a tense triangular standoff inside an idle factory workshop, a 28-year-old woman in black turtleneck with gold-rimmed glasses facing off against a 55-year-old man in khaki jacket who leans on a metal workbench, a young man in dark gray blazer behind her, rows of silent machines stretching into the background, dramatic shaft of light from high windows cutting across the scene, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP05-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "对抗升级，苏娜被喝止",
+      "color_palette": ["#6B2020", "#A0522D", "#D4A574"],
+      "lighting": "车间暖黄灯管叠加赵建国身后的逆光，面部阴影加深",
+      "weather": "室内工厂车间"
+    },
+    "video_prompt": "Heated confrontation in a factory workshop. The older boss mockingly asks if he should spend hundreds of thousands on software to save polar bears. A calm young woman in gold-rimmed glasses responds steadily about his orders being at stake. The boss shouts 'Enough!' and the atmosphere freezes. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "大提琴急促颤弓，钢琴不和谐低音块",
+      "mood": "对抗、压迫、突然静止"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵建国直起身体，指着林宇和苏娜，语气从绝望转为讽刺，嘴角扯出嘲弄的笑。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "直起身指向两人，嘴角嘲讽",
+            "expression": "讽刺、激愤",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "你让我花几十万买软件？救北极熊？！",
+          "emotion": "讽刺"
+        },
+        "atmosphere": "嘲讽中掩饰着深层焦虑，声音在空旷车间回荡",
+        "sfx": "手指指向的空气声",
+        "ai_image_prompt": "Cinematic close-up from slightly below of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket pointing accusingly at the camera with a bitter sardonic smirk, factory workshop machinery blurred in background, harsh overhead lighting creating deep shadows under his brow, raw contemptuous emotion, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "林宇被讽刺击中，表情痛苦地低下头。苏娜深吸一口气，沉着地向前走一步。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "痛苦地微微低头",
+            "expression": "受挫、隐忍",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "深吸一口气，沉着上前",
+            "expression": "冷静、决然",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "林宇受挫时刻，苏娜挺身而出",
+        "sfx": "脚步声",
+        "ai_image_prompt": "Cinematic medium shot panning from a dejected 30-year-old Chinese man in dark gray blazer lowering his head to a composed 28-year-old Chinese woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck stepping forward with a deep breath, factory workshop setting with dusty machines, shifting from defeat to determination, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏娜面对赵建国，摘下眼镜擦了一下又戴上，目光锐利，语气冷静而坚定地开口。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "摘下眼镜擦拭后戴上，直视赵建国",
+            "expression": "冷静、坚定、锐利",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏娜",
+          "text": "赵总，这不是救北极熊，这关乎您的订单。",
+          "emotion": "冷静、坚定"
+        },
+        "atmosphere": "女性力量的冷静反击，精准切入痛点",
+        "sfx": "眼镜轻微清脆声",
+        "ai_image_prompt": "Cinematic close-up of a 28-year-old Chinese woman with shoulder-length straight black hair removing her gold-rimmed glasses to clean them before putting them back on, sharp intelligent eyes staring directly forward with calm authority, black turtleneck and gray trousers, blurred factory machinery behind, professional composure under pressure, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国听到'订单'二字瞬间愣住，但迅速恢复愤怒，一巴掌拍在旁边机床护板上。",
+        "camera": {
+          "type": "近景",
+          "movement": "快速推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "先愣住后一巴掌拍在机床护板上",
+            "expression": "被触痛、恼羞成怒",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "苏娜的话刺中要害，赵建国用愤怒掩饰动摇",
+        "sfx": "巴掌拍铁板的清脆金属声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with graying buzz-cut hair, momentarily stunned expression quickly transforming into rage, his palm slamming against a metal machine guard panel, factory machinery around him, intense emotional shift captured in split-second, harsh contrast lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国怒吼一声'够了'，手臂猛地横扫指向车间出口方向，语气不容置疑。",
+        "camera": {
+          "type": "中景",
+          "movement": "快速横移",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "怒吼，手臂横扫指向出口",
+            "expression": "厌烦、下逐客令",
+            "position": "中"
+          },
+          {
+            "name": "苏娜",
+            "action": "被喝止，身体微微后仰但目光不退",
+            "expression": "不甘、倔强",
+            "position": "左"
+          },
+          {
+            "name": "林宇",
+            "action": "抬手想拦住局面",
+            "expression": "焦急",
+            "position": "左偏后"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "够了！",
+          "emotion": "厌烦"
+        },
+        "atmosphere": "怒吼切断一切对话，车间回声震耳",
+        "sfx": "怒吼回声、金属共振",
+        "ai_image_prompt": "Cinematic medium shot from slightly below of a furious 55-year-old Chinese man in khaki jacket shouting and sweeping his arm toward an exit, a young woman in black turtleneck with gold-rimmed glasses flinching slightly but holding her ground on the left, a young man in dark gray blazer reaching out anxiously behind her, empty factory workshop with dramatic echoing space, explosive emotional climax, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "沉默。三人凝固一般。赵建国背过身去，双手撑在机床上低头喘粗气。林宇和苏娜对视，缓缓后退。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "背对两人，双手撑在机床上低头喘气",
+            "expression": "疲惫、压抑",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "与苏娜对视后缓缓后退",
+            "expression": "无奈、不甘",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "与林宇对视，缓缓后退",
+            "expression": "冷静但不服",
+            "position": "左偏前"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "暴风雨后的死寂，三人各怀心事，碰壁的结局中暗藏转机",
+        "sfx": "沉重的呼吸声、远处机器微弱运转声",
+        "ai_image_prompt": "Cinematic wide shot of aftermath silence in a factory workshop, a 55-year-old man in khaki jacket turned away leaning on a machine with bowed head breathing heavily on the right, two young people on the left, a man in dark gray blazer and a woman in black turtleneck, exchanging a look before slowly backing away, vast empty factory floor stretching behind them, shafts of light from high windows creating long shadows, emotional devastation and unresolved tension, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

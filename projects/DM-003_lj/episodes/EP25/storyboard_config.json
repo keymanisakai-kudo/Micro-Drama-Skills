@@ -1,0 +1,332 @@
+{
+  "video_id_prefix": "DM-003-EP25",
+  "episode": 25,
+  "episode_title": "找回星星（大结局）",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "童童画外音：「爸爸说，他要把黑色的星星变回来。」新画特写——蓝天绿地上，星星是彩色的。镜头缓缓拉远，夜空中真正的星星出现。字幕：「每一个'绿色'的决定，都在找回我们的星空。」LOGO——绿迹。",
+  "emotion_tone": "温暖、希望、感动",
+  "connection": {
+    "from_previous": "换血续命",
+    "to_next": "全剧收束，回应EP10童童画黑色星星"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP25-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "童真画外音配合童画特写，温暖纯净",
+      "color_palette": ["#FFD700", "#87CEEB", "#90EE90", "#FF69B4"],
+      "lighting": "柔和温暖光线照亮画纸，色彩饱满",
+      "weather": "室内"
+    },
+    "video_prompt": "A child's voiceover says daddy promised to bring the colorful stars back. Close-up of a child's new drawing on paper — blue sky, green fields, and colorful rainbow stars replacing the old black ones. Warm soft lighting on the drawing, innocent and hopeful. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "钢琴清澈音符如星辰闪烁，弦乐温暖包裹，逐渐加入童声哼唱",
+      "mood": "温暖、童真、希望"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "一张崭新的儿童画铺在桌上，柔光照亮纸面。画面仅见画纸边缘和一只小手的痕迹。画上隐约可见蓝色和绿色的线条。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "画外音",
+            "expression": "稚嫩、轻柔",
+            "position": "画外"
+          }
+        ],
+        "dialogue": {
+          "speaker": "童童",
+          "text": "爸爸说——",
+          "emotion": "稚嫩、轻柔"
+        },
+        "atmosphere": "柔光下的画纸，承载着孩子纯净的希望",
+        "sfx": "纸张轻响、环境安静",
+        "ai_image_prompt": "Cinematic extreme close-up overhead shot of a child's new colorful drawing on white paper on a wooden desk, soft warm light illuminating the paper, traces of crayon and colored pencil strokes visible, edges of blue sky and green fields beginning to appear in the drawing, a small child's hand print smudge on the corner, warm intimate atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "镜头缓缓移入画面——画中出现蓝天、白云、翠绿的草地和小山丘。稚嫩的笔触充满活力。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进并下移",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "画外音",
+            "expression": "童真",
+            "position": "画外"
+          }
+        ],
+        "dialogue": {
+          "speaker": "童童",
+          "text": "他要把黑色的星星……",
+          "emotion": "童真"
+        },
+        "atmosphere": "画中的蓝天绿地与曾经的黑色星星形成鲜明对比",
+        "sfx": "无",
+        "ai_image_prompt": "Cinematic close-up moving slowly into a child's crayon drawing, revealing a bright blue sky with fluffy white clouds and vibrant green rolling hills and meadows, innocent childlike brush strokes full of life and color, warm soft light on the textured paper surface, hopeful and pure imagery, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "画面继续深入——画中天空出现彩色的星星：红、黄、蓝、绿、粉，闪闪发光的蜡笔痕迹。与EP10的黑色星星形成强烈对比。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "画外音",
+            "expression": "甜美",
+            "position": "画外"
+          }
+        ],
+        "dialogue": {
+          "speaker": "童童",
+          "text": "变回来。",
+          "emotion": "甜美"
+        },
+        "atmosphere": "彩色星星在画纸上闪耀，黑暗被希望替代",
+        "sfx": "钢琴清亮音符",
+        "ai_image_prompt": "Cinematic extreme close-up of a child's crayon drawing showing colorful rainbow stars in a blue sky — red, yellow, blue, green and pink stars sparkling with heavy crayon strokes, glitter and shimmer effect from waxy crayon texture catching the light, above green meadows, joyful and hopeful child's artwork, warm soft lighting making colors glow, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "镜头缓缓后拉，整幅画完整呈现——蓝天绿地上星星是彩色的，画的左下角画着三个小人（爸爸、妈妈、童童）手牵手。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢后拉",
+          "angle": "俯视渐平"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "完整画面揭示孩子心中的美好世界",
+        "sfx": "无",
+        "ai_image_prompt": "Cinematic shot pulling back to reveal a complete child's crayon drawing on paper — colorful stars in a blue sky above green fields, three stick figures holding hands in the bottom left corner representing a family, innocent and heartwarming children's art full of bright colors, warm light illuminating the drawing on a wooden desk, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "镜头继续后拉——画纸旁边可见一盒散落的彩色蜡笔，还有童童的小手搭在画纸边缘。温暖的灯光笼罩一切。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "小手搭在画纸边缘",
+            "expression": "纯真",
+            "position": "右下"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "孩子的小手与彩色画作，纯真的希望触手可及",
+        "sfx": "无",
+        "ai_image_prompt": "Cinematic medium shot from slightly above of a colorful child's drawing on a wooden desk, scattered crayon box with bright colored crayons beside it, a small 5-year-old Chinese girl's hand resting on the edge of the paper, warm golden lamplight enveloping the scene, intimate and tender atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "画面渐渐虚化，画中的彩色星星开始朦胧发光，仿佛从纸上浮起，暗示即将过渡到真正的星空。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进虚化",
+          "angle": "俯视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "画中的梦想开始照进现实，虚实交融",
+        "sfx": "弦乐渐强，梦幻音效",
+        "ai_image_prompt": "Cinematic close-up of a child's crayon drawing gradually going soft focus, the colorful stars in the drawing beginning to glow and shimmer as if coming alive, bokeh light effects making the stars appear to float off the paper, dreamy transition from illustration to reality, magical warm atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP25-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "从画中星星过渡到真实星空，全剧升华收束",
+      "color_palette": ["#191970", "#FFD700", "#FFFFFF", "#000000"],
+      "lighting": "夜空星光，渐变到纯黑底白字",
+      "weather": "夜晚，繁星满天"
+    },
+    "video_prompt": "Dreamy transition from a child's drawing of colorful stars to a real starry night sky. Camera slowly pulls back revealing a vast sky full of real stars. Title card appears — Every green decision brings back our starry sky. Final logo — Green Traces, white text on black background, fade out. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "弦乐与钢琴交织达到全剧情感高潮，渐渐归于宁静，最后一个音符如星辰坠落",
+      "mood": "感动、壮阔、宁静"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "画中的彩色星星渐变为真实的星光——过渡镜头，蜡笔色彩融化为夜空中闪烁的真实星辰。延时摄影感。",
+        "camera": {
+          "type": "特写渐远景",
+          "movement": "缓慢拉远",
+          "angle": "仰视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "梦想照进现实，画中星星变成真正的星空",
+        "sfx": "风铃般的细微声响",
+        "ai_image_prompt": "Cinematic transition shot from colorful crayon stars morphing into real twinkling stars in a deep navy night sky, time-lapse photography feel, the warm crayon colors gradually dissolving into cold starlight, magical seamless transition from child's art to reality, vast night sky beginning to reveal itself, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "镜头缓缓拉远——真正的夜空铺满繁星，银河隐约可见。星空壮阔辽远，令人敬畏。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢拉远",
+          "angle": "仰视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "繁星满天，纯净的夜空回归",
+        "sfx": "夜风轻拂、虫鸣",
+        "ai_image_prompt": "Cinematic wide shot looking up at a vast real starry night sky full of countless twinkling stars, the Milky Way faintly visible stretching across the deep navy cosmos, awe-inspiring expanse of universe, camera slowly pulling back to reveal more stars, pristine dark sky free of light pollution, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "星空下方地平线渐渐出现——远处是安静的工厂园区轮廓，没有黑烟，灯火点点，与星空相映。大地与星空在画面中完美平衡。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢下摇",
+          "angle": "平视渐仰"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "星空与洁净的工厂园区共存，人与自然和谐",
+        "sfx": "夜风、远处蛙鸣",
+        "ai_image_prompt": "Cinematic wide panoramic shot of a magnificent starry night sky above a silhouetted clean industrial district on the horizon, factory buildings with warm scattered lights, no smoke from chimneys, stars reflected in the stillness, earth and cosmos in perfect balance, serene nightscape showing harmony between industry and nature, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "画面缓缓上移回到纯粹的星空，星辰更加密集明亮。一颗流星划过，留下短暂的光痕。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢上摇",
+          "angle": "仰视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "流星划过象征希望永恒",
+        "sfx": "流星划过的微弱声响",
+        "ai_image_prompt": "Cinematic wide shot of a deep starry night sky with intensely bright stars densely packed, a single shooting star streaking across the darkness leaving a brief luminous trail, pure cosmic beauty, time-lapse photography feel, sense of infinite hope and wonder, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "星空画面上缓缓浮现白色字幕：「每一个'绿色'的决定，都在找回我们的星空。」字体优雅，随星光微微闪烁。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "仰视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "字幕与星空融为一体，全剧主题升华",
+        "sfx": "音乐渐弱",
+        "ai_image_prompt": "Cinematic wide shot of a beautiful starry night sky with elegant white Chinese subtitle text floating in the center reading a message about green decisions and recovering our starry sky, text gently shimmering with starlight, serene and profound, final thematic statement against the cosmos, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "画面渐暗至纯黑。白色LOGO「绿迹」缓缓浮现于黑色背景中央，字体简洁有力。短暂停留后，整个画面淡出至黑。",
+        "camera": {
+          "type": "固定",
+          "movement": "无",
+          "angle": "正面"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "黑底白字，余韵悠长，全剧终",
+        "sfx": "最后一个钢琴音符渐弱至无声",
+        "ai_image_prompt": "Cinematic title card on pure black background, elegant white Chinese logo text for Green Traces centered on screen, minimalist and powerful typography, the text gently fading in then slowly fading out to complete black, final frame of the series, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

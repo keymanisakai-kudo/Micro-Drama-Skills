@@ -1,0 +1,423 @@
+{
+  "video_id_prefix": "DM-003-EP21",
+  "episode": 21,
+  "episode_title": "三天",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "赵总被数据说服,叹了口气,伸出手握住林宇的手。“多久能装好？”“三天。”",
+  "emotion_tone": "释然、期待",
+  "connection": {
+    "from_previous": "低8%震动",
+    "to_next": "半年后焕新"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP21-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "赵总终于松口，释然与决断",
+      "color_palette": ["#5C5C5C", "#8B7D6B", "#C4A35A"],
+      "lighting": "车间窗户午后光线，柔和侧光打在赵建国脸上",
+      "weather": "室内工厂车间"
+    },
+    "video_prompt": "Inside a factory office, a stocky older man in khaki jacket sighs deeply while staring at a proposal document, finally making a difficult decision to agree. He looks up and asks how long the installation will take. Relief and determination in the air. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "柔和钢琴旋律缓缓升起，弦乐轻轻铺底",
+      "mood": "释然、转折"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵建国坐在办公桌前，手中握着方案文件，长长叹了一口气，肩膀放松下来。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "盯着方案，长叹一声",
+            "expression": "释然",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "（长叹一声）",
+          "emotion": "释然"
+        },
+        "atmosphere": "积压许久的压力终于在一声叹息中释放",
+        "sfx": "深沉叹息声、纸张轻微摩擦",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket and dark polo sitting at a desk, holding a printed proposal document, sighing deeply with relief, shoulders relaxing, afternoon light from factory window illuminating his weathered face, emotional turning point, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国将方案放在桌上，双手撑着桌面，咬咬牙，嘴里挤出两个字。林宇和苏娜在对面屏息等待。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "放下方案，双手撑桌，咬牙",
+            "expression": "咬牙下决心",
+            "position": "中"
+          },
+          {
+            "name": "林宇",
+            "action": "坐在对面，屏息等待",
+            "expression": "紧张、期待",
+            "position": "左偏后"
+          },
+          {
+            "name": "苏娜",
+            "action": "坐在林宇旁边，手握笔记本",
+            "expression": "紧张",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "行吧……",
+          "emotion": "咬牙下决心"
+        },
+        "atmosphere": "两个字重千斤，空气中弥漫着转折的气息",
+        "sfx": "方案拍在桌上的声音",
+        "ai_image_prompt": "Cinematic medium shot from slightly above of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket placing a document on the desk, both hands pressing on the table, jaw clenched with determination, two young professionals sitting across — a 30-year-old man with short curly black hair in dark gray blazer and a 28-year-old woman with gold-rimmed glasses in black turtleneck — holding their breath waiting, factory office setting, decisive moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国抬头直视林宇，眼神急切，身体微微前倾，急切地问出关键问题。",
+        "camera": {
+          "type": "近景",
+          "movement": "快速推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "抬头直视林宇，身体前倾",
+            "expression": "急切",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "多久能装好？",
+          "emotion": "急切"
+        },
+        "atmosphere": "已下决心，急于行动的迫切感",
+        "sfx": "椅子轻微移动声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket leaning forward urgently, looking directly into camera with eager impatient eyes, asking a critical question, afternoon light casting warm tones on his face, factory office background blurred, pivotal dialogue moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇眼中闪过一丝喜悦，随即恢复自信神情，微微一笑。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "眼中闪过喜悦，微笑",
+            "expression": "自信、微笑",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "压抑已久的喜悦在眼神中一闪而过",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt, a flash of joy in his eyes quickly replaced by confident composure, slight smile forming, warm afternoon light from window, factory office setting, moment of restrained triumph, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏娜微微低头看了一下笔记本，嘴角不自觉上扬，暗暗松了口气。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "低头看笔记本，嘴角上扬",
+            "expression": "暗喜、如释重负",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "细微的表情变化流露出长久努力终获回报的喜悦",
+        "sfx": "轻微翻页声",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a 28-year-old Chinese woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck, looking down at a notebook with the corners of her mouth curling up in subtle joy, quietly relieved, warm afternoon light, factory office interior, understated celebration, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "三人在办公桌前的全景，赵建国正看向林宇等待回答，气氛从沉重转为期待。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "看向林宇，等待回答",
+            "expression": "期待",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "准备回答",
+            "expression": "自信",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "安静等待",
+            "expression": "期待",
+            "position": "左偏后"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "从对峙到合作的关键转折，空间氛围由冷转暖",
+        "sfx": "远处车间机器低频嗡鸣",
+        "ai_image_prompt": "Cinematic medium shot of three people around a factory office desk, a 55-year-old stocky man in khaki jacket on the right looking expectantly at a 30-year-old man with short curly black hair in dark gray blazer on the left, a 28-year-old woman with gold-rimmed glasses in black turtleneck sitting nearby, atmosphere shifting from heavy to hopeful, warm afternoon light streaming through industrial windows, turning point scene, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP21-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "握手成约，夕阳金色暖光弥漫",
+      "color_palette": ["#D4A574", "#E8C07A", "#F5DEB3"],
+      "lighting": "夕阳透进车间高窗，金色暖光洒满空间",
+      "weather": "室内，窗外夕阳"
+    },
+    "video_prompt": "Inside a factory office bathed in golden sunset light, a young man confidently says 'three days' and extends his hand. An older man grasps it firmly. Close-up of their handshake. Sunset light pours through the workshop windows creating a warm hopeful atmosphere. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "钢琴旋律上扬，弦乐渐入，温暖而充满希望",
+      "mood": "希望、坚定、温暖"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇微微一笑，语气坚定而简洁地回答，同时伸出右手。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "微笑，伸出右手",
+            "expression": "坚定、微笑",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "三天。",
+          "emotion": "坚定、微笑"
+        },
+        "atmosphere": "简短有力的承诺，自信而温暖",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt, smiling confidently and extending his right hand for a handshake, warm golden sunset light on his face, factory office background, determined and warm expression, milestone moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国愣了一秒，随即嘴角一扬，伸出粗糙的右手握住林宇的手。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "嘴角一扬，伸手握住林宇的手",
+            "expression": "释然、微笑",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "信任在握手的瞬间建立",
+        "sfx": "握手声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket, a smile breaking through his weathered face as he reaches out his rough hand to grasp another's hand, warm golden light illuminating the scene, factory office, moment of trust and agreement, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "两人握手特写——赵建国粗糙有力的大手握住林宇年轻而坚定的手，夕阳金光洒在交握的手上。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "握手",
+            "expression": "坚定",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "握手",
+            "expression": "坚定",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "两代人的信任在这一握中凝聚",
+        "sfx": "安静，远处机器低鸣",
+        "ai_image_prompt": "Cinematic extreme close-up of two hands clasped in a firm handshake, one rough weathered hand of an older man and one younger steady hand, golden sunset light pouring across the handshake, warm amber tones, symbolic of trust and partnership, factory desk blurred in background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "苏娜在一旁看着两人握手，忍不住露出欣慰的笑容，眼眶微微泛红。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "看着两人握手，微笑",
+            "expression": "欣慰、感动",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "旁观者的喜悦更添真实感",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic close-up of a 28-year-old Chinese woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck, watching something off-camera with a warm relieved smile, eyes slightly glistening with emotion, golden sunset light on her face, factory office interior, genuine happiness after long effort, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "夕阳透过车间高大的窗户，金色光芒斜照进来，尘粒在光束中漂浮。暖色调充满整个空间。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢上摇",
+          "angle": "微仰"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "金色夕阳象征着希望和新的开始",
+        "sfx": "阳光中细微的空气流动声",
+        "ai_image_prompt": "Cinematic wide shot of golden sunset light streaming through tall factory workshop windows, shafts of warm amber light cutting diagonally across the industrial space, dust particles floating in the light beams, warm color palette filling the entire frame, symbol of hope and new beginnings, beautiful industrial interior, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "三人站在被夕阳染成金色的办公室中，赵建国拍了拍林宇的肩膀，三人面带笑容，画面渐暗。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "拍林宇肩膀",
+            "expression": "释然、微笑",
+            "position": "中"
+          },
+          {
+            "name": "林宇",
+            "action": "站立，微笑",
+            "expression": "欣慰、坚定",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "站在一旁微笑",
+            "expression": "欣慰",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "夕阳金光中三人的身影，承前启后的温暖结尾",
+        "sfx": "温暖弦乐渐强",
+        "ai_image_prompt": "Cinematic medium shot of three people standing in a factory office bathed in golden sunset light, a 55-year-old stocky man in khaki jacket patting the shoulder of a 30-year-old man with short curly black hair in dark gray blazer, a 28-year-old woman with gold-rimmed glasses in black turtleneck smiling nearby, warm amber tones enveloping them, dust motes in golden light, hopeful and warm ending, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "video_id_prefix": "DM-003-EP19",
+  "episode": 19,
+  "episode_title": "破局之道",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "林宇提出方案——不需要一次性掏钱！接驳绿迹系统精准定位浪费源头，对接绿色金融贷款，用省下的电费付设备分期。",
+  "emotion_tone": "希望、务实",
+  "connection": {
+    "from_previous": "赵总承认机器老，态度松动",
+    "to_next": "关键数据'低8%'揭示"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP19-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "林宇胸有成竹展示方案，节奏明快有力",
+      "color_palette": ["#2E5E4E", "#4A90D9", "#F5F5DC"],
+      "lighting": "办公室/会客厅暖白光，平板屏幕光映在脸上",
+      "weather": "室内"
+    },
+    "video_prompt": "Inside a factory office, a confident 30-year-old Chinese man in dark gray blazer and white t-shirt passionately presents a proposal on a tablet to a skeptical older man in khaki jacket. He gestures energetically explaining a cost-saving plan. Hopeful and pragmatic atmosphere. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "轻快钢琴旋律配以渐入的弦乐，节奏递进上扬",
+      "mood": "希望、自信、务实"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇站起来，双手张开面向赵建国，语气笃定有力地说出方案核心——不需要一次性掏钱。赵建国坐在椅子上，微微皱眉。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "站起来，双手张开，语气笃定",
+            "expression": "有力、坚定",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "坐在椅子上听",
+            "expression": "皱眉、防备",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "不需要您一次性掏钱！",
+          "emotion": "有力"
+        },
+        "atmosphere": "林宇打破僵局，语气中带着不容置疑的自信",
+        "sfx": "椅子移动声",
+        "ai_image_prompt": "Cinematic medium shot inside a factory office, a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt standing up with both hands open in a confident declarative gesture, facing a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket and dark polo sitting in a chair frowning skeptically, warm overhead lighting, industrial office setting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国微微一怔，眉头稍松，嘴角带着怀疑但没有打断。林宇抓住机会继续。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "微怔，没有打断",
+            "expression": "怀疑但注意力被吸引",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "第一次没有被赵总打断，空气中有了松动的迹象",
+        "sfx": "环境低频嗡鸣",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket and dark polo, slightly stunned expression with eyebrows relaxing just a fraction, skeptical but his attention has been caught, seated in an industrial office, warm lighting on his weathered face, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇拿起平板，手指指向系统架构图，语气自信地解释绿迹系统如何精准定位浪费源头。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手指平板上的系统架构图",
+            "expression": "自信、专注",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "接驳我们的系统，精准定位浪费。",
+          "emotion": "自信"
+        },
+        "atmosphere": "手指所到之处，方案逐渐清晰如画",
+        "sfx": "手指触碰平板屏幕声",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a 30-year-old Chinese man with short curly black hair in dark gray blazer holding a tablet device, his finger pointing at a system architecture diagram on screen, confident focused expression, tablet screen glow reflecting on his face, factory office background blurred, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "平板屏幕特写：系统界面显示能耗分析图、浪费源标记和节省金额预测。林宇的手指划过关键数据。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手指划过平板关键数据",
+            "expression": null,
+            "position": "手部"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "数据可视化让抽象方案变得具象，说服力倍增",
+        "sfx": "手指滑动屏幕声",
+        "ai_image_prompt": "Cinematic extreme close-up top-down view of a tablet screen showing an energy analysis dashboard with waste source markers highlighted in red and cost saving projections in green, a man's hand with fingers swiping across key data points, screen glow illuminating fingers, sleek modern interface design, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇比划出递进手势，兴奋地解释用省下来的电费付设备分期。赵建国身体微微前倾，开始认真听。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "比划递进手势，表情兴奋",
+            "expression": "兴奋、热切",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "身体微微前倾",
+            "expression": "认真、思考",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "用省下来的电费付设备分期！",
+          "emotion": "兴奋"
+        },
+        "atmosphere": "方案的闭环逻辑击中要害，赵总身体语言出现变化",
+        "sfx": "环境声趋于安静，凸显对话",
+        "ai_image_prompt": "Cinematic medium shot inside a factory office, a 30-year-old Chinese man with short curly black hair in dark gray blazer making an escalating hand gesture with excitement while explaining, facing a 55-year-old stocky man in khaki jacket and dark polo who is leaning forward slightly in his chair with growing interest, warm lighting, shift in body language indicating breakthrough, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国低头看了一眼自己粗糙的双手，又抬眼看向林宇，表情从防备逐渐转为沉思。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "低头看手，又抬眼看林宇",
+            "expression": "沉思、松动",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "粗糙的手象征多年的辛苦经营，眼神里有了一丝光亮",
+        "sfx": "时钟滴答声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket, looking down at his own rough calloused hands then raising his eyes to look at someone off-camera, expression shifting from guarded skepticism to thoughtful consideration, a glimmer of interest appearing in his eyes, warm office lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP19-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "绿色金融方案展开，赵总由疑到好奇",
+      "color_palette": ["#3A7D5C", "#D4AF37", "#F0EAD6"],
+      "lighting": "办公室柔和暖光，平板屏幕蓝绿光映射",
+      "weather": "室内"
+    },
+    "video_prompt": "In a factory office, a young man in dark gray blazer presents a green finance loan plan on a tablet to an older factory owner in khaki jacket. The older man's expression shifts from doubt to curiosity as he hears the term 'green finance' for the first time. Pragmatic and hopeful scene. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "弦乐轻柔铺底，钢琴点缀出好奇的旋律，渐入暖色调",
+      "mood": "务实、好奇、希望微露"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇翻到方案中的绿色金融页面，将平板推向赵建国，语气沉稳务实。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "翻页，将平板推向赵建国",
+            "expression": "务实、沉稳",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "双臂交叉但身体前倾看",
+            "expression": "半信半疑",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "我们帮您对接绿色金融贷款。",
+          "emotion": "务实"
+        },
+        "atmosphere": "方案进入实操层面，赵总的防线继续松动",
+        "sfx": "平板滑过桌面声",
+        "ai_image_prompt": "Cinematic medium shot in a factory office, a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt sliding a tablet across a desk toward a 55-year-old stocky man in khaki jacket and dark polo who sits with arms crossed but leaning forward, green finance page visible on tablet screen, steady pragmatic atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "平板屏幕特写：绿色金融贷款方案页面，利率、还款周期、政府补贴等关键信息高亮显示。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "俯视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "清晰的金融数据让方案可信度大增",
+        "sfx": "屏幕光微微闪烁",
+        "ai_image_prompt": "Cinematic extreme close-up top-down of a tablet screen showing a green finance loan proposal page with key data highlighted including interest rates, repayment schedule, and government subsidies in green and gold colors, clean professional layout, screen glow, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国松开交叉的双臂，一只手伸向平板，手指悬在屏幕上方但还没碰到，犹豫着。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "伸手向平板，手指悬停",
+            "expression": "好奇、犹豫",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "伸出的手象征着心理防线开始瓦解",
+        "sfx": "安静，只有呼吸声",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a 55-year-old stocky Chinese man with buzz-cut graying hair uncrossing his arms and reaching one rough weathered hand toward a tablet on the desk, fingers hovering above the screen hesitantly, curiosity overcoming resistance, warm office lighting on his hand, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国抬起头，眉头微松，嘴里嘟囔着'绿色金融？'——他第一次正眼看方案内容。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "抬头，嘟囔着",
+            "expression": "半信半疑、眉头松动",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "绿色金融？",
+          "emotion": "半信半疑、眉头松动"
+        },
+        "atmosphere": "两个字如一颗石子投入死水，泛起涟漪",
+        "sfx": "安静，话语回响感",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket and dark polo raising his head, eyebrows slightly relaxed, muttering the words green finance with a half-skeptical half-curious expression, first time genuinely engaging with the proposal, warm lighting catching his eyes, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇微微点头，控制住兴奋，保持专业的微笑。他知道鱼上钩了。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "微微点头，控制住兴奋",
+            "expression": "专业微笑、内心激动",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "林宇克制的表情下藏着突破的喜悦",
+        "sfx": "轻微的呼吸声",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt nodding slightly with a restrained professional smile, barely containing his excitement, knowing his proposal has finally caught the client's interest, warm office lighting, eyes bright with suppressed triumph, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "两人隔着桌子对视，赵建国手已经放在平板边缘。桌面上的茶杯冒着热气，气氛从对峙转为对话。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "保持微笑对视",
+            "expression": "沉稳、期待",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "手放在平板边缘，对视",
+            "expression": "审视、松动",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "从对峙到对话，茶杯热气如关系解冻的隐喻",
+        "sfx": "茶杯蒸汽升腾的细微声",
+        "ai_image_prompt": "Cinematic medium shot of two men facing each other across a desk in a factory office, a 30-year-old man with short curly black hair in dark gray blazer on the right with a steady expectant smile, and a 55-year-old stocky man with buzz-cut graying hair in khaki jacket on the left with his hand resting on the edge of a tablet, a steaming tea cup on the desk between them, atmosphere shifting from confrontation to conversation, warm lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

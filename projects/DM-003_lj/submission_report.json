@@ -1,0 +1,23 @@
+{
+  "project_id": "DM-003",
+  "project_name": "绿迹",
+  "submitted_at": "2026-02-21T07:58:07.159423+00:00",
+  "api_base": "http://localhost:3456",
+  "real_submit": true,
+  "total_tasks": 10,
+  "submitted_tasks": 10,
+  "failed_tasks": 0,
+  "task_codes": [
+    "SD-20260221-03ld-079",
+    "SD-20260221-03ld-080",
+    "SD-20260221-03ld-081",
+    "SD-20260221-03ld-082",
+    "SD-20260221-03ld-083",
+    "SD-20260221-03ld-084",
+    "SD-20260221-03ld-085",
+    "SD-20260221-03ld-086",
+    "SD-20260221-03ld-087",
+    "SD-20260221-03ld-088"
+  ],
+  "failed_items": []
+}

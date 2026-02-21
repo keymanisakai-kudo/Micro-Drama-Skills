@@ -1,0 +1,411 @@
+{
+  "video_id_prefix": "DM-003-EP09",
+  "episode": 9,
+  "episode_title": "放学路上",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "傍晚,林宇接小侄子童童放学,走在工业区边缘的街道上。远处烟囱冒着灰白色烟。疲惫的舅舅和天真的孩子并肩走过灰蒙蒙的街道。",
+  "emotion_tone": "疲惫、温情",
+  "connection": {
+    "from_previous": "苏娜说面临清算",
+    "to_next": "童童画画"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP09-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "傍晚校门口，温暖与疲惫交织",
+      "color_palette": ["#D4956B", "#7A8B99", "#3C3C3C"],
+      "lighting": "傍晚暖黄色夕阳低角度侧光，人物剪影边缘镀金",
+      "weather": "灰蒙蒙的傍晚，天空泛黄"
+    },
+    "video_prompt": "Evening scene at a primary school gate, a 7-year-old boy with mushroom-cut black hair in blue-white striped shirt and dark blue overalls with a yellow star-keychain backpack runs excitedly toward a tired 30-year-old man in dark gray blazer and white t-shirt. The man smiles wearily, takes the boy's hand, and they begin walking away together. Warm golden sunset light, hazy industrial skyline in the distance. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "轻柔钢琴旋律，偶尔加入大提琴低音衬底",
+      "mood": "温暖、略带忧伤"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "傍晚小学校门口，家长三三两两等候。林宇靠在路灯柱上，低头看手机，眉间带着倦意。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "靠在路灯柱上低头看手机",
+            "expression": "疲惫、心事重重",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "傍晚校门口的日常场景，夕阳在工业区天际线上投下暖光",
+        "sfx": "校园铃声远处传来、孩子们的欢笑声",
+        "ai_image_prompt": "Cinematic medium shot of a tired 30-year-old Chinese man with short slightly curly black hair wearing a dark gray blazer over white t-shirt leaning against a lamppost outside a primary school gate, looking down at his phone with weary expression, other parents waiting in the background, warm golden evening light with hazy industrial skyline silhouette in the far distance, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "校门大开，孩子们涌出。童童背着黄色书包从人群中冒出，大眼睛亮起，发现舅舅。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "从人群中冒出，眼睛亮起",
+            "expression": "惊喜、兴奋",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "孩子涌出校门的热闹中，童童的惊喜像一束光",
+        "sfx": "孩子们吵闹声、书包碰撞声",
+        "ai_image_prompt": "Cinematic medium shot from slightly above of a 7-year-old Chinese boy with mushroom-cut black hair and big curious dark eyes emerging from a crowd of schoolchildren at a school gate, wearing a blue-white striped shirt under dark blue overalls with a yellow backpack featuring a star keychain, his face lighting up with excitement spotting someone, warm evening golden-hour light, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "童童张开双臂兴奋地喊'舅舅！'，小跑着冲向林宇，书包在身后一颠一颠。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍",
+          "angle": "低角度"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "张开双臂小跑，书包颠动",
+            "expression": "兴奋、天真",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "童童",
+          "text": "舅舅！",
+          "emotion": "兴奋、天真"
+        },
+        "atmosphere": "孩子的奔跑带来纯真的温暖，打破成人世界的疲惫",
+        "sfx": "小脚步快速跑动声、书包星星挂坠叮当声",
+        "ai_image_prompt": "Cinematic medium shot from low angle tracking a 7-year-old Chinese boy with mushroom-cut black hair running excitedly with arms open toward camera, wearing blue-white striped shirt and dark blue overalls, yellow backpack bouncing with a star keychain jingling, warm golden evening backlight creating a rim light around his small figure, school gate and other parents blurred in background, pure childish joy, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇抬头，疲惫的脸上浮现出柔软的笑容，蹲下身张开双臂迎接童童。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "收起手机，蹲下张开双臂",
+            "expression": "疲惫中露出温柔笑容",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "舅舅蹲下迎接的一刻，疲惫消融，温情涌上",
+        "sfx": "脚步接近声",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer over white t-shirt looking up from his phone, a tired face softening into a gentle warm smile, crouching down and opening his arms to receive someone, warm golden sunset light illuminating his face, background softly blurred with school gate elements, tender emotional moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇站起身，牵起童童的小手。'走，回家。'语气温柔但透着疲惫。两人开始并肩走。",
+        "camera": {
+          "type": "中景",
+          "movement": "横移跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "站起牵起童童的手，开始走",
+            "expression": "疲惫中带温柔",
+            "position": "右"
+          },
+          {
+            "name": "童童",
+            "action": "被牵着手，蹦蹦跳跳",
+            "expression": "开心",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "走，回家。",
+          "emotion": "疲惫中带温柔"
+        },
+        "atmosphere": "大手牵小手，简单却温暖的日常",
+        "sfx": "两人脚步声，大小交替",
+        "ai_image_prompt": "Cinematic medium shot tracking a 30-year-old Chinese man in dark gray blazer holding hands with a 7-year-old boy in blue-white striped shirt and dark blue overalls with yellow backpack, walking side by side away from a school gate, the man's expression tired yet tender, the boy bouncing happily, warm golden evening light casting long shadows on the pavement, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "远景：舅侄俩走入傍晚街道，远处工业区烟囱隐约可见，灰蒙蒙的天空中夕阳挣扎。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "牵着童童走向远方",
+            "expression": "沉默",
+            "position": "中偏右"
+          },
+          {
+            "name": "童童",
+            "action": "牵着舅舅的手，偶尔蹦一下",
+            "expression": "轻快",
+            "position": "中偏左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "温暖的日常画面与灰蒙的工业区背景形成对比，为下半段埋下伏笔",
+        "sfx": "远处工厂低频轰鸣、车辆路过声",
+        "ai_image_prompt": "Cinematic wide establishing shot of a man and small boy walking hand in hand down a hazy urban street at dusk, industrial smokestacks visible in the distance emitting grayish-white smoke against a muted orange sunset sky, the two small figures silhouetted against the industrial skyline, warm yet melancholic atmosphere, environmental storytelling, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP09-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "灰蒙工业区街道上的温情与忧虑",
+      "color_palette": ["#8C8C8C", "#D4A06A", "#4A5568"],
+      "lighting": "傍晚余晖微弱，路灯渐亮，天空灰黄交接",
+      "weather": "灰蒙蒙的傍晚，远处烟囱冒烟"
+    },
+    "video_prompt": "A man and a young boy walk along an industrial district street at dusk. Smokestacks emit grayish-white smoke in the distance. The boy points curiously at the chimneys asking why they keep smoking. The man answers absent-mindedly. Warm yet melancholic evening atmosphere. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "钢琴旋律变得若有所思，加入环境音效织体",
+      "mood": "温情中透出忧虑"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "舅侄俩走在工业区边缘的灰色街道上，两侧是低矮厂房和锈迹斑斑的铁栅栏。",
+        "camera": {
+          "type": "中景",
+          "movement": "横移跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "牵着童童走在人行道上",
+            "expression": "沉默、若有所思",
+            "position": "右"
+          },
+          {
+            "name": "童童",
+            "action": "左右张望，好奇打量周围",
+            "expression": "好奇",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "灰色工业街道上一大一小的身影，环境压抑但两人的手牵着温暖",
+        "sfx": "脚步声、远处货车隆隆声",
+        "ai_image_prompt": "Cinematic medium tracking shot of a 30-year-old Chinese man in dark gray blazer and a 7-year-old boy in blue-white striped shirt and dark blue overalls walking hand in hand along a gray industrial district sidewalk, rusty iron fences and low factory buildings on both sides, the man lost in thought while the boy looks around curiously, evening dusk light with warm-cool contrast, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "童童突然停下脚步，仰头抬手指向远处冒烟的烟囱群，大眼睛闪着好奇的光。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "停步，仰头，伸手指向远方",
+            "expression": "好奇、认真",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "童童",
+          "text": "舅舅，那些烟囱为什么一直冒烟？",
+          "emotion": "好奇"
+        },
+        "atmosphere": "孩子纯真的提问，触及大人逃避的现实",
+        "sfx": "远处工厂蒸汽排放声",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a 7-year-old Chinese boy with mushroom-cut black hair and big curious dark eyes stopping in his tracks, tilting his head back and pointing with one small hand toward the distance, blue-white striped shirt and dark blue overalls visible, yellow backpack with star keychain, innocent wonder on his face, blurred industrial smokestacks emitting gray-white smoke in the background, dusk lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "童童视角POV：远处数根工业烟囱冒着灰白色烟，烟雾缓缓升腾融入暗淡的天空。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "仰视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "从孩子仰望的角度看烟囱，巨大而不可理解，带着隐隐的不安",
+        "sfx": "低沉的工业噪音、风声",
+        "ai_image_prompt": "Cinematic wide shot from a child's low POV looking up at a cluster of industrial smokestacks against a darkening dusk sky, gray-white smoke billowing upward and dissolving into the hazy atmosphere, the chimneys appearing massive and ominous from below, muted orange-gray sky gradient, environmental pollution visualized through innocent eyes, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇低头看着童童，欲言又止，最终心不在焉地回答：'因为……它们在工作。'",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "低头看童童，嘴角微动",
+            "expression": "心不在焉、勉强回应",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "因为……它们在工作。",
+          "emotion": "心不在焉"
+        },
+        "atmosphere": "敷衍的回答背后藏着大人世界里的复杂心绪",
+        "sfx": "微弱叹息声",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer looking down with a distracted half-hearted expression, lips moving slightly as he gives an absent-minded answer, tired eyes revealing inner preoccupation, warm-cool split dusk lighting on his face, industrial haze in the soft-focus background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "童童歪头想了想，似懂非懂地点点头，又继续蹦跳着往前走，拽着舅舅的手。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "童童",
+            "action": "歪头思考后点头，继续蹦跳前行",
+            "expression": "似懂非懂、天真",
+            "position": "左"
+          },
+          {
+            "name": "林宇",
+            "action": "被童童拽着往前走",
+            "expression": "若有所思",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "孩子的天真接受与大人的沉重心事形成反差",
+        "sfx": "小脚蹦跳声、书包晃动声",
+        "ai_image_prompt": "Cinematic medium shot tracking from slightly above a 7-year-old boy with mushroom-cut black hair tilting his head in thought then nodding and hopping forward cheerfully, pulling a preoccupied 30-year-old man in dark gray blazer by the hand, industrial street at dusk, the boy's yellow backpack star keychain swinging, innocent acceptance contrasted with adult burden, warm fading light, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "远景：舅侄俩渐行渐远，灰蒙街道尽头烟囱群的轮廓在暮色中若隐若现。林宇回头看了一眼烟囱。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "走着回头看了一眼远处烟囱",
+            "expression": "沉重",
+            "position": "中"
+          },
+          {
+            "name": "童童",
+            "action": "牵着舅舅手蹦跳前行",
+            "expression": "无忧",
+            "position": "中偏左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "两个世界——孩子的无忧与大人的沉重，都笼罩在灰蒙蒙的工业暮色中",
+        "sfx": "远处工厂汽笛长鸣、风声",
+        "ai_image_prompt": "Cinematic wide shot of a man and small boy walking away down a gray hazy street toward the horizon at dusk, the man glancing back over his shoulder at the industrial smokestacks behind them, their two figures small against the vast industrial landscape, chimneys silhouetted and smoking in the fading light, melancholic yet tender atmosphere, environmental narrative, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "video_id_prefix": "DM-003-EP17",
+  "episode": 17,
+  "episode_title": "看不见的漏斗",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "林宇解释：不环保=高碳税=价格优势被吃掉。「工厂像一个漏斗，利润正随着黑烟排到天上！」赵总眼神微变。",
+  "emotion_tone": "震撼、说服力",
+  "connection": {
+    "from_previous": "赵总给了三分钟",
+    "to_next": "具体数据"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP17-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "林宇抛出核心论点，逻辑严密步步推进",
+      "color_palette": ["#2C3E50", "#E74C3C", "#F39C12"],
+      "lighting": "车间侧光照在方案图表上，林宇面部被文件反光映亮",
+      "weather": "室内停工车间"
+    },
+    "video_prompt": "Inside a factory workshop, a young man in dark gray blazer passionately explains charts on a proposal to a stern older man in khaki jacket, pointing at data and speaking with intense conviction about carbon taxes and lost price advantages, the older man listening with arms crossed, persuasive argument scene. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "节奏感渐增的钢琴和弦乐，配合论点层层推进",
+      "mood": "紧迫、有力、说服"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇站在方案前，手指敲着图表上标注「德国退单」的数据行，语气沉稳有力地切入核心。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手指敲击图表，目视赵建国",
+            "expression": "沉稳、有力",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "德国人退单不是嫌您质量差。",
+          "emotion": "有力"
+        },
+        "atmosphere": "开场论点直击要害，空气一紧",
+        "sfx": "手指敲击纸面声",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt, tapping his finger on a chart showing order cancellation data, looking straight at someone off-camera with steady conviction, a proposal document spread on a machine surface below, factory workshop dim background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国眉头微动，原本抱胸的手臂稍微松了些，说明「质量差」这个否定引起了他的注意。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "眉头微动，双臂稍松",
+            "expression": "疑惑、注意",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "否定让赵建国产生好奇，防线开始松动",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket and dark polo, eyebrows twitching with interest, arms slightly uncrossing from their defensive position, a hint of curiosity breaking through his stern expression, dim factory workshop lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇加重语气，用食指用力点着图表上「碳税」一栏的红色数字，声音提高。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "食指用力点着碳税数据",
+            "expression": "强调、认真",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "是不环保等于要交高额碳税！",
+          "emotion": "强调"
+        },
+        "atmosphere": "真相揭露的冲击如重锤落下",
+        "sfx": "手指重击纸面声",
+        "ai_image_prompt": "Cinematic close-up from slightly below of a 30-year-old Chinese man with short curly black hair in dark gray blazer, emphatically pointing his index finger at red numbers on a chart labeled carbon tax, voice raised, face intense with conviction, proposal document visible below with data tables, factory lighting from above, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "图表特写：一张对比表，左列是出厂价优势，右列是碳税加成后的总价，优势被完全吞噬。红色箭头标注。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢下移",
+          "angle": "俯视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "冰冷的数据比任何言语都有说服力",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic extreme close-up top-down shot of a printed comparison chart on paper, left column showing factory price advantage with green numbers, right column showing total price after carbon tax surcharge with red numbers completely erasing the advantage, red arrows indicating the gap, a finger pointing at the critical row, document on a dusty machine surface, dim factory lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇语速加快，激动地一拍图表：「您的价格优势全被碳成本吃掉了！」身体微微前倾。",
+        "camera": {
+          "type": "中景",
+          "movement": "快速推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "一拍图表，身体前倾",
+            "expression": "激动、急切",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "微微后仰，被气势所摄",
+            "expression": "震动",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "您的价格优势全被碳成本吃掉了！",
+          "emotion": "激动"
+        },
+        "atmosphere": "激情的陈述撕裂了赵建国的认知茧房",
+        "sfx": "拍击桌面声、回响",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man in dark gray blazer leaning forward passionately and slapping his hand on a chart on a machine surface, speaking with intense conviction, and a 55-year-old stocky man in khaki jacket on the left leaning back slightly, visibly shaken by the argument, factory workshop machines in background, dramatic lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国的表情特写：目光从图表移到林宇脸上，嘴唇微张，呼吸变重。他被动摇了。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "目光从图表移到林宇脸上",
+            "expression": "震动、若有所思",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "沉默中酝酿着认知的转变",
+        "sfx": "沉重呼吸声",
+        "ai_image_prompt": "Cinematic extreme close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair, his eyes shifting from looking down at a chart to looking up at someone, lips slightly parted, breathing heavier, expression of dawning realization and shock, khaki jacket collar visible, half-lit face in factory workshop light, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP17-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "漏斗比喻震撼人心，赵建国的沉默比言语更有力",
+      "color_palette": ["#1A1A2E", "#C0392B", "#F4D03F"],
+      "lighting": "窗外烟囱方向有微光，车间内侧光打在面部",
+      "weather": "室内停工车间，窗外可见烟囱"
+    },
+    "video_prompt": "Inside a factory workshop, a young man in dark gray blazer uses a vivid funnel metaphor, gesturing with his hands, pointing at smokestacks through the window, describing profits escaping as black smoke. An older stocky man in khaki jacket stares silently at charts, his eyes subtly changing. Powerful persuasion scene. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "弦乐渐强推至高潮后突然安静，只留钢琴余音",
+      "mood": "震撼、沉重、觉醒"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇双手在空中比划出漏斗形状，用生动的比喻吸引赵建国的注意：「您的工厂就是一个漏斗——」",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "双手比划漏斗形状",
+            "expression": "比喻、生动",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "注视林宇的手势",
+            "expression": "专注",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "您的工厂就是一个漏斗——",
+          "emotion": "比喻"
+        },
+        "atmosphere": "形象的比喻瞬间抓住注意力",
+        "sfx": "手势划过空气的轻响",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt gesturing with both hands in the air forming a funnel shape, speaking vividly to a 55-year-old stocky man in khaki jacket who watches the gesture intently, dim factory workshop with idle machines around them, compelling metaphor moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "林宇猛地转身指向窗外的烟囱方向，声音斩钉截铁：「利润正随着黑烟排到天上！」",
+        "camera": {
+          "type": "近景",
+          "movement": "快速跟拍",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "转身指向窗外烟囱",
+            "expression": "斩钉截铁",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "利润正随着黑烟排到天上！",
+          "emotion": "斩钉截铁"
+        },
+        "atmosphere": "手指所向正是利润消散之处，震撼有力",
+        "sfx": "衣袖挥动声",
+        "ai_image_prompt": "Cinematic close-up from slightly below of a 30-year-old Chinese man with short curly black hair in dark gray blazer, turning sharply and pointing his arm toward a factory window, speaking with absolute conviction, his profile silhouetted against the window light where smokestacks are faintly visible outside, dramatic emphatic gesture, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "窗外视角：工厂烟囱在灰色天空下的剪影，虽已停工但残烟未散，象征着利润的流失。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "微仰"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "烟囱剪影如巨大的漏斗倒立在天际",
+        "sfx": "风声呼啸",
+        "ai_image_prompt": "Cinematic wide shot looking up through a factory window at industrial smokestacks silhouetted against a gray overcast sky, wisps of residual smoke still drifting upward, symbol of profits being lost to the sky, grim industrial atmosphere, shot through dusty glass with metal window frame in foreground, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国被比喻击中，目光缓缓移到桌面的图表上，嘴唇紧闭，喉结微微滚动。沉默。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "目光移向图表，喉结滚动",
+            "expression": "震动、沉默",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "沉默是最有力的回应——他已被说动",
+        "sfx": "沉重的吞咽声",
+        "ai_image_prompt": "Cinematic extreme close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket, his eyes slowly dropping to look at something below, lips pressed tightly shut, Adam's apple visibly moving as he swallows hard, deeply affected expression, half-lit face in dim factory lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国低头盯着图表上的碳成本数据，手指无意识地在桌面轻敲。林宇安静地等待回应。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "低头盯图表，手指轻敲桌面",
+            "expression": "沉思、震动",
+            "position": "左"
+          },
+          {
+            "name": "林宇",
+            "action": "安静站立等待",
+            "expression": "屏息期待",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "……",
+          "emotion": "沉默、眼神微变"
+        },
+        "atmosphere": "手指轻敲声代替了语言，思维在运转",
+        "sfx": "手指轻敲金属台面声",
+        "ai_image_prompt": "Cinematic medium shot from slightly above of a 55-year-old stocky man in khaki jacket staring down at a chart on a machine surface, fingers unconsciously tapping on the metal, deep in thought, and a 30-year-old man in dark gray blazer standing quietly on the right waiting expectantly, dim factory workshop with dust in the air, contemplative tension, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国缓缓抬起头，眼神已经不同——从抗拒变成了审视。他看向林宇，像是第一次认真打量这个年轻人。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "抬头审视林宇",
+            "expression": "审视、微变",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "目光转变的瞬间，说服已经生效",
+        "sfx": "安静、远处风声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair slowly raising his head, his eyes now different from before showing careful scrutiny instead of rejection, looking at someone as if seeing them for the first time, khaki jacket, half-lit face, eyes reflecting a shift in thinking, factory workshop blurred background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

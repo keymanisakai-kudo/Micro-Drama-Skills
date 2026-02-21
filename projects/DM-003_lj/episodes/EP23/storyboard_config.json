@@ -1,0 +1,422 @@
+{
+  "video_id_prefix": "DM-003-EP23",
+  "episode": 23,
+  "episode_title": "三年大单",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "视频会议画面——德国客户竖起大拇指签下三年长期订单。赵总激动地拥抱林宇。“谢谢你啊,小林!”",
+  "emotion_tone": "高潮、胜利",
+  "connection": {
+    "from_previous": "工厂焕新",
+    "to_next": "赵总感悟"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP23-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "视频签约大获成功，激动狂喜",
+      "color_palette": ["#1E90FF", "#FFD700", "#FFFFFF"],
+      "lighting": "会议室明亮照明，屏幕蓝光映照",
+      "weather": "室内会议室"
+    },
+    "video_prompt": "In a modern conference room, a video call screen shows a smiling German client giving a thumbs up. The screen displays '3-Year Contract Signed'. A 55-year-old man in white shirt jumps up from his chair slapping the table in ecstatic joy. Celebration and triumph. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "振奋人心的管弦乐渐强，鼓点加速",
+      "mood": "胜利、激动、高潮"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "会议室大屏幕上，视频会议画面中德国客户西装革履，面带微笑，竖起大拇指。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "国际商务的庄重感中透出喜悦",
+        "sfx": "视频会议连线声",
+        "ai_image_prompt": "Cinematic medium shot of a large conference room screen showing a video call with a smiling European businessman in a suit giving a thumbs up, bright professional video conference setup, blue-tinted screen light in a modern meeting room, international business success moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "屏幕画面切换，显示合同确认页面：“3-Year Contract Signed”，金色字体闪烁。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "白纸黑字的确认，胜利的铁证",
+        "sfx": "电子签名确认声",
+        "ai_image_prompt": "Cinematic close-up of a conference room screen displaying a digital contract confirmation page reading '3-Year Contract Signed' in prominent golden text, official document layout with company logos and digital signatures, blue and gold color scheme, pivotal business moment captured on screen, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国猛地拍桌站起来，椅子向后滑出，大喊'成了'，脸上是压抑不住的狂喜。",
+        "camera": {
+          "type": "中景",
+          "movement": "快速推进",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "拍桌站起来，大喊",
+            "expression": "狂喜",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "成了！！",
+          "emotion": "狂喜"
+        },
+        "atmosphere": "积压多年的压力在这一刻爆发为纯粹的喜悦",
+        "sfx": "拍桌声、椅子滑动声",
+        "ai_image_prompt": "Cinematic medium shot from slightly below of a 55-year-old stocky Chinese man with buzz-cut graying hair in white dress shirt slamming his palm on a conference table and jumping to his feet, chair sliding back, face lit up with explosive joy, shouting in triumph, conference room with glowing screen behind him, cathartic moment of victory, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇和苏娜也站起来，林宇激动地握拳，苏娜双手捂嘴惊喜。会议室里其他同事也纷纷起立。",
+        "camera": {
+          "type": "中景",
+          "movement": "快速横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "站起来，激动握拳",
+            "expression": "激动、喜悦",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "双手捂嘴，惊喜",
+            "expression": "惊喜、感动",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "集体胜利的欢呼，努力终获回报",
+        "sfx": "椅子移动声、惊呼声",
+        "ai_image_prompt": "Cinematic medium panning shot in a conference room of a 30-year-old Chinese man with short curly black hair in dark gray blazer pumping his fist with excitement, and a 28-year-old woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck covering her mouth in joyful disbelief, other colleagues rising from their seats in the background, shared celebration, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国眼眶含泪，激动得声音颤抖，转向林宇走去。",
+        "camera": {
+          "type": "近景",
+          "movement": "跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "眼含热泪，向林宇走去",
+            "expression": "激动、热泪盈眶",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "五旬男人的热泪，是最真实的感恩",
+        "sfx": "安静，背景欢呼声渐起",
+        "ai_image_prompt": "Cinematic close-up tracking shot of a 55-year-old stocky Chinese man with buzz-cut graying hair in white dress shirt, eyes glistening with tears of joy, voice trembling with emotion, walking toward someone off-camera, overwhelming gratitude and triumph on his weathered face, conference room bright background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "会议室全景，屏幕上还显示着'签约成功'，所有人都站着，气氛热烈。赵建国正向林宇走去。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "向林宇方向走去",
+            "expression": "激动",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "面向赵总",
+            "expression": "喜悦",
+            "position": "左"
+          },
+          {
+            "name": "苏娜",
+            "action": "鼓掌",
+            "expression": "喜悦",
+            "position": "左偏后"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "胜利的全景定格，所有人共享这一刻",
+        "sfx": "掌声渐起",
+        "ai_image_prompt": "Cinematic wide shot of a bright conference room with a large screen still showing contract confirmation, everyone standing in celebration, a 55-year-old stocky man in white shirt walking toward a 30-year-old man in dark gray blazer, a woman with gold-rimmed glasses clapping nearby, colleagues applauding, triumphant atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP23-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "感恩拥抱，情感高潮",
+      "color_palette": ["#FFD700", "#FFA500", "#FFFACD"],
+      "lighting": "温暖明亮，会议室灯光+窗外阳光",
+      "weather": "室内，窗外阳光"
+    },
+    "video_prompt": "An emotional older man tearfully thanks a young man, calling him by name, then embraces him tightly. Everyone around them applauds. The young man smiles and pats the older man's back. Warm light, emotional climax of the story. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "温暖弦乐旋律达到高潮，钢琴伴奏，催泪而振奋",
+      "mood": "感恩、感动、胜利"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵建国走到林宇面前，双手抓住林宇的肩膀，眼含热泪，声音颤抖地说出感谢。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "双手抓住林宇肩膀，含泪感谢",
+            "expression": "激动、眼眶含泪",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "面对赵总",
+            "expression": "感动",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "谢谢你啊，小林！",
+          "emotion": "激动、眼眶含泪"
+        },
+        "atmosphere": "真诚的感恩，五十五岁男人的热泪最为动人",
+        "sfx": "微微颤抖的声音",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in white dress shirt, both hands gripping the shoulders of a 30-year-old man with short curly black hair in dark gray blazer, tears in his eyes, speaking with trembling voice full of gratitude, face-to-face emotional moment, warm bright conference room light, deeply moving scene, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "林宇眼眶也微微泛红，嘴唇抿了抿，用力点了点头。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "眼眶泛红，点头",
+            "expression": "感动、坚定",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "无需言语的回应，一个点头胜过千言万语",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt, eyes slightly reddened with emotion, pressing his lips together and nodding firmly, deeply moved by the older man's gratitude, warm light on his face, conference room background softly blurred, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国一把将林宇拉进怀里，紧紧拥抱。林宇先是一愣，随即微笑拥抱回去。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "紧紧拥抱林宇",
+            "expression": "感激、激动",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "被拥抱，微笑回抱",
+            "expression": "欣慰、感动",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "跨越年龄和身份的真挚拥抱，最动人的高潮",
+        "sfx": "拥抱拍背声",
+        "ai_image_prompt": "Cinematic medium shot of a 55-year-old stocky Chinese man in white shirt pulling a 30-year-old man with short curly black hair in dark gray blazer into a tight emotional embrace, the younger man surprised at first then smiling and hugging back, warm bright conference room, colleagues visible in background, deeply moving moment of gratitude between two generations, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "会议室中众人鼓掌，苏娜摘下眼镜擦了擦眼角，笑中带泪。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "摘下眼镜擦眼角，笑中带泪",
+            "expression": "感动落泪",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "旁观者的泪水为这一幕增添了更多温度",
+        "sfx": "掌声、轻微啜泣",
+        "ai_image_prompt": "Cinematic medium shot of a 28-year-old Chinese woman with shoulder-length black hair removing her gold-rimmed glasses to dab at tears in her eyes, smiling through her tears, colleagues clapping in the background, warm conference room lighting, emotional reaction to a touching scene, black turtleneck, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "拥抱中的两人侧面特写，赵建国眼角泪痕，林宇笑着轻轻拍赵总的背。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "紧抱，眼角泪痕",
+            "expression": "感激",
+            "position": "右"
+          },
+          {
+            "name": "林宇",
+            "action": "笑着拍赵总背",
+            "expression": "欣慰",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "（笑着拍赵总背）",
+          "emotion": "欣慰"
+        },
+        "atmosphere": "拍背的动作如无声的承诺——我一直都在",
+        "sfx": "轻轻拍背声",
+        "ai_image_prompt": "Cinematic close-up side profile of two men embracing, a 55-year-old stocky man with buzz-cut graying hair in white shirt with tear tracks on his cheek, and a 30-year-old man with short curly black hair in dark gray blazer smiling warmly while gently patting the older man's back, intimate emotional moment, warm light wrapping around them, conference room background blurred, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "会议室全景——两人分开，赵建国拍着林宇的手臂大笑，众人鼓掌欢呼，阳光从窗外洒入，画面温暖明亮。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "拍着林宇手臂大笑",
+            "expression": "开怀大笑",
+            "position": "中右"
+          },
+          {
+            "name": "林宇",
+            "action": "微笑",
+            "expression": "欣慰、喜悦",
+            "position": "中左"
+          },
+          {
+            "name": "苏娜",
+            "action": "鼓掌欢呼",
+            "expression": "喜悦",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "阳光、笑声、掌声——最完美的胜利定格",
+        "sfx": "掌声、欢呼声、笑声",
+        "ai_image_prompt": "Cinematic wide shot of a bright conference room filled with warm sunlight from windows, a 55-year-old stocky man in white shirt laughing heartily while patting the arm of a 30-year-old man in dark gray blazer who smiles warmly, a woman with gold-rimmed glasses in black turtleneck clapping nearby, other colleagues cheering and applauding, joyful triumphant atmosphere, golden light flooding the scene, story climax celebration, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

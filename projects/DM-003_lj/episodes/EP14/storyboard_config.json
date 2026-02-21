@@ -1,0 +1,424 @@
+{
+  "video_id_prefix": "DM-003-EP14",
+  "episode": 14,
+  "episode_title": "通宵备战",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "深夜，林宇和苏娜在办公室通宵整理数据、制作商业方案。电脑屏幕上的数据图表，桌上的外卖盒和咖啡杯。",
+  "emotion_tone": "紧张、专注",
+  "connection": {
+    "from_previous": "林宇决定重新出发",
+    "to_next": "次日带方案去找赵总"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP14-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "深夜办公室，紧张高效的数据整理",
+      "color_palette": ["#1A2332", "#3B82F6", "#F59E0B"],
+      "lighting": "电脑屏幕蓝光映射面部，台灯暖光作补光，窗外漆黑",
+      "weather": "室内深夜"
+    },
+    "video_prompt": "Late night in a modern office, two young Chinese professionals working intensely at a desk cluttered with takeout boxes and coffee cups. Computer screens glow with data charts and graphs. A woman with gold-rimmed glasses types rapidly while a man studies the data in shock. Tense, focused atmosphere. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "低沉电子脉冲节拍，间歇性钢琴快速音符，营造紧张工作氛围",
+      "mood": "紧张、专注、高效"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "深夜办公室全景，窗外城市灯火稀疏。桌上散落外卖盒、咖啡杯、打印纸。两台电脑屏幕亮着蓝光。林宇和苏娜埋头工作。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "坐在电脑前翻阅文件",
+            "expression": "专注",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "坐在另一台电脑前敲键盘",
+            "expression": "专注",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "深夜静谧的办公室，只有键盘声和电脑风扇的嗡鸣",
+        "sfx": "键盘敲击声、电脑风扇声、远处夜虫鸣",
+        "ai_image_prompt": "Cinematic wide shot from slightly above of a modern office late at night, two young Chinese professionals working at desks illuminated by blue computer screen glow, a 30-year-old man with short curly black hair in dark gray blazer on the right reviewing documents, a 28-year-old woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck typing on the left, takeout boxes coffee cups and printed papers scattered on desks, city lights dim through dark windows, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏娜屏幕上弹出一组能耗数据图表，她眼睛一亮，快速滑动鼠标，转头对林宇说话。屏幕蓝光映在她的金丝眼镜上。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "看着屏幕，转头对林宇说话",
+            "expression": "专注、发现",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏娜",
+          "text": "三号车间的能耗数据调出来了。",
+          "emotion": "专注"
+        },
+        "atmosphere": "数据发现的瞬间，带来一丝突破口的希望",
+        "sfx": "鼠标点击声、数据加载提示音",
+        "ai_image_prompt": "Cinematic close-up side profile of a 28-year-old Chinese woman with shoulder-length black hair and gold-rimmed glasses reflecting blue screen light, wearing black turtleneck, turning her head to speak to someone off-screen with focused excitement, computer monitor showing energy consumption data charts glowing blue, dark office background with warm desk lamp, late night atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "电脑屏幕特写：能耗数据柱状图，三号车间标红，空转率数字'30%'醒目显示。林宇的手指在屏幕上划过数据。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手指指向屏幕上的数据",
+            "expression": "震惊",
+            "position": "右手入画"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "关键数据浮现，问题核心昭然若揭",
+        "sfx": "手指触屏声",
+        "ai_image_prompt": "Cinematic extreme close-up of a computer monitor screen showing energy consumption bar charts with a highlighted section in red, the number 30 percent prominently displayed, a man's hand with fingers pointing at the critical data on screen, blue screen glow illuminating the fingertips, dark office reflections in the monitor, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇身体后仰靠在椅背上，双手抱头，震惊地盯着屏幕。外卖盒和空咖啡杯在桌角。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "后仰靠椅，双手抱头",
+            "expression": "震惊、恍然大悟",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "空转率30%……难怪。",
+          "emotion": "震惊"
+        },
+        "atmosphere": "真相揭开后的震撼，一切谜团串联起来",
+        "sfx": "椅子吱呀声",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt leaning back in an office chair with both hands behind his head, staring at the computer screen in shock and realization, takeout boxes and empty coffee cups on the desk corner, blue screen glow on his stunned face, dark late-night office, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "苏娜推了推眼镜，迅速在笔记本上写下要点，林宇也坐直身体凑过来一起看屏幕，两人开始讨论。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "推眼镜，在笔记本上快速记录",
+            "expression": "冷静、高效",
+            "position": "左"
+          },
+          {
+            "name": "林宇",
+            "action": "坐直身体凑近屏幕",
+            "expression": "振作、专注",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "从震惊转为行动，两人默契配合进入高效工作状态",
+        "sfx": "笔尖书写声、纸张翻动声",
+        "ai_image_prompt": "Cinematic medium shot of two young Chinese professionals working together at a desk at night, a 28-year-old woman with shoulder-length black hair pushing up gold-rimmed glasses while writing rapidly in a notebook, a 30-year-old man with short curly black hair in dark gray blazer leaning forward to study the computer screen together, both focused and energized, blue screen light and warm desk lamp creating dual-tone lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "桌面特写：散落的数据打印纸、标记过的彩色便签、半杯冷咖啡、外卖残余。两双手在键盘和纸张间忙碌。时钟显示凌晨2:47。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢下移",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "手在键盘上敲击",
+            "expression": "专注",
+            "position": "右手入画"
+          },
+          {
+            "name": "苏娜",
+            "action": "手在纸上写字",
+            "expression": "专注",
+            "position": "左手入画"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "通宵工作的痕迹遍布桌面，时间在数据与咖啡间流逝",
+        "sfx": "键盘声、钟表滴答声",
+        "ai_image_prompt": "Cinematic overhead close-up of a cluttered office desk late at night, scattered printed data sheets with colorful sticky notes and highlights, a half-full cold coffee cup, takeout containers, two pairs of hands busy at keyboard and notebook, a small desk clock showing 2:47 AM, warm desk lamp casting golden light on the mess of papers, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP14-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "方案逐渐成型，从紧张转向坚定希望",
+      "color_palette": ["#1E3A5F", "#F59E0B", "#FFFFFF"],
+      "lighting": "台灯暖光渐强，屏幕蓝光为辅，黎明前最暗时刻",
+      "weather": "室内深夜至凌晨"
+    },
+    "video_prompt": "Late night office, two young Chinese professionals finalizing a business proposal. Woman points at financial data on screen. Man writes a title on a proposal cover with determination and a smile. Warm desk lamp and blue screen glow. Takeout boxes and coffee cups. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "钢琴旋律渐入，从低沉转为温暖上升，弦乐轻轻加入",
+      "mood": "从紧张转向坚定、希望"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "苏娜屏幕上切换到绿色金融贷款政策页面，她用手指指着屏幕上的条款，冷静分析。咖啡杯旁边放着标满笔记的文件。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "过肩"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "指着屏幕上的金融政策条款",
+            "expression": "冷静、自信",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏娜",
+          "text": "绿色金融贷款这条路走得通。",
+          "emotion": "冷静"
+        },
+        "atmosphere": "专业分析中找到突破口，冷静的自信逐渐浮现",
+        "sfx": "鼠标滚轮声、翻页声",
+        "ai_image_prompt": "Cinematic over-the-shoulder close-up of a 28-year-old Chinese woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck, pointing at a computer screen showing green finance loan policy documents, calm confident expression, annotated documents and coffee cup beside the keyboard, warm desk lamp light mixing with blue screen glow, late night office, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "林宇站起来走到白板前，快速画出方案框架图——节能改造、绿色贷款、订单恢复三个板块用箭头连接。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "站在白板前画框架图",
+            "expression": "专注、兴奋",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "方案框架清晰浮现，思路打通的兴奋感",
+        "sfx": "马克笔在白板上的书写声",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt standing at a whiteboard in a dark office, drawing a framework diagram with arrows connecting three blocks of text, focused and excited expression, blue marker in hand, desk lamp providing warm backlighting, late night working atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "苏娜走到白板旁，在林宇画的框架下方补充数据要点。两人并肩站在白板前，方案雏形完整。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "看着苏娜补充内容，点头",
+            "expression": "认可、振奋",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "在白板上补充数据",
+            "expression": "冷静、高效",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "默契搭档，方案逐步完善",
+        "sfx": "马克笔声、纸张沙沙声",
+        "ai_image_prompt": "Cinematic medium shot of two young Chinese professionals standing side by side at a whiteboard in a dark late-night office, a 28-year-old woman with shoulder-length black hair and gold-rimmed glasses writing data points below a framework diagram, a 30-year-old man with short curly black hair in dark gray blazer nodding approvingly, whiteboard filled with connected charts and notes, warm desk lamp light from behind, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "打印机吐出方案页面，林宇一页页整理装订。苏娜递过一个干净的文件封面。桌上咖啡杯已空。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "整理打印出的方案页面",
+            "expression": "认真、期待",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "递过文件封面",
+            "expression": "微笑、配合",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "方案付诸纸面，即将成型",
+        "sfx": "打印机运转声、纸张整理声",
+        "ai_image_prompt": "Cinematic close-up from slightly above of a desk with a printer outputting pages, a 30-year-old Chinese man with short curly black hair in dark gray blazer neatly stacking and binding proposal pages, a 28-year-old woman with gold-rimmed glasses handing him a clean document cover, empty coffee cups on desk, warm lamp light creating a golden glow, late night office atmosphere of completion, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇拿起黑色签字笔，在方案封面工工整整写下四个大字：「找回订单」。笔尖特写，笔画有力。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "在封面上写字",
+            "expression": "坚定、微笑",
+            "position": "手部入画"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "封面就写四个字：找回订单。",
+          "emotion": "坚定、微笑"
+        },
+        "atmosphere": "四个字承载着全部决心与希望",
+        "sfx": "笔尖书写声",
+        "ai_image_prompt": "Cinematic extreme close-up of a hand holding a black pen writing four bold Chinese characters on a clean white proposal cover, powerful confident strokes, warm golden lamp light illuminating the paper, the pen tip in sharp focus with the rest of the desk beautifully blurred, sense of determination and hope, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "完成的方案放在桌上，封面「找回订单」四字醒目。林宇和苏娜对视一眼，疲惫但坚定地微笑。窗外天色开始泛白。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "看着苏娜微笑",
+            "expression": "疲惫但坚定",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "回以微笑",
+            "expression": "疲惫但欣慰",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "通宵的成果摆在面前，黎明将至，希望重燃",
+        "sfx": "晨鸟初啼、远处车辆启动声",
+        "ai_image_prompt": "Cinematic medium shot of two exhausted but determined young Chinese professionals sharing a look and tired smiles across a cluttered desk, a completed proposal document with bold Chinese title on the cover between them, a 30-year-old man with short curly black hair in dark gray blazer on the right and a 28-year-old woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck on the left, first light of dawn beginning to glow through the office window behind them, warm and hopeful atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

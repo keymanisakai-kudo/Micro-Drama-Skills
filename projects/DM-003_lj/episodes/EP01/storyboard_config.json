@@ -1,0 +1,458 @@
+{
+  "video_id_prefix": "DM-003-EP01",
+  "episode": 1,
+  "episode_title": "灰色的天空",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "aspect_ratio": "16:9",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 6,
+    "style_name": "Dark Thriller",
+    "style_name_cn": "暗黑悬疑",
+    "camera": "ARRI ALEXA 65",
+    "film_stock": "Kodak Vision3 500T 5219",
+    "filter": "ND1.2, Black Pro Mist 1/8",
+    "focal_length": "27mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on ARRI ALEXA 65, Kodak Vision3 500T, dark thriller atmosphere, high contrast chiaroscuro lighting, desaturated cold tones, noir shadows, tension"
+  },
+  "subtitle": false,
+  "synopsis": "工业城市俯瞰全景，烟囱林立，灰蒙蒙的天空笼罩一切。旁白引出碳关税时代的残酷现实——天空灰了，订单也灰了。有人看到危机，有人看到转机。",
+  "emotion_tone": "压抑、沉重、悬念",
+  "connection": {
+    "from_previous": "无（第一集开场）",
+    "to_next": "引出赵建国工厂退单事件"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP01-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "灰暗压抑的工业氛围，浓烟弥漫的城市天际线",
+      "color_palette": ["#2E2E2E", "#5A5A5A", "#8B8178"],
+      "lighting": "阴沉天光，高对比明暗法，冷调灰色漫射光",
+      "weather": "阴天，空气中有薄雾和工业扬尘"
+    },
+    "scene_refs": ["scene_03", "scene_04", "scene_05"],
+    "prop_refs": [],
+    "video_prompt": "Aerial establishing shot of a Chinese industrial city, rows of factory chimneys emitting gray-white smoke, overcast sky, hazy polluted atmosphere, slowly panning across the industrial district, shot on ARRI ALEXA 65, dark thriller atmosphere, desaturated cold tones. No subtitles.",
+    "bgm": {
+      "description": "低沉大提琴与工业环境音的混合，弦乐不协和音",
+      "mood": "沉重、压抑、宏大"
+    },
+    "storyboard_9grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 1.7,
+        "scene_description": "黑屏渐入，工业城市远景航拍，密集烟囱冒出灰白色浓烟，天空一片灰蒙。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢推进",
+          "angle": "俯视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "宏大而压抑的工业全景，烟雾笼罩整座城市",
+        "sfx": "远处机器轰鸣声",
+        "ai_image_prompt": "Aerial cinematic view of a sprawling Chinese industrial city, dozens of factory chimneys billowing gray-white smoke into an overcast sky, smog and haze hanging low over concrete buildings, desaturated cold color palette, oppressive chiaroscuro atmosphere, shot on ARRI ALEXA 65, Kodak Vision3 500T, dark thriller tension"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 1.7,
+        "time_end": 3.3,
+        "scene_description": "航拍镜头下降，逼近工厂群落，冷却塔和厂房轮廓在雾霾中若隐若现。",
+        "camera": {
+          "type": "远景",
+          "movement": "下降推进",
+          "angle": "大俯视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "从宏观逼近微观，压迫感递增",
+        "sfx": "风声呼啸、远方货车引擎声",
+        "ai_image_prompt": "Descending aerial shot approaching a cluster of Chinese factory buildings and cooling towers, shapes emerging through industrial smog, concrete rooftops and metal structures, gray-green haze, dark thriller framing, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 3.3,
+        "time_end": 5.0,
+        "scene_description": "工厂区街道地面视角：老旧厂房、生锈铁门、斑驳围墙、停着积灰的货车。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": "旁白",
+          "text": "这座城市，曾以制造业闻名。",
+          "emotion": "低沉、厚重"
+        },
+        "atmosphere": "破旧工厂区的萧条感，时代遗迹",
+        "sfx": "铁门吱呀声",
+        "ai_image_prompt": "Ground-level view of a Chinese industrial district street, old factory buildings with rusty iron gates, weathered concrete walls with peeling paint, dusty parked cargo trucks, potholed road, dim yellow street lamp, desaturated cold tones, noir shadow play, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 5.0,
+        "time_end": 6.7,
+        "scene_description": "工厂大门特写：铁锈色大铁门上焊着金属字「建国精密机床零件加工厂「，字迹褪色。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "仰视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "褪色的荣光，时代留痕",
+        "sfx": "金属嗡鸣声",
+        "ai_image_prompt": "Close-up of a rusty iron factory gate with welded metal Chinese characters reading Jianguo Precision Machinery Parts, faded and weathered signage, iron rust texture, overcast light, withered ivy on concrete wall, dark thriller mood, high contrast chiaroscuro, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 6.7,
+        "time_end": 8.3,
+        "scene_description": "厂房内部：停转的CNC机床排列整齐却蒙着厚灰，荧光灯管闪烁不定。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "寂静的车间，机器静默如废墟",
+        "sfx": "滴水声、空旷回声",
+        "ai_image_prompt": "Interior of a dimly lit Chinese factory workshop, rows of idle CNC machines and lathes covered in thick dust, flickering fluorescent tube lights overhead, empty worker stations, oil-stained concrete floor, eerie silence, industrial abandonment, noir shadows, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 8.3,
+        "time_end": 10.0,
+        "scene_description": "机床操作面板特写：积灰的按钮和屏幕，一只蜘蛛在齿轮间结网。",
+        "camera": {
+          "type": "特写",
+          "movement": "微推",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "细节揭示荒废的程度，时间凝固",
+        "sfx": "细微金属共振声",
+        "ai_image_prompt": "Extreme close-up of a dusty CNC machine control panel, grimy buttons and dark screen, spider web between metal gears, industrial dust particles floating in a shaft of dim light, decay and neglect, dark thriller macro detail, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 7,
+        "time_start": 10.0,
+        "time_end": 11.7,
+        "scene_description": "窗外灰蒙蒙的天空，烟囱吐出浓烟缓缓扩散遮蔽日光。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "仰视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": "旁白",
+          "text": "如今，天空灰了，订单也灰了。",
+          "emotion": "沉重"
+        },
+        "atmosphere": "污染的天空，沉闷窒息",
+        "sfx": "远方工厂汽笛声",
+        "ai_image_prompt": "View through a grimy factory window looking up at a gray polluted sky, thick smoke billowing from industrial chimneys dissolving into overcast clouds, window frame creating noir shadow border, suffocating desaturated tones, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 8,
+        "time_start": 11.7,
+        "time_end": 13.3,
+        "scene_description": "一份全英文商业文件特写，上面可见'CBAM'和'Carbon Border Adjustment'字样，桌面散落更多文件。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "俯视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "文件上的冰冷条款，暗示危机迫近",
+        "sfx": "翻页声",
+        "ai_image_prompt": "Close-up of an official English business document on a dark desk, visible text reading CBAM Carbon Border Adjustment Mechanism, scattered papers around, cold harsh overhead lighting casting sharp noir shadows on white paper, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 9,
+        "time_start": 13.3,
+        "time_end": 15.0,
+        "scene_description": "字幕卡：白色大字「碳关税时代「出现在灰色天空与烟囱剪影背景上，低频鼓点震动。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "庄严肃穆，时代定调",
+        "sfx": "低频鼓点",
+        "ai_image_prompt": "Wide cinematic shot of a gray industrial skyline, massive bold white Chinese text overlay reading Carbon Tax Era, smoke stacks silhouetted against dark overcast sky, ominous high contrast composition, dramatic noir atmosphere, ARRI ALEXA 65"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP01-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "从压抑中出现一丝悬念，暗示变革即将到来",
+      "color_palette": ["#3A3A3A", "#6B5C4A", "#C49A6C"],
+      "lighting": "昏暗日光中偶有暖光透入，明暗对比强烈",
+      "weather": "阴天微有光线穿透云层"
+    },
+    "scene_refs": ["scene_04", "scene_05"],
+    "prop_refs": [],
+    "video_prompt": "Montage of factory workers leaving idle workshops, a young man in a gray blazer looking up at smoke-filled sky with determination, transition to a glimmer of warm light breaking through clouds, shot on ARRI ALEXA 65, dark thriller chiaroscuro. No subtitles.",
+    "bgm": {
+      "description": "大提琴旋律渐升，加入钢琴低音伴奏，弦乐渐强",
+      "mood": "从沉重转向悬念与微弱希望"
+    },
+    "storyboard_9grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 1.7,
+        "scene_description": "工人们低头走出工厂大门，脸上写满疲惫和不安。有人回头看了一眼停工的车间。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "工人群众",
+            "action": "低头走出工厂",
+            "expression": "疲惫、忧虑",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "旁白",
+          "text": "当世界开始计算每一克碳的代价——",
+          "emotion": "严肃"
+        },
+        "atmosphere": "下班散场的萧索氛围",
+        "sfx": "脚步声、铁门关闭声",
+        "ai_image_prompt": "Group of Chinese factory workers in blue work uniforms walking out of a rusty factory gate at dusk, tired worried expressions, looking down, one worker glancing back, industrial buildings in background, dark overcast sky, chiaroscuro lighting, noir atmosphere, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 1.7,
+        "time_end": 3.3,
+        "scene_description": "工人面部特写蒙太奇：皱纹深刻的老工人、满脸茫然的年轻学徒，眼神中都是不安。",
+        "camera": {
+          "type": "特写",
+          "movement": "快速剪切",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "工人群众",
+            "action": "凝视前方",
+            "expression": "不安、迷茫",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "个体命运被时代裹挟的无力感",
+        "sfx": "心跳声隐约",
+        "ai_image_prompt": "Close-up montage of Chinese factory workers faces, an elderly worker with deep wrinkles and worried eyes, a young apprentice with blank confused expression, harsh side lighting creating deep shadows on faces, desaturated skin tones, dark thriller portrait style, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 3.3,
+        "time_end": 5.0,
+        "scene_description": "赵建国的工厂大门招牌特写：'建国精密机床零件加工厂'，招牌已褪色，门卫室亮着昏暗的灯。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "仰视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "曾经辉煌如今褪色的传统企业",
+        "sfx": "风声",
+        "ai_image_prompt": "Close-up of a faded factory signboard reading Jianguo Precision Machinery Parts in Chinese characters, rusted metal frame, chipped paint, dim tungsten light from guard booth below, withered ivy on wall, dark evening sky, noir composition, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 5.0,
+        "time_end": 6.7,
+        "scene_description": "电脑屏幕上邮件列表——多封标记为'Urgent'和'Order Cancellation'的英文邮件，屏幕光映在暗室墙上。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "数字化的冰冷危机感",
+        "sfx": "电脑通知音",
+        "ai_image_prompt": "Close-up of a computer monitor in a dark room showing an email inbox, multiple emails marked Urgent and Order Cancellation in red, cold blue screen glow reflecting on dark walls, sense of digital crisis and pressure, noir lighting, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 6.7,
+        "time_end": 8.3,
+        "scene_description": "空荡的工厂停车场，几辆积灰货车，「停工通知「告示贴在围墙上。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "萧条的产业图景",
+        "sfx": "空旷风声",
+        "ai_image_prompt": "Empty factory parking lot at dusk, dusty cargo trucks parked idle, a notice paper reading Suspension of Operations posted on concrete wall, puddles reflecting gray sky, desolate industrial atmosphere, high contrast dark thriller composition, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 8.3,
+        "time_end": 10.0,
+        "scene_description": "林宇侧面剪影，站在工业区街道边，仰头望向灰蒙蒙的天空，风吹动衣角。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "低角度平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "仰头望天",
+            "expression": "凝重、坚定",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "孤独的创业者面对时代巨浪",
+        "sfx": "风声",
+        "ai_image_prompt": "Profile silhouette of a 30-year-old Chinese man in a dark gray blazer standing on an industrial street, looking up at a gray smoky sky, wind ruffling jacket, factory chimneys in background, dramatic noir backlighting, strong chiaroscuro contrast, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 7,
+        "time_start": 10.0,
+        "time_end": 11.7,
+        "scene_description": "林宇眼部特写：瞳孔中映着烟囱的倒影，目光从忧虑转为坚毅。",
+        "camera": {
+          "type": "特写",
+          "movement": "微推",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "注视远方",
+            "expression": "从忧虑转为坚毅",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "旁白",
+          "text": "有些人看到了危机，有些人……看到了转机。",
+          "emotion": "意味深长"
+        },
+        "atmosphere": "内心转变的关键一刻",
+        "sfx": "心跳加速后骤停",
+        "ai_image_prompt": "Extreme close-up of a young Chinese mans eyes, reflection of factory chimneys visible in dark pupils, expression shifting from worry to steely determination, dramatic rim lighting on iris, shallow depth of field, dark thriller intensity, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 8,
+        "time_start": 11.7,
+        "time_end": 13.3,
+        "scene_description": "一束阳光从云层缝隙中透出，照在工厂灰色屋顶上，形成强烈明暗对比。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "仰视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "阴暗中的一丝光明，暗喻希望与变革",
+        "sfx": "微弱风铃声",
+        "ai_image_prompt": "Dramatic sky over industrial rooftops, a single beam of golden sunlight breaking through thick dark gray clouds illuminating factory buildings below, extreme contrast between light and shadow, hope amidst gloom, chiaroscuro mastershot, ARRI ALEXA 65"
+      },
+      {
+        "grid_number": 9,
+        "time_start": 13.3,
+        "time_end": 15.0,
+        "scene_description": "画面切黑，出现作品标题'绿迹 GreenTrace'，字体简洁现代，绿色渐变光晕。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "标题亮相，干净利落，暗中一抹绿",
+        "sfx": "钢琴单音",
+        "ai_image_prompt": "Black screen with elegant modern title text GreenTrace in gradient green color with subtle glow, minimalist clean typography, faint green particle effects on dark background, cinematic title card design, ARRI ALEXA 65"
+      }
+    ]
+  }
+}

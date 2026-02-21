@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-14",
-  "total_projects": 2,
-  "next_id": "DM-003",
+  "last_updated": "2026-02-15",
+  "total_projects": 3,
+  "next_id": "DM-004",
   "projects": [
     {
       "project_id": "DM-001",
@@ -19,6 +19,15 @@
       "episodes": 25,
       "status": "scripted",
       "created_date": "2026-02-14",
+      "video_count": 50
+    },
+    {
+      "project_id": "DM-003",
+      "project_name": "绿迹",
+      "directory": "DM-003_lj/",
+      "episodes": 25,
+      "status": "scripted",
+      "created_date": "2026-02-15",
       "video_count": 50
     }
   ]

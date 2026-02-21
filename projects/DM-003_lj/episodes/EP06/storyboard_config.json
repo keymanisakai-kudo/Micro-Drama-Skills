@@ -1,0 +1,441 @@
+{
+  "video_id_prefix": "DM-003-EP06",
+  "episode": 6,
+  "episode_title": "不送",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "赵总背过身去抽烟,下逐客令「门在那边,不送」。林宇和苏娜只能黯然离开工厂大门。",
+  "emotion_tone": "失落、挫败",
+  "connection": {
+    "from_previous": "承接碰壁，赵总怒吼后的僵局",
+    "to_next": "林宇回办公室看账户"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP06-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "赵总背身抽烟，冷漠驱客",
+      "color_palette": ["#4A4A4A", "#7B6B5D", "#8C7B6B"],
+      "lighting": "车间高窗逆光，烟雾缭绕，赵建国剪影化",
+      "weather": "室内工厂车间"
+    },
+    "video_prompt": "Inside a factory workshop, a stocky older man in khaki jacket stands with his back turned, smoking a cigarette near a dusty window, smoke curling in the backlight. He coldly tells two visitors to leave without turning around. Tense rejection scene. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "低沉单簧管长音，间歇性钢琴单音如滴水",
+      "mood": "冷漠、拒绝、压抑"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "赵建国背对林宇苏娜，从口袋里掏出香烟点燃，烟雾在逆光中升腾。沉默片刻。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "背对两人，点燃香烟",
+            "expression": "冷漠",
+            "position": "中"
+          },
+          {
+            "name": "林宇",
+            "action": "站在身后等待回应",
+            "expression": "紧张、期待",
+            "position": "左偏后"
+          },
+          {
+            "name": "苏娜",
+            "action": "站在林宇旁边，手持笔记本",
+            "expression": "警觉",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "沉默中弥漫着紧张，烟雾在逆光中形成薄纱",
+        "sfx": "打火机咔嚓声、烟雾升起的微声",
+        "ai_image_prompt": "Cinematic medium shot inside a factory workshop, a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket standing with his back to camera, lighting a cigarette, smoke curling up into a beam of backlight from a high window, two young visitors standing behind him waiting, a man in dark gray blazer and a woman in black turtleneck with gold-rimmed glasses, tense silence, dust particles in light, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国吐出一口烟，语气不耐烦地说话，依然背对两人，肩膀微微耸动。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "侧面"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "吐烟，背对说话",
+            "expression": "不耐烦、厌倦",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "我没空听你们讲故事。",
+          "emotion": "不耐烦"
+        },
+        "atmosphere": "烟雾中传来冷冰冰的声音，像一盆冷水",
+        "sfx": "吐烟声、远处机器低频嗡鸣",
+        "ai_image_prompt": "Cinematic close-up side profile of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket exhaling cigarette smoke, speaking dismissively without turning around, smoke drifting through a shaft of backlight, factory workshop machinery in soft focus background, cold rejection, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "林宇想开口再争取，嘴唇张了张，苏娜伸手轻轻拉了一下他的袖子示意别说。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "嘴唇张了张想说话",
+            "expression": "不甘、犹豫",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "伸手轻拉林宇袖口",
+            "expression": "冷静、制止",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "细微的肢体语言传递着无奈与默契",
+        "sfx": "衣料摩擦轻响",
+        "ai_image_prompt": "Cinematic close-up of two young Chinese people, a 30-year-old man with short curly black hair in dark gray blazer parting his lips to speak, and a 28-year-old woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck gently tugging his sleeve to stop him, shared look of frustration and silent communication, factory workshop blurred behind them, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国猛地抬手指向车间铁门方向，头微偏但依然不回身，语气冷漠而决绝。",
+        "camera": {
+          "type": "中景",
+          "movement": "快速推进",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "抬手指向出口方向，头微偏",
+            "expression": "冷漠、决绝",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "门在那边，不送！",
+          "emotion": "冷漠"
+        },
+        "atmosphere": "逐客令如冰锤落下，空气骤然凝固",
+        "sfx": "声音回响在空旷车间",
+        "ai_image_prompt": "Cinematic medium shot from slightly below of a 55-year-old stocky Chinese man in khaki jacket with his back mostly turned, raising one arm to point firmly toward the factory exit door, head tilted slightly but not turning around, cigarette between fingers trailing smoke, cold authoritative dismissal, backlit figure silhouetted against factory window, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇和苏娜面面相觑，林宇攥紧手中的平板电脑，指关节发白。苏娜微微摇头。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "攥紧平板电脑，指关节发白",
+            "expression": "隐忍、受挫",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "微微摇头",
+            "expression": "无奈、冷静",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "沉默中的挫败感弥漫，两人无声交流",
+        "sfx": "手指攥紧塑料外壳的咯吱声",
+        "ai_image_prompt": "Cinematic close-up of two young Chinese people exchanging a defeated look, a 30-year-old man with short curly black hair in dark gray blazer gripping a tablet device so tightly his knuckles turn white, and a 28-year-old woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck shaking her head slightly, shared frustration and helplessness, factory workshop background out of focus, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "赵建国独自站在窗前抽烟的背影剪影，烟雾升腾。身后远处林宇和苏娜开始转身离去。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "独自站在窗前抽烟",
+            "expression": "沉默",
+            "position": "中"
+          },
+          {
+            "name": "林宇",
+            "action": "转身准备离开",
+            "expression": "黯然",
+            "position": "左远"
+          },
+          {
+            "name": "苏娜",
+            "action": "转身准备离开",
+            "expression": "无奈",
+            "position": "左远偏后"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "孤独的背影与离去的脚步，碰壁的余韵弥漫",
+        "sfx": "脚步声渐远、风从高窗灌入的呼啸",
+        "ai_image_prompt": "Cinematic wide shot inside a factory workshop, silhouette of a 55-year-old stocky man in khaki jacket standing alone by a tall window smoking, cigarette smoke rising into the backlight, two small figures in the background, a man in dark gray blazer and a woman in black turtleneck, turning to walk away toward the distant exit, vast empty factory floor with idle machines, melancholy atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP06-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "黯然离场，失落弥漫",
+      "color_palette": ["#6E7B8B", "#9CA3AF", "#B0C4DE"],
+      "lighting": "工厂大门外午后阳光刺眼，形成明暗反差",
+      "weather": "阴转多云，微风"
+    },
+    "video_prompt": "Two young professionals walking out of a factory gate in defeat. A woman tells the man quietly to leave. The man stops and looks back at the factory one last time with silent frustration. Overcast sky, industrial surroundings. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "钢琴单音缓慢下行，弦乐长音铺底",
+      "mood": "失落、空虚、不甘"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇和苏娜走出车间铁门，阳光突然刺眼，两人不约而同眯了一下眼。工厂围墙灰暗。",
+        "camera": {
+          "type": "中景",
+          "movement": "跟拍",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "走出铁门，眯眼适应光线",
+            "expression": "茫然",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "走出铁门，眯眼",
+            "expression": "沉默",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "从阴暗车间走入刺眼光线，视觉反差暗示心理落差",
+        "sfx": "铁门吱呀声、室外环境音",
+        "ai_image_prompt": "Cinematic medium shot of two young Chinese professionals stepping out through a heavy factory iron gate into bright daylight, both squinting, a 30-year-old man with short curly black hair in dark gray blazer and white t-shirt on the right, a 28-year-old woman with shoulder-length black hair and gold-rimmed glasses in black turtleneck on the left, gray factory walls and industrial surroundings, contrast between dark interior and bright exterior, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "苏娜低声对林宇说'走吧'，语气平静但带着无奈。风吹起她的头发。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "苏娜",
+            "action": "低声说话，风吹头发",
+            "expression": "平静、无奈",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "苏娜",
+          "text": "走吧。",
+          "emotion": "平静、无奈"
+        },
+        "atmosphere": "简短的话语中包含着对局势的接受",
+        "sfx": "轻风声",
+        "ai_image_prompt": "Cinematic close-up of a 28-year-old Chinese woman with shoulder-length straight black hair blowing in the wind, gold-rimmed glasses, wearing a black turtleneck, speaking quietly with calm resignation, factory exterior wall and overcast sky behind her, soft natural lighting on her face, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "两人沿着工厂外墙的水泥路向停车场方向走去，脚步沉重，影子拖在灰色地面上。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢跟拍",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "低头走路，步伐沉重",
+            "expression": "沉默、低落",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "安静走路",
+            "expression": "沉默",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "两个身影在工业灰色中显得渺小而孤独",
+        "sfx": "脚步声、远处卡车经过",
+        "ai_image_prompt": "Cinematic wide shot from slightly above of two figures walking along a cement path beside a gray factory wall toward a parking lot, a young man in dark gray blazer and a woman in black turtleneck, their long shadows stretching on gray concrete, heavy footsteps, industrial surroundings, overcast sky, sense of defeat and smallness, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇突然停下脚步，缓缓回头望向工厂大门。苏娜停下等他，没有说话。",
+        "camera": {
+          "type": "中景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "停步回头望向工厂",
+            "expression": "沉默、不甘",
+            "position": "中"
+          },
+          {
+            "name": "苏娜",
+            "action": "停下等待",
+            "expression": "理解",
+            "position": "左偏前"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "……",
+          "emotion": "沉默、不甘"
+        },
+        "atmosphere": "无声的回望里藏着不服输的倔强",
+        "sfx": "风声",
+        "ai_image_prompt": "Cinematic medium shot of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt stopped on a path, turning his head to look back at a factory building gate behind him, silent frustration on his face, a 28-year-old woman with gold-rimmed glasses in black turtleneck standing nearby watching him with understanding, overcast sky, industrial setting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇视角：工厂大门紧闭，铁锈斑驳的招牌写着'建国染织'，烟囱不再冒烟，一片死寂。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "微仰"
+        },
+        "characters": [],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "紧闭的工厂大门象征被关上的希望之门",
+        "sfx": "风过铁皮声、远处工业区环境音",
+        "ai_image_prompt": "Cinematic wide shot from slightly below of a closed factory gate with rusty metal panels, a weathered sign reading Chinese characters above the entrance, smokestacks standing cold and silent against an overcast sky, no activity, dead industrial zone atmosphere, symbol of rejection and closed doors, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "林宇转过身，深吸一口气，和苏娜并肩向前走去。背影渐行渐远，融入灰暗的工业区街道。",
+        "camera": {
+          "type": "远景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "转身深吸一口气，和苏娜并肩前行",
+            "expression": "压抑、不甘",
+            "position": "右"
+          },
+          {
+            "name": "苏娜",
+            "action": "与林宇并肩走向远方",
+            "expression": "沉默、坚毅",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "两个背影在灰暗工业区中渐远，失败后的漫长归途",
+        "sfx": "脚步声渐远、风声",
+        "ai_image_prompt": "Cinematic wide shot of two figures walking away from camera down a gray industrial street, a young man in dark gray blazer and a woman in black turtleneck walking side by side, their backs growing smaller, desolate factory district with gray buildings and overcast sky, profound sense of defeat and lonely determination, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

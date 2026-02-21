@@ -1,0 +1,412 @@
+{
+  "video_id_prefix": "DM-003-EP16",
+  "episode": 16,
+  "episode_title": "再闯虎穴",
+  "total_duration_seconds": 30,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "style": "short_drama",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "subtitle": false,
+  "synopsis": "赵总在停工车间巡视，林宇再次出现。「赵总，给我三分钟！就三分钟！」赵总犹豫，没有赶他走。",
+  "emotion_tone": "紧张、勇气",
+  "connection": {
+    "from_previous": "承接《找回订单》方案",
+    "to_next": "林宇开始说服"
+  },
+  "part_a": {
+    "video_id": "DM-003-EP16-A",
+    "label": "上",
+    "time_range": "00:00-00:15",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "赵总巡视停工车间，林宇突然出现请求机会",
+      "color_palette": ["#3D3D3D", "#5A6E7F", "#8B7355"],
+      "lighting": "车间顶灯半暗，自然光从铁窗透入，明暗交替",
+      "weather": "室内停工车间"
+    },
+    "video_prompt": "Inside a quiet shut-down factory workshop, a stocky older man in khaki jacket walks among idle machines inspecting them. A young man in dark gray blazer rushes in through the door, calling out desperately for three minutes of his time. Tense confrontation scene. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "低沉弦乐紧张铺底，鼓点渐起如心跳",
+      "mood": "紧张、悬念、勇气"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "停工车间全景：机器静止覆尘，顶灯半暗。赵建国独自巡视，手摸过一台老旧电机，若有所思。",
+        "camera": {
+          "type": "远景",
+          "movement": "缓慢横移",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "独自巡视，手摸过老旧电机",
+            "expression": "若有所思、沉重",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "空旷的停工车间弥漫着沉寂与萧条",
+        "sfx": "脚步回响、远处水滴声",
+        "ai_image_prompt": "Cinematic wide shot of a quiet shut-down factory workshop, idle machines covered in dust, dim overhead lights, a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket and dark polo walking alone among the machines, touching an old motor thoughtfully, desolate industrial atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "车间铁门被推开，林宇的身影出现在门口逆光中，脚步急促但坚定。赵建国闻声转头皱眉。",
+        "camera": {
+          "type": "中景",
+          "movement": "快速推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "推开铁门，逆光中快步走入",
+            "expression": "坚定、急切",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "转头看向门口",
+            "expression": "皱眉、意外",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "铁门推开的瞬间打破死寂，光线涌入",
+        "sfx": "铁门吱呀推开声、急促脚步声",
+        "ai_image_prompt": "Cinematic medium shot inside a dark factory workshop, a heavy iron door being pushed open with backlight flooding in, silhouette of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt striding in with determination, a 55-year-old stocky man in khaki jacket turning his head with a frown from beside the machines, dramatic lighting contrast, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "赵建国皱眉面对林宇，语气不善：「你怎么又来了？」手中拿着一串钥匙，身体语言抗拒。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "微仰"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "皱眉面对林宇，手持钥匙",
+            "expression": "不悦、防备",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "你怎么又来了？",
+          "emotion": "皱眉、不耐"
+        },
+        "atmosphere": "不欢迎的目光如无形墙壁",
+        "sfx": "钥匙碰撞声",
+        "ai_image_prompt": "Cinematic close-up from slightly below of a 55-year-old stocky Chinese man with buzz-cut graying hair, frowning intensely, wearing khaki jacket over dark polo, holding a bunch of keys, speaking with displeasure, dim factory workshop background with idle machines, defensive body language, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "林宇站定，深吸一口气，双眼直视赵建国，大声而恳切地喊出请求。手中紧握一份方案文件。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "站定，深吸气，大声恳切请求",
+            "expression": "恳切、坚定",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "赵总，给我三分钟！",
+          "emotion": "大声、恳切"
+        },
+        "atmosphere": "声音在空旷车间回荡，真诚而有力",
+        "sfx": "声音回响",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair, wearing dark gray blazer and white t-shirt, standing firm and looking straight ahead with intense earnest determination, gripping a document folder tightly, speaking loudly in an empty factory workshop, voice echoing, natural light on his determined face, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "赵建国抬手想挥退林宇，但手停在半空，嘴唇抿紧，内心犹豫。目光落在林宇手中的方案上。",
+        "camera": {
+          "type": "中景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "抬手想挥退，手停在半空",
+            "expression": "犹豫、嘴唇抿紧",
+            "position": "左"
+          },
+          {
+            "name": "林宇",
+            "action": "举起方案文件",
+            "expression": "期待、坚定",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "关键转折，赵建国的手停在半空暗示内心松动",
+        "sfx": "安静、只有呼吸声",
+        "ai_image_prompt": "Cinematic medium shot of two men facing each other in a dim factory workshop, a 55-year-old stocky man in khaki jacket on the left with his hand raised halfway as if to wave someone away but frozen in hesitation, lips pressed tight, his gaze falling on a document, a 30-year-old man in dark gray blazer on the right holding up a proposal folder with hopeful determination, pivotal tense moment, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "两人对峙的全景：赵建国站在机器旁，林宇站在几步之外。空气中弥漫着紧张与不确定。",
+        "camera": {
+          "type": "中远景",
+          "movement": "缓慢后拉",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "站在机器旁沉默",
+            "expression": "审视",
+            "position": "左"
+          },
+          {
+            "name": "林宇",
+            "action": "站在几步外等待回应",
+            "expression": "紧张期待",
+            "position": "右"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "两人之间的空间充满张力，结果未知",
+        "sfx": "机器冷却发出的金属轻响",
+        "ai_image_prompt": "Cinematic medium-wide shot of two men facing each other inside a dim idle factory workshop, a 55-year-old stocky man in khaki jacket standing by a large machine on the left studying the younger man, a 30-year-old man with short curly black hair in dark gray blazer standing a few steps away on the right waiting anxiously, dust particles floating in beams of light from high windows, tense standoff atmosphere, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  },
+  "part_b": {
+    "video_id": "DM-003-EP16-B",
+    "label": "下",
+    "time_range": "00:15-00:30",
+    "duration_seconds": 15,
+    "atmosphere": {
+      "overall_mood": "赵总犹豫，最终勉强给了机会",
+      "color_palette": ["#4A5568", "#6B7B8D", "#A0AEC0"],
+      "lighting": "车间侧窗光线柔和，赵建国面部半明半暗",
+      "weather": "室内停工车间"
+    },
+    "video_prompt": "Inside a shut-down factory workshop, a young man in dark gray blazer holds up a proposal, pleading for just three minutes. An older stocky man in khaki jacket hesitates, glances at the proposal cover, and reluctantly agrees to listen. Tense turning point scene. No subtitles. Shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field.",
+    "bgm": {
+      "description": "钢琴单音渐入，弦乐缓缓上升，暗示转机",
+      "mood": "紧张、期待、微弱希望"
+    },
+    "storyboard_6grid": [
+      {
+        "grid_number": 1,
+        "time_start": 0.0,
+        "time_end": 2.5,
+        "scene_description": "林宇向前一步，举起手中方案，语气坚定而恳切：「就三分钟！」方案封面上印着绿色标题。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "向前一步，举起方案",
+            "expression": "坚定、恳切",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "林宇",
+          "text": "就三分钟！",
+          "emotion": "坚定"
+        },
+        "atmosphere": "声音斩钉截铁，在寂静车间中格外有力",
+        "sfx": "脚步声、纸张轻响",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt, stepping forward and holding up a proposal document with a green title on the cover, speaking with firm earnest conviction, dim factory workshop behind him, determination burning in his eyes, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 2,
+        "time_start": 2.5,
+        "time_end": 5.0,
+        "scene_description": "赵建国目光落在方案封面上，微微眯眼辨认标题。表情从不耐渐渐变为犹豫，眉头松了一丝。",
+        "camera": {
+          "type": "特写",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "注视方案封面，眉头微松",
+            "expression": "犹豫、好奇",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "微妙的表情变化暗示内心防线松动",
+        "sfx": "安静",
+        "ai_image_prompt": "Cinematic extreme close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair, his eyes squinting to read something off-screen, expression shifting from annoyance to hint of curiosity, brow slightly relaxing, khaki jacket collar visible, half his face lit by soft window light and half in shadow, factory workshop background blurred, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 3,
+        "time_start": 5.0,
+        "time_end": 7.5,
+        "scene_description": "方案封面特写：上面印着「建国染织·绿色转型方案」字样，配有数据图表。赵建国的手指缓缓伸向方案。",
+        "camera": {
+          "type": "特写",
+          "movement": "缓慢推进",
+          "angle": "俯视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "手指缓缓伸向方案",
+            "expression": "犹豫中带好奇",
+            "position": "右手入画"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "一个犹豫的手势，暗示命运的转折点",
+        "sfx": "纸张细微声",
+        "ai_image_prompt": "Cinematic close-up top-down shot of a proposal document cover with Chinese text reading green transformation plan, data charts and graphs printed on it, an older weathered hand with thick fingers slowly reaching toward the document, held by a younger hand in a dark gray blazer sleeve, pivotal moment of hesitation, soft side lighting, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 4,
+        "time_start": 7.5,
+        "time_end": 10.0,
+        "scene_description": "赵建国深吸一口气，沉默片刻后勉强开口：「……说。」语气低沉，目光依然严峻但不再拒绝。",
+        "camera": {
+          "type": "近景",
+          "movement": "固定",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "赵建国",
+            "action": "深吸气，勉强说出一个字",
+            "expression": "勉强、犹豫但不再拒绝",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": "赵建国",
+          "text": "……说。",
+          "emotion": "勉强、犹豫"
+        },
+        "atmosphere": "一个字的回应如同门缝里透进的光——微弱但珍贵",
+        "sfx": "低沉呼吸声",
+        "ai_image_prompt": "Cinematic close-up of a 55-year-old stocky Chinese man with buzz-cut graying hair in khaki jacket, taking a deep breath, his stern expression softening just slightly, speaking one reluctant word, eyes still severe but no longer rejecting, dim factory workshop with soft window light illuminating his face, critical turning point, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 5,
+        "time_start": 10.0,
+        "time_end": 12.5,
+        "scene_description": "林宇眼中闪过一丝惊喜和感激，赶紧上前一步，开始翻开方案。双手微微颤抖。",
+        "camera": {
+          "type": "近景",
+          "movement": "缓慢推进",
+          "angle": "平视"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "赶紧上前翻开方案，双手微颤",
+            "expression": "惊喜、感激、紧张",
+            "position": "中"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "得到机会的瞬间既兴奋又紧张",
+        "sfx": "翻页声、脚步声",
+        "ai_image_prompt": "Cinematic close-up of a 30-year-old Chinese man with short curly black hair in dark gray blazer and white t-shirt, eyes lighting up with a flash of gratitude, quickly stepping forward and opening a proposal document with slightly trembling hands, eager and nervous at the opportunity, dim factory background, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      },
+      {
+        "grid_number": 6,
+        "time_start": 12.5,
+        "time_end": 15.0,
+        "scene_description": "全景：林宇将方案摊开在一台闲置机器的台面上，赵建国双手抱胸站在旁边审视。三分钟倒计时开始。",
+        "camera": {
+          "type": "中远景",
+          "movement": "缓慢后拉",
+          "angle": "微俯"
+        },
+        "characters": [
+          {
+            "name": "林宇",
+            "action": "在机器台面上摊开方案",
+            "expression": "认真、投入",
+            "position": "右"
+          },
+          {
+            "name": "赵建国",
+            "action": "双手抱胸站在旁边",
+            "expression": "审视、保留",
+            "position": "左"
+          }
+        ],
+        "dialogue": {
+          "speaker": null,
+          "text": null,
+          "emotion": null
+        },
+        "atmosphere": "命运的三分钟即将开始，紧张与希望并存",
+        "sfx": "纸张展开声、机器冷却轻响",
+        "ai_image_prompt": "Cinematic medium-wide shot from slightly above inside a dim factory workshop, a 30-year-old man in dark gray blazer spreading out a proposal document on the flat surface of an idle machine, a 55-year-old stocky man in khaki jacket standing beside with arms crossed studying him skeptically, idle machines and dim lights surrounding them, the beginning of a crucial three-minute pitch, shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+      }
+    ]
+  }
+}

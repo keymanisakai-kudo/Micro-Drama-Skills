@@ -1,0 +1,27 @@
+{
+  "project_id": "DM-003",
+  "project_name": "绿迹",
+  "project_name_en": "GreenTrace",
+  "directory": "DM-003_lj/",
+  "genre": "现实主义 / 商业剧情 / 环保",
+  "style": "现实主义商业题材",
+  "visual_style": {
+    "style_id": 1,
+    "style_name": "Cinematic Film",
+    "style_name_cn": "电影质感",
+    "camera": "Panavision Sphero 65 and Hasselblad Lenses",
+    "film_stock": "Vision3 500T 5219",
+    "filter": "ND0.6, Diffusion Filter 1/4",
+    "focal_length": "65mm",
+    "aperture": "f/2.0",
+    "prompt_suffix": "shot on Panavision Sphero 65 and Hasselblad Lenses, Vision3 500T 5219, ND0.6, Diffusion Filter 1/4, cinematic film grain, shallow depth of field"
+  },
+  "target_audience": "青年 / 商业人士",
+  "total_episodes": 25,
+  "episode_duration_seconds": 30,
+  "total_duration_seconds": 750,
+  "core_theme": "碳中和不是企业生存的'绊脚石'，而是跨越旧时代的'救生圈'。",
+  "status": "scripted",
+  "created_date": "2026-02-21",
+  "video_count": 50
+}
