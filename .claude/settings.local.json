@@ -6,7 +6,9 @@
       "Bash(curl:*)",
       "Bash(grep -E \"\\\\.\\(py|js|sh\\)$\")",
       "Bash(mkdir:*)",
-      "Bash(for code:*)"
+      "Bash(for code:*)",
+      "Bash(cp:*)",
+      "Bash(echo:*)"
     ]
   }
 }
