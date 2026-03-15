@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-18",
-  "total_projects": 5,
+  "last_updated": "2026-03-15",
+  "total_projects": 6,
   "next_id": {
     "drama": "DM-004",
-    "mv": "MV-003"
+    "mv": "MV-004"
   },
   "projects": [
     {
@@ -56,6 +56,18 @@
       "created_date": "2025-07-18",
       "submitted_date": "2026-02-23",
       "video_count": 10
+    },
+    {
+      "project_id": "MV-003",
+      "project_type": "mv",
+      "project_name": "退后",
+      "song_title": "退后",
+      "song_artist": "周杰伦",
+      "directory": "MV-003_th/",
+      "segments": 18,
+      "status": "scripted",
+      "created_date": "2026-03-15",
+      "video_count": 18
     }
   ]
 }
