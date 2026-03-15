@@ -3,11 +3,13 @@ name: build-story-bible
 description: >
   编写短剧完整剧本，包括世界观设定、故事大纲、各集概要（25集）。
   对应 produce-anime 的 Step 2（剧本编写）。
+category: story
+version: "1.0"
 ---
 
 # build-story-bible
 
-## purpose
+## Purpose
 
 基于已初始化的项目元数据，生成 `script/full_script.md`，建立整部作品的叙事基础：
 - 世界观设定（200-300字）
@@ -18,21 +20,21 @@ description: >
 
 ---
 
-## when_to_use
+## When to Use
 
 - 项目已初始化（`metadata.json` 存在），剧本尚未编写（`script/full_script.md` 不存在）
 - 用户要求重新编写剧本（覆盖现有 `full_script.md`）
 
 ---
 
-## when_not_to_use
+## When Not to Use
 
 - `metadata.json` 尚不存在，请先执行 `init-drama-project`
 - 只需补充某集剧情摘要，而非重写整部剧本
 
 ---
 
-## inputs
+## Inputs
 
 | 输入 | 来源 | 必填 |
 |------|------|------|
@@ -42,7 +44,7 @@ description: >
 
 ---
 
-## outputs
+## Outputs
 
 | 产物 | 路径 | 说明 |
 |------|------|------|
@@ -78,7 +80,7 @@ description: >
 
 ---
 
-## constraints
+## Constraints
 
 ### 叙事结构约束
 
@@ -101,7 +103,7 @@ description: >
 
 ---
 
-## workflow
+## Workflow
 
 ### Step 1：读取元数据
 
@@ -127,7 +129,7 @@ description: >
 
 ---
 
-## checklist
+## Checklist
 
 - [ ] `metadata.json` 已读取，作品基本信息已确认
 - [ ] 世界观设定已写入（200-300字）
@@ -139,7 +141,7 @@ description: >
 
 ---
 
-## failure_modes
+## Failure Modes
 
 | 错误场景 | 处理方式 |
 |---------|---------|

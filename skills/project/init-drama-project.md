@@ -3,11 +3,13 @@ name: init-drama-project
 description: >
   初始化一个新的短剧项目目录结构，分配项目编号，写入元数据，并更新全局索引。
   对应 produce-anime 的 Step 1（初始化项目）和 Step 6（更新全局索引）。
+category: project
+version: "1.0"
 ---
 
 # init-drama-project
 
-## purpose
+## Purpose
 
 在 `projects/` 目录下为一部新短剧作品完成以下初始化工作：
 1. 从 `projects/index.json` 获取并分配下一个 `DM-XXX` 编号
@@ -19,21 +21,21 @@ description: >
 
 ---
 
-## when_to_use
+## When to Use
 
 - 用户首次发起制作新短剧请求（"制作一部短剧"、"创建新短剧"、"produce short drama"）
 - 尚未存在对应项目目录时（`projects/DM-XXX_*` 不存在）
 
 ---
 
-## when_not_to_use
+## When Not to Use
 
 - 项目目录已存在且 `metadata.json` 已写入时——此时应执行其他技能（如 `build-story-bible`）
 - 用于重新初始化已有项目（会覆盖已有 metadata）
 
 ---
 
-## inputs
+## Inputs
 
 | 输入 | 来源 | 必填 |
 |------|------|------|
@@ -45,7 +47,7 @@ description: >
 
 ---
 
-## outputs
+## Outputs
 
 | 产物 | 路径 | 说明 |
 |------|------|------|
@@ -117,7 +119,7 @@ projects/DM-001_xxxx/
 
 ---
 
-## constraints
+## Constraints
 
 1. **编号格式**：`DM-XXX`，三位数字，从 `001` 递增，读取 `projects/index.json` 的 `next_id` 字段确定
 2. **目录命名**：`{project_id}_{作品名称拼音缩写或英文slug}`，全小写，使用下划线分隔
@@ -129,7 +131,7 @@ projects/DM-001_xxxx/
 
 ---
 
-## workflow
+## Workflow
 
 ### Step 1：读取全局索引，确定项目编号
 
@@ -158,7 +160,7 @@ projects/DM-001_xxxx/
 
 ---
 
-## checklist
+## Checklist
 
 - [ ] `projects/index.json` 已读取，`project_id` 已确定
 - [ ] 视觉风格已通过交互或指定方式确认（来自 `visual_styles.json`）
@@ -170,7 +172,7 @@ projects/DM-001_xxxx/
 
 ---
 
-## failure_modes
+## Failure Modes
 
 | 错误场景 | 处理方式 |
 |---------|---------|
