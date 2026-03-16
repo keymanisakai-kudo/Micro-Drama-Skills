@@ -1,116 +1,31 @@
----
-name: generate-media
-description: 短剧媒体生成技能。根据已生成的单部作品目录，调用 Google Gemini API（单一可配置图片模型生成角色图/分镜图），将生成的图片存放到对应各集目录下。支持视觉风格预设配置。关键词：图片生成、Gemini、Google API、分镜图片、角色参考图、media generation、视觉风格。
----
-
-# 短剧媒体生成技能 (Generate Media)
-
-## 概述
-
-本技能用于将 `produce-anime` 技能生成的作品脚本**转化为实际的参考图片**。生成时会读取作品的视觉风格配置（`visual_style`），将摄影机/镜头/胶片等参数自动注入到 AI 提示词中。当前标准流程：
-
-1. **风格选择**：在生成前，使用 `ask_questions` 工具让用户从 `visual_styles.json` 中选择视觉风格
-2. **生成角色参考图**：根据 `character_bible.md` 中每个角色的 `AI绘图关键词`，使用配置图片模型批量生成角色参考图
-3. **生成场景四宫格图**：根据 `scenes/scene_bible.md` 中每个场景的 `AI绘图关键词`，生成**一张四宫格合成图**（2×2布局：正面/左45°/右45°/背面），保存为 `{场景ID}_ref.png`
-4. **生成道具三视图**：根据 `props/prop_bible.md` 中每个道具的 `AI绘图关键词`，生成**一张三视图合成图**（1×3布局：正面/侧面/俯视），保存为 `{道具ID}_ref.png`
-5. **生成分镜图片**：按“两集一批”生成分镜图（每集A/B两张，共最多4张/批），角色一致性由同模型多模态提示保证，9宫格布局（3×3，16:9比例）
-6. **维护索引文件**：media_index.json、ref_index.json 等
-
-生成的媒体文件存放到对应各集的 `EP{xx}/` 目录下。
-
-> **注意**：视频由 Seedance 平台生成，不在本技能中处理。分镜图片作为参考图提交到 Seedance。
-
----
-
-## 前置条件
-
-### 1. API 配置
-
-需要配置 Google Gemini API Key 和 Base URL，从 `.config/api_keys.json` 读取：
-
-```json
-// /data/dongman/.config/api_keys.json
-{
-  "gemini_api_key": "AIza...",
-    "gemini_base_url": "https://generativelanguage.googleapis.com/",
-    "gemini_image_model": "gemini-2.5-flash-image"
-}
-```
-
-**字段说明**：
-- `gemini_api_key`：Google Gemini API Key（必填）
-- `gemini_base_url`：API 端点地址（可选，留空则使用 SDK 默认值；代理/自定义端点时配置）
-- `gemini_image_model`：全局图片模型（必填推荐）
-    - 默认：`gemini-2.5-flash-image`
-    - 可选：`gemini-3-pro-image-preview`
-
-也支持环境变量覆盖（优先级高于配置文件）：
-- `GEMINI_API_KEY`
-- `GEMINI_BASE_URL`
-- `GEMINI_IMAGE_MODEL`
-
-### 2. Python 依赖
-
-需要安装 Google Generative AI SDK：
-
-```bash
-pip install google-genai Pillow requests
-```
-
-### 3. 已有作品目录
-
-目标作品目录必须已由 `produce-anime` 技能生成完毕，包含：
-- `characters/character_bible.md`（角色设定，含 AI 绘图关键词）
-- `scenes/scene_bible.md`（场景设定，含 AI 绘图关键词）——可选，无则跳过场景生成
-- `props/prop_bible.md`（道具设定，含 AI 绘图关键词）——可选，无则跳过道具生成
-- 各集 `storyboard_config.json`（含 `visual_style` 视觉风格配置）
-
----
-
-## 执行流程
-
-### 第一步：确定目标作品
-
-1. 如用户指定了作品编号（如 `DM-001`），直接定位到 `projects/` 下对应目录
-2. 如用户未指定，读取 `projects/index.json`，选择最新的作品
-3. 验证目标目录存在且包含 `characters/character_bible.md` 和 `episodes/` 子目录
-
-### 第二步：生成 Python 脚本并执行
-
-在作品目录下生成 `generate_media.py` 脚本，然后执行。脚本逻辑如下：
-
-#### 2.1 脚本结构
-
-```python
 #!/usr/bin/env python3
 """
-短剧媒体生成脚本
-Phase 1: 生成角色参考图
-Phase 2: 参考角色图生成分镜图片
+短剧媒体生成脚本（优化版）
+目标修复：
+1. 角色参考图必须按单角色单请求生成，尽量稳定输出“左侧脸部特写 + 右侧全身 front/side/back”单图多视角版式
+2. storyboard 强制按 part 输出一张 9 宫格图，不再回退到 6 宫格
+3. storyboard 角色引用改为 panel 级声明，并加入角色名 normalize 与注入日志
 """
+import io
+import json
 import os
 import re
-import json
-import time
 import sys
+import time
 from pathlib import Path
 
 from google import genai
 from google.genai import types
 from PIL import Image
 
-# ========== 配置 ==========
 PROJECT_DIR = Path(__file__).parent
 EPISODES_DIR = PROJECT_DIR / "episodes"
 CHARACTERS_DIR = PROJECT_DIR / "characters"
 DEFAULT_IMAGE_MODEL = "gemini-2.5-flash-image"
-CHARACTER_IMAGE_MODEL = "gemini-3-pro-image-preview"
 ALLOWED_IMAGE_MODELS = {
     "gemini-2.5-flash-image",
     "gemini-3-pro-image-preview",
-    "gemini-3.1-flash-image-preview",
 }
-
 
 
 def normalize_name(name: str) -> str:
@@ -121,8 +36,6 @@ def normalize_name(name: str) -> str:
     name = re.sub(r"\(.*?\)", "", name).strip()
     return name
 
-
-# API 配置
 
 def load_api_config():
     api_key = None
@@ -153,12 +66,11 @@ def load_api_config():
 
     return api_key, base_url, image_model
 
-api_key, base_url, image_model = load_api_config()
 
+api_key, base_url, image_model = load_api_config()
 http_options = types.HttpOptions(base_url=base_url) if base_url else None
 client = genai.Client(api_key=api_key, http_options=http_options)
 
-print(f"🔑 API 已配置 | Base URL: {base_url or '默认'}")
 
 # -------------------------
 # Gemini helpers
@@ -188,7 +100,6 @@ def generate_images_with_model(contents, request_tag: str) -> list:
         print(f"  ❌ 图像生成失败 [{request_tag}] | model={image_model} | {e}")
         return []
 
-# ========== Phase 1: 角色参考图生成 ==========
 
 # -------------------------
 # Character phase
@@ -249,6 +160,7 @@ def build_character_sheet_prompt(char_name: str, ai_prompt: str) -> str:
         f"Character name: {char_name}. "
         f"Character design keywords: {ai_prompt}."
     )
+
 
 
 def phase1_generate_characters() -> dict:
@@ -525,288 +437,6 @@ def main():
     print(f"❌ 失败: {total['failed']} 个")
     print("=" * 60)
 
+
 if __name__ == "__main__":
     main()
-```
-
-### 第三步：执行脚本
-
-运行脚本，支持多种模式：
-
-```bash
-# 完整流程：角色参考图 → 分镜图片（全25集）
-python3 generate_media.py
-
-# 指定集数范围（如 EP01-EP05）
-python3 generate_media.py 1 5
-
-# 跳过角色参考图生成（已有角色图时，直接生成分镜）
-python3 generate_media.py 1 25 --skip-chars
-```
-
-### 第四步：验证生成结果
-
-脚本执行完成后，验证：
-1. `characters/` 目录包含角色参考图（每角色1张：`{角色名}_ref.png`）
-2. `scenes/` 目录包含场景四宫格图（每场景1张：`{场景ID}_ref.png`，含4视角合成）
-3. `props/` 目录包含道具三视图（每道具1张：`{道具ID}_ref.png`，含3视角合成）
-4. 每集目录包含 2 张分镜 PNG（A/B）
-5. 各 `ref_index.json` 已生成
-
----
-
-## 两阶段生成流程详解
-
-### Phase 1: 角色参考图生成（当前标准）
-
-| 步骤 | 说明 |
-|------|------|
-| 解析 `character_bible.md` | 提取每个角色的名字和 `AI绘图关键词（英文）` |
-| 生成方式 | 单次请求多图（最多7张），按角色顺序落盘 |
-| 模型 | 单一配置模型：`gemini_image_model` |
-| 存放位置 | `characters/{角色名}_ref.png` |
-| 索引文件 | `characters/ref_index.json`（角色名 → 图片路径映射） |
-| 失败策略 | **不做单张兜底**（返回不足只记失败） |
-
-### Phase 1B: 场景四宫格图生成
-
-| 步骤 | 说明 |
-|------|------|
-| 解析 `scenes/scene_bible.md` | 提取每个场景的 `场景ID`、`场景名` 和 `AI绘图关键词（英文）` |
-| 生成方式 | 每个场景**一次API请求**，生成一张 2×2 四宫格合成图（正面/左45°/右45°/背面） |
-| 模型 | 单一配置模型：`gemini_image_model` |
-| 提示词结构 | 提示模型在单张图中绘制4格布局，含场景描述 + 视觉风格后缀 |
-| 输出 | **每场景1张**：`scenes/{场景ID}_ref.png`（四宫格合成图） |
-| 索引文件 | `scenes/ref_index.json`（场景ID → 图片路径映射） |
-| 失败策略 | **不做单张兜底**（无返回只记失败） |
-
-### Phase 1C: 道具三视图生成
-
-| 步骤 | 说明 |
-|------|------|
-| 解析 `props/prop_bible.md` | 提取每个道具的 `道具ID`、`道具名` 和 `AI绘图关键词（英文）` |
-| 生成方式 | 每个道具**一次API请求**，生成一张 1×3 三视图合成图（正面/侧面/俯视） |
-| 模型 | 单一配置模型：`gemini_image_model` |
-| 提示词结构 | 提示模型在单张图中绘制3格横排布局，含道具描述 + 视觉风格后缀 |
-| 输出 | **每道具1张**：`props/{道具ID}_ref.png`（三视图合成图） |
-| 索引文件 | `props/ref_index.json`（道具ID → 图片路径映射） |
-| 失败策略 | **不做单张兜底**（无返回只记失败） |
-
-### Phase 2: 分镜图片生成（当前标准）
-
-| 步骤 | 说明 |
-|------|------|
-| 生成粒度 | 两集一批（每集A/B两张，共最多4张/请求） |
-| 读取配置 | 从每集 `storyboard_config.json` 读取 `storyboard_9grid` 与角色列表 |
-| 角色一致性 | 将角色参考图内联到请求中，保持外观一致 |
-| 布局 | 3×3 九宫格，16:9比例 |
-| 输出文件 | `EPxx/{video_id}_storyboard.png`（每集2张：A/B） |
-| 失败策略 | **不做单张兜底**（返回不足只记失败） |
-
-> **视频生成**：由 Seedance 平台处理。分镜图片和角色参考图作为 `referenceFiles` 提交到 Seedance，由其生成最终视频。
-
----
-
-## 生成文件命名规则
-
-### 角色参考图
-
-```
-characters/
-├── character_bible.md           # 角色设定（原有）
-├── ref_index.json               # 角色参考图索引（生成）
-├── 林策_ref.png
-├── 沈璃_ref.png
-├── 祁远_ref.png
-└── ...
-```
-
-### 场景四宫格图（每场景1张合成图）
-
-```
-scenes/
-├── scene_bible.md               # 场景设定（原有）
-├── ref_index.json               # 场景参考图索引（生成）
-├── scene_01_ref.png             # 四宫格合成图（正面/左45°/右45°/背面）
-├── scene_02_ref.png
-└── ...
-```
-
-### 道具三视图（每道具1张合成图）
-
-```
-props/
-├── prop_bible.md                # 道具设定（原有）
-├── ref_index.json               # 道具参考图索引（生成）
-├── prop_01_ref.png              # 三视图合成图（正面/侧面/俯视）
-├── prop_02_ref.png
-└── ...
-```
-
-### 分镜图片
-
-分镜图片命名格式：`{视频编号}_storyboard.png`
-
-```
-EP01/
-├── DM-001-EP01-A_storyboard.png # 上半部分分镜图
-├── DM-001-EP01-B_storyboard.png # 下半部分分镜图
-├── dialogue.md                 # 对话脚本（原有）
-├── storyboard_config.json      # 故事板配置（原有）
-└── seedance_tasks.json         # Seedance提交任务（原有）
-```
-
-### 各文件说明
-
-| 文件类型 | 数量/集 | 来源 | 格式 |
-|---------|---------|------|------|
-| 分镜图片 | 2张（A/B各1张） | `storyboard_9grid` + 批量提示词 | PNG |
-
-### 全作品统计（以3个主角、4个场景、3个道具为例）
-
-| 指标 | 数量 |
-|------|------|
-| 角色参考图 | 3张（3角色 × 1张，含四宫格多视角） |
-| 场景四宫格图 | 4张（4场景 × 1张合成图） |
-| 道具三视图 | 3张（3道具 × 1张合成图） |
-| 总集数 | 25 |
-| 每集分镜图片 | 2张 |
-| **总分镜图片** | **50张** |
-| **总媒体文件** | **60个**（3角色 + 4场景 + 3道具 + 50分镜） |
-
----
-
-## Google API 模型说明
-
-### 图片模型（统一配置）
-
-- **配置项**：`gemini_image_model`
-- **允许值**：
-    - `gemini-2.5-flash-image`（默认推荐）
-    - `gemini-3-pro-image-preview`（可选）
-- **用途**：
-    - Phase 1 角色参考图批量生成
-    - Phase 2 分镜图批量生成
-- **约束**：全流程只使用这一个图片模型，不混用其他图片模型
-
----
-
-## API 限流与容错
-
-### 限流策略
-- 每次图片生成后 **暂停 2 秒**
-
-### 容错机制
-1. **跳过已存在文件**：如文件已存在则跳过，支持断点续传
-2. **单个失败不影响全局**：某格/某集失败后继续处理下一个
-3. **集数范围可指定**：支持只生成指定范围的集数，方便重试
-
-### 重试示例
-
-```bash
-# 只重新生成第3集
-python3 generate_media.py 3 3
-
-# 重新生成第10-15集
-python3 generate_media.py 10 15
-```
-
-如果某个文件需要重新生成，手动删除该文件后重新运行脚本即可。
-
----
-
-## 运行指令
-
-用户可以通过以下方式触发本技能：
-- "生成分镜图片"
-- "generate media"
-- "生成短剧媒体"
-- "调用API生成图片"
-- "把分镜变成图片"
-- "执行媒体生成"
-
-可附带参数：
-- **作品编号**：如 "生成 DM-001 的图片"
-- **集数范围**：如 "生成第1到第5集的图片"
-- **仅角色图**：`--only-chars`
-- **跳过角色图**：`--skip-chars`
-
----
-
-## 执行检查清单
-
-- [ ] 确认 `GEMINI_API_KEY` 已配置（环境变量或配置文件）
-- [ ] 确认 `google-genai`、`Pillow`、`requests` 已安装
-- [ ] 确认 `gemini_image_model` 已配置且合法
-- [ ] 确认目标作品目录存在且 `character_bible.md` 和 `storyboard_config.json` 完整
-- [ ] 生成 `generate_media.py` 脚本到作品目录
-- [ ] **风格选择**：已通过 `ask_questions` 让用户选择视觉风格
-- [ ] **Phase 1**：角色参考图已生成到 `characters/` 目录
-- [ ] **Phase 1B**：场景四宫格图已生成到 `scenes/` 目录（每场景1张 `{场景ID}_ref.png`）
-- [ ] **Phase 1C**：道具三视图已生成到 `props/` 目录（每道具1张 `{道具ID}_ref.png`）
-- [ ] **Phase 2**：分镜图片已生成且参考了角色外观
-- [ ] 每集 `seedance_tasks.json` 已存在（2条任务：Part-A/B）
-- [ ] 验证 `characters/ref_index.json` 已生成
-- [ ] 验证每集目录包含 2 张分镜 PNG（A/B）
-- [ ] 验证 `media_index.json` 已生成
-- [ ] 检查是否有失败项需要重试
-
----
-
-## 输出示例
-
-生成完成后，向用户报告：
-
-```
-✅ 短剧媒体生成完成！
-
-📋 作品信息
-- 作品编号：DM-001
-- 作品名称：《灯火归途》
-- 视觉风格：Dark Thriller（暗黑悬疑）
-
-📁 项目目录：projects/DM-001_dhgt/
-
-📊 生成统计
-🎨 Phase 1 - 角色参考图
-    - 林策_ref.png, 沈璃_ref.png, 祁远_ref.png
-    - 小计: 3 张
-
-🏙️ Phase 1B - 场景四宫格图
-    - scene_01_ref.png (办公室): 四宫格合成图
-    - scene_02_ref.png (车间): 四宫格合成图
-    - 小计: 2 张（每张含4视角）
-
-🔧 Phase 1C - 道具三视图
-    - prop_01_ref.png (画作): 三视图合成图
-    - 小计: 1 张（每张含3视角）
-
-🖼️ Phase 2 - 分镜图片（参考角色）
-    - 50 张（25集 × A/B各1张）
-
-❌ 失败: 0 个
-
-📂 文件结构
-characters/
-├── 林策_ref.png
-├── ref_index.json
-
-scenes/
-├── scene_01_ref.png              # 四宫格合成图
-├── scene_02_ref.png
-├── ref_index.json
-
-props/
-├── prop_01_ref.png               # 三视图合成图
-├── ref_index.json
-
-EP01/
-├── DM-001-EP01-A_storyboard.png
-├── DM-001-EP01-B_storyboard.png
-├── dialogue.md
-└── storyboard_config.json
-
-📋 媒体索引：media_index.json
-
-💡 提示：使用 submit_project.py 提交任务到 Seedance 生成视频
-```
