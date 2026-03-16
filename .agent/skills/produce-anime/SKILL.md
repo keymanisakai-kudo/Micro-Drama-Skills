@@ -440,7 +440,7 @@ projects/
 
 ### 第六步：更新全局索引
 
-更新 `/data/dongman/projects/index.json`：
+更新 `projects/index.json`：
 
 ```json
 {
@@ -672,7 +672,7 @@ projects/
 - 类型：xxxxx
 - 总集数：25集（每集上下两部分）
 
-📁 项目目录：/data/dongman/projects/DM-001_xxxx/
+📁 项目目录：projects/DM-001_xxxx/
 
 📊 生成内容统计
 - 完整剧本：1份

@@ -1,8 +1,8 @@
 {
   "last_updated": "2026-03-15",
-  "total_projects": 6,
+  "total_projects": 7,
   "next_id": {
-    "drama": "DM-004",
+    "drama": "DM-005",
     "mv": "MV-004"
   },
   "projects": [
@@ -56,6 +56,16 @@
       "created_date": "2025-07-18",
       "submitted_date": "2026-02-23",
       "video_count": 10
+    },
+    {
+      "project_id": "DM-004",
+      "project_type": "drama",
+      "project_name": "局中千金",
+      "directory": "DM-004_jzqj/",
+      "episodes": 25,
+      "status": "init",
+      "created_date": "2026-03-15",
+      "video_count": 50
     },
     {
       "project_id": "MV-003",

@@ -249,5 +249,5 @@ DM-002_tjkc/
 成功提交：300
 失败：0
 
-报告文件：/data/dongman/projects/DM-002_tjkc/submission_report.json
+报告文件：projects/DM-002_tjkc/submission_report.json
 ```

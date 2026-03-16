@@ -71,8 +71,8 @@ pip install google-genai Pillow requests
 
 ### 第一步：确定目标作品
 
-1. 如用户指定了作品编号（如 `DM-001`），直接定位到 `/data/dongman/projects/` 下对应目录
-2. 如用户未指定，读取 `/data/dongman/projects/index.json`，选择最新的作品
+1. 如用户指定了作品编号（如 `DM-001`），直接定位到 `projects/` 下对应目录
+2. 如用户未指定，读取 `projects/index.json`，选择最新的作品
 3. 验证目标目录存在且包含 `characters/character_bible.md` 和 `episodes/` 子目录
 
 ### 第二步：生成 Python 脚本并执行
@@ -111,7 +111,7 @@ def load_api_config():
     base_url = None
     
     # 先从配置文件读取
-    config_path = Path("/data/dongman/.config/api_keys.json")
+    config_path = Path(".config/api_keys.json")
     if config_path.exists():
         with open(config_path) as f:
             config = json.load(f)
@@ -374,7 +374,7 @@ def process_episode(ep_dir: Path, ep_num: str, char_uploaded: dict):
         video_id = part["video_id"]
         print(f"\n--- {part_label}半部分 ({video_id}) ---")
 
-        # 生成6宫格分镜图片（参考角色图）
+        # 生成9宫格分镜图片（参考角色图）
         grids = part.get("storyboard_9grid", [])
         
         for grid in grids:
@@ -661,7 +661,7 @@ EP01/
 
 - **配置项**：`gemini_image_model`
 - **允许值**：
-    - `gemini-2.5-flash-image-preview`（默认推荐）
+    - `gemini-2.5-flash-image`（默认推荐）
     - `gemini-3-pro-image-preview`（可选）
 - **用途**：
     - Phase 1 角色参考图批量生成
@@ -744,7 +744,7 @@ python3 generate_media.py 10 15
 - 作品名称：《灯火归途》
 - 视觉风格：Dark Thriller（暗黑悬疑）
 
-📁 项目目录：/data/dongman/projects/DM-001_dhgt/
+📁 项目目录：projects/DM-001_dhgt/
 
 📊 生成统计
 🎨 Phase 1 - 角色参考图
